@@ -36,7 +36,7 @@ The source code is an adaptation of the code created by [Todd Lehman](https://te
 
 The data sources of this work are numerous. You can have a look of the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md) used to select, check and analyze the TTRPGs.
 
-This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves)[(fr)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) » set of projects .
+This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) »[(fr)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) set of projects .
 
 ### This content is CC-BY : Pascal Martinolli
 
