@@ -1,6 +1,6 @@
 Specific sources : at the bottom
 
-# General tertiary sources / Sources tertiaires générales
+# Tertiary sources / Sources tertiaires
 
 ## Encyclopedia, databases, portals
 
@@ -12,12 +12,84 @@ Specific sources : at the bottom
 - https://www.reddit.com/r/rpgdesign
 
 
-# General secondary sources / Sources secondaires générales
+# Secondary sources / Sources secondaires
 
-## Books
+## Books (main corpus)
+
+Appelcline, Shannon. *Designers & Dragons: The 00s*. 2nd ed. Silver Spring, MD: Evil Hat Productions, 2015.
+
+———. *Designers & Dragons: The 70s*. 2nd ed. Silver Spring, MD: Evil Hat Productions, 2015.
+
+———. *Designers & Dragons: The 80s*. 2nd ed. Silver Spring, MD: Evil Hat Productions, 2015.
+
+———. *Designers & Dragons: The 90s*. 2nd ed. Silver Spring, MD: Evil Hat Productions, 2015.
+
+———. *Designers & Dragons: The Platinum Appendix*. 2nd ed. Silver Spring, MD: Evil Hat Productions, 2015.
+
+Caïra, Olivier. *Jeux de rôle: les forges de la fiction*. Société. Paris: CNRS, 2007.
+
+David, Coralie, and Jérôme Larré, eds. *Jouer des parties de jeux de rôle*. Sortir de l’auberge 2. Saint-Orens-de-Gameville: Lapin Marteau, 2017. http://www.tartofrez.com/wp-content/uploads/2016/04/Mener_des_parties_de_jdr_extrait.pdf.
+
+———, eds. *Mener des parties de jeu de rôle*. Sortir de l’auberge 1. Saint-Orens-de-Gameville: Lapin Marteau, 2016.
+
+Deterding, Sebastian, and José P. Zagal, eds. *Role-Playing Game Studies: Transmedia Foundations*. London: Routledge, 2018. https://doi.org/10.4324/9781315637532.
+
+Engelstein, Geoffrey, and Isaac Shalev. *Building Blocks of Tabletop Game Design : An Encyclopedia of Mechanisms*. CRC Press, 2019. https://doi.org/10.1201/9780429430701.
+
+Guiserix, Didier, and Rolland Barthélemy. *Le livre des jeux de rôle. L’univers du jeu*. Paris: Bornemann, 1997.
+Huot, Benoit, Esthane, and Rappar, eds. Une Brève Histoire Du Jeu de Rôle. Ebook 6. Paris: Place to Go, People to Be (vf), 2013. http://ptgptb.fr/.
+
+Kuntz, Robert J. *Dave Arneson’s True Genius*. TLS1001. Scottsdale, AZ: Three Line Studio, 2017. https://www.threelinestudio.com/store/dave-arneson-s-true-genius/.
+
+Peterson, Jon. *Playing at the World: A History of Simulating Wars, People and Fantastic Adventures, from Chess to Role-Playing Games*. San Diego, CA: Unreason Press, 2012.
+
+Tresca, Michael J. *The Evolution of Fantasy Role-Playing Games*. Jefferson, NC: McFarland, 2010. http://search.proquest.com/docview/885273825?accountid=12543.
+
+Whitson, John Kirk III. *“Design Patterns of Successful Role-Playing Games.”* Edited by Michael R. Cantrell. Whitson John Kirk III, 2009 2006. https://archive.org/details/RPGDesignPatterns91309.
 
 
+## Other books
 
+André, Danièle, and Alban Quadrat, eds. *Le Jeu de rôle sur table, un laboratoire de l’imaginaire*. 1st ed. Documentation & Etudes. Paris: Lettres Modernes Minard, 2019. http://www.legrog.org/jeux/documentation-etudes/jeu-de-role-sur-table-un-laboratoire-de-l-imaginaire-fr.
+
+Bowman, Sarah Lynne. *The Functions of Role-Playing Games: How Participants Create Community, Solve Problems and Explore Identity*. Jefferson, NC: McFarland, 2010.
+
+Byers, Andrew, and Francisco Crocco. *The Role-Playing Society: Essays on the Cultural Influence of RPGs*. Jefferson, NC: McFarland, 2016. https://books.google.ca/books?id=mSm6CwAAQBAJ.
+
+Caïra, Olivier, and Jérôme Larré, eds. *Jouer avec l’Histoire*. Villecresnes: Pinkerton Press, 2009.
+
+Cover, Jennifer Ann Grouling. *The Creation of Narrative in Tabletop Role-Playing Games*. Jefferson, NC: McFarland, 2010. http://site.ebrary.com/id/10399472.
+
+Ewalt, David M. *Of Dice and Men: The Story of Dungeons & Dragons and the People Who Play It*. New York, NY: Scribner, 2013.
+Fine, Gary Alan. Shared Fantasy: Role Playing Games as Social Worlds. 1st ed. Chicago, IL: University of Chicago Press, 1983.
+
+Harrigan, Pat, and Noah Wardrip-Fruin. *Second Person: Role-Playing and Story in Games and Playable Media*. 1st ed. Vol. 2. 3 vols. Cambridge, MA: MIT Press, 2010.
+
+———. *Third Person: Authoring and Exploring Vast Narratives*. Vol. 3. 3 vols. Cambridge, MA: MIT Press, 2009.
+
+Johnson, Jeffro. *Appendix N: The Literary History of Dungeons & Dragons*. Kouvola: Castalia House, 2017.
+
+Mackay, Daniel. *The Fantasy Role-Playing Game: A New Performing Art*. Jefferson, NC: McFarland, 2001.
+
+Mucchielli, Alex. *Les jeux de rôles*. Que sais-je? 2098. Paris: Presses universitaires de France, 1983.
+
+Rosenthal, Pierre, ed. *Manuel pratique du jeu de rôle*. Casus Belli HS 25. Paris: Excelsior Publications, 1999. http://www.ffjdr.org/manuel-pratique-du-jeu-de-role/.
+
+Sarelli, Fabrice. *L’histoire de Dungeons & Dragons des origines à la 5ème édition*. Paris: Ohmygame, 2017.
+
+Schick, Lawrence. *Heroic Worlds: A History and Guide to Role-Playing Games*. Amherst, NY: Prometheus Books, 1991.
+
+Selinker, Mike, David Howell, Jeff Tidball, Richard C. Levy, Matt Forbeck, Richard Garfield, Steve Jackson, et al. *Kobold Guide to Board Game Design.* Kirkland, WA: Kobold Press, 2012.
+
+Silverstein, Janna, ed. *Complete Kobold Guide to Game Design*. Kirkland, WA: Kobold Press, 2012.
+
+Trémel, Laurent. *Jeux de rôles, jeux vidéo, multimédia : les faiseurs de mondes*. 1ère. Sociologie d’aujourd’hui. Paris: Presses universitaires de France, 2001.
+
+Wardrip-Fruin, Noah, and Pat Harrigan. *First Person: New Media as Story, Performance, and Game.* Vol. 1. 3 vols. Cambridge, MA: The MIT Press, 2004.
+
+Witwer, Michael. *Empire of Imagination: Gary Gygax and the Birth of Dungeons & Dragons*. New York, NY: Bloomsbury Press, 2015.
+
+Witwer, Michael, Kyle Newman, Jon Peterson, Sam Witwer, and Joe Manganiello. *Dungeons & Dragons Art & Arcana: A Visual History*. California: Ten Speed Press, 2018.
 
 
 ## Blogs
@@ -34,7 +106,6 @@ Specific sources : at the bottom
 - http://batintheattic.blogspot.ca/
 - https://deltasdnd.blogspot.com/
 - http://advancedgaming-theory.blogspot.com/
-- http://www.roleplayingtips.com
 - http://gameinthebrain.blogspot.com/
 - http://blogofholding.com/
 - http://www.campaignmastery.com/blog
@@ -65,14 +136,15 @@ Specific sources : at the bottom
 - http://radioroliste.lepodcast.fr/
 - https://www.lesaventureux.com/podcast/
 
-## Websites
+## Misc. websites
 
 - http://www.darkshire.net/jhkim/rpg/systemdesign/
 - https://archive.org/details/RPGDesignPatterns91309
 - http://ptgptb.org/0001/history1.html
 - https://1d4chan.org/wiki/RPG
 
-## Specific sources
+
+# Specific sources
 
 (the references are keyed in the source code as #p000, #s000 or #t000)
 
@@ -167,6 +239,6 @@ s88  http://playingattheworld.blogspot.ca/2017/10/spellcasting-before-d-in-midga
 s89  http://playingattheworld.blogspot.com/2013/01/strategos-in-twin-cities.html
 s90  http://hillcantons.blogspot.com/2010/12/tony-baths-hyboria-part-i.html
 s91  https://jdr.hypotheses.org/938
-s92  Mosher, Robert. « Nineteenth Century Military War Games: Charles Totten’s Strategos-The Advanced Game ». GrogHeads (blog), 25 janvier 2015. http://grogheads.com/featured-posts/7212.
+s92  Mosher, Robert. « Nineteenth Century Military War Games: Charles Totten’s Strategos-The Advanced Game ». GrogHeads (blog), 25 janvier 2015. http://grogheads.com/featured-posts/7212.
 s93  http://odd74.proboards.com/thread/11952/interested-korns-connection-rpg-history
 t94  https://en.wikipedia.org/wiki/Dust_Devils_(game)
