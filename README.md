@@ -38,7 +38,7 @@ The data sources of this work are numerous. You can have a look of the [referenc
 
 This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) »[(fr)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) set of projects .
 
-### This content is CC-BY : Pascal Martinolli
+### This content is CC-BY-NC-SA 4.0 
 
 Informations in the source code are pure facts, therefore they cannot be copyrighted. The curation of these informations, the links between them and the structure of their display are a work of edition. For this reason, I will be glad you aknowledge my name if you want to reuse them.
 
@@ -49,11 +49,11 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Created / Créé le : 2016
 
-* Most recent version / Dernière version : 2019-06-06 (partial release)
+* Most recent version / Dernière version : 2019-09-10
 
 * Original format / format de fichier : Graphviz Dot (Open source)
 
-* License / Licence : CC-BY-NC-SA
+* License / Licence : [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 * Presented at / Présenté à : [Donjons & Données probantes 2018](http://hdl.handle.net/1866/21088), [Blogue Jeu de rôle sur table](https://jdr.hypotheses.org/category/graphe), [ZoTrpg blog](https://zotrpg.blogspot.com/search/label/timeline), [ResearchGate](https://www.researchgate.net/publication/333489073_Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_2019_partially_released), [Academia](https://www.academia.edu/39317882/Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_today_partially_released_).
 
