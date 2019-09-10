@@ -4,98 +4,113 @@ Specific sources : at the bottom
 
 ## Encyclopedia, databases, portals
 
-https://rpggeek.com/ + https://boardgamegeek.com/
-https://www.rpg.net/
-https://rpg.stackexchange.com/ + https://boardgames.stackexchange.com/
-https://en.wikipedia.org/
-https://1d4chan.org/wiki/RPG
-https://www.reddit.com/r/rpgdesign
-
-## Encyclopédies et bases de données (fr)
-
-http://www.legrog.org/
-https://fr.wikipedia.org/
+- https://rpggeek.com/ + https://boardgamegeek.com/
+- http://www.legrog.org/
+- https://www.rpg.net/
+- https://rpg.stackexchange.com/ + https://boardgames.stackexchange.com/
+- https://www.wikipedia.org/ + https://www.wikidata.org/
+- https://www.reddit.com/r/rpgdesign
 
 
 # General secondary sources / Sources secondaires générales
 
 ## Books
 
-Appelcline S. Designers & Dragons: The 00s. 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
-Appelcline S. Designers & Dragons: The 70s. 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
-Appelcline S. Designers & Dragons: The 80s. 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
-Appelcline S. Designers & Dragons: The 90s. 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
-Deterding S, Zagal JP, éditeurs. Role-Playing Game Studies: Transmedia Foundations. London: Routledge; 2018.
-Ewalt DM. Of Dice and Men: The Story of Dungeons & Dragons and the People Who Play It. New York, NY: Scribner; 2013.
-Johnson J. Appendix N: The Literary History of Dungeons & Dragons. Kouvola: Castalia House; 2017.
-Kuntz RJ. Dave Arneson’s True Genius. Scottsdale, AZ: Three Line Studio; 2017.
-Peterson J. Playing at the World: A History of Simulating Wars, People and Fantastic Adventures, from Chess to Role-Playing Games. San Diego, CA: Unreason Press; 2012.
-Tresca MJ. The Evolution of Fantasy Role-Playing Games. Jefferson, NC: McFarland; 2010.
-Witwer M. Empire of Imagination: Gary Gygax and the Birth of Dungeons & Dragons. New York, NY: Bloomsbury Press; 2015.
+Appelcline S. *Designers & Dragons: The 00s.* 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
+
+Appelcline S. *Designers & Dragons: The 70s.* 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
+
+Appelcline S. *Designers & Dragons: The 80s.* 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
+
+Appelcline S. *Designers & Dragons: The 90s.* 2ᵉ éd. Silver Spring, MD: Evil Hat Productions; 2015.
+
+Deterding S, Zagal JP, éditeurs. *Role-Playing Game Studies: Transmedia Foundations.* London: Routledge; 2018.
+
+Ewalt DM. *Of Dice and Men: The Story of Dungeons & Dragons and the People Who Play It.* New York, NY: Scribner; 2013.
+
+Johnson J. *Appendix N: The Literary History of Dungeons & Dragons.* Kouvola: Castalia House; 2017.
+
+Kuntz RJ. *Dave Arneson’s True Genius.* Scottsdale, AZ: Three Line Studio; 2017.
+
+Peterson J. *Playing at the World: A History of Simulating Wars, People and Fantastic Adventures, from Chess to Role-Playing Games.* San Diego, CA: Unreason Press; 2012.
+
+Tresca MJ. *The Evolution of Fantasy Role-Playing Games.* Jefferson, NC: McFarland; 2010.
+
+Witwer M. *Empire of Imagination: Gary Gygax and the Birth of Dungeons & Dragons.* New York, NY: Bloomsbury Press; 2015.
 
 ## Livres
 
-André D, Quadrat A, éditeurs. Le Jeu de rôle sur table, un laboratoire de l’imaginaire. 1ʳᵉ éd. Paris: Lettres Modernes Minard; 2019.
-Bourscheidt L. Les jeux de simulation, Wargames, Boardgames, Roleplaying games: analyse d’un marché. Saint-Martin-d’Hères: IEP; 1992.
-Caïra O. Jeux de rôle: les forges de la fiction. Paris: CNRS; 2007.
-Guiserix D, Barthélemy R. Le livre des jeux de rôle. Paris: Bornemann; 1997.
-Huot B, Esthane, Rappar, éditeurs. Une brève histoire du jeu de rôle. Paris: Place to Go, People to Be (vf); 2013.
-Lucas R. L’Histoire du RPG: passés, présents et futurs. Paris: Pix’N Love Editions; 2014.
-Matelly J-H. Jeu de rôle. Crimes? Suicides? Sectes?: Istres, Toulon, Carpentras. Toulon: Presses du Midi; 1997.
-Sarelli F. L’histoire de Dungeons & Dragons des origines à la 5ème édition. Paris: Ohmygame; 2017.
+André D, Quadrat A, éditeurs. *Le Jeu de rôle sur table, un laboratoire de l’imaginaire.* 1ʳᵉ éd. Paris: Lettres Modernes Minard; 2019.
+
+Bourscheidt L. *Les jeux de simulation, Wargames, Boardgames, Roleplaying games: analyse d’un marché.* Saint-Martin-d’Hères: IEP; 1992.
+
+Caïra O. *Jeux de rôle: les forges de la fiction.* Paris: CNRS; 2007.
+
+Guiserix D, Barthélemy R. *Le livre des jeux de rôle.* Paris: Bornemann; 1997.
+
+Huot B, Esthane, Rappar, éditeurs. *Une brève histoire du jeu de rôle.* Paris: Place to Go, People to Be (vf); 2013.
+
+Lucas R. *L’Histoire du RPG: passés, présents et futurs.* Paris: Pix’N Love Editions; 2014.
+
+Matelly J-H. *Jeu de rôle. Crimes? Suicides? Sectes?: Istres, Toulon, Carpentras.* Toulon: Presses du Midi; 1997.
+
+Sarelli F. *L’histoire de Dungeons & Dragons des origines à la 5ème édition.* Paris: Ohmygame; 2017.
 
 
 ## Blogs
 
-http://batintheattic.blogspot.ca/
-https://deltasdnd.blogspot.com/
-http://advancedgaming-theory.blogspot.com/
-http://gameinthebrain.blogspot.com/
-http://playingattheworld.blogspot.com/
-http://blogofholding.com/
-http://www.campaignmastery.com/blog
-https://bankuei.wordpress.com/
-https://dmdavid.com/
-http://www.greyhawkgrognard.com/
-http://hackslashmaster.blogspot.com/
-https://mythcreants.com/
-https://samhaine.wordpress.com/
-https://thealexandrian.net/
-https://tenfootpole.org/ironspike/
-http://ptgptb.org
+- http://playingattheworld.blogspot.com/
+- https://thealexandrian.net/
+- https://mythcreants.com/
+- https://dmdavid.com/
+- https://bankuei.wordpress.com/
+- http://www.greyhawkgrognard.com/
+- https://samhaine.wordpress.com/
+- https://tenfootpole.org/ironspike/
+- http://ptgptb.org
+- http://batintheattic.blogspot.ca/
+- https://deltasdnd.blogspot.com/
+- http://advancedgaming-theory.blogspot.com/
+- http://gameinthebrain.blogspot.com/
+- http://blogofholding.com/
+- http://www.campaignmastery.com/blog
+- http://hackslashmaster.blogspot.com/
 
 ## Blogues (fr)
 
-https://anniceris.blogspot.com/
-http://awarestudios.blogspot.com/
-http://hu-mu.blogspot.com/
-http://www.le-thiase.fr/
-https://www.limbicsystemsjdr.com/
-https://ludomancien.com/
-http://mementoludi.net/
-https://outsiderart.blog/
-https://ptgptb.fr/
+- https://outsiderart.blog/
+- http://mementoludi.net/
+- https://ptgptb.fr/
+- https://anniceris.blogspot.com/
+- http://awarestudios.blogspot.com/
+- http://hu-mu.blogspot.com/
+- http://www.le-thiase.fr/
+- https://www.limbicsystemsjdr.com/
+- https://ludomancien.com/
+
 
 ## Podcasts & chaînes (fr)
 
-http://rolistetv.com/
-http://www.cendrones.fr/
-https://www.scepticisme-scientifique.com/lesmontagneshallucinees
-http://www.lacellule.net/
-http://desrolistesdanslacave.fr/
-http://carnets-ludographiques.lepodcast.fr/
-http://www.nesblog.com/category/caparledejeu/ludologies/
-http://radioroliste.lepodcast.fr/
-https://www.lesaventureux.com/podcast/
+- http://rolistetv.com/
+- http://www.cendrones.fr/
+- https://www.scepticisme-scientifique.com/lesmontagneshallucinees
+- http://www.lacellule.net/
+- http://desrolistesdanslacave.fr/
+- http://carnets-ludographiques.lepodcast.fr/
+- http://www.nesblog.com/category/caparledejeu/ludologies/
+- http://radioroliste.lepodcast.fr/
+- https://www.lesaventureux.com/podcast/
 
 ## Websites
 
-http://www.darkshire.net/jhkim/rpg/systemdesign/
-https://archive.org/details/RPGDesignPatterns91309
-http://ptgptb.org/0001/history1.html
-
+- http://www.darkshire.net/jhkim/rpg/systemdesign/
+- https://archive.org/details/RPGDesignPatterns91309
+- http://ptgptb.org/0001/history1.html
+- https://1d4chan.org/wiki/RPG
 
 ## Specific sources
+
+(the references are keyed in the source code as #p000, #s000 or #t000)
 
 s1   http://dmdavid.com/tag/fchelraks-tomb-the-earliest-dd-adventure-that-remains-playable/
 s2   http://dmdavid.com/tag/9-facts-about-dds-first-standalone-adventure-palace-of-the-vampire-queen/
@@ -190,4 +205,4 @@ s90  http://hillcantons.blogspot.com/2010/12/tony-baths-hyboria-part-i.html
 s91  https://jdr.hypotheses.org/938
 s92  Mosher, Robert. « Nineteenth Century Military War Games: Charles Totten’s Strategos-The Advanced Game ». GrogHeads (blog), 25 janvier 2015. http://grogheads.com/featured-posts/7212.
 s93  http://odd74.proboards.com/thread/11952/interested-korns-connection-rpg-history
-t94  https://en.wikipedia.org/wiki/Dust_Devils_(game) 
+t94  https://en.wikipedia.org/wiki/Dust_Devils_(game)
