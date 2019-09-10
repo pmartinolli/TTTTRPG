@@ -12,7 +12,7 @@ Around 840 games and 580 links. From 1974 to 2019.
 
 ### ... Do it myself 
 
-* Download the [source code](https://github.com/pmartinolli/TTTRPG/blob/master/files/ttttrpg.gv) 
+* Download the latest [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-20190910.gv) 
    * Some [explanations](https://jdr.hypotheses.org/919) of the structure of the source code in dot language. 
    * How to compile the code is explained in the header of the source code.
 * Download the [zip package of icon pictures](https://drive.google.com/open?id=1N30n0QYaGSWLJTzJwPzn3wuklmib3zI8)
