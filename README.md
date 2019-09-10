@@ -34,7 +34,7 @@ Around 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 
 
 The source code is an adaptation of the code created by [Todd Lehman](https://tex.stackexchange.com/users/8499/todd-lehman) for his [“TeX Family Tree”](https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline). 
 
-The data sources of this work are numerous. You can have a look of the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/sources.md) used to select, check and analyze the TTRPGs.
+The data sources of this work are numerous. You can have a look of the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md) used to select, check and analyze the TTRPGs.
 
 This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) » set of projects [En français](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains).
 
