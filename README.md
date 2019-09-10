@@ -5,7 +5,7 @@ not yet finished, come back soon (oct 2019?)
 
 Around 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 2019.
 
-* Download the **[PDF poster](https://github.com/pmartinolli/TTTRPG/blob/master/files/ttttrpg.pdf)**
+* Download the **[PDF poster](https://github.com/pmartinolli/TTTRPG/blob/master/files/ttttrpg-20190910.pdf)**
 
 
 ## How to... 
@@ -18,15 +18,12 @@ Around 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 
 * Download the [zip package of icon pictures](https://drive.google.com/open?id=1N30n0QYaGSWLJTzJwPzn3wuklmib3zI8)
    * Unpack the pictures in a folder C:/gv/ on your computer
 
-
-
 ### ... Contribute
 
 * Send me corrections or suggestions at pascal.umontreal [at] gmail.com 
   * If you want I cite you, add "cite:myname" in your email
   
 * Go to [Wikidata](https://www.wikidata.org) to improve the tabletop RPG items. I documented some guidelines here https://www.wikidata.org/wiki/Wikidata:WikiProject_Board_Games (contact me at [Pmartinolli](https://www.wikidata.org/wiki/User:Pmartinolli) if you need help). 
-
 
 ### ... Thank me
 
