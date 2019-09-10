@@ -1,9 +1,9 @@
 not yet finished, come back soon (oct 2019?)
 
 # TTTTRPG
-Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years game design innovations
+**Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years game design innovations**
 
-Around 840 games and 580 links. From 1974 to 2019.
+Around 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 2019.
 
 * Download the **[PDF poster](https://github.com/pmartinolli/TTTRPG/blob/master/files/ttttrpg.pdf)**
 
@@ -22,14 +22,17 @@ Around 840 games and 580 links. From 1974 to 2019.
 
 ### ... Contribute
 
-
+* Send me corrections or suggestions at pascal.umontreal [at] gmail.com 
+  * If you want I cite you, add "cite:myname" in your email
+  
+* Go to [Wikidata](https://www.wikidata.org) to improve the tabletop RPG items. I documented some guidelines here https://www.wikidata.org/wiki/Wikidata:WikiProject_Board_Games (contact me at [Pmartinolli](https://www.wikidata.org/wiki/User:Pmartinolli) if you need help). 
 
 
 ### ... Thank me
 
-- Tweet it @pascaliensis 
+- Tweet it [@pascaliensis](https://twitter.com/Pascaliensis)
 - Comment it on your social media 
-- Cite me it your academic work : Martinolli, Pascal. 2019. « Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years game design innovations », GitHub Graphviz code.
+- Cite me it your academic work : Martinolli, Pascal. 2019. « Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years game design innovations. » Dataset and dot language code. https://github.com/pmartinolli/TTTTRPG
 - Send me an email : pascal.umontreal [at] gmail.com
 
 ## Acknowledgements 
