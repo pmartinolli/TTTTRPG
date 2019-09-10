@@ -1,5 +1,3 @@
-not yet finished, come back soon (oct 2019?)
-
 # TTTTRPG
 **Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years game design innovations**
 
