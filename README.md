@@ -23,9 +23,9 @@ Around 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 
   
 * Improve [Wikidata](https://www.wikidata.org) items related to tabletop RPG. 
   * I documented some guidelines here https://www.wikidata.org/wiki/Wikidata:WikiProject_Board_Games (contact me at [Pmartinolli](https://www.wikidata.org/wiki/User:Pmartinolli) if you need help). I already made 7000 edits on TTRPGs so I have a little understanding of what is what there.
-  * Why Wikidata ? I try to mirror as much of the informations as I can on Wikidata to benefit from the database tools and from the community of contributors. [Click here](https://query.wikidata.org/#SELECT%20%0A%3Fitem%20%3FitemLabel%20%3Fimage%20%0A%3Fother%20%3FotherLabel%20%3Fimage2%0AWHERE%0A%7B%0A%20%20%20%20%3Fitem%20%20wdt%3AP31%20wd%3AQ1643932%20.%20%20%20%23%20nature%20%3D%20ttrpg%0A%20%20%20%20%3Fitem%20%20wdt%3AP2860%20%20%20%20%3Fother%20%20.%20%20%20%23%20which%20cite%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20%7D%0A%7D%0A%23%20Execute%20query%20and%20choose%20Display%20as...%20Graph%20) to have a graph of the citation practices in TTRPG. 
+  * Why Wikidata ? I try to mirror as much of the informations as I can on Wikidata to benefit from the database tools and from the community of contributors. [Click here](https://query.wikidata.org/#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Fcited_works%20%3Fcited_worksLabel%20%0AWHERE%0A%7B%0A%20%20%20%20%3Fitem%20%20wdt%3AP31%20wd%3AQ1643932%20.%20%20%20%23%20instance%20%3D%20ttrpg%0A%20%20%20%20%3Fitem%20%20wdt%3AP2860%20%20%20%20%3Fcited_works%20%20.%20%20%20%23%20which%20cites%20works%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20%7D%0A%7D%0A) to have a graph of the citation practices in TTRPG. 
   
-* Export the data into GEPHY. Why ? I want to try it.   
+* Export the data into [GEPHY](https://gephi.org/). Why ? 1) I want to try it ; 2) I think the database structure of GEPHY can help managing all the informations ; 3) It's open source.
 
 ### ... Thank me
 
