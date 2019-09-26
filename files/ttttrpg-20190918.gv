@@ -1,0 +1,3733 @@
+
+###################################################################
+###########                                              ##########
+###########           Part 1 : Preamble                  ##########
+###########                                              ##########
+###########           Header, parameters & label         ##########
+###########                                              ##########
+###################################################################
+
+
+###################################################################
+###########           Header : Metadata                  ##########
+###################################################################
+
+##### Title: TTTTRPG - Timeline Tree of Tabletop Role-Playing Games
+##### Subtitle: Celebrating more than 40 years of innovations in game designs
+##### Author: Pascal Martinolli 
+##### Licence: CC-BY-NC-SA
+##### Project date: 2016-2019
+##### Join me at: pascal.umontreal at gmail.com 
+##### Code source and files at : https://github.com/pmartinolli/TTTTRPG
+##### Follow this project at: https://zotrpg.blogspot.com/search/label/timeline 
+##### Code explained here in english: http://zotrpg.blogspot.com/2019/06/structure-of-source-code-for-tree-of.html 
+#####                     in french:  https://jdr.hypotheses.org/category/sur-les-epaules-des-nains
+##### Based on the source code developped by Todd Lehman for his TeX Family Tree: https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline
+
+
+###################################################################
+###########                Parameters                    ##########
+###################################################################
+
+##### Language: dot
+##### Compile with: dot "$(FULL_CURRENT_PATH)"  -Tps -v -o "$(CURRENT_DIRECTORY)\$(NAME_PART).ps"
+##### Then generate PDF with Acrobat Distiller: double-click on the PS file with Parameters = Oversized Pages : 16 m x 8 m
+
+graph TTRPG_timeline {     
+
+#graph [rankdir=LR]         # activate if you prefer to have a direction of the graph left to right (NB: PS file with Parameters = Oversized Pages : 15 m x 7 m)
+
+node [shape=none]          # no frame for each informations
+edge [color=lightgrey]     # standard color of the links between informations
+
+node [fontsize=20]         # standard size of the information fonts
+edge [fontsize=20]         # standard size of the links fonts
+
+
+###################################################################
+###########       Label displayed on the graph           ##########
+###################################################################
+
+{
+node [];
+edge [color=lightgrey; fontcolor=lightgrey; fontsize=50]
+{ rank = same; past; title [label="TTTTRPG - Timeline Tree of Tabletop Role-Playing Games,\n Celebrating more than 40 years of innovations in game designs\n\nPascal Martinolli (CC-BY-NC-SA) 2016-2019\n\n github.com/pmartinolli/TTTTRPG" fontsize=100 shape=box]}
+{ rank = same; 1973; title_end [label=""] }
+title -- title_end [style=invis] ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###################################################################
+###########                                              ##########
+###########           Part 2 : Timeline                  ##########
+###########                                              ##########
+###########    it is the basic rule of all the graph     ##########
+###########                                              ##########
+###################################################################
+
+
+
+{
+    node [];
+    past -- 1950s [style=invis];
+    1950s -- 1966 [style=invis];
+    1966 -- 1967 [style=invis];
+    1967 -- 1968 [style=invis];
+	1968 -- 1969 [style=invis];
+    1969 -- 1970 [style=invis];
+    1970 -- 1971 [style=invis];
+    1971 -- 1972 [style=invis];
+    1972 -- 1973 [style=invis];
+    1973 -- 1974 [style=invis];
+    1974 -- 1975 [style=invis];
+    1975 -- 1976 [style=invis];
+    1976 -- 1977 [style=invis];
+    1977 -- 1978 [style=invis];
+    1978 -- 1979 [style=invis];
+    1979 -- 1980 [style=invis];
+    1980 -- 1981 [style=invis];
+    1981 -- 1982 [style=invis];
+    1982 -- 1983 [style=invis];
+    1983 -- 1984 [style=invis];
+    1984 -- 1985 [style=invis];
+    1985 -- 1986 [style=invis];
+    1986 -- 1987 [style=invis];
+    1987 -- 1988 [style=invis];
+    1988 -- 1989 [style=invis];
+    1989 -- 1990 [style=invis];
+    1990 -- 1991 [style=invis];
+    1991 -- 1992 [style=invis];
+    1992 -- 1993 [style=invis];
+    1993 -- 1994 [style=invis];
+    1994 -- 1995 [style=invis];
+    1995 -- 1996 [style=invis];
+    1996 -- 1997 [style=invis];
+    1997 -- 1998 [style=invis];
+    1998 -- 1999 [style=invis];
+    1999 -- 2000 [style=invis];
+    2000 -- 2001 [style=invis];
+    2001 -- 2002 [style=invis];
+    2002 -- 2003 [style=invis];
+    2003 -- 2004 [style=invis];
+    2004 -- 2005 [style=invis];
+    2005 -- 2006 [style=invis];
+    2006 -- 2007 [style=invis];
+    2007 -- 2008 [style=invis];
+    2008 -- 2009 [style=invis];
+    2009 -- 2010 [style=invis];
+    2010 -- 2011 [style=invis];
+    2011 -- 2012 [style=invis];
+    2012 -- 2013 [style=invis];
+    2013 -- 2014 [style=invis];
+    2014 -- 2015 [style=invis];
+    2015 -- 2016 [style=invis];
+    2016 -- 2017 [style=invis]; 
+	2017 -- 2018 [style=invis]; 
+	2018 -- 2019 [style=invis]; 
+    2019 -- 2020 [style=invis]; 	
+    2020 -- future [style=invis]; 
+	
+
+
+
+
+###################################################################
+###########                                              ##########
+###########  Part 3 : List of game rules and extensions  ##########
+###########                                              ##########
+###########  Grouped by series, publishers and genres    ##########
+###########                                              ##########
+###################################################################
+
+
+# for official extentions, supplements, modules : add an immediate link to the basic game rules
+# for unofficial extensions (hacks, other publishers, etc.) : create a link in the Part 4
+
+# every basic game rules or game supplement is described as :
+# { rank = same; YEAR_HERE ; IDENTIFIER_HERE [label = "Full name of the game here \n [co]"]}  PREV_EDITION_ID_HERE -- IDENTIFIER_HERE ; #p000 #Q0000000  
+# YEAR_HERE                  = publication year of this edition (first)
+# IDENTIFIER_HERE            = no-caps, one-blockword, name of the game 
+# Full name of the game here = Name of the game
+#   can be followed by         = 1st ed., 2nd ed., etc. 
+#                              = \n for new line
+#                              = [fr] with country name, if none = US by default
+#                              uk, fr, es, dk, it, cn, pt, il, jp, sw, ... 
+# PREV_EDITION_ID_HERE --    = link to a previous edition of that same game rules
+#                                or if it is a supplement, to the officiel basic game rules. 
+#                                If it is an unofficial supplement -> create a link it in part 4 
+#   #p000 or #s000 or #t000  = link to a primary, secondary or tertiary source listed in the file ttttrpg-sources.md 
+#   #Q0000000                = Wikidata item 
+
+
+###################################################################
+###########              D&D                             ##########
+###################################################################
+
+
+
+######### Wargames pre-TTRPGs #######################
+
+{ rank = same; 1950s; diplomacy [label = "[1954-59] \n Diplomacy [Allan B. Calhamer, US, 1954-59]\n PC centered game-play \n fostering emergent roleplay"]}
+diplomacy -- blackmoor [style=dotted] ; 
+{ rank = same; 1968; hyboria [label = "Hyboria \n [Tony Bath, US, 1968-1973?] \n PC centered play-by-post wargame \n Random personality creation \n Fantasy world building \n campaign. Long-lasting consequences \n of PC decisions on the game-world"]}  #s90 
+diplomacy -- hyboria [style=dotted] ;
+hyboria -- blackmoor [style=dotted] ; 
+
+{ rank = same; 1971; midgard1 [label = "Midgard \n [Hartley Patterson, UK, 1971] \n Magic inspired by J Vance \n Spell point magic system"]}       #s88
+midgard1 -- vancianmagic [style=dotted] ;
+{ rank = same; 1972; midgard2 [label = "Midgard II \n [US, 1972]"]}   midgard1 -- midgard2 ; 
+
+{ rank = same; past; freekriegsspielmovement [label = "[1860-1880] \n Free Kriegsspiel movement \n Referee renders decisions \n on tactical experience only (not on rules)"]} ; #s91
+{ rank = same; past; strategos [label = "[1890] \n Strategos: A Series of American Games of War (...) [Totten CAL, US, 1890]"]}  freekriegsspielmovement -- strategos ;  #s92
+{ rank = same; 1966; modernwarinminature [label = "Modern War in Miniature \n [Michael F Korns, US, 1966]"]} modernwarinminature ; #p87 #s93 
+
+{ rank = same; 1967; braunstein [label = "Braunstein \n [David A Wesely, US, 1967]" ]}   
+braunstein -- blackmoor ;
+{ rank = same; 1970; strategosn [label = "Strategos 'N' \n [David A. Wesely, US, 1970]"]}  strategos -- strategosn ; #s89
+braunstein -- strategosn ;
+
+{ rank = same; 1970; newapratt [label = "The Courrier [of NEWA] \n two-pages set of rules \n [Lewis Pratt, US, 1970] \n 1st amateur fantasy wargame system"]}  
+{ rank = same; 1971; chainmail [label = "Chainmail rules for medieval miniatures \n(with Fantasy supplement)\n [Gary Gygax & Jeff Perren, US, 1971] \n 1st commercial fantasy wargame system"]} newapratt -- chainmail ; 
+
+
+
+
+########## Dave Arneson's Blackmoor campaign ######## 
+
+
+{ rank = same; 1971; blackmoor [label="Dave Arneson's Blackmoor campaign" image="C:\gv\blackmoor.png"]} #Q3640801
+
+
+
+
+########## Game rules D&D (generic Wikidata ID: Q1375) ##########
+
+##### OD&D
+
+{ rank = same; 1974; odnd_woodgrainbox [label="D&D \n[woodgrain box]" image="C:\gv\odnd_woodgrainbox.png"]} blackmoor -- odnd_woodgrainbox ; #t26  #Q1375   #Q64584915
+{ rank = same; 1975; odnd_whitebox [label="D&D \n[white box 4th print]" image="C:\gv\odnd_whitebox.png" ]} odnd_woodgrainbox -- odnd_whitebox ; #t26  #Q64596978
+
+##### D&D #Q331156
+
+{ rank = same; 1977; dndholmes  [label="Basic D&D [Holmes]" image="C:\gv\dndholmes.png"]} odnd_whitebox -- dndholmes ; #Q64596999
+monstermanual -- dndholmes ; 
+{ rank = same; 1981; dndmoldvay [label="Basic D&D [Moldvay]" image="C:\gv\dndmoldvay.png"]} dndholmes -- dndmoldvay ;  #Q64597017
+{ rank = same; 1983; dndmentzer [label="Basic D&D [Mentzer]" image="C:\gv\dndmentzer.png"]} dndmoldvay -- dndmentzer ;   #Q64597025
+{ rank = same; 1991; dndblackbox [label="Basic D&D [Black box]"]} dndmoldvay -- dndblackbox ;  #Q64597375
+{ rank = same; 1991; rulescyclopedia [label="Rules Cyclopedia"  image="C:\gv\rulescyclopedia.png"]} dndblackbox -- rulescyclopedia ;  #Q64597381
+{ rank = same; 1994; theclassicdndgame [label="The Classic Dungeons & Dragons Game"  ]} rulescyclopedia -- theclassicdndgame ;  #Q64597385
+
+##### AD&D 1 #Q64597405 
+
+{ rank = same; 1977; monstermanual [label= "Monster Manual" image="C:\gv\monstermanual.png"]} odnd_whitebox -- monstermanual ; #Q3844962
+{ rank = same; 1978; addplayerhandbook [label= "Advanced Dungeons & Dragons\n(Player Handbook)" image="C:\gv\addplayerhandbook.png"]}  monstermanual -- addplayerhandbook ; #Q7203254 
+{ rank = same; 1979; adddungeonmasterguide [label= "Advanced Dungeons & Dragons\n(Dungeon Master's Guide)" image="C:\gv\adddungeonmasterguide.png"]}  addplayerhandbook -- adddungeonmasterguide ; #Q5315139
+
+##### AD&D 2nd
+
+{ rank = same; 1989; adnd2 [label= "2nd ed." image="C:\gv\adnd2.png"]} adddungeonmasterguide -- adnd2 ;   #Q64620925  
+{ rank = same; 1995; adnd25 [label= "2.5 ed." image="C:\gv\adnd25.png"]} adnd2 -- adnd25 ;  #Q64620947    
+{ rank = same; 1995; birthright [label= "Birthright" image="C:\gv\birthright.png"]} adnd2 -- birthright ;  #Q2384770 #p144
+
+##### D&D 3
+
+{ rank = same; 2000; dnd3 [label= "Dungeons & Dragons\n3rd ed." image="C:\gv\dnd3.png" ]} adnd25 -- dnd3 ;  #Q64623234   
+{ rank = same; 2003; dnd35 [label= "3.5 ed." image="C:\gv\dnd35.png"]} dnd3 -- dnd35 ;  #Q64623379  
+
+##### D&D 4
+{ rank = same; 2008; dnd4 [label= "D&D 4e ed." image="C:\gv\dnd4.png"]} dnd35 -- dnd4 ;  #Q64706119   
+
+##### D&D 5
+{ rank = same; 2012; dndnext [label= "Dungeons & Dragons Next"]} dnd4 -- dndnext ; #Q64706142
+{ rank = same; 2014; dnd5 [label= "Dungeons & Dragons 5th ed." image="C:\gv\dnd5.png"]} dndnext -- dnd5 ; #Q64706124   
+
+
+
+
+
+
+########## Supplements and modules #########
+
+##### OD&D
+
+{ rank = same; 1975; odnd_greyhawk [label="Suppl.I: Greyhawk" image="C:\gv\odnd_greyhawk.png"]} odnd_woodgrainbox -- odnd_greyhawk ;  #march1975 #t27 #Q8965089
+{ rank = same; 1975; odnd_blackmoor [label="Suppl.II: Blackmoor\nThe Temple of the Frog" image="C:\gv\odnd_blackmoor.png"]} odnd_woodgrainbox -- odnd_blackmoor ;  #dec1975 #t27 #Q4923165
+{ rank = same; 1975; empireofthepetalthrone [label="Empire of the Petal Throne" image="C:\gv\empireofthepetalthrone.png"]} odnd_woodgrainbox -- empireofthepetalthrone ;  #t30 #Q17528629
+{ rank = same; 1976; eldritchwizardry [label="Suppl.III: Eldritch Wizardry" ]} ; odnd_whitebox -- eldritchwizardry ;  #april1976  #t27 #Q5354191
+{ rank = same; 1976; godsdemigodsnheroes [label="Suppl.IV: Gods, Demi-Gods & Heroes"]} odnd_whitebox -- godsdemigodsnheroes ; #july1976  #t27 #Q5576828
+{ rank = same; 1976; swordsnspells [label="Suppl.V: Swords & Spells"]} odnd_whitebox -- swordsnspells ; #july1976  #t27 #Q17040148
+
+
+
+##### D&D
+
+{ rank = same; 1981; mystara [label="Mystara"]}  dndholmes -- mystara ; #Q2755273 p144
+{ rank = same; 1981; castleamber [label="Castle Amber" ]}  dndmoldvay -- castleamber ; #Q5049986  #Q???à suivre
+{ rank = same; 1981; isleofdread [label="X1 Isle of Dread"]} dndmoldvay -- isleofdread ; #Q7742724
+{ rank = same; 1986; nightsdarkterror [label="B10 Night's Dark Terror \[uk]"]} dndmentzer -- nightsdarkterror ; #Q7033163 #s96 
+{ rank = same; 1990; hollowworld [label="Hollow World"]}	 mystara -- hollowworld ; #Q5881764
+{ rank = same; 1992; wrathoftheimmortals [label="Wrath of the Immortals"]} rulescyclopedia -- wrathoftheimmortals ; #Q30078245
+
+##### AD&D 
+
+{ rank = same; 1978; g1steadinghillgiantchief [label="G1 Steading of the Hill Giant Chief"]} addplayerhandbook -- g1steadinghillgiantchief ; #t28  #Q4691071
+{ rank = same; 1979; c1hiddenshrinetamoachan [label="C1 Hidden Shrine of Tamoachan"]} addplayerhandbook -- c1hiddenshrinetamoachan ;  #Q7739561
+{ rank = same; 1980; q1queendemonwebpits [label="Q1 Queen of the Demonweb Pits"]} addplayerhandbook -- q1queendemonwebpits ;  #Q7270645
+{ rank = same; 1991; theruinsofundermountain [label="The Ruins of Undermountain"]} adnd2 -- theruinsofundermountain ;  #Q7761803
+{ rank = same; 1982; n1againstcultreptilegod [label="N1 Against the Cult of the Reptile God"]} addplayerhandbook -- n1againstcultreptilegod ;  #Q4691066
+{ rank = same; 1978; tombofhorror [label= "Tomb of Horror" image="C:\gv\tombofhorror.png"]}  addplayerhandbook -- tombofhorror ; # s5 #Q3208389
+{ rank = same; 1980; greyhawk [label= "The World of Greyhawk"  image="C:\gv\greyhawk.png"]} #Q8036603   #+Q2447657
+{ rank = same; 1982; dragonlance [label= "Dragonlance" image="C:\gv\dragonlance.png"]} addplayerhandbook -- dragonlance ; #Q16246132  #+Q746244 
+{ rank = same; 1985; lankhmar [label= "Lankhmar"]} addplayerhandbook -- lankhmar ;  #Q6487219
+{ rank = same; 1985; unearthedarcana [label= "Unearthed Arcana"]} addplayerhandbook -- unearthedarcana ; #Q7884140
+{ rank = same; 1985; orientaladventures [label= "Oriental Adventures"]} addplayerhandbook -- orientaladventures ; #Q2375570
+{ rank = same; 1985; templeelementalevil [label= "The Temple of Elemental Evil" image="C:\gv\templeelementalevil.png"]} addplayerhandbook -- templeelementalevil ; #Q7768362
+{ rank = same; 1987; manualoftheplanes [label= "Manual of the Planes"]} addplayerhandbook -- manualoftheplanes ; #Q3844963
+{ rank = same; 1987; forgottenrealms [label= "Forgotten Realms" image="C:\gv\forgottenrealms.png"]} addplayerhandbook -- forgottenrealms ; #Q3748083 #+Q853499
+{ rank = same; 1983; i6ravenloft [label= "I6: Ravenloft" image="C:\gv\i6ravenloft.png"]} addplayerhandbook -- i6ravenloft ; #Q7296458 #+Q777042 
+{ rank = same; 1986; i10ravenloft2 [label= "I10: Ravenloft II"]} i6ravenloft -- i10ravenloft2 ; #Q18155064
+{ rank = same; 1981; rpga [label= "RPGA"]}    addplayerhandbook -- rpga ;
+
+
+##### AD&D 2nd
+
+{ rank = same; 1989; spelljammer [label= "Spelljammer" image="C:\gv\spelljammer.png"]} adnd2 -- spelljammer ;  #Q7575903   #+Q1060172
+{ rank = same; 1991; darksun [label= "Dark Sun" image="C:\gv\darksun.png"]} adnd2 -- darksun ; #Q5223439   #+Q584169
+{ rank = same; 1995; darksun2 [label= "Dark Sun, Expanded & Revised"]} darksun -- darksun2 ; #Q5223438
+{ rank = same; 1992; alqadim [label= "Al Qadim" image="C:\gv\alqadim.png"]} adnd2 -- alqadim ;  #Q2829261
+{ rank = same; 1994; planescape [label= "Planescape" image="C:\gv\planescape.png"]} adnd2 -- planescape ; #Q7201033   #+Q2345291
+{ rank = same; 1995; labyrinthofmadness [label= "Labyrinth of Madness"]} adnd2 -- labyrinthofmadness ;  #Q64597381
+{ rank = same; 1996; gatesfirestormpeak [label= "The Gates of Firestorm Peak"]} adnd2 -- gatesfirestormpeak ;  #Q16993977																											  
+{ rank = same; 1997; deadgods [label= "Dead Gods"]} planescape -- deadgods ;  #Q5245203  #s102
+{ rank = same; 1995; nightbelow [label= "Night Below" image="C:\gv\nightbelow.png"]} adnd2 -- nightbelow ; #Q7033219
+{ rank = same; 1998; returntombofhorror [label= "Return to the Tomb of Horrors"]} adnd2 -- returntombofhorror ;
+{ rank = same; 1998; paladininhell [label= "A Paladin in Hell"]} adnd2 -- paladininhell ;
+{ rank = same; 2001; returntempleelementalevil [label= "Return to the Temple of Elemental Evil"]}  adnd2 -- returntempleelementalevil ;  #Q7317364
+{ rank = same; 1990; ravenloft [label= "Ravenloft: Realms of Terror" ]} adnd2 -- ravenloft ;  #Q7296457
+{ rank = same; 1994; masquereddeath [label= "Masque of the Red Death" ]} ravenloft -- masquereddeath ; #Q932225
+
+
+
+
+##### D&D 3 
+
+{ rank = same; 2000; sunlesscitadel [label= "The Sunless Citadel"]} dnd3 -- sunlesscitadel ; #Q7767421 #s99
+{ rank = same; 2001; orientaladventures2 [label = "Oriental Adventures 2nd"]} dnd3 -- orientaladventures2 ;
+{ rank = same; 2003; theshackledcity  [label= "The Shackled City"]} dungeonmagazine -- theshackledcity ;  #Q7763518
+{ rank = same; 2004; eberron [label= "Eberron"; ]} dnd35 -- eberron ;  #Q1378808 #Q5331823
+{ rank = same; 2006; redhanddoom [label= "Red Hand of Doom"; ]} dnd35 -- redhanddoom ;  #s95 #Q7304215
+{ rank = same; 2006; expeditioncastleravenloft [label= "Expedition to Castle Ravenloft" ]} dnd35 -- expeditioncastleravenloft ; 
+
+
+##### D&D 4
+
+{ rank = same; 2011; madnessgardmoreabbey [label= "Madness at Gardmore Abbey"]} dnd4 -- madnessgardmoreabbey ;  #Q65089967 #s101
+
+
+
+##### D&D Next - D&D 5th
+
+{ rank = same; 2013; vaultdracolich [label= "Vault of the Dracolich"]} dndnext -- vaultdracolich ;  #Q67312539  #s100
+{ rank = same; 2014; deadinthay [label= "Dead in Thay"]} dnd5 -- deadinthay ;
+{ rank = same; 2014; lostminephandelver [label= "Lost Mine of Phandelver"]} dnd5 -- lostminephandelver ; #s104  #Q67314632
+{ rank = same; 2016; curseofstrahd [label= "Curse of Strahd" ]} dnd5 -- curseofstrahd ;  #s103 #Q67314030
+{ rank = same; 2017; tombofannihilation [label= "Tomb of Annihilation"]} dnd5 -- tombofannihilation ; #s98 #Q67311483
+
+
+
+
+##### D&D Magazines
+
+{ rank = same; 1975; thestrategicreview [label= "The Strategic Review" image="C:\gv\thestrategicreview.png"]}   odnd_woodgrainbox -- thestrategicreview ;     #p47 #Q67326774
+{ rank = same; 1976; littlewarsmag [label= "Little Wars\n[magazine]"]}  thestrategicreview -- littlewarsmag ; #Q18151853
+{ rank = same; 1976; dragonmagazine [label= "The Dragon" image="C:\gv\dragonmagazine.png"]} thestrategicreview -- dragonmagazine ;
+{ rank = same; 1980; dragonmagazine2 [label= "Dragon"]}  dragonmagazine -- dragonmagazine2 ;
+{ rank = same; 1986; dungeonmagazine  [label= "Dungeon Magazine"]}  dragonmagazine2 -- dungeonmagazine ;  #Q971884
+{ rank = same; 1987; dragonmagazine3 [label= "Dragon Magazine"]}  dragonmagazine2 -- dragonmagazine3 ;
+{ rank = same; 1991; dragonmagazinefr [label= "Dragon Magazine \n[fr]"]}  dragonmagazine3 -- dragonmagazinefr ; 
+{ rank = same; 2007; dragonmagazineol [label= "Dragon Magazine Online"]}  dragonmagazine3 -- dragonmagazineol ;
+{ rank = same; 2008; dungeonmagazineol  [label= "Dungeon Magazine Online"]}  dungeonmagazine -- dungeonmagazineol  ; 
+
+
+
+
+##### SRD OGL GSL
+
+{ rank = same; 2000; d20srdogl [label= "d20 SRD Open Game License"]} dnd3 -- d20srdogl ;  #Q1752744
+{ rank = same; 2014; gsl [label= "GSL \n [more restrictive]"]} dnd5 -- gsl ;
+{ rank = same; 2016; ogl5 [label= "OGL \n [return to Open gaming format]"]} gsl -- ogl5 ;  #t72 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######################################################
+############ Alternative D&D / OSR / OGL      ########
+######################################################
+
+
+
+
+########## pre-OSR pre-OGL D&D supplements ##########
+
+
+##### Independent
+
+{ rank = same; 1976; fchelrakstomb [label = "F'Chelrak's Tomb\n[The Dungeoneer fanzine,1976]"]}   
+{ rank = same; 1976; palacevampirequeen  [label = "Palace of the Vampire Queen"]}  #Q48968543
+
+
+
+##### Judges Guild
+
+{ rank = same; 1976; judgesguild [label = "Judges Guild" image="C:\gv\judgeguild.png"]}  #Q6302723
+{ rank = same; 1976; citystateinvincibleoverlord [label = "City-State of the Invincible Overlord" image="C:\gv\citystateinvincibleoverlord.png"]} judgesguild -- citystateinvincibleoverlord ; #Q5123448
+{ rank = same; 1977; tegelmanor [label = "Tegel Manor"]} judgesguild -- tegelmanor ;  #Q56276059
+{ rank = same; 1979; cavernsofthracia [label = "Caverns of Thracia"]} judgesguild -- cavernsofthracia ; #Q48987906
+{ rank = same; 1980; darktower [label = "Dark Tower"]}  judgesguild -- darktower ;  #Q5223457
+
+{ rank = same; 1977; firstfantasycampaign [label = "First Fantasy Campaign"]}   judgesguild -- firstfantasycampaign ; 
+
+
+
+########## OSR ##########
+
+##### OSR Base RPG
+
+{ rank = same; 2001; osr [label = "OSR movement \nand retro-clones" image="C:\gv\osr.png"]}  #Q15991289 #wd
+{ rank = same; 2004; castlesncrusades [label = "Castles & Crusades"]}    #Q5050586
+{ rank = same; 2006; osric [label = "OSRIC"]}  #Q3347723 
+{ rank = same; 2006; mazesnminotaurs [label = "Mazes & Minotaurs"]}   
+{ rank = same; 2007; labyrinthlords [label = "Labyrinth Lords"]} 
+{ rank = same; 2007; basicfantasyrpg [label = "Basic Fantasy RPG"]} #Q4866969
+{ rank = same; 2008; swordsnwizardry [label = "Swords & Wizardry"]} 
+{ rank = same; 2010; darkdungeons [label = "Dark Dungeons"]} 
+{ rank = same; 2010; lamentationsflameprincess [label = "Lamentations of the Flame Princess"]}  #Q27102827
+{ rank = same; 2011; mazesnperils [label = "Mazes & Perils"]} 
+{ rank = same; 2012; forgoldnglory [label = "For Gold & Glory"]} 
+{ rank = same; 2012; dungeoncrawlclassic [label = "Dungeon Crawl Classic" image="C:\gv\dungeoncrawlclassic.png"]}  #Q16992123
+{ rank = same; 2017; mutantcrawlclassic [label = "Mutant Crawl Classics"]}  dungeoncrawlclassic -- mutantcrawlclassic ; 
+{ rank = same; 2013; blueholme [label = "Blueholme"]} 
+{ rank = same; 2013; torchbearer  [label = "Torchbearer"]}   #Q66830849
+{ rank = same; 2013; beyondthewall [label = "Beyond the Wall"  image="C:\gv\beyondthewall.png"]}  #Q67881355
+{ rank = same; 2014; intotheodd [label = "Into the Odd"]} 
+{ rank = same; 2016; nightmaresunderneath [label = "The Nightmares Underneath"]} 
+{ rank = same; 2011; neoclassicalgeekrevival  [label = "Neoclassical Geek Revival"]}
+
+{ rank = same; 2013; whitehack [label = "White hack"]}  #p41
+{ rank = same; 2015; whitehack2 [label = "White hack 2nd"]} whitehack -- whitehack2 ;
+{ rank = same; 2019; blackhack [label = "Black hack"]}  #p42
+{ rank = same; 2019; blackhack2 [label = "Black hack 2nd"]} blackhack -- blackhack2 ; 
+{ rank = same; 2017; macchiatomonsterszero [label = "Macchiato Monsters Zero \n[fr]"]}  { whitehack ; blackhack } -- macchiatomonsterszero ;
+{ rank = same; 2019; macchiatomonsters [label = "Macchiato Monsters \n[fr]"]} macchiatomonsterszero -- macchiatomonsters ;
+
+
+##### OSR Supplements
+
+{ rank = same; 2012; carcosa [label = "Carcosa"]}  
+
+
+########## SRD OGL GSL ##########
+
+{ rank = same; 2000; kingdomkalamard20 [label = "Kingdoms of Kalamar d20"]} #Q3197082
+{ rank = same; 2001; scarredlands [label = "Scarred Lands"]}  #Q3235729
+{ rank = same; 2003; midnight [label = "Midnight" image="C:\gv\midnight.png"]} #Q3312696
+{ rank = same; 2005; midnight2 [label = "Midnight 2nd"]} midnight -- midnight2 ; 
+{ rank = same; 2004; ironkingdoms [label = "Iron Kingdoms"]} 
+{ rank = same; 2005; etherscope [label = "Etherscope"]} 
+{ rank = same; 2006; ptolus [label = "Ptolus" image="C:\gv\ptolus.png"]} 
+{ rank = same; 2013; thirteenage [label = "13th Age"]} 
+
+
+{ rank = same; 2009; pathfinder [ label= "Pathfinder" image="C:\gv\pathfinder.png"]}  
+
+
+##### Fan works, semi-official
+
+{ rank = same; 1997; kargatane [label= "Kargatane" ]} 
+{ rank = same; 2003; fraternityofshadows [label= "Fraternity of Shadows" ]} 
+
+{ rank = same; 2013; gygaxmagazine [label= "Gygax Magazine"]}  ripgygax -- gygaxmagazine [style=invis] ;
+
+
+
+
+
+
+
+
+################################################
+############ Fantasy RPGs         ##############
+################################################
+
+
+
+
+
+
+##### Misc.
+
+{ rank = same; 1977; arduin [label = "The Arduin Grimoire" image="C:\gv\arduin.png"]}  #Q4788315
+{ rank = same; 1978; arduin2 [label = "Welcome to Skull Tower"]} arduin -- arduin2 ; 
+{ rank = same; 1979; arduin3 [label = "The Runes of Doom"]} arduin2 -- arduin3 ; 
+
+
+
+##### Empire of the Petal Throne
+
+{ rank = same; 1983; empireofthepetalthrone83 [label = "Empire of the Petal Throne (2nd)"]}   #s31
+{ rank = same; 1987; empireofthepetalthrone87 [label = "Empire of the Petal Throne (2.5nd)"]}   #p32
+{ rank = same; 1992; adventurestekumel [label = "Adventures of Tékumel"]}  #p33
+{ rank = same; 2002; swordsnglory [label = "Swords & Glory"]}  #p34
+{ rank = same; 2005; empireofthepetalthrone2005 [label = "Tékumel: Empire of the Petal Throne (3rd)\n[ca]"]}  
+
+
+
+##### Tunnels & Trolls 
+
+{ rank = same; 1975; tunnelsntrolls [label = "Tunnels & Trolls" image="C:\gv\tunnelsntrolls.png"]}  #Q683240  
+{ rank = same; 1977; tunnelsntrolls4 [label = "T&T 4th ed"]} tunnelsntrolls -- tunnelsntrolls4 ;
+{ rank = same; 1979; tunnelsntrolls5 [label = "T&T 5th ed"]} tunnelsntrolls4 -- tunnelsntrolls5 ;
+{ rank = same; 2005; tunnelsntrolls55 [label = "T&T 5.5th ed\n 30th anniv (7th ed.)"]} tunnelsntrolls5 -- tunnelsntrolls55 ;
+{ rank = same; 2008; tunnelsntrolls75 [label = "T&T 7.5th ed"]} tunnelsntrolls55 -- tunnelsntrolls75 ;
+{ rank = same; 2012; tunnelsntrolls8 [label = "T&T 8th ed"]} tunnelsntrolls75 -- tunnelsntrolls8 ;
+{ rank = same; 2015; tunnelsntrollsdeluxe [label = "T&T Deluxe ed"]} tunnelsntrolls8 -- tunnelsntrollsdeluxe ;
+
+{ rank = same; 1981; grimtoothstrap [label = "Grimtooth's Traps"]}   #Q49001785
+{ rank = same; 1976; monstersmonsters [label = "Monsters! Monsters!"]}   #t49  #Q18391053
+
+
+##### Bunnies & Burrows
+
+{ rank = same; 1976; bunniesnburrows [label = "Bunnies & Burrows" image="C:\gv\bunniesnburrows.png"]}   #t50 #Q5457
+{ rank = same; 1982; bunniesnburrows2 [label = "Bunnies & Burrows 2nd"]} bunniesnburrows -- bunniesnburrows2 ;
+{ rank = same; 1992; bunniesnburrowsgurps [label = "GURPS Bunnies & Burrows"]}
+{ rank = same; 2015; thewarren [label = "The Warren"]}  
+
+
+
+##### Fantasy Trip 
+
+{ rank = same; 1977; fantasytripwizard [label = "The Fantasy Trip: Wizard" image="C:\gv\fantasytripwizard.png" ]}  #t51  #Q7733398
+{ rank = same; 1978; fantasytripmelee [label = "The Fantasy Trip: Melee"]}  fantasytripmelee -- fantasytripwizard ;
+{ rank = same; 1980; fantasytripinthelabyrinth [label = "Fantasy Trip : \n In the Labyrinth \n + Adv. Melee + Adv. Wizard"]}  fantasytripwizard -- fantasytripinthelabyrinth ;
+
+##### Chivalry & Sorcery
+
+{ rank = same; 1977; chivalrynsorcery [label = "Chivalry & Sorcery" image="C:\gv\chivalrynsorcery.png"]}   ;   #t52 #Q5461
+{ rank = same; 1983; chivalrynsorcery2 [label = "Chivalry & Sorcery 2nd ed"]} chivalrynsorcery -- chivalrynsorcery2 ;
+{ rank = same; 1996; chivalrynsorcery3 [label = "Chivalry & Sorcery 3rd ed"]} chivalrynsorcery2 -- chivalrynsorcery3 ;
+{ rank = same; 1999; chivalrynsorceryl [label = "Chivalry & Sorcery Light ed"]} chivalrynsorcery3 -- chivalrynsorceryl ;
+{ rank = same; 2000; chivalrynsorcery4 [label = "Chivalry & Sorcery 4th Rebirth ed"]} chivalrynsorceryl -- chivalrynsorcery4 ;
+{ rank = same; 2011; chivalrynsorcerye [label = "Chivalry & Sorcery Essence v1.1"]} chivalrynsorcery4 -- chivalrynsorcerye ;
+
+
+{ rank = same; 1979; bushido  [label = "Bushido" image="C:\gv\bushido.png"]}    #Q1017492
+
+{ rank = same; 1983; powersnperils  [label = "Powers & Perils"]}   #t54  #Q7236825
+
+{ rank = same; 1984; maelstromrpg  [label = "Maelstrom"  image="C:\gv\maelstromrpg.png"]} #t55   #Q6729210
+
+{ rank = same; 1976; knightsoftheroundtable  [label = "Knights of the Round Table"]} #Q19874948
+
+{ rank = same; 1978; legacy  [label = "Legacy "]} #Q25217169
+
+
+##### Chaosium 
+
+{ rank = same; 1977; alltheworldsmonsters [label = "All the Worlds' Monsters"]}     #Q48976682
+
+{ rank = same; 1976; wyrmsfootnotes [label = "Wyrm's Footnotes"]}   #Q55637969
+
+{ rank = same; 1975; whitebearnredmoon  [label = "White Bear and Red Moon /n [Dragon Pass]"]}  #Q3966833
+{ rank = same; 1978; runequest  [label = "RuneQuest" image="C:\gv\runequest.png"]} whitebearnredmoon -- runequest ;  #Q681338
+{ rank = same; 1979; cultsofprax  [label = "Cults of Prax"]} runequest -- cultsofprax ; #Q48997469
+{ rank = same; 1980; runequest2  [label = "RuneQuest 2nd"]} runequest -- runequest2 ;
+{ rank = same; 1982; borderlands  [label = "Borderlands campaign"]} 
+{ rank = same; 1984; runequest3  [label = "RuneQuest 3rd"]} runequest2 -- runequest3 ;
+{ rank = same; 2000; rqherowars  [label = "Hero Wars"]} runequest3 -- rqherowars ;
+{ rank = same; 2002; steveperrinsquestrules  [label = "Steve Perrin's Quest Rules"]} 
+{ rank = same; 2003; rqheroquest  [label = "HeroQuest" image="C:\gv\rqheroquest.png"]} rqherowars -- rqheroquest ;  #Q1476922
+{ rank = same; 2006; runequest4  [label = "Mongoose RuneQuest"]} runequest3 -- runequest4 ;
+{ rank = same; 2009; runequest5  [label = "Mongoose RuneQuest II"]} runequest4 -- runequest5 ;
+{ rank = same; 2012; runequest6  [label = "RuneQuest 6th"]} runequest5 -- runequest6 ;
+{ rank = same; 2009; openquest  [label = "OpenQuest"]} runequest6 -- openquest [style=dotted];
+{ rank = same; 2013; openquest2  [label = "OpenQuest 2 Deluxe"]} openquest -- openquest2 ;
+
+{ rank = same; 1980; basicroleplaying  [label = "Basic Role-Playing"]} runequest -- basicroleplaying ; #Q2633765
+
+{ rank = same; 1982; worldsofwonder  [label = "Worlds of Wonder: \n Magic World, Superworld, Future World"]} basicroleplaying -- worldsofwonder ;  #t56 #Q8036746
+{ rank = same; 1983; superworld  [label = "Superworld"]} worldsofwonder -- superworld ;  #t57 #Q3978067
+
+{ rank = same; 1985; pendragon  [label = "Pendragon" image="C:\gv\pendragon.png"]} basicroleplaying -- pendragon ;  #Q680553
+{ rank = same; 1990; pendragon3  [label = "Pendragon 3rd"]} pendragon -- pendragon3 ;
+{ rank = same; 1993; pendragon4  [label = "Pendragon 4th"]} pendragon3 -- pendragon4 ;
+{ rank = same; 2005; pendragon5  [label = "Pendragon 5th"]} pendragon4 -- pendragon5 ;
+{ rank = same; 2006; greatpendragoncampaign  [label = "The Great Pendragon Campaign"]} pendragon5 -- greatpendragoncampaign ;
+{ rank = same; 2010; pendragon51  [label = "Pendragon 5.1th"]} greatpendragoncampaign -- pendragon51 ; 
+
+{ rank = same; 1981; thievesworld  [label = "Thieves' World"]}   #Q18394146
+{ rank = same; 1984; elfquest  [label = "Elfquest"]}  basicroleplaying -- elfquest ; #Q3050832
+ 
+{ rank = same; 1989; princevaliant  [label = "Prince Valiant"]}   basicroleplaying -- princevaliant ;  #Q4906640
+{ rank = same; 2018; princevaliant2  [label = "Prince Valiant 2nd"]}  princevaliant -- princevaliant2 ;  #Q4906640
+
+{ rank = same; 1981; stormbringer  [label = "Stormbringer" image="C:\gv\stormbringer.png"]} basicroleplaying -- stormbringer ;  #Q682309
+{ rank = same; 1984; hawkmoon  [label = "Hawkmoon"]} stormbringer -- hawkmoon ;  #Q18348765
+{ rank = same; 1985; stormbringer2  [label = "Stormbringer 2nd"]} stormbringer -- stormbringer2 ;
+{ rank = same; 1987; stormbringer3  [label = "Stormbringer 3rd"]} stormbringer2 -- stormbringer3 ;
+{ rank = same; 1990; stormbringer4  [label = "Stormbringer 4th"]} stormbringer3 -- stormbringer4 ;
+{ rank = same; 1993; elric  [label = "Elric!"]} stormbringer4 -- elric ; 
+{ rank = same; 2001; stormbringer5  [label = "Stormbringer 5th"]} elric -- stormbringer5 ; 
+{ rank = same; 2009; hawkmoonmong  [label = "Hawkmoon (Mongoose)"]} hawkmoon -- hawkmoonmong ;
+
+
+
+
+
+ 
+##### ICE Rolemaster, MERP, etc.  #s46
+
+{ rank = same; 1979; armslaw [label = "Arms Law [1980]"]}   #Q48998030
+{ rank = same; 1980; rolemaster [label = "Rolemaster"  image="C:\gv\rolemaster.png"]} armslaw -- rolemaster ;  ##Q680764
+{ rank = same; 1984; rolemaster2 [label = "Rolemaster 2nd ed." ]} rolemaster -- rolemaster2 ;
+{ rank = same; 1995; rolemaster3rmss  [label = "Rolemaster Standard System (3rd ed.)"]} rolemaster2 -- rolemaster3rmss ;
+{ rank = same; 1999; rolemaster4  [label = "Rolemaster Fantasy Roleplaying (4th ed.)"]} runouttheguns -- rolemaster4 ;
+{ rank = same; 2003; harp  [label = "HARP \n(High Adventure Role Playing)"]} rolemaster4 -- harp ;  #Q5486
+{ rank = same; 2007; rolemasterclassic  [label = "Rolemaster Classic/Express"]} harp -- rolemasterclassic ;
+{ rank = same; 2016; rolemasteru  [label = "Rolemaster Unified"]} rolemasterclassic -- rolemasteru ;
+
+{ rank = same; 1985; spacemaster  [label = "Spacemaster"]} rolemaster -- spacemaster [style=dotted] ; #Q2306311
+{ rank = same; 1986; spacemaster2  [label = "Spacemaster 2nd"]} spacemaster -- spacemaster2 ; 
+{ rank = same; 1988; spacemaster3  [label = "Spacemaster 3rd"]} spacemaster2 -- spacemaster3 ;
+{ rank = same; 1989; cyberspace  [label = "Cyberspace"]} spacemaster3 -- cyberspace [style=dotted] ;  #Q3008195
+{ rank = same; 1992; cyberspace2  [label = "Cyberspace 2nd"]} cyberspace -- cyberspace2 ;
+
+{ rank = same; 1980; theironwind [label = "The Iron Wind"]}  theironwind -- shadowworld ; #Q48998497
+{ rank = same; 1987; shadowworld  [label = "Shadow World"]}  rolemaster2 -- shadowworld ;  #Q3481166
+{ rank = same; 1998; runouttheguns  [label = "Run Out the Guns"]}  rolemaster3rmss -- runouttheguns ; # 3rd ed simplified
+
+{ rank = same; 1984; merp [label = "Middle-earth Role Playing" image="C:\gv\merp.png"]} rolemaster -- merp ; #Q5473
+
+
+
+##### Palladium Fantasy RPG
+
+{ rank = same; 1983; palladiumfrpg  [label = "Palladium Fantasy RPG"]}  #t58  #Q5496
+{ rank = same; 1984; palladiumfrpgrev  [label = "Palladium Fantasy RPG, rev."]}  palladiumfrpg -- palladiumfrpgrev ;
+{ rank = same; 1996; palladiumfrpg2  [label = "Palladium Fantasy RPG 2nd"]}  palladiumfrpgrev -- palladiumfrpg2 ;
+
+
+
+##### Jorune
+
+{ rank = same; 1984; jorune  [label = "Jorune" image="C:\gv\jorune.png"]}  #Q3183952
+{ rank = same; 1985; jorune2  [label = "Jorune 2nd" ]} jorune -- jorune2 ;
+{ rank = same; 1992; jorune3  [label = "Jorune 3rd" ]} jorune2 -- jorune3 ;
+
+
+
+##### Ars magica
+
+{ rank = same; 1987; arsmagica  [label = "Ars Magica" image="C:\gv\arsmagica.png"]}  #Q5453
+{ rank = same; 1989; arsmagica2  [label = "Ars Magica 2nd"]} arsmagica -- arsmagica2 ;
+{ rank = same; 1992; arsmagica3  [label = "Ars Magica 3rd"]} arsmagica2 -- arsmagica3 ;
+{ rank = same; 1996; arsmagica4  [label = "Ars Magica 4th"]} arsmagica3 -- arsmagica4 ;
+{ rank = same; 2004; arsmagica5  [label = "Ars Magica 5th"]} arsmagica4 -- arsmagica5 ;
+
+
+
+
+{ rank = same; 1987; talislanta  [label = "Talislanta" image="C:\gv\talislanta.png"]}  #Q682472
+{ rank = same; 1992; talislanta2  [label = "Talislanta 2nd ed"]} talislanta -- talislanta2 ;
+{ rank = same; 2001; talislanta3  [label = "Talislanta 3rd ed"]} talislanta2 -- talislanta3 ;
+{ rank = same; 2005; talislanta4  [label = "Talislanta d20 ed"]} talislanta3 -- talislanta4 ;
+{ rank = same; 2006; talislanta5  [label = "Talislanta 5th ed"]} talislanta4 -- talislanta5 ;
+{ rank = same; 2010; talislantacc  [label = "free via CC" fontcolor=red]} talislanta5 -- talislantacc ;
+
+
+
+
+
+
+
+{ rank = same; 2001; hackmaster4 [label = "HackMaster 4th"]}  #Q1860174 
+{ rank = same; 2012; hackmaster5 [label = "HackMaster 5th"]} hackmaster4 -- hackmaster5 ;
+
+
+
+{ rank = same; 2002; lordoftheringsrpg  [label = "Lord of the Rings RPG"]}  #Q1194266
+{ rank = same; 2011; theonering  [label = "The One Ring" image="C:\gv\theonering.png"]}  #Q2028764
+
+
+
+{ rank = same; 2005; agameofthrones  [label = "A Game of Thrones \n[ca]"]}  #Q677281
+{ rank = same; 2009; asongoficenfirerpg  [label = "A Song of Ice and Fire RPG" image="C:\gv\asongoficenfirerpg.png"]}  #Q21233639
+
+
+{ rank = same; 1999; koboldsatemybaby  [label = "Kobolds Ate My Baby!"]}   #Q6424474
+{ rank = same; 2001; koboldsatemybaby3  [label = "Kobolds Ate My Baby! 3rd"]} koboldsatemybaby -- koboldsatemybaby3 ;
+{ rank = same; 2015; koboldsatemybabysdeluxe  [label = "Kobolds Ate My Baby! Super Deluxx ed"]} koboldsatemybaby3 -- koboldsatemybabysdeluxe ;
+
+
+##### Games Workshops 
+
+{ rank = same; 1975; owlandweasel  [label = "Owl and Weasel"]}   #Q7114865
+{ rank = same; 1977; whitedwarf  [label = "White Dwarf"]} owlandweasel -- whitedwarf ;  #Q682202
+
+{ rank = same; 1986; warhammerfrpg  [label = "Warhammer FRPG" image="C:\gv\warhammerfrpg.png"]} whitedwarf -- warhammerfrpg [style=dotted] ;  #Q5490
+{ rank = same; 2005; warhammerfrpg2  [label = "Warhammer 2nd"]} warhammerfrpg -- warhammerfrpg2 ;
+{ rank = same; 2009; warhammerfrpg3  [label = "Warhammer 3rd"]} warhammerfrpg2 -- warhammerfrpg3 ;
+{ rank = same; 1986; ennemywithin  [label = "The Enemy Within"]} warhammerfrpg -- ennemywithin ;
+{ rank = same; 2017; zweihander  [label = "Zweihänder"]} warhammerfrpg3 -- zweihander [style=dotted];
+{ rank = same; 2017; warhammerfrpg4  [label = "Warhammer 4th"]} warhammerfrpg3 -- warhammerfrpg4 ;
+
+
+
+{ rank = same; 1983; harn0  [label = "Hârn \n[ca]"]}   #Q1641831
+{ rank = same; 1986; harn  [label = "HârnMaster \n[ca]"]} harn0 -- harn ;  #Q5478
+{ rank = same; 1996; harn2  [label = "HârnMaster 2nd ed \n[ca]"]} harn -- harn2 ;
+{ rank = same; 2002; harn3  [label = "HârnMaster 3rd ed \n[ca]"]} harn2 -- harn3 ;
+
+
+{ rank = same; 2002; burningwheel  [label = "Burning Wheel" image="C:\gv\burningwheel.png"]}   #Q7720690
+{ rank = same; 2006; burningempires  [label = "Burning Empires"]} burningwheel -- burningempires ;  #Q4999841
+{ rank = same; 2008; mouseguard  [label = "Mouse Guard"]} burningwheel -- mouseguard ;  #Q17142058
+
+
+
+{ rank = same; 1993; earthdawn  [label = "Earthdawn" image="C:\gv\earthdawn.png"]} #Q5464
+{ rank = same; 2001; earthdawn2  [label = "Earthdawn 2nd"]}  earthdawn -- earthdawn2 ;
+{ rank = same; 2005; earthdawnc  [label = "Earthdawn Classic"]}  earthdawn2 -- earthdawnc ;
+{ rank = same; 2009; earthdawn3  [label = "Earthdawn 3rd"]}  earthdawnc -- earthdawn3 ;
+{ rank = same; 2012; earthdawn3r  [label = "Earthdawn 3rd rev"]} earthdawn3 -- earthdawn3r ;
+{ rank = same; 2015; earthdawn4  [label = "Earthdawn 4th"]}  earthdawn3r -- earthdawn4 ;
+
+
+{ rank = same; 1997; legend5rings  [label = "L5R RPG" image="C:\gv\legend5rings.png"]}  #Q3224019    
+{ rank = same; 1998; cityoflies  [label = "City of Lies"]}  legend5rings -- cityoflies ;
+{ rank = same; 2000; legend5rings2  [label = "L5R 2nd"]} legend5rings -- legend5rings2 ;
+{ rank = same; 2005; legend5rings3  [label = "L5R 3rd"]} legend5rings2 -- legend5rings3 ;
+{ rank = same; 2010; legend5rings4  [label = "L5R 4th"]} legend5rings3 -- legend5rings4 ;
+
+
+{ rank = same; 1998; seventhsea  [label = "7th Sea" image="C:\gv\seventhsea.png"]}  #Q270118
+{ rank = same; 2005; seventhsead20  [label = "7th Sea d20"]} seventhsea -- seventhsead20 ;
+{ rank = same; 2016; seventhsea2nd  [label = "7th Sea 2nd"  image="C:\gv\seventhsea2nd.png"]} seventhsead20 -- seventhsea2nd ;
+
+
+{ rank = same; 1993; fateofthenorns  [label = "Fate of the Norns" ]}  #Q5437376
+{ rank = same; 2002; fateofthenorns2  [label = "Fate of the Norns 2nd"]} fateofthenorns -- fateofthenorns2 ;
+{ rank = same; 2006; fateofthenornsr1  [label = "Fate of the Norns: Ragnarok" image="C:\gv\fateofthenorns.png"]} fateofthenorns2 -- fateofthenornsr1 ;
+{ rank = same; 2012; fateofthenornsr2  [label = "Fate of the Norns: Ragnarok 2nd"]} fateofthenornsr1 -- fateofthenornsr2 ;
+
+
+
+
+
+{ rank = same; 1984; dragonraid  [label = "DragonRaid"]}  #Q5305090
+{ rank = same; 1984; toon  [label = "Toon" image="C:\gv\toon.png"]}  #Q835612
+{ rank = same; 1991; amber  [label = "Amber" image="C:\gv\amber.png"]}  #Q5452
+{ rank = same; 1992; dangerousjourney [label = "Dangerous Journey"]}  #Q11964665
+{ rank = same; 1994; castlefalkenstein  [label = "Castle Falkenstein"]} #Q388465
+{ rank = same; 1995; everway  [label = "Everway" image="C:\gv\everway.png"]}  #Q1382204
+{ rank = same; 1997; besm  [label = "BESM \n[ca]"]}  #Q858800
+{ rank = same; 1997; darkrealms  [label = "Dark Realms"]}
+{ rank = same; 1999; lejendaryadventures [label = "Lejendary Adventures"]}
+{ rank = same; 1999; nobilis  [label = "Nobilis" image="C:\gv\nobilis.png"]} #Q5493
+{ rank = same; 1999; sovereignstone  [label = "Sovereign Stone"]}   #Q18392250
+{ rank = same; 2000; orkworld  [label = "Orkworld"]}  #Q3356433
+{ rank = same; 2001; dyingearth [label = "Dying Earth" image="C:\gv\dyingearth.png"]}  #Q3041920
+{ rank = same; 2002; donjon  [label = "Donjon"]}  #Q5296210
+{ rank = same; 2002; fatal  [label = "F.A.T.A.L."]}
+{ rank = same; 2002; universalis  [label = "Universalis"]}
+{ rank = same; 2003; wushu  [label = "Wushu"]}
+{ rank = same; 2004; theshadowofyesterday  [label = "The Shadow of Yesterday"]}   #Q64528046
+{ rank = same; 2005; thedrowwar  [label = "The Drow War"]}
+{ rank = same; 2005; weaponsgods  [label = "Weapons of the Gods"]}
+{ rank = same; 2006; agon  [label = "Agon"]}  #Q64524443
+{ rank = same; 2006; zantabulouszorcererzo  [label = "The Zantabulous Zorcerer of Zo"]}
+{ rank = same; 2007; inawickedage  [label = "In a Wicked Age"]}
+{ rank = same; 2007; reign  [label = "Reign"]}   #Q66603524
+{ rank = same; 2008; barbariansoflemuria  [label = "Barbarians of Lemuria"]}
+{ rank = same; 2008; housesoftheblooded  [label = "Houses of the Blooded"  image="C:\gv\housesoftheblooded.png"]}  
+{ rank = same; 2009; dragonage [label = "Dragon Age"]}
+{ rank = same; 2010; bloodnhonor  [label = "Blood & Honor"]}
+{ rank = same; 2012; onmightythews  [label = "On Mighty Thews"]}
+{ rank = same; 2013; hillfolk  [label = "Hillfolk"]}
+{ rank = same; 2013; sagaislanders  [label = "Saga of the Icelanders"]}  
+{ rank = same; 2014; numenera  [label = "Numenera" image="C:\gv\numenera.png"]}
+{ rank = same; 2014; swordswomaster  [label = "Swords without Master"  image="C:\gv\swordswomaster.png"]}
+{ rank = same; 2015; cartel  [label = "Cartel"]}  
+{ rank = same; 2015; shadowofthedemonlord  [label = "Shadow of the Demon Lord"  image="C:\gv\shadowofthedemonlord.png"]}
+{ rank = same; 2016; broodmother  [label = "Broodmother Skyfortress"  image="C:\gv\broodmother.png"]}
+{ rank = same; 2016; cryptomancer  [label = "Cryptomancer"]}
+{ rank = same; 2016; godbound  [label = "Godbound"]}
+{ rank = same; 2017; bladesinthedark  [label = "Blades in the Dark"]}  #Q39045543
+{ rank = same; 2016; thewitchisdead  [label = "The Witch is Dead"]}
+
+
+
+
+
+############################################################
+############ Super Hero RPGs 
+############################################################
+
+
+
+
+{ rank = same; 1977; superhero44  [label = "Superhero '44"]}
+{ rank = same; 1978; superhero2044  [label = "Superhero 2044"]}  superhero44 -- superhero2044 ;  #Q3977919 
+
+{ rank = same; 1981; champions  [label = "Champions" image="C:\gv\champions.png"]}  #Q281056
+{ rank = same; 1982; champions2  [label = "Champions 2nd"]}  champions -- champions2 ;
+{ rank = same; 1984; champions3  [label = "Champions 3rd"]}  champions2 -- champions3 ;
+{ rank = same; 1989; champions4  [label = "Champions 4th"]}  champions3 -- champions4 ;
+{ rank = same; 2002; champions5  [label = "Champions 5th"]}  champions4 -- champions5 ;
+{ rank = same; 2010; champions6  [label = "Champions 6th"]}  champions5 -- champions6 ;
+{ rank = same; 1990; herosystem [label = "HERO System"]} champions4 -- herosystem ;  #Q1613765
+
+{ rank = same; 1985; dcheroes  [label = "DC Heroes"]}
+{ rank = same; 1989; dcheroes2  [label = "DC Heroes 2nd"]}  dcheroes -- dcheroes2 ; 
+{ rank = same; 1993; dcheroes3  [label = "DC Heroes 3rd"]}  dcheroes2 -- dcheroes3 ;
+
+{ rank = same; 1982; goldenheroesa  [label = "Golden Heroes (amateur)"]}
+{ rank = same; 1984; goldenheroesgw  [label = "DC Heroes (GW)"]}  goldenheroesa -- goldenheroesgw ;
+
+{ rank = same; 1984; marvelsh  [label = "Marvel SH" image="C:\gv\marvelsh.png"]}
+{ rank = same; 1998; marvelshag  [label = "Marvel SHAG"]}  marvelsh -- marvelshag ; 
+{ rank = same; 2003; marvelurpg  [label = "Marvel Universe RPG"]}  marvelshag -- marvelurpg ;
+{ rank = same; 2012; marvelhrp  [label = "Marvel Heroic RP"]}  marvelurpg -- marvelhrp   ;
+
+{ rank = same; 2002; buffyrpg  [label = "Buffy RPG"]}
+{ rank = same; 2003; angelrpg  [label = "Angel RPG"]}  buffyrpg -- angelrpg ;
+
+{ rank = same; 1996; fengshui  [label = "Feng Shui" image="C:\gv\fengshui.png"]}  #t59
+{ rank = same; 2015; fengshui2  [label = "Feng Shui 2nd"]}  fengshui -- fengshui2 ;
+
+{ rank = same; 2002; mutantsnmasterminds  [label = "Mutants & Masterminds"]}
+{ rank = same; 2005; mutantsnmasterminds2  [label = "Mutants & Masterminds 2nd"]}  mutantsnmasterminds -- mutantsnmasterminds2 ;
+{ rank = same; 2011; mutantsnmasterminds3  [label = "Mutants & Masterminds 3rd"]}  mutantsnmasterminds2 -- mutantsnmasterminds3 ;
+
+{ rank = same; 1979; villainsnvigilantes  [label = "Villains and Vigilantes"]} 
+{ rank = same; 1985; teenagemutantninjaturtles  [label = "Teenage Mutant Ninja Turtles & Other Strangeness"]}  #Q3085024 #Q18204518
+{ rank = same; 1998; alternity  [label = "Alternity"]}
+{ rank = same; 1998; sailormoon  [label = "The Sailor Moon RPG"]}
+{ rank = same; 1999; bravenewworld  [label = "Brave New World"]}
+{ rank = same; 2002; godlike  [label = "Godlike"]}
+{ rank = same; 2006; pantyexplosion  [label = "Panty Explosion"]}
+{ rank = same; 2012; psirun  [label = "Psi Run"]}
+{ rank = same; 2014; wwwrestling  [label = "World Wide Wrestling, The Roleplaying Game"]}
+{ rank = same; 2016; worldsinperil  [label = "Worlds in Peril"]} 
+
+
+
+{ rank = same; 2001; exalted [label = "Exalted" image="C:\gv\exalted.png"]}  #Q5467
+{ rank = same; 2006; exalted2 [label = "Exalted 2dn ed."]}  exalted -- exalted2 ;
+{ rank = same; 2016; exalted3 [label = "Exalted 3rd ed."]}  exalted2 -- exalted3 ;
+
+
+{ rank = same; 2005; capes  [label = "Capes"]}   #Q5035301
+
+
+ 
+ 
+ 
+ 
+################################################
+############ Cyberpunk & Transhumanist RPGs 
+################################################
+
+
+
+
+
+{ rank = same; 1988; cyberpunk2013  [label = "Cyberpunk 2013" image="C:\gv\cyberpunk2013.png"]}
+{ rank = same; 1990; cyberpunk2020  [label = "Cyberpunk 2020"]}  cyberpunk2013 -- cyberpunk2020 ;
+{ rank = same; 2005; cyberpunkv3  [label = "Cyberpunk v3"]}  cyberpunk2020 -- cyberpunkv3 ;
+
+
+{ rank = same; 1989; shadowrun  [label = "Shadowrun" image="C:\gv\shadowrun.png"]}
+{ rank = same; 1992; shadowrun2  [label = "Shadowrun 2nd"]}  shadowrun -- shadowrun2 ;
+{ rank = same; 1998; shadowrun3  [label = "Shadowrun 3rd"]}  shadowrun2 -- shadowrun3 ;
+{ rank = same; 2005; shadowrun4  [label = "Shadowrun 4th"]}   shadowrun3 -- shadowrun4 ;
+{ rank = same; 2009; shadowrun20  [label = "Shadowrun 20th anniv"]}  shadowrun4 -- shadowrun20 ;
+{ rank = same; 2013; shadowrun5  [label = "Shadowrun 5th"]}  shadowrun20 -- shadowrun5 ;
+
+
+
+{ rank = same; 1993; slaindustries  [label = "SLA Industries" image="C:\gv\slaindustries.png"]}
+{ rank = same; 1996; conspiracyx  [label = "Conspiracy X"]}  #Q2785871
+{ rank = same; 2003; transhumanspace  [label = "Transhuman Space"]}  #Q3043184
+{ rank = same; 2006; conspiracyx2  [label = "Conspiracy X 2nd"]}  conspiracyx -- conspiracyx2 ;
+{ rank = same; 2006; corporation  [label = "Corporation"]}  #Q5172519
+{ rank = same; 2007; cthulhutech  [label = "CthulhuTech"]} #Q1142759
+{ rank = same; 2009; eclipsephase  [label = "Eclipse Phase" image="C:\gv\eclipsephase.png"]}
+{ rank = same; 2011; technoir  [label = "Technoir"]}
+{ rank = same; 2016; headspace  [label = "Headspace"]}
+{ rank = same; 2018; infinity  [label = "Infinity: the RPG"]}
+
+
+{ rank = same; 2004; exmachina  [label = "Ex Machina"]} #Q385195
+
+
+
+
+
+
+
+############################################################
+############ Post Apocalyptic RPGs (except Apocalypse Word)
+############################################################ 
+
+
+
+
+{ rank = same; 1978; gammaworld  [label = "Gamma World" image="C:\gv\gammaworld.png"]}  #Q5520309
+{ rank = same; 1983; gammaworld2  [label = "Gamma World 2nd"]}  gammaworld -- gammaworld2 ;
+{ rank = same; 1985; gammaworld3  [label = "Gamma World 3rd"]}  gammaworld2 -- gammaworld3 ;
+{ rank = same; 1992; gammaworld4  [label = "Gamma World 4th"]}  gammaworld3 -- gammaworld4 ;
+{ rank = same; 2000; gammaworld5  [label = "Gamma World 5th"]}  gammaworld4 -- gammaworld5 ;
+{ rank = same; 2002; gammaworldo  [label = "Gamma World Omega"]}  gammaworld5 -- gammaworldo ;
+{ rank = same; 2003; gammaworld6  [label = "Gamma World 6th"]}  gammaworldo -- gammaworld6 ;
+{ rank = same; 2010; gammaworld7  [label = "Gamma World 7th"]}  gammaworld6 -- gammaworld7 ;
+ 
+{ rank = same; 1984; twilight2000  [label = "Twilight 2000" image="C:\gv\twilight2000.png"]} #Q4566951
+{ rank = same; 1990; twilight200020  [label = "Twilight 2000 2.0"]}  twilight2000 -- twilight200020 ;
+{ rank = same; 1993; twilight200022  [label = "Twilight 2000 2.2"]}  twilight200020 -- twilight200022 ;
+{ rank = same; 2009; twilight2013  [label = "Twilight 2013"]}   twilight200022 -- twilight2013 ;
+
+{ rank = same; 1990; torg  [label = "Torg" image="C:\gv\torg.png"]}  #Q600643
+{ rank = same; 1990; infiniversemagazine  [label = "Infiniverse magazine"]}  torg -- infiniversemagazine ;
+{ rank = same; 2005; torg2  [label = "Torg,\n Revised & Expanded"]}  torg -- torg2 ;
+{ rank = same; 2017; torgeternity  [label = "Torg: Eternity"]} torg2 -- torgeternity ;
+{ rank = same; 1993; shatterzone  [label = "Shatterzone"]}  torg -- shatterzone ;
+{ rank = same; 1994; masterbook  [label = "Masterbook"]}  shatterzone -- masterbook ;
+
+{ rank = same; 1984; paranoia  [label = "Paranoia"  image="C:\gv\paranoia.png"]} #Q1042398
+{ rank = same; 1987; paranoia2  [label = "Paranoia 2nd"]} paranoia -- paranoia2 ;
+{ rank = same; 1995; paranoia5  [label = "Paranoia '5th'"]} paranoia2 -- paranoia5 ;
+{ rank = same; 2004; paranoiaxp  [label = "Paranoia XP"]} paranoia5 -- paranoiaxp ;
+{ rank = same; 2009; paranoia25  [label = "Paranoia 25th anniv"]} paranoiaxp -- paranoia25 ;
+{ rank = same; 2010; paranoiahighprog  [label = "Paranoia High Programmers"]} paranoia25 -- paranoiahighprog ;
+{ rank = same; 2017; paranoiaredclearance  [label = "Paranoia Red Clearance ed."]} paranoiahighprog -- paranoiaredclearance ;
+
+{ rank = same; 1985; judgedreddrpg  [label = "Judge Dredd: the RPG"]}
+{ rank = same; 2002; judgedreddd20  [label = "Judge Dredd d20"]}  judgedreddrpg -- judgedreddd20 ;
+{ rank = same; 2009; judgedredd  [label = "Judge Dredd"]}  judgedreddd20 -- judgedredd ; 
+
+{ rank = same; 1981; aftermath [label = "Aftermath!"]} #Q727958
+{ rank = same; 1990; rifts  [label = "Rifts" image="C:\gv\rift.png"]} #Q1336480
+{ rank = same; 1998; tribe8  [label = "Tribe 8 \n[ca]"]}  #Q1372078
+{ rank = same; 1999; allfleshmustbeeaten  [label = "All Flesh Must Be Eaten"]} #Q2623352
+{ rank = same; 2008; hotwar  [label = "Hot War"]}
+
+{ rank = same; 1988; machowomenwithguns [label = "Macho Women with Guns"]} #Q1424994
+
+
+
+
+
+
+
+
+############################################################
+############ Classic Space-Opera/SF RPGs / time travel
+############################################################
+
+
+
+
+{ rank = same; 1976; metamorphosisalpha  [label = "Metamorphosis Alpha"]}  dungeoncrawl -- metamorphosisalpha ;  #Q17116228
+{ rank = same; 1994; metamorphosisalpha2  [label = "Metamorphosis Alpha 2nd"]}   metamorphosisalpha -- metamorphosisalpha2 ;
+{ rank = same; 2002; metamorphosisalpha3  [label = "Metamorphosis Alpha 3rd"]}   metamorphosisalpha2 -- metamorphosisalpha3 ;
+{ rank = same; 2006; metamorphosisalpha4  [label = "Metamorphosis Alpha 4th"]}   metamorphosisalpha3 -- metamorphosisalpha4 ;
+{ rank = same; 2007; metamorphosisalpha1rev  [label = "Metamorphosis Alpha 1st rev"]}  metamorphosisalpha4 -- metamorphosisalpha1rev ;
+
+
+{ rank = same; 1978; startrekadvgamfinalfrontrier  [label = "Star Trek: Adventure Gaming in the Final Frontier" image="C:\gv\startrekadvgamfinalfrontrier.png"]}  #Q16995265
+{ rank = same; 1982; starfleetvoyages  [label = "Starfleet Voyages" ]}  startrekadvgamfinalfrontrier -- starfleetvoyages ; #Q7601850
+{ rank = same; 1982; startrektrpg  [label = "ST: the RPG"]}    #Q7601052
+{ rank = same; 1983; enterpriserpgst  [label = "Enterprise: RPG in ST /n [jp]"]}    #Q64825079
+{ rank = same; 1993; primedirective  [label = "Prime Directive"]}   #Q7243255
+{ rank = same; 1998; startreknextgenrpg  [label = "Star Trek: The next Gen RPG"]}  #Q7601018
+{ rank = same; 1999; startrekds9  [label = "ST: DS9"]}  startreknextgenrpg -- startrekds9 ; #Q18154553
+{ rank = same; 1999; startrektos  [label = "ST: TOS"]}  startrekds9 -- startrektos ; #Q18154548
+{ rank = same; 2002; startrekrpg  [label = "ST RPG"]}  startrekds9 -- startrekrpg ;
+
+{ rank = same; 2017; startrekadv  [label = "Star Trek Adventures"]} startrekrpg -- startrekadv ;
+
+
+{ rank = same; 1977; flashgordonntwom  [label = "Flash Gordon & the Warriors of Mongo"]} #Q24963166
+
+{ rank = same; 1978; starshipsnspacemen  [label = "Starships & Spacemen"]} #Q18392873 
+{ rank = same; 1977; spacepatrol  [label = "Space Patrol (Star Patrol)"]}  #Q25112652
+{ rank = same; 1977; spacequest  [label = "Space Quest"]}  #Q25214307
+
+{ rank = same; 1997; blueplanet  [label = "Blue Planet"]} #Q1924602
+{ rank = same; 2000; blueplanet2  [label = "Blue Planet 2nd"]}  blueplanet -- blueplanet2 ;
+{ rank = same; 2012; blueplanet2rev  [label = "Blue Planet rev"]}  blueplanet2 -- blueplanet2rev ;
+
+{ rank = same; 1987; starwarsweg  [label = "Star Wars WEG" image="C:\gv\starwarsweg.png"]} #Q1989178
+{ rank = same; 1995; darkstryder  [label = "The DarkStryder campaign"]}  starwarsweg -- darkstryder ;
+{ rank = same; 2000; starwarswotc  [label = "Star Wars WotC"]}  starwarsweg -- starwarswotc ;
+{ rank = same; 2012; starwarsffg  [label = "Star Wars FFG"]}  starwarswotc -- starwarsffg ;
+
+{ rank = same; 2008; darkheresy  [label = "Dark Heresy" image="C:\gv\darkheresy.png"]}  whitedwarf -- darkheresy [style=dotted];
+{ rank = same; 2009; roguetrader  [label = "Rogue Trader"]}  darkheresy  --  roguetrader ;
+{ rank = same; 2010; deathwatch  [label = "Deathwatch"]}  roguetrader --  deathwatch ;
+{ rank = same; 2011; blackcrusade  [label = "Black Crusade"]}  deathwatch  --  blackcrusade ;
+{ rank = same; 2012; onlywar  [label = "Only War"]}  blackcrusade  --  onlywar ;
+
+{ rank = same; 1977; traveller  [label = "Traveller" image="C:\gv\traveller.png"]}  #Q2164069  
+{ rank = same; 1980; twilightpeak  [label = "Twilight's Peak"]}    traveller -- twilightpeak ;
+{ rank = same; 1987; megatraveller  [label = "MegaTraveller"]}  traveller -- megatraveller ;
+{ rank = same; 1993; travellertnewera  [label = "Traveller: The New Era"]}  megatraveller -- travellertnewera ;
+{ rank = same; 1996; mmillertraveller  [label = "Marc Miller's Traveller"]}  travellertnewera -- mmillertraveller ;
+{ rank = same; 1998; gurpstraveller  [label = "GURPS Traveller"]}  mmillertraveller -- gurpstraveller ;
+{ rank = same; 2002; traveller20  [label = "Traveller 20"]}  gurpstraveller -- traveller20 ;
+{ rank = same; 2006; gurpstraveller2  [label = "GURPS Traveller II"]}   traveller20 -- gurpstraveller2 ;
+{ rank = same; 2007; travellerhero  [label = "Traveller Hero"]}  gurpstraveller2 -- travellerhero ;
+{ rank = same; 2008; travellermongoose  [label = "Mongoose Traveller"]}  travellerhero -- travellermongoose ;
+{ rank = same; 2013; traveller5  [label = "Traveller 5"]}  travellermongoose -- traveller5 ;
+
+{ rank = same; 1986; traveller2300  [label = "Traveller: 2300"]}
+{ rank = same; 1988; traveller2300ad  [label = "2300 AD"]} traveller2300 -- traveller2300ad ;
+
+{ rank = same; 1985; thedrwhorpg  [label = "The Doctor Who Role Playing Game"]}
+{ rank = same; 1991; timelord  [label = "Time Lord"]} 
+{ rank = same; 2009; drwhorpg  [label = "Doctor Who Roleplaying Game"]}  
+
+{ rank = same; 1996; fadingsuns  [label = "Fading Suns"]}
+{ rank = same; 1999; fadingsuns2  [label = "Fading Suns 2nd"]}  fadingsuns -- fadingsuns2 ;
+{ rank = same; 2001; fadingsunsd20  [label = "Fading Suns d20"]}  fadingsuns2 -- fadingsunsd20 ;
+{ rank = same; 2007; fadingsunsrev  [label = "Fading Suns 2nd revised"]}  fadingsunsd20 -- fadingsunsrev ;
+
+{ rank = same; 2003; babylon5  [label = "Babylon 5"]}
+{ rank = same; 2006; babylon52  [label = "Babylon 5, 2nd"]}  babylon5 -- babylon52 ;
+
+{ rank = same; 1986; mechwarrior [label = "MechWarrior (BattleTech)" image="C:\gv\mechwarrior.png"]}
+{ rank = same; 1991; mechwarrior2 [label = "MechWarrior 2nd"]}  mechwarrior -- mechwarrior2 ;
+{ rank = same; 1999; mechwarrior3 [label = "MechWarrior 3rd"]}   mechwarrior2 -- mechwarrior3 ;
+{ rank = same; 2006; mechwarrior3b [label = "Classic BattleTech RPG"]}  mechwarrior3 -- mechwarrior3b ;
+{ rank = same; 2010; mechwarrior4 [label = "A Time of War"]}  mechwarrior3b -- mechwarrior4 ;
+
+{ rank = same; 1984; mekton [label = "Mekton"]}
+{ rank = same; 1987; mekton2 [label = "Mekton II"]}  mekton -- mekton2 ;
+{ rank = same; 1994; mektonz [label = "Mekton Z"]}  mekton2 -- mektonz ; 
+
+{ rank = same; 1987; teenagersfromouterspace [label = "Teenagers from Outer Space"]}
+{ rank = same; 1989; teenagersfromouterspace2 [label = "Teenagers from Outer Space 2nd"]}  teenagersfromouterspace -- teenagersfromouterspace2 ;
+{ rank = same; 1997; teenagersfromouterspace3 [label = "Teenagers from Outer Space 3rd"]}  teenagersfromouterspace2 -- teenagersfromouterspace3 ;
+
+{ rank = same; 1992; jovianchronicles [label = "Jovian Chronicles\n[ca]"]}  mekton2 -- jovianchronicles ;
+{ rank = same; 1994; heavygear [label = "Heavy Gear\n[ca]"]}  jovianchronicles -- heavygear ;
+{ rank = same; 2001; gearkrieg [label = "Gear Krieg\n[ca]"]}  heavygear -- gearkrieg ;
+
+{ rank = same; 1976; starfaring  [label = "Starfaring"]} #Q7601816
+{ rank = same; 1982; starfrontier  [label = "Star Frontier"]}
+{ rank = same; 1983; othersuns  [label = "Other Suns"]}  basicroleplaying -- othersuns ;
+{ rank = same; 1984; ringworld  [label = "Ringworld"]}   basicroleplaying -- ringworld ;
+{ rank = same; 1988; space1889  [label = "Space: 1889" image="C:\gv\space1889.png"]}
+{ rank = same; 1999; continuum  [label = "Continuum" image="C:\gv\continuum.png"]}  #Q5165546
+{ rank = same; 2001; metabarons  [label = "Métabarons"]}
+{ rank = same; 2005; serenity [label = "Serenity"]}
+{ rank = same; 2005; starswithoutnumbers [label = "Stars without Number"]}
+{ rank = same; 2008; threesixteen  [label = "3:16 Carnage Amongst the Stars" image="C:\gv\threesixteen.png"]}  #Q64461225
+{ rank = same; 2013; rocketage [label = "Rocket Age"]}
+{ rank = same; 2013; vastnstarlit [label = "Vast & Starlit"]}
+{ rank = same; 2014; thestrange [label = "The Strange"]}
+{ rank = same; 2017; starfinder [label = "Starfinder"]}  pathfinder -- starfinder ; 
+{ rank = same; 2018; nevertellmetheodds [label = "Never Tell Me the Odds"]} 
+{ rank = same; 2005; starshiptroopers [label = "Starship Troopers"]}    #Q2076956
+
+
+{ rank = same; 2000; dunechroniquesimperium [label = "Dune: Chronicles of the Imperium"]}  #Q3041285
+{ rank = same; 2003; stargatesg1 [label = "Stargate SG-1"]}  #Q2663862
+{ rank = same; 2014; gaeanreach [label = "Gaean Reach"]}  #Q66717004
+
+{ rank = same; 2016; timewatch [label = "TimeWatch"]}  #Q66763445
+
+
+
+
+########################################################################
+########## Historical / pseudo-historical / semi-historial RPGs
+########################################################################
+
+
+
+{ rank = same; 1975; engarde  [label = "En Garde!"]} #Q3012287
+{ rank = same; 1977; engarde2 [label = "En Garde! 2nd ed"]}  engarde -- engarde2 ;
+{ rank = same; 1988; engarde3 [label = "En Garde! 3rd ed"]}  engarde2 -- engarde3 ;
+{ rank = same; 2005; engarde4  [label = "En Garde! 4th ed"]}  engarde3 -- engarde4 ; 
+
+{ rank = same; 1983; privateersngentlemen [label = "Privateers & Gentlemen"]}
+
+{ rank = same; 1984; flashingblades  [label = "Flashing Blades"]}
+
+{ rank = same; 1975; boothill   [label = "Boot Hill" image="C:\gv\boothill.png"]}
+
+{ rank = same; 2007; colonialgothic  [label = "Colonial Gothic"]}
+
+{ rank = same; 2015; nightwitches  [label = "Night Witches"  image="C:\gv\nightwitches.png"]}
+
+##### fr 
+{ rank = same; 2011; tenga [label = "Tenga \n[fr]" ]}  #Q2397529
+{ rank = same; 2003; cops  [label = "C.O.P.S. \n[fr]"]}  ;  #Q2931838
+{ rank = same; 2016; magistratsmanigances [label = "Magistrats et Manigances\n[fr]"]}
+{ rank = same; 2016; ladyrossa  [label = "Lady Rossa\n[fr]"]}  di6dent -- ladyrossa ;
+{ rank = same; 2014; lamescardinal [label = "Les lames du Cardinal \n[fr]"]}  #Q30742185
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########################################################################
+############ Horror  Steampunk  Urban fantasy RPGs
+########################################################################
+
+
+
+##### Call of Cthulhu
+
+{ rank = same; 1981; callofcthulhu [label = "Call of Cthulhu" image="C:\gv\callofcthulhu.png"]} basicroleplaying -- callofcthulhu ; #Q1027121  
+{ rank = same; 1983; callofcthulhu2  [label = "Call of Cthulhu 2nd ed."]} callofcthulhu -- callofcthulhu2
+{ rank = same; 1984; masksnyarlathotep  [label = "Masks of Nyarlathotep" image="C:\gv\masksnyarlathotep.png"]}  callofcthulhu2 -- masksnyarlathotep ;     #Q65057239
+{ rank = same; 1986; callofcthulhu3  [label = "Call of Cthulhu 3rd ed."]}  callofcthulhu2 -- callofcthulhu3 ;
+{ rank = same; 1989; callofcthulhu4  [label = "Call of Cthulhu 4th ed."]}  callofcthulhu3 -- callofcthulhu4 ;
+{ rank = same; 1991; horrororientexpress  [label = "Horror on the Orient Express"]}  callofcthulhu4 -- horrororientexpress ;  #Q67315637
+{ rank = same; 1992; callofcthulhu5  [label = "Call of Cthulhu 5th ed."]}  callofcthulhu4 -- callofcthulhu5 ;
+{ rank = same; 1999; beyondmountainsmadness [label = "Beyond the Mountains of Madness"]}  callofcthulhu5 -- beyondmountainsmadness ; 
+{ rank = same; 2001; callofcthulhu20  [label = "Call of Cthulhu 20th anniv."]}  callofcthulhu5 -- callofcthulhu20 ;
+{ rank = same; 2004; callofcthulhu6  [label = "Call of Cthulhu 6th ed."]}  callofcthulhu20 -- callofcthulhu6 ;
+{ rank = same; 2006; tattersking  [label = "Tatters of the King"]}   callofcthulhu6 -- tattersking ;
+{ rank = same; 2014; callofcthulhu7  [label = "Call of Cthulhu 7th ed."]}  callofcthulhu6 -- callofcthulhu7 ;
+{ rank = same; 2004; cthulhuinvictus  [label = "Cthulhu invictus"]}  callofcthulhu6 -- cthulhuinvictus ;
+
+##### Cthulhu misc.
+
+{ rank = same; 1997; deltagreen [label = "Delta Green" image="C:\gv\deltagreen.png"]}   callofcthulhu5 -- deltagreen ;   #Q2053089
+{ rank = same; 2016; deltagreen2016  [label = "Delta Green 2016"]}  deltagreen -- deltagreen2016 ;
+{ rank = same; 2018; deltagreenfall  [label = "Fall of Delta Green"]}  deltagreen2016 -- deltagreenfall ; #Q66717361
+
+{ rank = same; 2008; hplpublicdomain  [label = "[HPL public domain EU]"]}  
+
+{ rank = same; 2007; esoterrorists  [label = "The Esoterrorists"]}   #Q21233473  #Q66717749 (1st ed.)
+{ rank = same; 2013; esoterrorists2  [label = "The Esoterrorists 2nd"]}   esoterrorists -- esoterrorists2 ;  #Q66717757
+{ rank = same; 2008; trailcthulhu  [label = "Trail of Cthulhu" image="C:\gv\trailcthulhu.png"]}   #Q3210775
+{ rank = same; 2013; eternallies  [label = "Eternal Lies"]}  trailcthulhu -- eternallies ;
+{ rank = same; 2012; nightblackagents  [label = "Night's Black Agents"]}  trailcthulhu -- nightblackagents ;  #Q21233583
+
+{ rank = same; 2010; thelaundry [label = "The Laundry"]}
+{ rank = same; 2012; tremulus [label = "Tremulus"]}  #Q64560508
+{ rank = same; 2013; worldwarcthulhu  [label = "World War Cthulhu"]}
+{ rank = same; 2014; achtungcthulhu  [label = "Achtung Cthulhu!"]}  #Q64524669
+{ rank = same; 2015; soth  [label = "Soth"]} 
+
+{ rank = same; 2010; cthulhudark0 [label = "Cthulhu Dark v0"  image="C:\gv\cthulhudark0.png"]}
+{ rank = same; 2017; cthulhudark [label = "Cthulhu Dark"  image="C:\gv\cthulhudark.png"]}  cthulhudark0 -- cthulhudark ;
+
+{ rank = same; 2018; stalkerselderdark  [label = "Stalkers of the Elder Dark "]}
+
+{ rank = same; 2000; pokethulhu [label = "Pokéthulhu"]} #Q1670287
+
+
+
+##### Horror
+
+{ rank = same; 1984; chill  [label = "Chill" image="C:\gv\chill.png"]} #Q1072963
+{ rank = same; 1990; chill2  [label = "Chill 2nd"]}  chill -- chill2 ;
+{ rank = same; 2015; chill3  [label = "Chill 3rd"]}  chill2 -- chill3 ;
+
+{ rank = same; 1996; deadlands  [label = "Deadlands" image="C:\gv\deadlands.png"]}
+{ rank = same; 1999; deadlands2  [label = "Deadlands 2nd"]}  deadlands -- deadlands2 ;
+{ rank = same; 2006; deadlandsr  [label = "Deadlands Reloaded"]}  deadlands2 -- deadlandsr ;
+
+{ rank = same; 2002; dustdevils  [label = "Dust Devils"]}  #Q16967584
+{ rank = same; 2007; dustdevilsrev  [label = "Dust Devils rev."]} dustdevils -- dustdevilsrev ;
+
+{ rank = same; 2006; dontrestyourhead  [label = "Don't Rest Your Head"]}  #Q21233458
+{ rank = same; 2009; serialhomicideunit  [label = "Serial Homicide Unit"]}  #Q64532667
+{ rank = same; 2012; thefinalgirl  [label = "The Final Girl"]}
+{ rank = same; 2017; bluebeardsbride  [label = "Bluebeard's Bride"  image="C:\gv\bluebeardsbride.png"]}  #Q66578414
+{ rank = same; 2005; dread  [label = "Dread"]}
+
+{ rank = same; 2006; fearitself  [label = "Fear Itself"]}  #Q21233479  #Q66717759
+{ rank = same; 2016; fearitself2  [label = "Fear Itself 2nd"]}  #Q66717763
+
+
+##### Urban fantasy
+
+{ rank = same; 1998; unknownarmies  [label = "Unknown Armies" image="C:\gv\unknownarmies.png"]}     #Q495582
+{ rank = same; 2002; unknownarmies2  [label = "Unknown Armies 2nd"]}  unknownarmies -- unknownarmies2 ;
+{ rank = same; 2017; unknownarmies3  [label = "Unknown Armies 3rd"]}  unknownarmies2 -- unknownarmies3 ;
+
+{ rank = same; 1999; puppetland  [label = "Puppetland"]}
+{ rank = same; 2001; littlefears  [label = "Littlefears"]}
+
+{ rank = same; 2002; sorcerer  [label = "Sorcerer"]}    #Q64528206
+
+{ rank = same; 2016; undying [label = "Undying"]}  
+{ rank = same; 2016; urbanshadows [label = "Urban Shadows"]}  #Q66579448
+
+{ rank = same; 2012; monsterhearts [label = "Monster Hearts"  image="C:\gv\monsterhearts.png"]}  
+{ rank = same; 2017; monsterhearts2 [label = "Monster Hearts 2"]}  monsterhearts -- monsterhearts2 ;
+
+{ rank = same; 2012; monsteroftheweek [label = "Monster of the Week"]}
+
+
+
+
+
+
+##### Spy
+
+{ rank = same; 1980; topsecret  [label = "Top Secret"]}
+{ rank = same; 1983; jb007  [label = "James Bond 007" image="C:\gv\jb007.png"]}  
+
+{ rank = same; 2002; spycraft  [label = "[Classic] Spycraft"]}
+{ rank = same; 2005; spycraft2  [label = "Spycraft 2.0"]}  spycraft -- spycraft2 ;
+{ rank = same; 2009; fantasycraft  [label = "Fantasy Craft"]}  spycraft2 -- fantasycraft ;
+
+{ rank = same; 2006; wildernessofmirrors  [label = "Wilderness of Mirrors"]}
+{ rank = same; 2011; wildernessofmirrors2  [label = "Wilderness of Mirrors 2nd"]}  wildernessofmirrors -- wildernessofmirrors2 ;
+
+{ rank = same; 1984; indianajones  [label = "The Adventures of Indiana Jones RPG"]}  ; Q2132161
+
+{ rank = same; 2007; spione  [label = "Spione: Story Now in Cold War Berlin"]}  ; #Q64524503
+
+{ rank = same; 2014; lagence  [label = "L'Agence \n[fr]"]}
+
+{ rank = same; 2009; secretsnlies  [label = "Secrets & Lies "]}
+
+
+
+
+# misc. 
+
+{ rank = same; 2005; themountainwitch  [label = "The Mountain Witch"]}   #Q7752487
+{ rank = same; 2004; dogsinthevineyard  [label = "Dogs in the Vineyard" image="C:\gv\dogsinthevineyard.png"]}  #Q2607653   
+{ rank = same; 2003; mylifewithmaster  [label = "My life with Master"]}    #Q1961883
+{ rank = same; 2002; octane  [label = "OctaNe"]}   #Q64530536
+
+{ rank = same; 2011; hollowpoint  [label = "Hollowpoint"]}
+
+{ rank = same; 2004; primetime  [label = "Primetime Adventures" image="C:\gv\primetime.png"]}  #Q3631244
+{ rank = same; 1980; dallas  [label = "Dallas: The Television Role-Playing Game" image="C:\gv\dallas.png"]} #Q19892349
+
+
+{ rank = same; 2002; inspectres  [label = "In Spectres" image="C:\gv\inspectres.png"]}   octane -- inspectres ;  #Q64530681 
+{ rank = same; 2006; lacuna  [label = "Lacuna Part I."]}  inspectres -- lacuna ; #Q64531008
+
+
+
+
+
+##### World of Darkness 
+
+{ rank = same; 1991; vampirethemasquerade [label = "Vampire : the Masquerade" image="C:\gv\vampirethemasquerade.png" ]} #Q650924   
+{ rank = same; 1992; vampirethemasquerade2 [label = "Vampire : the Masquerade 2nd ed"]}  vampirethemasquerade -- vampirethemasquerade2 ;
+{ rank = same; 1996; vampiredarkages [label = "Vampire : the Dark Ages"]}  vampirethemasquerade2 -- vampiredarkages ;
+{ rank = same; 1998; vampirethemasquerader [label = "Vampire : the Masquerade Rev ed"]}  vampirethemasquerade2 -- vampirethemasquerader ;
+{ rank = same; 1998; kindredeast [label = "Kindred of the East"]}  vampirethemasquerader -- kindredeast ;
+{ rank = same; 2003; kindredebonykingdom [label = "Kindred of the Ebony Kingdom"]} vampirethemasquerader -- kindredebonykingdom ;
+{ rank = same; 2003; victorianagevampire [label = "Victorian Age: Vampire"]} vampirethemasquerader -- victorianagevampire ;
+{ rank = same; 2004; gehenna [label = "Gehenna"]} vampirethemasquerade2 -- gehenna ;
+{ rank = same; 2005; vampirerequiem [label = "Vampire : the Requiem"]}  gehenna -- vampirerequiem ;  #Q338023
+{ rank = same; 2011; vampire20 [label = "Vampire 20th Anniversary"]}  vampirerequiem -- vampire20 ;
+{ rank = same; 2011; vampire5 [label = "Vampire 5th ed"]}  vampire20 -- vampire5 ;
+
+{ rank = same; 1992; werewolfapocalypse [label = "Werewolf : the Apocalypse" image="C:\gv\werewolfapocalypse.png"]}   #Q2142180
+{ rank = same; 1994; werewolfapocalypse2 [label = "Werewolf : the Apocalypse"]}  werewolfapocalypse -- werewolfapocalypse2 ;
+{ rank = same; 1997; werewolfwyldwest [label = "Werewolf : the Wyld West"]}  werewolfapocalypse2 -- werewolfwyldwest ;
+{ rank = same; 2000; werewolfapocalypser [label = "Werewolf Rev ed"]}  werewolfapocalypse2 -- werewolfapocalypser ;
+{ rank = same; 2005; werewolfforsaken [label = "Werewolf : the Forsaken"]}  werewolfapocalypser -- werewolfforsaken ;  #Q1921835
+{ rank = same; 2013; werewolf20 [label = "Werewolf 20th Anniv"]}  werewolfforsaken -- werewolf20 ;
+
+{ rank = same; 1993; mageascension [label = "Mage : the Ascension" image="C:\gv\mageascension.png"]}  arsmagica2 -- mageascension ;    #Q1883961
+{ rank = same; 1995; mageascension2 [label = "Mage : the Ascension 2nd ed" ]} mageascension -- mageascension2 ;
+{ rank = same; 1998; mtsc [label = "Mage : the Sorcerers Crusade"]} mageascension2 -- mtsc ;
+{ rank = same; 2000; mageascensionr [label = "Mage : the Ascension rev ed" ]} mtsc -- mageascensionr ;
+{ rank = same; 2005; mageascensionw [label = "Mage : the Awakening"]} mageascensionr -- mageascensionw ;
+{ rank = same; 2015; mageascension20 [label = "Mage 20th anniv"]} mageascensionw -- mageascension20 ;
+
+{ rank = same; 1993; mindeyetheatre [label = "Mind's Eye Theatre"]}  vampirethemasquerade -- mindeyetheatre ;
+{ rank = same; 1994; wraithoblivion [label = "Wraith : the Oblivion"]} #Q1933571
+{ rank = same; 1999; hunterreckoning [label = "Hunter : the Reckoning"]}
+{ rank = same; 2008; huntervigil [label = "Hunter : the Vigil"]}  hunterreckoning -- huntervigil ;
+{ rank = same; 2001; mummyresurrection [label = "Mummy : the Resurrection"]}  #Q1632271
+{ rank = same; 2003; orpheus [label = "Orpheus"]}  #Q1585470
+{ rank = same; 2006; prometheancreated [label = "Promethean: The Created"]}
+{ rank = same; 2009; geistsineaters [label = "Geist : the Sin Eaters"]}
+
+{ rank = same; 1995; changelindreaming [label = "Changelin : the Dreaming"]}  
+{ rank = same; 1997; changelindreaming2 [label = "Changelin : the Dreaming 2nd"]}  changelindreaming -- changelindreaming2 ; 
+{ rank = same; 2007; changelinlost [label = "Changeling : the Lost"]}  changelindreaming2 -- changelinlost ;
+{ rank = same; 2017; changelinlost20 [label = "Changeling 20th anniv"]}  changelinlost -- changelinlost20 ;
+
+
+
+
+
+
+    
+
+	
+	
+	
+############################################################  
+############ French RPGs
+############################################################
+
+
+
+
+
+##### 80s
+
+{ rank = same; 1982; dnd_maraninchi  [label = "Donjons et Dragons\n[pirate ed. aka 'Maraninchi ed'] \n[fr]" image="C:\gv\dnd_maraninchi.png"]}  #t13
+
+{ rank = same; 1984; empiregalactique  [label = "Empire galactique"]}  #Q3053285
+{ rank = same; 1985; revededragon  [label = "Rêve de dragon \n[fr]" image="C:\gv\revededragon.png"]} #Q390297    
+{ rank = same; 1993; revededragon2  [label = "Rêve de dragon 2e \n[fr]" image="C:\gv\revededragon2.png"]}  revededragon -- revededragon2 ;
+{ rank = same; 1994; oniros  [label = "Oniros \n[fr]"]}  revededragon2 -- oniros ; 
+{ rank = same; 2006; ourobouros  [label = "Ourobouros"]}  oniros -- ourobouros  ;
+{ rank = same; 2018; revededragon3  [label = "Rêve de dragon 3e \n[fr]"]}  revededragon2 -- revededragon3 ;
+
+{ rank = same; 1983; legendes  [label = "Légendes \n[fr]"]}  #Q3270166
+{ rank = same; 1984; legendes1001  [label = "Légendes des 1001 nuits \n[fr]"]}  legendes -- legendes1001 ;
+{ rank = same; 1986; legendestableronde  [label = "Légendes de la Table ronde \n[fr]"]}  legendes1001 -- legendestableronde ;  #Q64561722
+{ rank = same; 1987; legendesceltiques  [label = "Légendes celtiques \n[fr]"]}  legendestableronde -- legendesceltiques ;
+{ rank = same; 1988; legendesvalleerois  [label = "Légendes de la Vallée des rois \n[fr]"]}  legendesceltiques -- legendesvalleerois ;
+
+{ rank = same; 1984; mega  [label = "Mega \n[fr]"]}  jeuxetstrategie -- mega ;
+{ rank = same; 1986; mega2  [label = "Mega II \n[fr]"]}  mega -- mega2 ;
+{ rank = same; 1992; mega3  [label = "Mega 3 \n[fr]"]}  mega2 -- mega3 ;
+{ rank = same; 2012; mega4  [label = "Mega IV \n[fr]"]}  mega3 -- mega4 ;
+
+{ rank = same; 1984; malefices  [label = "Malefices \n[fr]" image="C:\gv\malefices.png"]}   #Q2376070
+{ rank = same; 2006; maleficesecp  [label = "Malefices 3e\n(ed. Club Pythagore) \n[fr]"]}  malefices -- maleficesecp ;
+# { rank = same; 2019; malefices4  [label = "Malefices 4e\n[fr]"]}  maleficesecp -- malefices4 ;
+
+{ rank = same; 1986; bitume  [label = "Bitume\n[fr]"]}  #Q2904952
+{ rank = same; 1987; bitume4  [label = "Bitume 4e\n[fr]"]}  bitume -- bitume4 ;
+{ rank = same; 1992; bitumemk5  [label = "Bitume MK5\n[fr]"]}  bitume4 -- bitumemk5 ;
+{ rank = same; 1988; zone [label = "Zone \n[fr]" ]}
+{ rank = same; 1988; animonde  [label = "Animonde \n[fr]"]}
+{ rank = same; 1991; heavymetal  [label = "Heavy Metal \n[fr]"]}  #Q3129144
+{ rank = same; 1994; scales  [label = "Squales \n[fr]"]}
+{ rank = same; 1995; nightprowler  [label = "Nightprowler \n[fr]"]} #Q3341428
+{ rank = same; 2006; nightprowler2  [label = "Nightprowler 2e\n[fr]"]}
+
+{ rank = same; 1988; auxarmescitoyens  [label = "Aux Armes, Citoyens !\n[fr]"]}
+{ rank = same; 1989; chouansvendeens  [label = "Chouans et Vendéens\n[fr]"]} auxarmescitoyens -- chouansvendeens ;
+
+{ rank = same; 1988; berlin18  [label = "Berlin XVIII 1st & 2e ed.\n[fr]"]}  #Q2897261
+{ rank = same; 1993; berlin183e  [label = "Berlin XVIII 3e \n[fr]"]}  berlin18 -- berlin183e ;
+{ rank = same; 2018; berlin184e  [label = "Berlin XVIII 4e \n[fr]"]}  berlin183e -- berlin184e ;
+
+{ rank = same; 1988; hawkmoonfr [label = "Hawkmoon \n[fr]" image="C:\gv\hawkmoonfr.png"]}  hawkmoon -- hawkmoonfr ;
+{ rank = same; 1996; hawkmoonfr2 [label = "Hawkmoon 2e \n[fr]"]}  hawkmoonfr -- hawkmoonfr2 ;
+{ rank = same; 2009; hawkmoon3fr  [label = "Hawkmoon 3e \n[fr]"]}  hawkmoonfr2 -- hawkmoon3fr ;
+
+
+{ rank = same; 1983; lultimeepreuve  [label = "L'Ultime Epreuve \n[fr]"]}
+{ rank = same; 1984; chroniqueslinais  [label = "Les Chroniques de Linaïs \n[fr]"]}
+{ rank = same; 1989; athanor  [label = "Athanor \n[fr]"]}
+{ rank = same; 1986; avantcharlemagne  [label = "Avant Charlemagne \n[fr]"]}  #Q2873310
+
+
+
+##### 90s
+
+{ rank = same; 1989; insmv  [label = "	In Nomine Satanis / Magna Veritas \n[fr]" image="C:\gv\insmv.png"]}  #Q778991
+{ rank = same; 1993; insmv2  [label = "INS/MV 2e \n[fr]"]}  insmv -- insmv2 ;
+{ rank = same; 1997; insmv3  [label = "INS/MV 3e \n[fr]"]}  insmv2 -- insmv3 ;
+{ rank = same; 2003; insmv4  [label = "INS/MV 4e \n[fr]"]}  insmv3 -- insmv4 ;
+{ rank = same; 2006; insmv4ap  [label = "INS/MV Apéro \n[fr]"]}  insmv4 -- insmv4ap ;
+{ rank = same; 2015; insmv5  [label = "INS/MV 5e \n[fr]"]}  insmv4ap -- insmv5 ;
+{ rank = same; 1993; stellainquisitorius  [label = "Stella Inquisitorus \n[fr]"]}  insmv2 -- stellainquisitorius ;
+
+{ rank = same; 1992; nephilim  [label = "Nephilim \n[fr]" image="C:\gv\nephilim.png"]}   #Q3338278
+{ rank = same; 1993; selenim  [label = "Selenim\n[fr]"]}  nephilim -- selenim ;
+{ rank = same; 1996; arthuriades  [label = "Arthuriades\n[fr]"]}  nephilim -- arthuriades ;
+{ rank = same; 1996; nephilim2  [label = "Nephilim 2e \n[fr]"]}  nephilim -- nephilim2 ;
+{ rank = same; 1996; chroniquesapocalypse  [label = "Chroniques de l’Apocalypse\n[fr]"]}  nephilim2 -- chroniquesapocalypse ;
+{ rank = same; 2001; nephilim3  [label = "Nephilim 3e \n[fr]"]}  chroniquesapocalypse -- nephilim3 ;
+{ rank = same; 2012; nephilim4  [label = "Nephilim 4e \n[fr]"]}  nephilim3 -- nephilim4 ;
+
+{ rank = same; 2000; pavillonnoir  [label = "Pavillon Noir \n[fr]"]}
+{ rank = same; 2004; pavillonnoir2  [label = "Pavillon Noir 2e \n[fr]"]}  pavillonnoir -- pavillonnoir2 ;
+{ rank = same; 2006; pavillonnoir3  [label = "Pavillon Noir 3e \n[fr]"]}  pavillonnoir2 -- pavillonnoir3 ;
+
+{ rank = same; 1997; polarisfr  [label = "Polaris \n[fr]"]}
+{ rank = same; 1998; polarisfr2  [label = "Polaris 2e \n[fr]"]}  polarisfr -- polarisfr2 ;
+{ rank = same; 2008; polarisfr3  [label = "Polaris 3e \n[fr]"]}  polarisfr2 -- polarisfr3 ;
+
+{ rank = same; 1991; bloodlust  [label = "Bloodlust \n[fr]" image="C:\gv\bloodlust.png"]}   #Q2906987
+{ rank = same; 1995; bloodlust2e  [label = "Bloodlust 2e \n[fr]"]}  bloodlust -- bloodlust2e ;
+{ rank = same; 2012; bloodlustmetal  [label = "Bloodlust ed. Metal \n[fr]"]}  bloodlust2e -- bloodlustmetal ;
+
+{ rank = same; 1997; darkearth [label = "Dark Earth \n[fr]"]}
+{ rank = same; 1999; darkearth2 [label = "Dark Earth 2e \n[fr]"]}  darkearth -- darkearth2 ;
+{ rank = same; 1996; guildes [label = "Guildes \n[fr]" ]}  #Q3119535
+{ rank = same; 2000; guildes2 [label = "Guildes Eldorado \n[fr]"]}  guildes -- guildes2 ;
+
+{ rank = same; 1996; shaan [label = "Shaan \n[fr]" ]}
+{ rank = same; 2013; shaan2 [label = "Shaan 2e \n[fr]" ]} shaan -- shaan2 ;
+
+{ rank = same; 1995; thoan [label = "Thoan \n[fr]" ]}
+{ rank = same; 1999; lyonesse [label = "Lyonesse \n[fr]" ]}
+
+{ rank = same; 1999; agone  [label = "Agone \n[fr]"]}  #Q2827053
+{ rank = same; 2010; abyme  [label = "Abyme \n[fr]"]}  #Q64532408
+{ rank = same; 2012; chroniquesfeals  [label = "Les Chroniques des Féals \n[fr]"]}   #Q64532483
+
+
+{ rank = same; 1995; mileschristi  [label = "Miles Christi \n[fr]" image="C:\gv\mileschristi.png"]}
+{ rank = same; 1994; raoul  [label = "Raoul \n[fr]" image="C:\gv\raoul.png"]}
+{ rank = same; 1994; ecryme [label = "Ecryme \n[fr]" ]}
+{ rank = same; 1993; alienoids [label = "Alienoïds \n[fr]" ]}  #Q2836849
+
+
+##### 2000s 
+
+
+{ rank = same; 2010; sensrenaissance  [label = "Sens Renaissance \n[fr]"]}
+{ rank = same; 2010; sensmort  [label = "Sens Mort \n[fr]"]}  
+{ rank = same; 2013; sensneant  [label = "Sens Néant \n[fr]"]}
+{ rank = same; 2016; senscosmo  [label = "Sens Cosmo \n[fr]"]}
+{ rank = same; 2016; senschaos  [label = "Sens Chaos \n[fr]"]}
+{ rank = same; 2018; vademecum [label = "Vade+Mecum\n[fr]" image="C:\gv\vademecum.png"]}
+{ rank = same; 2012; lacellule  [label = "Podcast La Cellule"]}
+
+{ rank = same; 2005; brainsoda  [label = "Brain Soda \n[fr]"]}
+{ rank = same; 2008; brainsoda2  [label = "Brain Soda 2 \n[fr]"]}  brainsoda -- brainsoda2 ;
+
+{ rank = same; 2004; ewsystem  [label = "EW-system \n[fr]"]}   #Q3046258
+{ rank = same; 2004; arkeos  [label = "Arkeos \n[fr]"]}  ewsystem -- arkeos ;  #Q2861570
+{ rank = same; 2005; cirkus  [label = "Cirkus \n[fr]"]}  ewsystem -- cirkus ;  #Q2974204
+
+{ rank = same; 2010; brigadechimerique  [label = "Brigade Chimérique \n[fr]"]}
+{ rank = same; 2009; chroniquesoubliees  [label = "Chroniques Oubliées \n[fr]"]}
+{ rank = same; 2010; ombresesteren  [label = "Les ombres d'Esteren \n[fr]"]} #Q66126585
+{ rank = same; 2007; patient13  [label = "Patient 13 \n[fr]"]}
+{ rank = same; 2005; qin  [label = "Qin \n[fr]"]}
+{ rank = same; 2002; retrofutur  [label = "Retrofutur \n[fr]"]}
+{ rank = same; 2001; donjonclefsenmains  [label = "Donjon Clefs en mains \n[fr]"]}
+{ rank = same; 2017; dstart  [label = "D-Start \n[fr]"]}
+
+{ rank = same; 2006; dksystem [label = "DK System \n[fr]" ]}
+{ rank = same; 2008; dksystem2 [label = "DK 2\n[fr]" ]}
+
+{ rank = same; 2008; sombrelight [label = "Sombre light \n[fr]" ]} #Q25396161
+{ rank = same; 2011; sombren1 [label = "Sombre n.1 \n[fr]" image="C:\gv\sombren1.png"]}  sombrelight -- sombren1 ;
+
+{ rank = same; 2005; tedeumpourunmassacre [label = "Te Deum pour un massacre \n[fr]" ]}
+{ rank = same; 2010; tedeumpourunmassacre2 [label = "Te Deum 2e \n[fr]" ]}  tedeumpourunmassacre -- tedeumpourunmassacre2 ;
+
+{ rank = same; 2013; millevaux [label = "Millevaux\n[fr]"]}
+{ rank = same; 2014; inflorenza [label = "Inflorenza \n[fr]"]}  #Q64561870
+{ rank = same; 2015; dragonfly [label = "Dragonfly Motel \n[fr]"]}
+{ rank = same; 2015; odyssea [label = "Odysséa \n[fr]"]}
+{ rank = same; 2016; marchebranche [label = "Marchebranche \n[fr]"]}
+
+{ rank = same; 2011; millesmarches  [label = "Milles marches \n[fr]"  image="C:\gv\millesmarches.png"]}
+{ rank = same; 2013; dragondepoche [label = "Dragon de poche\n[fr]"]}
+{ rank = same; 2013; oltree [label = "Oltrée!\n[fr]"  image="C:\gv\oltree.png"]}
+{ rank = same; 2014; nanochrome [label = "NanoChrome\n[fr]"]}
+{ rank = same; 2015; laluneet12lotus [label = "La Lune et Douze Lotus\n[fr]"]}
+{ rank = same; 2016; mordiou [label = "Mordiou\n[fr]"]}
+{ rank = same; 2017; soulfire [label = "Soulfire\n[fr]"]}
+
+{ rank = same; 2015; surlesfrontieres [label = "Sur les frontières\n[fr]"]}
+{ rank = same; 2016; summercamp [label = "Summer Camp\n[fr]"]}
+{ rank = same; 2017; auxmarchesdupouvoir [label = "Aux marches du pouvoir\n[fr]"]}
+{ rank = same; 2017; monstres [label = "Monstres\n[fr]"]}
+
+
+
+{ rank = same; 2005; lanfeust [label = "Jeu d'aventure de Lanfeust\n et du monde de Troy \n[fr]" ]}
+{ rank = same; 2009; dixmilles [label = "10000 \n[fr]" ]}
+{ rank = same; 2004; vermine [label = "Vermine \n[fr]" ]}
+{ rank = same; 2016; naheulbeuk [label = "Naheulbeuk \n[fr]" ]}   #t62p
+{ rank = same; 2007; capharnaum  [label = "Capharnaum \n[fr]"]}
+{ rank = same; 2013; sechapperdesfaubourgs [label = "S’échapper des Faubourgs \n[fr]"]} #Q64706323
+{ rank = same; 2007; kuro  [label = "Kuro \n[fr]"]}
+{ rank = same; 2012; ukiyo  [label = "Les Errants d'Ukiyo\n[fr]"]}
+{ rank = same; 2014; perdussouslapluie  [label = "Perdus sous la Pluie\n[fr]\nLost in the Rain" image="C:\gv\perdussouslapluie.png"]}
+{ rank = same; 2016; librete [label = "Libreté\n[fr]"]}
+{ rank = same; 2017; macadabre [label = "Macadabre\n[fr]"]}
+{ rank = same; 2013; wastburg [label = "Wastburg\n[fr]"]}
+{ rank = same; 2012; prosopopee [label = "Prosopopée\n[fr]" image="C:\gv\prosopopee.png"]}  #Q64706258
+{ rank = same; 2012; monostatos [label = "Monostatos \n[fr]"]} #Q64706228
+{ rank = same; 2008; hellywood  [label = "Hellywood\n[fr]"]}  #Q3129919
+{ rank = same; 2013; postmortem [label = "Post Mortem\n[fr]"]}
+{ rank = same; 2015; sphynx [label = "Sphynx\n[fr]"]}
+{ rank = same; 2007; tranchonstraquons [label = "Tranchons & Traquons\n[fr]"]}
+{ rank = same; 2009; tranchonstraquons2 [label = "Tranchons & Traquons 2.0\n[fr]"]}
+{ rank = same; 2017; freaksqueele [label = "Freaks' Squeele\n[fr]"]}
+{ rank = same; 2009; innommable [label = "Innommable \n[fr]"]} #Q64706222
+
+
+
+
+
+
+##### Magazines
+
+{ rank = same; 1980; jeuxetstrategie  [label = "Jeux & Stratégie\n[fr]"]}
+{ rank = same; 1989; jeuxetstrategieend  [label = "x"]}  jeuxetstrategie -- jeuxetstrategieend ;
+
+{ rank = same; 1980; casusbelli  [label = "Casus Belli \n[fr]" image="C:\gv\casusbelli.png"]}  #Q515818
+{ rank = same; 1985; role  [label = "R.O.L.E. \n[fr]"]} casusbelli -- role ;
+{ rank = same; 1986; laelith  [label = "Laelith \n[fr]" image="C:\gv\laelith.png"]} casusbelli -- laelith ;
+{ rank = same; 1986; simulacres  [label = "SimulacreS \n[fr]"]}   casusbelli -- simulacres ;
+{ rank = same; 1991; capitainevaudou  [label = "Capitaine Vaudou \n[fr]"]} simulacres -- capitainevaudou ; 
+{ rank = same; 1998; cyberage  [label = "Cyber Age \n[fr]"]} simulacres -- cyberage ; 
+{ rank = same; 2000; casusbelli2  [label = "Casus Belli 2 \n[fr]"]}   casusbelli -- casusbelli2 ;
+{ rank = same; 2006; casusbelli2end  [label = "x"]}   casusbelli2 -- casusbelli2end ;
+{ rank = same; 2010; casusbelli3  [label = "Casus Belli 3 \n[fr]"]}  casusbelli2end -- casusbelli3 ;
+{ rank = same; 2012; casusbelli4  [label = "Casus Belli 4 \n[fr]"]}  casusbelli3 -- casusbelli4 ;
+
+{ rank = same; 1983; runesmagazine  [label = "Runes \n[fr]"]}  #Q3453230
+{ rank = same; 1985; runesmagazineend  [label = "x"]}  runesmagazine -- runesmagazineend ;
+
+{ rank = same; 1987; graal  [label = "Graal \n[fr]"]}
+{ rank = same; 1990; graalend  [label = "x"]}  graal -- graalend ;
+
+{ rank = same; 1985; dragonradieux  [label = "Dragon Radieux \n[fr]" image="C:\gv\dragonradieux.png"]} #Q3038777
+{ rank = same; 1990; dragonradieuxend  [label = "x"]}  dragonradieux -- dragonradieuxend ;
+{ rank = same; 1988; empiresetdynasties  [label = "Empires & Dynasties \n[fr]" image="C:\gv\empiresetdynasties.png"]}  dragonradieux -- empiresetdynasties [style=dotted];  #Q3053300
+{ rank = same; 1994; yurlh [label = "Yurl'h \n[fr]"]}  empiresetdynasties -- yurlh [style=dotted];
+{ rank = same; 1989; hurlements  [label = "Hurlements \n[fr]" image="C:\gv\hurlements.png"]}  dragonradieux -- hurlements [style=dotted]; #Q3143399
+{ rank = same; 1994; chimeres  [label = "Chimères \n[fr]"]}  hurlements -- chimeres ; 
+
+
+{ rank = same; 1990; rolemag  [label = "Role Mag \n[fr]"]}
+{ rank = same; 1991; rolemagend  [label = "x"]}  rolemag -- rolemagend [shape=tee];
+
+{ rank = same; 1986; chroniquesoutremonde1  [label = "Chroniques d'outre-monde \n[fr]" image="C:\gv\chroniquesoutremonde1.png"]}
+{ rank = same; 1990; chroniquesoutremonde2  [label = "Chroniques d'outre-monde 2 \n[fr]"]}  
+{ rank = same; 1993; chroniquesoutremondeend  [label = "x"]}  chroniquesoutremonde1 -- chroniquesoutremonde2 -- chroniquesoutremondeend ;
+{ rank = same; 1986; trauma [label = "Trauma \n[fr]" ]}  chroniquesoutremonde1 -- trauma ;
+
+{ rank = same; 1996; backstab  [label = "Backstab \n[fr]"]}
+{ rank = same; 2006; backstabend  [label = "x"]}  backstab -- backstabend [shape=tee] ;
+
+{ rank = same; 2008; jdrmag [label = "JDR Mag' \n[fr]"]}
+{ rank = same; 2016; jdrmagend  [label = "x"]}  jdrmag -- jdrmagend [shape=tee];
+
+{ rank = same; 2010; di6dent  [label = "Di6dent \n[fr]"]}
+{ rank = same; 2017; di6dentend  [label = "x"]}  di6dent -- di6dentend ;
+
+{ rank = same; 2012; altaride  [label = "Chroniques d'Altaride \n[fr]"]}
+{ rank = same; 2014; voixaltaride  [label = "Voix d'Altaride \n[fr]"]}  altaride -- voixaltaride ;
+
+{ rank = same; 2011; radioroliste  [label = "Radio Roliste \n[fr]"]}
+{ rank = same; 2014; carnetsludo  [label = "Carnets Ludographiques \n[fr]"]}  radioroliste -- carnetsludo ;
+
+
+##### Misc. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################################################
+############ RPGs in the rest of the World 
+################################################
+
+################ Italy
+
+{ rank = same; 1990; icavalieri [label = "I Cavalieri del Tempio \n[it]" ] }
+
+
+
+
+################ Sweden
+
+{ rank = same; 1982; drakar [label = "Drakar och Demoner \n[sw]" ]}
+{ rank = same; 1984; mutant [label = "Mutant \n[sw]" ] }
+{ rank = same; 1986; eon [label = "Eon \n[sw]" ]}
+{ rank = same; 1991; kult  [label = "Kult \n[sw]" image="C:\gv\kult.png"]}
+{ rank = same; 1993; mutantchronicles [label = "Mutant Chronicles \n[sw]"] }
+{ rank = same; 2005; noctum [label = "Noctum \n[sw]"] }
+{ rank = same; 2014; mutantyearzero [label = "Mutant: Year Zero\n[sw]"] } mutant -- mutantyearzero ;
+{ rank = same; 2014; symbaroum [label = "Symbaroum\n[sw]" ] }
+# drakar -- mutant -- eon -- kult -- mutantchronicles -- noctum -- symbaroum [style=dotted];
+
+
+################ Brazil
+
+{ rank = same; 1991; tagmar [label = "Tagmar \n[br]" ]}
+
+
+
+
+################ Germany
+
+{ rank = same; 1981; midgardde [label ="Midgard \n [de]" ]}  #Q1931951
+
+{ rank = same; 1984; dasschwarzeauge [label =  "Das Schwarze Auge \n[de]" image="C:\gv\dasschwarzeauge.png"]}  #Q682229
+{ rank = same; 1988; dasschwarzeauge2 [label =  "DSA 2nd\nSchwertmeister \n[de]" ]} dasschwarzeauge -- dasschwarzeauge2 ;
+{ rank = same; 1993; dasschwarzeauge3 [label = "DSA 3rd \n[de]" ]} dasschwarzeauge2 -- dasschwarzeauge3 ;
+{ rank = same; 2001; dasschwarzeauge4 [label = "DSA 4th \n[de]" ]} dasschwarzeauge3 -- dasschwarzeauge4 ;
+{ rank = same; 2015; dasschwarzeauge5 [label ="DSA 5th \n[de]" ]} dasschwarzeauge4 -- dasschwarzeauge5 ;
+
+{ rank = same; 1993; aborea [label ="Aborea \n [de]" ]}  #Q322937
+{ rank = same; 1985; dassagasystem [label ="Das Saga-System\n[de]" ]}  #Q2211585
+{ rank = same; 1990; rufdeswarlock [label ="Ruf des Warlock\n[de]" ]}  #Q2174709
+{ rank = same; 1993; spacegothic [label ="Space Gothic\n[de]" ]}  #Q2306295
+
+{ rank = same; 2004; degenesis [label ="Degenesis\n[de]" ]} #Q1182829
+{ rank = same; 2001; katzulhu  [label = "Katzulhu\n[de]"]}  #s20
+{ rank = same; 2008; heredium   [label = "Heredium \n[de]"]}  #Q1609747
+{ rank = same; 2009; dungeonslayers  [label = "Dungeonslayers\n[de]"]}  #s84 #Q1265749
+
+{ rank = same; 2013; splittermond   [label = "Splittermond \n[de]"]}  #Q18027995
+
+
+################ Spain
+
+{ rank = same; 1990; aquelarre  [label = "Aquelarre \n[es]" image="C:\gv\aquelarre.png"]}   #Q2859257
+{ rank = same; 1999; aquelarre2  [label = "Aquelarre 2nd \n[es]"]} aquelarre -- aquelarre2  ;
+{ rank = same; 2001; aquelarre3  [label = "Aquelarre 3rd \n[es]"]}  aquelarre2 -- aquelarre3 ;
+
+{ rank = same; 1992; fanhunter [label = "Fanhunter\n[es]" ] }  #Q2905432
+{ rank = same; 1993; uniserso [label = "Universo\n[es]" ] }
+{ rank = same; 2002; capitanalatriste [label = "Capitan Alatriste \n[es]"]}  #Q64532744
+{ rank = same; 1994; comandosdeguerra [label = "Comandos de Guerra \n[es]"] }  #Q5778481
+{ rank = same; 2005; anima  [label = "Anima : Beyond Fantasy \n[es]"]}  #Q2849980
+{ rank = same; 2008; arcanamvndi  [label = "Arcana Mvndi \n[es]"]}
+{ rank = same; 2014; pequenosdetectives  [label = "Pequeños Detectives de Monstruos\n[es]" image="C:\gv\pequenosdetectives.png"]}
+{ rank = same; 2015; theendoftheworld  [label = "The End of the World\n[es]"]}
+{ rank = same; 2015; blacksad  [label = "Blacksad: juego de rol\n[es]"]}
+{ rank = same; 2015; hitos  [label = "HITOS\n[es]"]}
+{ rank = same; 2016; horadeaventuras  [label = "Hora de Aventuras\n[es]"]}
+
+
+
+################ Japan
+
+{ rank = same; 1984; roadstolord  [label = "Roads to Lord\n[jp]"]}  
+{ rank = same; 1986; recordoflodosswar  [label = "Record of Lodoss War replays\n[jp]" ]}  
+{ rank = same; 1989; swordworldrpg  [label = "Sword World RPG\n[jp]"]} 
+{ rank = same; 1999; bladearcana  [label = "Blade of Arcana \n [jp]"]} #Q4923722
+
+{ rank = same; 1997; tenrabansho  [label = "Tenra Bansho\n[jp]"]}
+{ rank = same; 2000; tenrabanshoz  [label = "Tenra Bansho Zero"]}  tenrabansho -- tenrabanshoz ;
+{ rank = same; 2001; doublecross  [label = "Double Cross\n[jp]"]}
+{ rank = same; 2004; maid  [label = "Maid RPG\n[jp]"]}
+{ rank = same; 2006; goldensky  [label = "Yuuyake Koyake \n 'Golden Sky Stories'\n[jp]"]}   #t40
+{ rank = same; 2007; ryuutama  [label = "Ryuutama\n[jp]" image="C:\gv\ryuutama.png"]}
+{ rank = same; 2007; touhou  [label = "Touhou RPG\n[jp]"]}
+
+
+################ Poland
+{ rank = same; 2003; neuroshima  [label = "Neuroshima\n[pl]"]}
+
+
+################ Finland
+
+{ rank = same; 2003; myrskynaika  [label = "Myrskyn aika \n[fi]"]} #Q11883694
+
+
+
+
+
+################################################################  
+############ RPGs listed/known by major systems 
+################################################################
+
+
+
+
+
+{ rank = same; 1986; ghostbusters [label="Ghostbusters" image="C:\gv\ghostbusters.png"]}
+{ rank = same; 1989; ghostbustersi [label="Ghostbusters International"]} ghostbusters -- ghostbustersi ;
+{ rank = same; 1992; overtheedge [label = "Over the Edge" image="C:\gv\overtheedge.png"] ;}   #Q726682
+{ rank = same; 1993; risus [label="Risus" image="C:\gv\risus.png"]}
+
+
+{ rank = same; 1986; gurps [label="GURPS" image="C:\gv\gurps.png"]}
+{ rank = same; 1988; gurps3 [label="GURPS 3rd"]} gurps -- gurps3 ;
+{ rank = same; 2004; gurps4 [label="GURPS 4th"]} gurps3 -- gurps4 ;
+
+
+{ rank = same; 1992; fudge [label="Fudge"]}
+{ rank = same; 2002; fate [label="FATE"]}   fudge -- fate ;  #Q1350935
+{ rank = same; 2003; fate2 [label="FATE 2.0"]}    fate -- fate2 ;
+{ rank = same; 2006; fate3 [label="Fate 3rd"]}  fate2 -- fate3 ;
+{ rank = same; 2006; sotc [label="Spirit of the Century" image="C:\gv\sotc.png"]}
+{ rank = same; 2008; starblazer [label="Starblazer Adventures" ]}
+{ rank = same; 2009; diaspora [label="Diaspora"]}  #Q18206449
+{ rank = same; 2010; dresdenfiles [label="Dresden Files"]}
+{ rank = same; 2010; strandoffate [label="Strands of Fate"]}
+{ rank = same; 2014; fate4 [label="Fate Core (4th)" image="C:\gv\fate4.png"]}  fate3 -- fate4 ;
+{ rank = same; 2014; fate4fae [label="Fate Accelerated Edition (FAE)" image="C:\gv\fate4fae.png"]}  fate4 -- fate4fae ; 
+{ rank = same; 2014; mindjammer [label="Mindjammer"]}
+
+{ rank = same; 2004; pdq [label="PDQ System"]} ;
+
+{ rank = same; 2003; savageworlds  [label = "Savage Worlds" image="C:\gv\savageworlds.png"]} #Q916623
+{ rank = same; 2003; fiftyfathoms [label="50 Fathoms"]} ;
+
+{ rank = same; 2008; cortex [label="Cortex System"]}  #2010: cortex plus
+{ rank = same; 2010; smallville [label="Smallville RPG" image="C:\gv\smallville.png"]}
+{ rank = same; 2010; leverage [label="Leverage RPG" image="C:\gv\leverage.png"]} 
+{ rank = same; 2009; supernatural [label="Supernatural RPG"]} 
+
+
+
+{ rank = same; 2010; apocalypseworld [label="Apocalypse World" image="C:\gv\apocalypseworld.png"]}
+{ rank = same; 2012; dungeonworld [label="Dungeon World" image="C:\gv\dungeonworld.png"]}
+{ rank = same; 2017; threadbare   [label = "Threadbare RPG"]}
+
+
+{ rank = same; 2007; gumshoesystem [label = "Gumshoe System" ]} 
+{ rank = same; 2016; bubblegumshoe [label = "Bubblegumshoe" ]}  #Q66577681
+
+{ rank = same; 2011; fufreeuniversal  [label = "FU: the Free, Universal Roleplaying"]}
+
+{ rank = same; 2009; wordplay  [label = "Wordplay"]}
+
+{ rank = same; 2003; silhouette  [label = "Silhouette Core\n[ca]"]}
+
+{ rank = same; 2009; tahamaat  [label = "Rock of Tahamaat, Tyrant of IIEE"]}
+
+{ rank = same; 2017; icrpg  [label = "Index Card RPG"]}
+
+{ rank = same; 2012; dogeatdog  [label = "Dog eat dog"]}
+
+{ rank = same; 2000; thepool [label = "The Pool"]}   
+
+{ rank = same; 2002; otherkind [label = "Otherkind"]}    
+
+{ rank = same; 2007; blissstage [label = "Bliss Stage"]}  
+
+{ rank = same; 2008; solipsist [label = "Solipsist"]}  #Q64524370 
+
+
+
+
+
+
+
+################################################################
+############ Narrativist games & storygames 
+################################################################
+
+
+
+
+{ rank = same; 2005; breakingtheice  [label = "Breaking the Ice"]} 
+{ rank = same; 2008; shootingthemoon  [label = "Shooting the Moon"]} 
+{ rank = same; 2013; undermyskin  [label = "Under my Skin"]} 
+
+{ rank = same; 2013; thequietyear  [label = "The quiet year (Une année de répit)"]}   #yearpub?
+
+{ rank = same; 2008; baronmunchausen  [label = "The Extraordinary Adventures\nof Baron Munchausen"]} #Q25112595
+
+{ rank = same; 2009; montsegur1244  [label = "Montségur 1244"]}
+
+{ rank = same; 2007; archipelago  [label = "Archipelago"]}    
+
+{ rank = same; 2009; ladyblackbird  [label = "Lady Blackbird" image="C:\gv\ladyblackbird.png"]}  #Q67174687
+{ rank = same; 2015; magisterlor  [label = "Magister Lor\nLord Scurlock"]}
+ladyblackbird -- magisterlor ; 
+
+{ rank = same; 2009; polaris  [label = "Polaris" image="C:\gv\polaris.png"]}   #Q17131035
+
+{ rank = same; 2009; fiasco  [label = "Fiasco" image="C:\gv\fiasco.png"]} #Q3744369
+
+{ rank = same; 2010; remembertomorrow [label = "Remember Tomorrow"]}
+
+{ rank = same; 2017; intothewood [label = "Into the Wood\n[fr]"]}
+
+{ rank = same; 2007; poisond [label = "Poison'd"  image="C:\gv\poisond.png"]}
+
+{ rank = same; 2015; fallofmagic  [label = "Fall of Magic"]} 
+
+{ rank = same; 2011; microscope  [label = "Microscope"]}
+
+{ rank = same; 2018; dreamaskew  [label = "Dream Askew"]} 
+
+{ rank = same; 2009; apennyformythoughts  [label = "A Penny for My Thoughts"]}  #Q21233599 
+
+{ rank = same; 2018; lovecraftesque   [label = "Lovecraftesque"]} 
+
+{ rank = same; 2006; itwasamutualdecision   [label = "It Was a Mutual Decision"]}  #Q64524537
+
+{ rank = same; 2009; labyrinthsnlycanthropes   [label = "Labyrinths & Lycanthropes"]}  #Q64524565
+
+{ rank = same; 2006; carry   [label = "Carry: A Game about War"]}  #Q64524590
+
+{ rank = same; 2005; bacchanal   [label = "Bacchanal"]}  #Q64527705
+
+{ rank = same; 2002; trollbabe   [label = "Trollbabe"]}  #Q682803
+
+{ rank = same; 2008; xxxxtremestreetluge   [label = "XXXXtreme STREET luge"]}  #Q64528439
+
+{ rank = same; 2006; athousandandonenights   [label = "A Thousand and One Nights"]}  #Q64532605
+
+{ rank = same; 2006; thecourtoftheempress   [label = "The Court of the Empress"]}  #Q64532629
+
+{ rank = same; 2007; dirtysecrets  [label = "Dirty Secrets"]}  #Q64706218
+
+{ rank = same; 2019; forthequeen  [label = "For the Queen"]}  #Q66115776
+ 
+{ rank = same; 2008; dawnofworlds  [label = "Dawn of Worlds"]}  
+
+
+#Q5455	Blue Rose?
+
+
+
+
+
+} # end of part 3 
+
+
+
+
+
+
+###################################################################
+###########                                              ##########
+########### Part 4 : List of innovations in game design  ##########
+###########                                              ##########
+###########  or emerging play / intention of play        ##########
+###########                                              ##########
+###################################################################
+
+
+
+
+###################################################################
+#####           Misc historical innovations                   #####
+###################################################################
+
+{
+node [fontcolor=chocolate4];
+edge [color=chocolate4; weight=2]
+
+
+{ unfairinfavorofpc [label ="[(em) Game unfairness in favor of PC]" ]}  blackmoor -- unfairinfavorofpc ; # opposed to wargames: fair to all #s8 
+{ nowincond [label="No concrete win condition"]}   blackmoor -- nowincond;
+
+
+###### Terms 
+{ termrpg [label="1st term 'Role-playing game'"]}  thestrategicreview -- termrpg ;   #p9 
+# 1976 : TSR markets DnD as "RPG"
+{ termgm [label="1st term 'Game master'"]}  chivalrynsorcery -- termgm ;
+{ alterngameterm [label="Alternate D&D game terms\n[to avoid copyright]"]}  firstfantasycampaign -- alterngameterm ;
+
+
+
+####### Meta 
+{ parodying [label="Some mechanics parodying RPG gaming habits"]}  hackmaster4 -- parodying ;
+{ revededragonmiseenabime [label="Frame-within-the frame: PCs are dreamt by dragons\n like they are played by players"]}  revededragon -- revededragonmiseenabime ;
+{ greydreaming [label="Inter game sessions are greydreaming"]}  revededragonmiseenabime -- greydreaming ;
+{ collectivemind [label="P & PC share ideas and emotions collectively"]}  headspace -- collectivemind ;
+{ consensusreality [label="Consensus reality as metaphor of the shared players experience"]}  mageascension -- consensusreality ; #s10
+{ gmstoryteller [label="Module 'contains a story'\nGM is the spirit of Astinus (historian's historian)"]}  dragonlance -- gmstoryteller ;
+{ dramasystem [label="Breakdown of fiction into procedural\n scenes and dramatic scenes"]}  hillfolk -- dramasystem ;
+
+
+###### Endgame
+{ endgamelast [label="Endgame when 1 PC is left"]}  perdussouslapluie -- endgamelast ;
+{ endgametragic [label="Inevitable tragic endgame"]}  polaris -- endgametragic ;
+{ endgameid [label = "Endgame: when ID of PCs are all revealed"]}   psirun -- endgameid ;
+
+###### Participants 
+{ age3yo [label="Age: 3+"]}  pequenosdetectives -- age3yo ;
+
+
+
+}
+
+
+
+
+
+######################################################################
+#####  Authority on fiction:  Gamemaster roles vs players roles     ##
+######################################################################
+
+
+
+
+{
+node [fontcolor=aquamarine3];
+edge [color=aquamarine3; weight=2]
+
+
+########## Game mastering
+{ refereerpg [label = "A referee \n[anything can be attempted, incomplete info]"]}   
+freekriegsspielmovement -- refereerpg ;
+strategos -- refereerpg ; # "anything can be attempted" #s92
+modernwarinminature -- refereerpg ; 
+braunstein -- refereerpg ; 
+strategosn -- refereerpg ;
+refereerpg -- blackmoor ;
+
+{ caller [label="Caller (one player telling plans \nand actions of the other\n players to the DM)"]}   dndmoldvay -- caller ;
+{ gmisauthority [label="GM needs to be a figure of authority (adult, dad or pastor)"]} dragonraid -- gmisauthority ;
+
+
+########## Final decision
+{ dmalwaysright [label="GM has have every right to overrule the dice at any time"]}    adddungeonmasterguide -- dmalwaysright ; #s7
+{ dmalwaysright2 [label="GM is the Boss, he has the final decision"]}   dmalwaysright2 -- dndmoldvay ;
+dmalwaysright -- dmalwaysright2 [style=dotted] ; 
+{ rulezero [label="[Rule Zero]"]}   vampirethemasquerade -- rulezero ;
+
+
+########## Collaborative campaign storytelling  #Q66841835
+{ troupestyle [label="'Troupe-style play' : \n Each players can GM side-stories of the campaign \n Some elements of the world (factions, NPCs,...) belong to a player"]}  arsmagica -- troupestyle ; 
+{ pinterpretcentralpc [label="Players interpret collectively a central PC, and one PC each"]}  magistratsmanigances -- pinterpretcentralpc ;
+{ settingchangehands [label="Each player is GMing one important setting element\nand elements change hands when certain conditions are met"]} dreamaskew -- settingchangehands ;  #s17 
+{ negociationwithastick [label="Negotiation with a stick"]} {inawickedage ; poisond } -- negociationwithastick ; #s66 "where you don't get you want by winning conflicts, just the means to coerce the other players into bargaining with you to give you what you want. "
+
+######### Fast turning gamemasters
+{ threegm [label="3 gamemasters: one opposition, \none emotional relationships, \none society/hierarchy influences"]}  polaris -- threegm ;
+{ pcvsotherdm [label="Every scene a turning PC plays vs the other as gamemasters"]}  perdussouslapluie -- pcvsotherdm ;
+
+
+######### Players take control
+{ wagers [label="Wager mechanics: player takes control of game & world"]}   octane -- wagers ;
+{ adversarialsystem [label="Adversarial system: PCs describe if success,\n GM describes if failure"]}  inspectres -- adversarialsystem  ;
+{ stopscene [label="Stop and skip what's played in the scene\n(silent 'safe word')"]}   xcard -- stopscene ;
+{ successdecideauthority [label="Success of resolution decides\nif player or GM has authority to tell the result"]}  housesoftheblooded -- successdecideauthority ;
+{ pcdescribeconsequences [label="If success, player describes consequences,\n(with advantage to the last who talk)"]} bloodnhonor -- pcdescribeconsequences ;
+{ bloodyvstest [label="Bloody vs Test: fast-forward combats"]} burningwheel -- bloodyvstest ;
+{ intrusionmechanic [label="GM intrusion mechanic"]} numenera -- intrusionmechanic ;  #s15 
+{ colonornative [label="PC: colon or native,\n so player has different authority on fiction"]} dogeatdog -- colonornative ;  
+{ randomizednarrator [ label = "randomized narrator: whoever win a card game \n decide the content and the end of a scene"] } dustdevils -- randomizednarrator ; #t94
+
+######### Clues added to fiction by players
+{ huntedflaw [label="'Hunted' flaw: PC tell the nature/frequency of a villain\n, GM choose appearance and play him"]}  champions -- huntedflaw ;
+{ pcinventsclues [label="PCs invent the clues"]} inspectres -- pcinventsclues ;
+{ pcinventsclues2 [label="PCs invent fiction clues,\nrewarded if matching GM secrets"]}  sphynx -- pcinventsclues2 ;
+{ pcdecidesclues [label="PCs decide the consequences of the clue"]}  magistratsmanigances -- pcdecidesclues ;
+{ pcdesignstory [label="PCs design elements of the story"]}  wildernessofmirrors -- pcdesignstory -- lagence ;
+{ gmescalatepcfear [label="PCs invent fictional fear,\nGM escalate from it toward more horror"]}  bluebeardsbride -- gmescalatepcfear ;
+{ addfact [label="Success allows PC to add facts"]} onmightythews -- addfact ;
+{ coins_u [label="Bid Coins to add Facts to the game"]} coins_u -- universalis ; #t12
+{ pcnarrateregret [label="PC narrates a regret \nand answers other PCs questions"]} headspace -- pcnarrateregret ; #background genere au fil des parties, integre au jeu et participatif 
+{ socialinteractionconstraintrule [label="Social move is constraining the next GM narration"]} cartel -- socialinteractionconstraintrule ; #s16
+
+########## Tone
+{ colourgameplay [label="Choose colour (style) of the gameplay"]}  neuroshima -- colourgameplay ;   
+{ scenetone [label="Roll for Jovial or Glum scene tone"]} swordswomaster -- scenetone ;
+{ monologueofvictory [label="Monologue of Victory"]} thepool -- monologueofvictory ; #s66 
+
+
+########## Misc 
+
+{ gmagenda [label="GM Agenda & Principles"]}  apocalypseworld -- gmagenda ;
+{ confessional [label="Confessional reality-TV-like"]}    inspectres -- confessional ;
+{ ritualsentences [label="Ritual key-phrases structuring game conversation"]}  polaris -- ritualsentences ;
+{ logicalvertigo [label="Logical vertigo with dynamic \nflashbacks & flashforwards "]}  odyssea -- logicalvertigo ;
+{ moralnmysteries [label="Moral or Mysteries story elements on a roll of 3"]} swordswomaster -- moralnmysteries ;
+{ playertellitstrue [label="Everything happen exactly how players describe it"]} wushu -- playertellitstrue ;
+
+
+########## Social contract
+
+{ pvptreason  [label = "Treasonous PvP"]}  paranoia -- pvptreason ;
+{ molestencouraged  [label = "Encourage to molest other PCs"]}  maid -- molestencouraged ;
+{ notdesignedforfun [label = "GM has to crush all fun ideas of players"]}  mylifewithmaster -- notdesignedforfun ; 
+{ exploreconsent [label="[Exploration of player/character consents]"]} poisond -- exploreconsent ;
+{ mwconfidence [label = "Confidence points, alliances, and finally betrayals for all PC"]}  themountainwitch -- mwconfidence  ; #s83
+
+}
+
+
+
+
+
+#################################################################
+############# Campaign, adventure                           #####
+#################################################################
+
+{
+node [fontcolor=deeppink2];
+edge [color=deeppink2; weight=2]
+
+
+{ gmdesignadv [label="Referee designs his own adventure"]}    gmdesignadv -- blackmoor ;
+
+
+##### Dungeoncrawl 
+{ undergroundwargame [label ="Underground wargame (mines & countermines)"] }
+chainmail -- undergroundwargame -- dungeoncrawl ;
+{ dungeoncrawl [label="Focus on loot through deadly hard dungeon-crawl"]} dungeoncrawl -- odnd_woodgrainbox ;
+
+{ megadungeon [label="Megadungeon is a requirement for play"]}  dungeoncrawl -- megadungeon ; #s45
+{ firstdndmegadungeon  [label="1st TSR megadungeon"]}    theruinsofundermountain -- firstdndmegadungeon ;
+{ dynamicdc [label="Dynamic dungeon-crawl for episodic play of any available players \n interactions of multiple groups of players (event coordinator)"]}  deadinthay -- dynamicdc ; #s45
+{ secretlevel [label="Secret level"]}    g1steadinghillgiantchief -- secretlevel ;
+
+{ adventure1 [label="1st scenario / game adventure\n[play as Chainmail miniature battle with spy missions]"]}    odnd_blackmoor -- adventure1 ; #s68
+{ firstpubadv [label="1st published adventure\n[and still playable]"]} fchelrakstomb -- firstpubadv # s1
+{ firstsaadv [label="1st 'standalone' adventure \n 'Monster zoo' dungeon"]} palacevampirequeen -- firstsaadv # s2
+{ firstdndmodule [label="1st D&D module published"]}     palacevampirequeen -- firstdndmodule ;
+{ firstdndmoduleprod [label="1st D&D module produced by TSR"]}    g1steadinghillgiantchief -- firstdndmoduleprod ;
+
+
+
+##### hex crawl
+{ outdoor [label="Outdoor adventures"]}    chivalrynsorcery -- outdoor ;
+{ invisiblewalls [label = "Hex crawl sand box,\nbut with 'invisible walls'"]}    dragonlance -- invisiblewalls  ;  #s70 
+{ hexcrawl  [label = "Hex crawl"]} isleofdread -- hexcrawl ;
+{ travelplanes  [label = "Travel to the planes"]}    q1queendemonwebpits -- travelplanes -- manualoftheplanes ; 
+
+
+###### Setting
+{ canonicaltransitions [label="new edition = cataclysm \n (canonical in the setting)"]}  forgottenrealms -- canonicaltransitions  ; #s65
+{ notimeline [label="No official timeline after year 720\nEvery game is unique with the same starting point"]}    harn0 -- notimeline ;
+{ firstcitysetting  [label="1st city setting\nwith sandbox-style play"]}    citystateinvincibleoverlord -- firstcitysetting ;
+{ dragonpass  [label = "Very detailed fantasy world"]}  cultsofprax -- dragonpass ;
+{ beliefsystems  [label = "Rich and diversified belief systems"]}  cultsofprax -- beliefsystems ;
+{ fronts [label = "Fronts"]}    apocalypseworld  -- fronts ;
+{ reboot [label = "Reboot of the setting"]}    gehenna -- reboot -- vampirerequiem ;
+{ settingchange [label = "End campaign : setting change"]}    chroniquesapocalypse -- settingchange ;
+{ temporarypc [label = "temporary PC to play past events"]}    deadgods -- temporarypc ;
+
+
+##### Worldbuilding 
+{ worldbuilding [label = "Worldbuilding"]}    dawnofworlds -- worldbuilding ;
+{ historicalnpc [label = "Historical NPCs are generic figures\n(the king, the cardinal,...)"]}   mordiou -- historicalnpc ;
+{ noprep [label = "Zero prep campaign creation"]}   beyondthewall -- noprep ;   #s66 
+{ plotmapping [label = "Plot mapping, gm & p learns the plot as they play"]}   technoir -- plotmapping ;   #s66 
+{ influencesetting [label = "Issues of scenarii change ratings of the campaign setting"]}    arthuriades -- influencesetting ;
+{ pccreatemap1 [label = "PC can add items on the map"]}    tranchonstraquons -- pccreatemap1 ;
+{ gameworld_principles [label = "Infinite gameworld constrains by 3 principles\n(the Rule-of-Three, the Unity of Rings, and the Center of All)"]}    planescape -- gameworld_principles ;
+{ interactivecampaign  [label = "Interactive campaign plotine (curated from the fan feedbacks"]}   infiniversemagazine -- interactivecampaign ;
+{ rumorspc [label = "PCs invent rumors, GM decides which is true"]}   oltree -- rumorspc ;
+{ emergentsetting  [label = "Setting : fleshed out by GM and PC\n in the course of play"]} thirteenage -- emergentsetting ;
+
+
+
+###### Investigation
+{ firstinvestigation  [label="1st investigation adventure\n where the PCs chase clues"]}  twilightpeak -- firstinvestigation ;
+{ firsteventbasedmodule  [label="1st TSR event-based \n[/investigation] module"]}    n1againstcultreptilegod -- firsteventbasedmodule ;  #s69 
+{ cluesgumshoe [label = "Clues for free or to buy"]} gumshoesystem -- cluesgumshoe ;
+
+
+
+###### PC driven games
+{ focusinteraction [label = "More focus on characters interactions"]}    vampirethemasquerade -- focusinteraction ;
+{ spotlight [label = "Player spotlight is codifyed"]}    primetime  -- spotlight ;
+{ differentera [label = "Play at different era/nand watch long term evolution of PCs"]}  undying  -- differentera ;
+{ karmadestinambition [label = "Karma, destiny & ambition"]}    tenga -- karmadestinambition ;
+{ makeacommitmentrule [label="Make a Commitment Rule"]}    marvelsh -- makeacommitmentrule ;    # s35
+{ playflashback [label = "PC can play their background as flashbacks"]}    nephilim -- playflashback ;
+{ pccreatemap2 [label = "PC virtues are 'poles' on the map"]}    pccreatemap2 -- onmightythews  ;
+{ socialcarousing [label = "Detailed rules for carousing, social and economics"]} nightmaresunderneath -- socialcarousing ; 
+{ pcdefinenpc [label = "players define an antagonist NOC for the future sessions"]} mutantyearzero -- pcdefinenpc ; #s84 
+
+
+####### Story structure
+{ influencewar [label = "Issues of key scenes can influence the war"]}    thedrowwar -- influencewar ;
+{ warframe [label = "War : frame and mechanics"]}   nightwitches -- warframe ;
+{ biglistofrpgplots [label = "Big List of RPG Plots"]}    risus  -- biglistofrpgplots ;
+{ replays [label = "Replays: transcripts of RPG sessions"]}   recordoflodosswar -- replays ;
+{ retcon_dungeondesign  [label = "Elegant retcon of the weird \n original dungeon designs"]}    returntombofhorror -- retcon_dungeondesign  ;
+{ adventurepath  [label = "1st adventure path \n(linear episodic campaign)"]} theshackledcity -- adventurepath ;
+
+
+###### Genre campaign-gameplay style
+{ focusonfight [label = "Focus on combat"]}    dnd4 -- focusonfight ;
+{ dontfollow  [label = "Doing the suggested thing always kills you"]} lamentationsflameprincess -- dontfollow ;
+{ tpkbaseline  [label = "TPK is a baseline"]} dndghb -- tpkbaseline -- lamentationsflameprincess ;
+{ failureistheend  [label = "The violence will \nlead to failure eventually"]} ladyrossa -- failureistheend ;
+
+
+
+
+
+{ challengerating  [label = "Challenge rating"]} dnd3 -- challengerating ;
+
+{ factionturn  [label = "Faction turn mechanics"]}  starswithoutnumbers -- factionturn ; #s66
+{ factioninteraction  [label = "Faction interactions drive advancement"]}  urbanshadows -- factioninteraction ; #s66
+
+
+
+
+
+
+
+
+
+################################################
+############ DESIGN                 ############
+################################################
+
+
+{ keyedloc  [label = "1st location keyed illustrations "]}    tombofhorror -- keyedloc  ;
+{ onelinenote  [label = "1-line note for each room"]}    odnd_greyhawk -- onelinenote -- palacevampirequeen ;
+{ generousdescription  [label = "Generous descriptions for every location"]}    g1steadinghillgiantchief -- generousdescription ;
+{ boxedtext  [label = "1st boxed text descriptions for the DM to read"]}    c1hiddenshrinetamoachan -- boxedtext ;
+
+{ encyclopedicdetails  [label = "Encyclopedic system-independent details"]}    harn0 -- encyclopedicdetails ;
+
+{ nanogame  [label = "Nano-game"]}   vastnstarlit -- nanogame -- wordsrpgchallenge200 ;
+{ onepagerpg  [label = "One-page RPG"]}    thewitchisdead -- onepagerpg  ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################
+############# Resolution. Systems.                   ############
+#################################################################
+{
+node [fontcolor=royalblue];
+edge [color=royalblue; weight=2]
+
+
+{ nocompleterules [label ="(em) Incomplete rules by nature" ]}  blackmoor -- nocompleterules ;  # oppose to wargame: complete rules
+{ abstractrules [label ="Very abstract rules" ]}  blackmoor -- abstractrules ;  # oppose to wargame: detailed and precise rules
+{ gmtinker [label="(em) Referees tinker their own system"]}    blackmoor -- gmtinker ;
+{ tinkering [label = "encourages players to own the rules, to tinker, to playtest"]}  arduin -- tinkering  ; # s3 s4
+gmtinker -- tinkering [style=dotted] ;
+
+
+###### Rules 
+{ basicadvanced [label="Basic/ Advanced rules"]}  boothill -- basicadvanced ;
+{ followstrictrules [label="Urge to follow strict rules"]}   addplayerhandbook -- followstrictrules ;
+{ addmodularrules [label = "Modular/optional rules"]}   adnd2 -- addmodularrules ;
+{ pcnpcrules  [label = "PCs have differents rule set than NPCs"]}  dragonraid -- pcnpcrules ;
+{ iiee [label = "Intention Initiation Execution Effect"]}  tahamaat -- iiee ;
+
+##### Sub-sytem minigame
+{ spaceships [label="Starship design and combat\nas distinct game system"]}   traveller -- spaceships ;
+
+
+###### Simulation
+{ martialart [label = "Detailed martial arts system"]}    bunniesnburrows -- martialart ;
+{ realisticcx [label ="Realistic and complex simulation" ]}  chivalrynsorcery -- realisticcx ;
+{ abstractresol [label = "Abstract resolution system \n(DFK: Drama, Fortune deck or Karma)" ]}  everway -- abstractresol -- bigmodel  ;
+{ universebasedonrules [label = "Mythology of the universe based on\nthe card game used as resolution system" ]}  everway -- universebasedonrules ;
+
+
+###### Universal system 
+{ unifiedresolsys [label = "Unified resolution system (2d6 vs TN)"]}  traveller -- unifiedresolsys ;
+{ unifiedresolfightskill [label = "Unified resolution for fight and skills (d100 under %)"]}   runequest -- unifiedresolfightskill ;
+{ compatible9 [label="fully compatible with 9 RPG systems"]}  thievesworld -- compatible9 ;  #s71 
+{ genericmod [label = "Generic core rules with specific genre modular rules" ]}     worldsofwonder -- genericmod ;
+{ genericsystem [label = "Generic resolution system"]}   basicroleplaying -- genericsystem ;
+{ universaltable  [label = "Universal resolution table"]}   marvelsh -- universaltable ;
+
+
+##### Conflicts, combat 
+{ escalateconflict [label = "For winning a narrative conflict: \nescalate the skates toward violence"]}  dogsinthevineyard -- escalateconflict ;
+{ neverfairfight  [label = "Never enter a fair fight"]}   diceless -- neverfairfight ;
+{ socialconflict [label = "Skills and rules for social situations" ]}   jb007 -- socialconflict ;
+{ speachfight [label = "Speach fight with persuation & rebuff styles"]}  dyingearth -- speachfight ;
+{ kickingmooks  [label = "Different rules for kicking mooks or important villains"]}  fengshui -- kickingmooks ;
+{ correctordrink  [label = "If lying, correct the story \nor ignore and drink a glass of beer"]}   baronmunchausen -- correctordrink ;
+{ nonviolenceinit [label = "Non-violence enforced through initiative system"]}   drwhorpg -- nonviolenceinit ;
+
+
+###### Simplicity 
+{ simplesystem [label = "Simple system"]}    ghostbusters -- simplesystem ;
+{ verbalscale [label = "Verbal scale"]}     fudge -- verbalscale ;
+
+
+
+
+##### Only roll for interesting things 
+{ interestingfailure [label="Only roll when possibility of interesting failure"]} burningwheel -- interestingfailure ;
+{ letitride [label="Let it ride: \nNo retries, no backsies"]} burningwheel -- letitride ;  # Letting it ride is simply a way of codifying “No retries, no backsies” into the rules: if your character doesn’t manage to pick the lock, then that’s that. The failure to pick the lock means that the story should go somewhere else. #s22
+{ noinanimate [label = "never roll dice against inanimate objects, only people"]}   technoir -- noinanimate ;  #s84
+{ failingforward [label="Failing forward"]}   apocalypseworld -- failingforward ; # Failing Forward is quite simply the idea that there is no such a thing as a failure where nothing happens. When you try to pick the lock on a door and fail, the result is never “Well, you didn’t manage to pick the lock. What do you do?” but that something else happens in the fiction, not direchangelinlosty stemming from the failure but related to it. Using failing forward the aforementioned failure at lock-picking could easily result in “Well, you didn’t manage to pick the lock, and you can hear the sounds of approaching footsteps from around the corner. What do you do?” #s22
+
+
+
+
+
+{ aspects2invoke [label = "Aspects \n to invoke by PC \n or to compel by GM"]}  fate2 -- aspects2invoke  #s66 #Q66763448 
+{ success1fact [label = "1 success = 1 fact or 1 die"]}  donjon -- success1fact ;
+
+{ crapslike [label = "Craps-like wager rules"]}   hellywood -- crapslike ;
+
+
+##### Turns 
+{ fastslowturn [label = "Fast turn, slow turn"]}   shadowofthedemonlord -- fastslowturn ;
+{ gnturnpcturn [label = "GM turns, then PC turns"]}  mouseguard -- gnturnpcturn  ;
+
+
+
+
+{ matrixdilemma [label = "Choose risks in a matrix of dilemma"]}   psirun -- matrixdilemma ;
+
+
+
+
+
+
+{ masteries [label = "Masteries scale"]}   rqheroquest -- masteries ;
+
+{ crisismanagement [label = "Crisis management mini-game"]}  paranoiahighprog -- crisismanagement ;
+
+
+{ punishplayer [label = "Punish the player for being sleepy, leaving the table or making jokes"]}   ryuutama -- punishplayer ;
+
+{ dualscore [label= "Dual rating score for abilities (active and defensive)"]}   dallas -- dualscore ;     # abilites: power, persuasion, coercion, seduction, investigation, luck
+ 
+{ approbationtoken [label = "Approbation token given for rewarding narrative creations"]}   prosopopee -- approbationtoken ;
+
+{ frustrationtoken [label = "Frustration token taken when feeling not listened,\n released when feeling listened or acting alone"]}   thequietyear -- frustrationtoken  ;
+  
+{ shaken [label = "Shaken: loss of action"]}   savageworlds -- shaken ;
+  
+#{ verbndomain [label = "Chain verbs & domains \nin a sentence with minimum words"]}   ???? -- verbndomain ;
+  
+{ iaijutsu [label = "Subsystem for 1-on-1 duel"]}  legend5rings -- iaijutsu  ;
+
+
+
+{ spychase [label = "Chase: abstract position & detailed PC actions"]}  spycraft -- spychase  ;
+
+
+{ pdrphases [label = "Perilous, Discovery & Rogue phases"]}  swordswomaster -- pdrphases  ;
+
+{ mechanicalalienation [label = "Mechanical alienation "]}  broodmother -- mechanicalalienation  ;  # s79
+
+
+{ timers [label = "Set timers: in 1d4 something happen"]}  icrpg -- timers  ; #s78
+  
+{ socialinteraction [label = "Action resolution mechanics based only on social interactions"]}  pantyexplosion -- socialinteraction  ;
+
+{ extendedchallenges [label = "Extended (skill) challenges"]}  dnd4 -- extendedchallenges  ; 
+
+{ twrathoftheimmortalsmes [label = "Balance two sides of an extended context,\n then decide the authority"]}  twrathoftheimmortalsmes -- freaksqueele   ;  #resolution en "2 temps"
+extendedchallenges -- twrathoftheimmortalsmes [style=dotted] ; #selon radio roliste 72
+
+{ musards [label = "'Musards': mini-games"]}  millesmarches -- musards  ; 
+
+{ singlescale [label = "Single sliding scale for all resolutions"]}  torg -- singlescale  ; 
+
+
+
+
+
+
+
+
+
+{ abstrachangelindreamingistance [label = "Abstract distances and positioning\n (no miniature/ grid)"]}  thirteenage -- abstrachangelindreamingistance  ; 
+
+{ stealthmodes [label = "3 stealth modes: \n Revealed, Detected, Hidden"]}  infinity -- stealthmodes  ; 
+  
+{ gridiron [label = "Gridiron for extended conflict"]}  unknownarmies3 -- gridiron  ; #s21
+
+{ scriptorture [label = "Scripts for torturing captured PCs"]}  jb007 -- scriptorture  ; #t60
+
+{ nododging [label = "No dodging"]}  intotheodd -- nododging  ; #s66
+
+{ flashbackheist [label = "Flashback heist mechanic"]}  bladesinthedark -- flashbackheist  ; #s66
+
+}
+
+
+
+############# Critics & level of success
+{
+node [fontcolor=red3];
+edge [color=red3; weight=2]
+
+{ criticalhit1 [label = "1st critical hit\n['lucky hit']"]}   empireofthepetalthrone -- criticalhit1 ;
+{ critics [label = "Critics, Fumbles"]}   critics -- runequest ;
+criticalhit1 -- critics [style=dotted];    
+
+{ chartntables [label = "Charts & tables for everything"]}    rolemaster -- chartntables ;
+{ fiveresults [label="Mishap, Failure, Partial Success, Full Success, Critical Success"]}   talislanta -- fiveresults ;
+{ levelofsuccess [label = "1st level of success/failure"]}   jb007 -- levelofsuccess ;
+
+{ charteangoumoise [label = "Charte Angoumoise"]}   runesmagazine -- charteangoumoise -- {avantcharlemagne ; legendesceltiques ; role };
+{ megadamage [label = "Mega armors/ Mega damages"]}   rifts -- megadamage ;
+{ yesand [label = "Yes/No \n[and...] [but...]"]}   fufreeuniversal -- yesand ;
+
+{ critdmg [label = "Death mainly by critical damages (not HP loss)"]}    rolemaster -- critdmg ;
+
+{ glitch [label = "Glitch if half dice rolled are ones"]}    shadowrun4 -- glitch ;
+
+{ difficultchoice [label = "Difficult choice for basic success"]}    apocalypseworld -- difficultchoice -- fate4 ;
+
+}
+
+
+
+
+
+############# Dramatic modifiers to resolution
+{
+node [fontcolor=royalblue];
+edge [color=royalblue; weight=2]
+
+{ armorclass [label = "Armor class as bonus/malus to attacker"]}   addplayerhandbook -- armorclass ; 
+{ thac0 [label = "THAC0"]}  adnd2 -- thac0 ;
+
+{ funny [label = "Success if action is funny for P and GM"]}   toon -- funny ; 
+{ modadddrama [label = "Perversity points\nawarded when player are amusing/inventive\n(giving +1/-1 anywhere)"]}    paranoia -- modadddrama ; 
+{ coolaction  [label = "Cinematic actions influence chances of success"]}   fengshui -- coolaction ;
+{ surprisemaneuver  [label = "Bonus for 'Surprise maneuver' (cool description)"]}  champions -- surprisemaneuver ;
+
+{ dksystemrasse  [label = "dé de Kool/Krasse"]}   dksystem -- dksystemrasse ;
+
+{ banesnboons  [label = "Banes and Boons (cancel each other)"]}   shadowofthedemonlord -- banesnboons ;
+
+{ despaircoins  [label = "Despair/Hope coins"]}   dontrestyourhead -- despaircoins ;
+
+{ deathspiral  [label = "Death spiral"]}   risus -- deathspiral ;
+
+{ elcheapo  [label = "'El cheapo' items: socially awkward or malfunction number"]}    deadlandsr -- elcheapo ;
+{ pokerchip  [label = "Poker chips for bonus or injuries\n (unused turn into XP)"]}    deadlands -- pokerchip ;
+
+{ yakuzabet [label = "'Yakuza bets' on throw result to improve success"]}    ukiyo -- yakuzabet ;
+
+{ tarotluckdeath [label = "Tarot cards (luck, death,...) to influence results"]}    malefices -- tarotluckdeath   ;
+
+{ ubik [label = "'Ubik': players drop tokens later used by DM \n against them as hallucinations"]}    retrofutur -- ubik ;
+
+{ tagother [label = "Tag other PC with aspects"]}    monsterhearts2 -- tagother ;
+
+{ dramadeck [label = "Drama Deck: PC & GM influence play\n (advantages, plotlines,...)"]}    torg -- dramadeck ;
+
+{ backgroundpn [label = "Backgrounds can be used both as benefits or disadvantages)"]}    seventhsea -- backgroundpn -- fate ;  
+
+{ whimsycards [label="Whimsy Cards: influence the plot of a story"]} arsmagica -- whimsycards ; #s11
+
+{ moredetails [label="More details = more dice to roll \n(GM veto for style)"]} wushu -- moredetails ; # t18 
+
+{ playtoloose [label="Play to loose"]} nevertellmetheodds -- playtoloose ; #s36 
+
+{ actioncards [label="Action cards with bluff on initiative"]} paranoiaredclearance -- actioncards ; #s39 
+
+{ reactioncards [label="Reaction cards can be used \neven if PC dead"]} paranoiaredclearance -- reactioncards ; #s39 
+
+{ escalationdie [label = "Escalation die (bonus to hit = nb of rounds passed)"]}    thirteenage  -- escalationdie ;
+
+### blackjack mechanic (don't excess your score)
+{ rollunderbuthigh [label = "roll under but as high \n as possible for opposed rolls \n or exact score for critics"]}    pendragon -- rollunderbuthigh ;
+{ blackjackd100 [label = "blackjack d100 mechanic"]}    unknownarmies -- blackjackd100 ;
+{ rollhighunder [label = "roll high under \n (roll under attack score but above opposing armor)"]}    whitehack -- rollhighunder ;
+{ reussiteexcess [label = "Excessive success has bad consequences"]}   librete -- reussiteexcess ;
+
+
+}
+
+
+
+
+############# Saves
+{
+node [fontcolor=red3];
+edge [color=red3; weight=2]
+
+
+{ saves [label="Saving throws" ]}  {newapratt; chainmail} -- saves -- odnd_woodgrainbox  ;
+{ raisedead [label="Reincarnate & Raise Dead spells" ]}  odnd_woodgrainbox -- raisedead  ;
+{ resurrection [label="Resurrection spell" ]}  addplayerhandbook -- resurrection  ;
+
+{ savingstunt [label="Saving roll as stunt"]}   tunnelsntrolls -- savingstunt ;
+{ saving3throws [label="3 saving throws (speed, will, health) "]}   bushido -- saving3throws ;
+saving3throws -- univsave ; # s80
+{ univsave [label="Universal method-of-avoidance\n saving throws" ]} univsave -- dnd3 ;
+{ passivesaves [label="Passive [/no] saving throws" ]}   dnd4 -- passivesaves ;
+
+{ saveordie [label = "Save or die/\n Rocks fall, everyone dies"]}   tombofhorror -- saveordie ;
+{ sixclones [label = "Each PC has 6 clones"]}    paranoia -- sixclones ;
+{ neverdie  [label = "PC never die"]}   toon -- neverdie ; 
+{ tti  [label = "Trauma Team International \n Prepaid CSAR services"]}   cyberpunk2013 -- tti ;  # Combat search and rescue 
+{ lad  [label = "Pay for Life After Death insurance"]}   slaindustries -- lad ; 
+{ savechar  [label = "Backup your PC in game \n(or sleaving/egocasting into new body)"]}    eclipsephase -- savechar ;
+{ torchbearernpc  [label = "Replace dead PC by a related NPC"]}   torchbearer -- torchbearernpc ;
+{ bargaindeath  [label = "Bargain with Death"]}   dungeonworld -- bargaindeath ;
+
+{ hardiness  [label = "Hardiness ability: counter some unfair magical attacks"]}  adnd25 -- hardiness ;  #delay unfair attacks like instant death, paralysis, energy drain, mind control,...
+
+{ luckreverse  [label = "Luck can reverse a previous contest"]}   dallas -- luckreverse ; 
+
+{ soaking [label = "Soaking to avoid wounds"]}   savageworlds -- soaking ;
+
+{ hazardousghosting [label = "Hazardous ghosting and resleeving"]}   transhumanspace -- hazardousghosting ;
+
+{ safeghosting [label = "Safe ghosting and resleeving"]}   safeghosting -- eclipsephase ;
+hazardousghosting -- safeghosting [style=dotted] ;
+
+{ fatepoint  [label = "Fate Point"]}   warhammerfrpg -- fatepoint ;
+{ destinyresilience  [label = "Destiny & Resilience tracks"]}   warhammerfrpg4 -- destinyresilience ; #s37
+
+}
+
+
+############# Use points to influence success (aka Meta-currency) : do cool actions & lower death rate 
+{
+node [fontcolor=red3];
+edge [color=red3; weight=2]
+
+{ fortunefame  [label = "Forture/Fame points spent by GM to influence success"]}   topsecret -- fortunefame ;
+{ heropoints  [label = "Hero Points gained and spent during conflict\n(and Survival Points for NPCs)"]}  jb007 -- heropoints ;
+
+{ browniepoints [label = "Brownie points to spend in game\n(also, but rarely, for advancement)"]}   ghostbusters -- browniepoints ;
+
+
+{ storypoints  [label = "Story points awarded for deliberate failure"]}   drwhorpg -- storypoints ;
+
+{ toomuchbonus  [label = "If bonus for being aggressive leads to too much success, then bad consequences"]}   librete -- toomuchbonus ;
+
+{ ffatepoint  [label = "Fate points : meta currency\n lack of failure"]}   fate -- ffatepoint ;
+
+{ karmapool  [label = "Karma pool to boost dice pool"]}   shadowrun -- karmapool ;
+
+{ bennies  [label = "Bennies as plot/drama/karma points"]}   savageworlds -- bennies ;
+
+
+{ doompool  [label = "Plot points vs Doom Pool"]}   marvelhrp -- doompool ;
+
+{ possibilitypoints  [label = "Possibility points:\n as XP or in-game special effects"]}   torg -- possibilitypoints ;
+
+
+{ choosecard  [label = "Choose a card from your hand \nto use later only for a miracle"]}   mileschristi -- choosecard ;
+
+{ otherkinddice  [label = "Assign succeeding/failing dice to various outcomes"]}   otherkind -- otherkinddice -- blissstage ;
+
+}
+
+
+
+
+
+############# Health
+{
+node [fontcolor=red4];
+edge [color=red4; weight=2]
+
+{ simplehp [label="Hit points sumbolize\n health, experience & luck"]}     simplehp -- odnd_woodgrainbox   ;
+{ woundtrack [label = "Wound track system"]}     arsmagica -- woundtrack ;
+{ hitlocation  [label = "Hit location"]}    odnd_blackmoor -- hitlocation -- runequest;
+{ hitpointhealth [label="Hit points strichangelinlosty health"]}   runequest -- hitpointhealth;
+
+{ trackind [label = "Each injury traked individually"]}    harn -- trackind ;
+{ temppen [label = "Temporary penalties"]}    gurps -- temppen ;
+{ addictionhealingpotion [label = "Addiction to healing/buffing drugs"]}    slaindustries -- addictionhealingpotion ;
+{ addictiondrugs [label = "Addiction to drugs mechanism"]}    cops -- addictiondrugs ;
+
+
+{ soak [label = "Soaking damages"]}    vampirethemasquerade -- soak ;
+{ countdownclock [label = "Countdown Clock"]}    apocalypseworld -- countdownclock ;
+
+{ mentalstress [label = "5 mental stress: violence, unnatural\n, helplessnessm, isolation, self"]}   unknownarmies -- mentalstress ;
+
+{ stressnconsequences [label="Stress track and consequences"]}   fate -- stressnconsequences ;
+
+{ negativeeffects [label = "Accumulation of (almost permanent) negative effects"]}   dontrestyourhead -- negativeeffects ;
+
+{ choosemental [label = "Choose mental consequences"]}    eclipsephase -- choosemental ;
+
+{ splatterwounds [label = "Splatter wounds: \npermanent dmg if healing fails"]}    conspiracyx -- splatterwounds ;
+
+{ playerdecideconsequences [label = "Black bile: player decides negative consequences affecting his character"]}   librete -- playerdecideconsequences ;   # cf. larp School of Wizardry 
+
+{ lethality [label = "Lethality percentage\nfor powerful weapons"]}    deltagreen2016 -- lethality ;
+
+{ attachmenttoken [label = "Exchange and permanent loss of attachment tokens"]}    perdussouslapluie -- attachmenttoken ;
+
+{ exhaustion [label = "Exhaustion and life tracks"]}    revededragon -- exhaustion ;
+
+{ fourthemes [label="When 4 themes of PC are exhausted, some ritual sentences are no longer available"]}  ritualsentences -- fourthemes ;
+
+{ woundseparate [label="Wounds tracked separately,\neach of them healing independently"]}  maelstromrpg -- woundseparate ;  #tu notes tes blessures séparément parce qu’elles se soignent indépendamment, un point de vie par jour.
+
+{ bpm [label="BPM track : breadcrumb gauge"]}  lacuna -- bpm ;
+
+{ hpplotarmor [label = "some HP comes from plot armor\n[high level expert NPC has more HP]"]}   dnd3 -- hpplotarmor ;
+
+{ healingsurge [label = "Healing surges"]}   dnd4 -- healingsurge ;
+
+{ conditiondice [label = "Condition dice for traits and equipments"]}   soulfire -- conditiondice ;  #s38
+
+{ usagedice [label = "Usage dice for items"]}   blackhack -- usagedice ;  #s66 
+
+}
+
+
+
+
+############# Group 
+{
+node [fontcolor=deeppink2];
+edge [color=deeppink2; weight=2]
+
+{ oneFoneC [label = "One figure = One character"]}   modernwarinminature -- oneFoneC ;
+oneFoneC -- chainmail ; #1:1 figure scale, one-to-one combat rules 
+oneFoneC -- onePoneC ;
+{ onePoneC [label = "One player = One character"]}   onePoneC -- blackmoor ;
+strategosn -- onePoneC ;
+braunstein -- onePoneC ;
+onePoneC -- ppersonifypc ;
+
+##### collective sheet
+{ troupestyleplay [label="Troupe-style play: each player have one or more characters"]}arsmagica -- troupestyleplay ;
+{ household [label="Players collectively create their household, \nthen with the remaining points they create their characters"]}   orkworld -- household ;
+{ villagecreation [label="Players and GM collectively create their village"]}    beyondthewall -- villagecreation ;
+{ covenantsheet [label="Covenant sheet (group character sheet)"]}  arsmagica -- covenantsheet ;
+
+##### Factions 
+{ factionrules [label = "Faction rules"]}   asongoficenfirerpg -- factionrules ;
+{ competingfactions [label = "Competiting factions of philosophers"]}   planescape -- competingfactions ;
+{ clans [label = "Clans, bloodlines, sects"]}   vampirethemasquerade -- clans ;
+{ percenttrack [label = "Percentile for tracking collective group objectives"]}   unknownarmies3 -- percenttrack ;  #s21 
+{ companysystem [label="Company system: PC belong or control an organization with its own char sheet"]}   reign -- companysystem ;
+
+
+##### Teamwork and crew
+{ crewmanagement [label = "Crew management"]}   bladesinthedark -- crewmanagement ;
+{ solosquad [label="Solo/Squad modes"]}   deathwatch -- solosquad ;
+{ solobuddyteam [label="Solo/Buddy/Team affiliations"]}   marvelhrp -- solobuddyteam ;
+{ franchisedp [label="Franchise dice pool for the group"]}   inspectres -- franchisedp ;
+{ partysheet [label="Party sheet: sharing PC talents with party"]}  warhammerfrpg3 -- partysheet ;
+
+
+##### More than one PC 
+{ threePCs [label="3 PCs per player"]}   darksun -- threePCs ;
+{ supportingchar [label = "Player has a main character \nand multiple supporting characters"]}   startrekadv -- supportingchar ;
+
+{ possessedweapon [label = "One PC is a possessed weapon, another PC is its holder" ]} bloodlust -- possessedweapon ;
+{ possessed [label = "Each PC has a shadow/dark side, controlled by another player" ]}  wraithoblivion -- possessed ;
+
+
+##### Relations with PC and NPC
+{ relationmap [label = "Relation map"]}   smallville -- relationmap ;
+{ vassalabyrinthlordsrel [label = "Vassal and lord relationships defined"]}  borderlands -- vassalabyrinthlordsrel ;
+{ bonds  [label = "Bonds"]}   apocalypseworld -- bonds -- dungeonworld ;
+
+
+
+
+
+
+}
+
+
+
+################################################
+#############   game sheets         ############
+################################################
+
+{
+node [fontcolor=indigo];
+edge [color=indigo; weight=2]
+
+{ charsheet [label="1st character sheet"]}    alarums -- charsheet ;
+
+{ hexbased [label="Hex based combat"]}  fantasytripmelee -- hexbased ;
+
+{ boardmap [label="Board map"]}  auxmarchesdupouvoir -- boardmap ;
+
+{ playmat [label="Player mat"]}  fateofthenorns -- playmat ;
+
+{ playdeadpcsheet [label="Play your dead PC sheets"]}    postmortem -- playdeadpcsheet ;
+
+{ diaryic [label = "Keep an in-character diary\ninstead of a char sheet"]}    castlefalkenstein -- diaryic ;
+
+{ characterbooksheet [label = "A notebook as character sheet"]}    sailormoon -- characterbooksheet ;
+
+# voir group > collective sheet 
+
+{ factionsbladesinthedark [label = "Factions: tier, status \n& countdown clock for goals"]}    bladesinthedark -- factionsbladesinthedark ;
+
+{ firstscreen [label="1st gamemaster screen\n['Judge's shield']"]}  judgesguild -- firstscreen ;
+
+
+
+
+}
+
+
+
+
+################################################
+############# Character generation  ############
+################################################
+{
+node [fontcolor=indigo];
+edge [color=indigo; weight=2]
+
+{ PdesignC [label="Players design their own characters" ]}     PdesignC --  blackmoor;
+
+
+##### random character generation
+{ randomstats [label="Randomness at character creation" ]}      randomstats -- odnd_woodgrainbox ;
+
+
+
+#####  character generation minigames
+{ longchargen [label="Long character generation"]}    chivalrynsorcery -- longchargen ;
+{ creationminigame [label = "Mini-game for character creation (who could even die)\nFrontloaded progression"]}    traveller -- creationminigame ;
+{ familygen [label = "Family and ancestors generator\n (with family honor, status, birthrights)"]}   orientaladventures -- familygen ;
+
+
+##### point build character generation
+{ pointbuild [label = "1st point-build characters"]}     fantasytripinthelabyrinth -- pointbuild ;
+{ pointbuildposneg [label = "Social/psychological traits & negative flaws in point-build characters"]}    pointbuild -- pointbuildposneg -- champions ;
+{ pointbuy [label = "Point-buy system"]}  gurps -- pointbuy ;
+{ expertisenexperience [label="Can start with more experience,\n or more expertise or more money"]}    powersnperils -- expertisenexperience ;
+
+
+##### special 
+{ nochargen [label = "No character generation rules\n(PCs are the TV characters)"]}   dallas -- nochargen ;
+{ dysnastieschar  [label = "Play dynasties of characters"]}   empiresetdynasties -- dysnastieschar ;
+{ funnel [label="Funnel"]}   dungeoncrawlclassic -- funnel ;
+{ playyourself [label="Players play themselves"]}    theendoftheworld -- playyourself ;
+
+
+
+##### abstract 
+{ abstractchar [label = "Abstract character creation" ]}  everway -- abstractchar ;
+{ powerrating [label="Free-form power rating: versatile, potent & frequent"]}   everway -- powerrating ;
+{ abilityasverbs [label="Abilities: verbs and domains instead of numbers"]}    retrofutur -- abilityasverbs ;
+{ freeformtraits [label="DIY free-form traits"]}   ghostbusters -- freeformtraits -- overtheedge ;   # risus fate
+
+
+
+##### templates
+{ premardechar [label = "Generic pre-made character template to tweak"]}   starwarsweg -- premardechar ;
+{ archetypes [label="Archetypes"]}   talislanta -- archetypes ;
+starwarsweg -- archetypes ; 
+{ pregencharcx [label = "Pre-gen characters with complex \nbackgrounds tight to the setting"]}    dragonlance -- pregencharcx  ;  #s85
+
+
+##### complex career-conditions building 
+{ prioritybased [label = "Priority-based character creation" ]}   shadowrun -- prioritybased ;
+{ multiplebuild [label = "Multiple builds possible"]}   dnd3 -- multiplebuild ;
+{ minmax [label = "Stacking bonus rules clarified,\ncan lead to more min-maxing"]}   dnd35 -- minmax ;
+
+
+##### play monsters 
+{ nonhuman [label = "Non-humanoid roles"]}    bunniesnburrows -- nonhuman ;
+{ playmonsters [label="PCs are monsters prying on adventurers"]}  monstersmonsters -- playmonsters ;
+{ pcmonsters  [label = "PCs can be monsters"]}   pcmonsters -- runequest ;
+playmonsters -- pcmonsters [style=dotted] ;
+{ colonized [label = "Play colonized races characters" ]}   shaan -- colonized ;
+{ familiar [label = "Play familiars" ]}   mylifewithmaster -- familiar -- thewitchisdead [style=dotted] ;
+
+
+##### vehicles 
+{ buildmecha [label="Build your own mecha (/spaceship)"]}    mekton -- buildmecha ;   
+{ mechoverpilot [label="Mecha creation more important\n than pilot character creation"]}    mechwarrior -- mechoverpilot ;   
+{ vehiclediy [label = "detailed DIY vehicle systems"]}    teenagemutantninjaturtles -- vehiclediy  ; 
+
+
+##### restrictions 
+{ noassassin [label = "no assassin"]}    adnd2 -- noassassin  ; 
+{ nothieves [label = "'thief'->'rogue'"]}    dnd3 -- nothieves  ; 
+{ abiliyatzero [label = "each PC has 1 ability at zero,\n different from the other PCs"]}    housesoftheblooded -- abiliyatzero  ; #s84 
+{ cyberimplants [label="Cybernetic implants reduce empathy attribute"]}   cyberpunk2013 -- cyberimplants ;
+
+
+##### dark secrets 
+{ darksecrets [label = "Dark Secrets"]}   kult -- darksecrets ;
+{ mwdarksecret [label = "Each player defines a dark secret \n he doesn't reveal, even to gm, \n and can used how he wants"]}    themountainwitch -- mwdarksecret ; #s84
+
+##### back story 
+{ backstory [label="Create PC backstory & assign abilities based on events described"]}    sotc -- backstory ;
+{ loresheet [label="Spend points to link your background to the campaign, and receive the corresponding loresheet"]}   weaponsgods -- loresheet ;
+{ oneuniquething [label = "PC has 'One Unique Thing': anything without direct mechanics"]}    thirteenage -- oneuniquething  ; 
+
+
+
+
+
+
+
+
+{ nonweaponproficiencies [label = "Non-weapon proficiencies"]}   orientaladventures -- nonweaponproficiencies ;
+
+
+{ deities [label = "Specializing clerics relative to their patron deity"]}    greyhawk -- deities  ;  
+
+{ drwhoskills [label = "'cheat death' and 'macguffin' skills"]}    timelord -- drwhoskills  ; 
+
+{ backmorebadass [label = "if a PC dies, a new PC more powerful is created to replace and lead the others"]}    hollowpoint -- backmorebadass  ;  #s23
+
+
+
+
+
+
+
+}
+
+
+
+
+
+############# Character advancement - xp
+{
+node [fontcolor=blueviolet];
+edge [color=blueviolet; weight=2]
+
+##### Win XP 
+{ treasurexp [label = "XP-for-gold system\n[reward for succeeding at non-combat challenges]\n[(em)one simple goal for all players]"]}  odnd_woodgrainbox -- treasurexp ;
+{ nomorexpforgold  [label = "End of xp-for-gold system"]}    adnd2 -- nomorexpforgold ;
+{ karmapoint [label = "Karma points rewarded for heroic behavior\folowwing Silver Age comic book codes"]}    marvelsh -- karmapoint ;
+{ xpfailure [label = "mark XP at every failure"]}   dungeonworld -- xpfailure ;
+{ xpbeginning [label="XP distributed at beginning \n(can be consumed in game)"]}   laluneet12lotus -- xpbeginning ;
+{ shenanigangenerator [label="Reward mechanisms push players to take unneeded risks"]}    neoclassicalgeekrevival -- shenanigangenerator ; # ex: killing an ennemi reward less XP than capture them, The more room you explore in a dungeon without resting, the more you earn XP. 
+{ gamifiedxp [label="Gamified XP system"]}    paranoiaredclearance -- gamifiedxp ; #s39
+
+
+
+##### Leveling up 
+{ charlevel [label = "Character advancement through levels"]}  treasurexp -- charlevel ; 
+{ levelupvictory [label = "(em) Level-up: substitute for victory"]}  charlevel -- levelupvictory ;   # s86, xiv.
+nowincond -- levelupvictory ;
+{ edgeunlocked [label="Edges unlocked by PC rank"]}    savageworlds -- edgeunlocked ;
+{ eachstage [label = "Earn a new value at each stage of PC lives"]}    startrekadv -- eachstage  ; 
+
+
+
+
+##### inter-game advancement
+{ dailylife [label="Rules for daily life \n aside from adventures"]}   chivalrynsorcery -- dailylife -- arsmagica ;
+{ fellowshipphase [label = "Fellowship Phase"]}    theonering -- fellowshipphase ;
+
+
+##### skills improvement 
+{ skillsystem [label = "Skill system"]}  bunniesnburrows -- skillsystem -- runequest ;
+{ xpskilltrain [label="XP for skill use and training"]}   traveller -- xpskilltrain -- runequest ; 
+{ linearbonusprog [label = "Linear bonus progression"]}    dnd3 -- linearbonusprog ;
+{ skillspe [label="Skill specialization: broad, maxed out, then specialized"]}    cortex -- skillspe ;
+
+
+
+##### negative advancement
+{ charnegadv [label = "Character negative advancement"]}    sanity -- charnegadv ;
+
+
+##### paths 
+{ career  [label = "Career"]}    warhammerfrpg -- career ;
+{ ancestry [label="Ancestry.\n Novice, expert and master paths"]}   shadowofthedemonlord -- ancestry ;
+{ classrequirement [label = "Explicit class requirements"]}     dnd3 -- classrequirement ;
+
+
+##### special 
+{ nocharadv [label = "No character advancement rules"]}   dallas -- nocharadv ;
+{ buykey [label="Buy (& buy back) keys of character"]} theshadowofyesterday -- buykey  ladyblackbird ;  #s66 "good way of encouraging acting in the way the character is built to, but also encouraging character growth"
+
+##### social status 
+{ msrewards [label="Material and social rewards"]}  traveller -- msrewards ;
+{ reputationrank [label="Spend money and time to maintain reputation rank"]}   cyberpunk2013 -- reputationrank ;
+{ highfamejb [label="Inevitable high fame can undermine spying ability"]}   jb007 -- highfamejb ;
+{ socialstatus [label="Gain and loss of social status"]}    flashingblades -- socialstatus ; 
+{ maintainstatus [label="Maintain career status with downtime activities"]}    warhammerfrpg4 -- maintainstatus ; #s37 
+
+
+
+##### remembered skills 
+{ rememberpowers [label="Play historical flashbacks\n to remember forgotten powers and knowledges"]}    nephilim -- rememberpowers ;
+{ chararchetype [label="All characters of a player:\nsum up & link to an archetype"]}    revededragon -- chararchetype ;
+
+
+
+{ toyparts [label="PC are toys made up of parts that \ncan be damaged, modified, exchanged, or lost"]}    threadbare -- toyparts ;
+
+
+
+
+
+
+}
+
+
+
+
+################################################
+############# Magic     ########################
+################################################
+
+
+{
+node [fontcolor=blueviolet];
+edge [color=blueviolet; weight=2]
+
+##### spell lists 
+{ vancianmagic [label ="Vancian Magic" ]}    vancianmagic -- odnd_woodgrainbox;    #p82  #p83
+{ spelllist [label ="Spell lists" ]}    {newapratt; chainmail} -- spelllist -- odnd_woodgrainbox;    
+{ litspelllist  [label = "Spell lists"]}    rolemaster -- litspelllist ; 
+
+
+
+##### sub/mini game 
+{ psionicsubgame  [label = "Psionics sub-game"]}   eldritchwizardry -- psionicsubgame ;
+{ highdreaming [label = "Highdreaming: matrix mini-game"]}    revededragon -- highdreaming ;
+
+
+
+##### spell points or score 
+{ spellpoints  [label = "Spell points"]}   runequest -- spellpoints ;
+{ mgk  [label = "Concentration & Magick Levels,\nPersonal Magick Factor"]}   chivalrynsorcery -- mgk ;
+{ bloodpool [label = "Blood pool fuels magic powers"]}    vampirethemasquerade -- bloodpool ;
+
+
+##### freeform magic
+{ magicanalogytable [label = "Table of analogies for building spells"]}    nephilim -- magicanalogytable ;
+{ nospelllist [label = "No spell list,\n just areas of magic & 1..5 levels"]}  maelstromrpg -- nospelllist -- verbnounmagic ; 
+{ verbnounmagic [label = "Verb-noun method to classify spells"]}    verbnounmagic -- arsmagica ;
+verbnounmagic -- fourbyfivemagic [style=dotted] ;
+{ fourbyfivemagic [label = "Four By Five Magic"]} fourbyfivemagic -- fudge ;
+
+
+
+##### magic schools, style, ...
+{ guildmage [label = "Guilds and secret societies of magicians"]}    chivalrynsorcery -- guildmage -- arsmagica ;
+{ fivecolorsblacklotus  [label = "Five colors of magic \n Black Lotus"]}    castleamber -- fivecolorsblacklotus -- "?? -> Magic: The Gathering" ;  #s81
+{ uamagic [label = "Each school of magic is \nmechanically unique and specific"]}    unknownarmies -- uamagic ; #s21
+
+
+##### reason-magic 
+{ rationality [label = "(ir)rationality stats"]}    aquelarre -- rationality ;
+{ flowhidden [label = "Magical 'Flow' attribute kept secret from player"]}    malefices -- flowhidden ;
+{ openmindedness [label = "Open-mindedness vs Spirituality attributes"]}    malefices -- openmindedness ;
+
+
+
+##### magic items 
+{ magicitemdnd3 [label = "Magic item typed bonuses & item slots"]}    dnd3 -- magicitemdnd3 ;
+{ magicitemdnd4 [label = "Budget for magic items"]}    dnd4 -- magicitemdnd4 ;
+{ magicitemdnd5 [label = "Magic items: attunement and rarity"]}    dnd5 -- magicitemdnd5 ;
+{ unlockmagicalitem [label = "Unlock powers of magical items"]}    earthdawn -- unlockmagicalitem ;
+
+
+
+##### powers for all 
+{ everybodymagic  [label = "Every character can do magic"]}   runequest -- everybodymagic ; 
+{ powers4all [label = "Powers for all classes (at-will, per-encounter, per-day)"]}   dnd4 -- powers4all ;
+
+
+
+
+{ warpreality [label = "Dangerous to warp reality/ paradox"]}  maelstromrpg -- warpreality --  mageascension ;
+{ warping [label="Warping: side effect of too much exposition to magic"]}   arsmagica -- warping ;
+
+
+{ matrixatune [label = "Spells in matrixes to attune"]}    earthdawn -- matrixatune ;
+
+{ zener [label = "Psychic powers based on Zener cards"]}    conspiracyx -- zener ;
+
+{ spellexpended [label = "Spells that are only expended on bad rolls"]}    thirteenage -- spellexpended ;
+ 
+{ barbarianhatemagic [label = "Barbarians hate magic"]}   unearthedarcana -- barbarianhatemagic ; 
+
+
+}
+
+
+
+
+
+
+
+
+
+########################################################################
+############# Morality, Alignment, Personality, Sanity      ############
+########################################################################
+
+
+{
+node [fontcolor=orangered];
+edge [color=orangered; weight=2]
+
+{ ppersonifypc [label="(emerging) Players personify their characters"]}  
+diplomacy -- ppersonifypc -- blackmoor ;
+{ focuschar [label="(em) Focus on character \nrather than strategy"]}  ppersonifypc -- focuschar; 
+
+
+##### Alignments, morality
+{ cmalignement [label ="Creatures divided between Law and Chaos"] } chainmail -- cmalignement ;
+{ threealignment [label="3 alignments: lawful, chaotic, neutral"]}  cmalignement -- threealignment -- odnd_woodgrainbox ;
+{ twoaxisalignment [label="2 axis alignment: lawful-neutral-chaotic;\ngood-neutral-evil"]}    dndholmes -- twoaxisalignment -- addplayerhandbook ;
+{ oneaxisalignment [label="Back to 1 axis alignment"]}   dndmoldvay -- oneaxisalignment ;
+{ oneaxis5align [label = "1 axis 5 alignements"]}   warhammerfrpg -- oneaxis5align ;
+{ fivealignments [label="1 axis of 5 alignments"]}   dnd4 -- fivealignments ;
+{ backtwoaxisalignment [label="Back to 2 axis alignment: lawful-neutral-chaotic;\ngood-neutral-evil"]}    dnd5 -- backtwoaxisalignment ;
+
+
+{ christianscale [label="Christian-like values alignement scale"]}   chivalrynsorcery -- christianscale ;
+{ moralitytrait [label = "Morality, Virtues and Vice traits"]}    vampirerequiem -- moralitytrait ;
+{ moralitytrack [label = "Morality track"]}    hunterreckoning -- moralitytrack ;
+
+
+##### Sanity & corruption tracks 
+{ sanity [label="Insanity rule (SAN)"]}   callofcthulhu -- sanity ;
+{ psycholimit [label="Psychological Limitations option"]}   champions -- psycholimit ;
+{ tempinsanity [label = "Temporary insanity: flee, struggle or submit"]}   deltagreen2016 -- tempinsanity ;
+{ sanitybonds [label = "Social bonds: used/exhausted for not going insane"]} deltagreen2016 -- sanitybonds ;
+
+{ humanitytrack [label = "Humanity track"]}  vampirethemasquerade -- humanitytrack ;
+{ vampirepaths [label = "Vampire 'paths'"]}   humanitytrack -- vampirepaths ;
+{ banality [label = "Banality track"]}   changelindreaming -- banality ;
+{ seelie [label = "Seelie and Unseelie aspects"]}   changelindreaming -- seelie ;
+
+{ dabcorruption [label="Some actions can lead to Corruption"]}  shadowofthedemonlord -- dabcorruption ;
+{ darkside [label="Dark side points"]}    starwarsweg -- darkside ;
+{ noirceur [label = "Murder darken the PC to his end"]}    marchebranche -- noirceur ;
+{ corruptionmechanic [label = "corruption mechanic : \n easy bonus to cool powers \n leading to awful end"]}  urbanshadows -- corruptionmechanic ; #s66 
+
+
+
+
+##### Honor, glory, reputation
+{ honor [label="Honor system"]}   bushido -- honor ;
+{ dharmaspath [label = "Dharmas"]}    kindredeast -- dharmaspath ;
+
+
+##### Personality and motivations 
+{ passions [label = "Players can lose control of their characters\n(passions and personality)"]}   pendragon -- passions ;
+{ naturendemeanour [label = "Nature and demeanor traits"]}   vampirethemasquerade -- naturendemeanour ;
+{ rnfpassions [label="Rage, noble and fear passions"]}   unknownarmies -- rnfpassions ;
+{ mentaldisadv [label="Mental disadvantages"]}    gurps -- mentaldisadv ;
+pointbuy -- mentaldisadv ;
+{ fourpersonality [label = "Motive, virtue, fault & fate"]}    everway -- fourpersonality ;
+
+
+{ dcmotivations [label="Heroic and villainous motivations"]}    dcheroes -- dcmotivations;
+{ goals [label="Goals"]}   ghostbusters -- goals ;
+{ mentalbalance [label = "Dark Secrets"]}  kult -- mentalbalance ;
+{ beliefs  [label = "Character belief: incentive \nto play in a certain way"]}   burningwheel -- beliefs ;
+{ conflictingvalues  [label = "Choose between conflicting values\nDebrief in confession after missions"]}   mileschristi -- conflictingvalues ;
+{ vendetta  [label = "Vendetta pool to discard hits taken\nGM can ask force player to do stupid things for vendetta"]}   secretsnlies -- vendetta ; #s19
+
+
+
+}
+
+
+
+
+
+
+
+
+############################################################
+############# Literature / Genre Emulation      ############
+############################################################
+
+{
+node [fontcolor=indianred];
+edge [color=indianred; weight=2]
+
+{ licensed [label="1st licensed RPG"]}   dallas -- licensed ;
+
+{ lovecraftcosmichorror [label = "Lovecraftian cosmic horror"]}    callofcthulhu -- lovecraftcosmichorror ;
+{ farrealm [label = "Far Realm"]} lovecraftcosmichorror -- farrealm -- gatesfirestormpeak ;  #s97
+
+{ dualistic [label = "Dualistic world where reality is fake"]}   dualistic -- slaindustries ;  # The Truth
+kult -- dualistic ;
+
+{ chineseactionmovie [label = "Clichés and tropes of Chinese action movies"]}   fengshui -- chineseactionmovie ;  
+
+{ firstsf [label = "1st SF RPG"]}    starfaring -- firstsf ;
+
+{ semihistorical [label="Semi-historical\n(swashbuckling fiction genre)"]}  engarde -- semihistorical ;
+
+{ pastiche [label="Pastiche: what if D&D was\n inspired by Greek mythology?"]}  mazesnminotaurs -- pastiche ;
+
+{ christianapo [label="Overtly christian apologetic"]}  dragonraid -- christianapo ;
+
+{ dwarkmohawk [label="Tattooed Mohawk Dwarf"]}  warhammerfrpg -- dwarkmohawk ;
+
+{ pcarecultists [label="PC are the cultists"]}  soth -- pcarecultists ;
+
+
+
+
+
+}
+
+
+
+#################################################
+############# rolls n randomizers    ############
+#################################################
+
+
+{
+node [fontcolor=darkturquoise];
+edge [color=darkturquoise; weight=2; fontcolor=darkturquoise; fontsize=8]
+
+
+###Basic
+{ rollunder [label="Roll-under targer number"]}     rollunder -- odnd_woodgrainbox ;
+{ rolladdcompare [label="Both roll, add and compare"]}   tunnelsntrolls -- rolladdcompare ;
+{ percentile  [label = "percentile dice-based"]}    boothill -- percentile -- runequest ;
+{ openendingroll [label = "Open-ending roll for PC and NPC"]}     rolemaster -- openendingroll ;
+{ anythingcanhappen [label = "Anything can happen"]}     openendingroll -- anythingcanhappen  ;
+
+###Pick (side die)
+{ ghostdie [label = "Ghost Die \n(mishap on a 6)"]}      
+
+{ wilddie [label = "Wild die"]}   
+{ rollreadbest [label = "Roll, read best only" ]}  deadlands -- wilddie -- rollreadbest ;
+
+{ besttworoll [label="Best two roll, and third die effect"]}  smallville -- besttworoll ;
+{ disadvantages [label = "(dis)advantages: roll 2 dices and pick"]}  dnd5 -- disadvantages ;
+{ flipflop [label = "Flip-flopping: switch tens and singles of d00 roll"]}  unknownarmies -- flipflop ;
+
+###Dice
+{ multipledice [label="Polyhedral dice (d4.d6.d8.d12.d20)"]}    multipledice -- odnd_woodgrainbox;   #"Multi-Sided Dice Sets" introduced via wesely via Arneson (Blackmoor)
+{ zocchi [label="usual polyhedral dice \n+ Zocchi dice set \n(d3, d5, d7, d14, d16, d24 & d30)"]}    dungeoncrawlclassic -- zocchi;   
+
+{ diceless  [label = "Diceless (no randomizer)"]}  amber -- diceless ;
+
+{ stepdie [label = "Step die mechanics" ]}   earthdawn -- stepdie ;
+{ cardrandom [label = "52 playing cards as randomizers" ]}   castlefalkenstein -- cardrandom ;
+{ d666 [label = "d666" ]}   insmv -- d666 ;
+{ uniquedice [label="Unique icons set of dice"]}    warhammerfrpg3 -- uniquedice ;  # -- starwarsffg
+{ fudgedice [label="Fudge dice"]}    fudge -- fudgedice ;
+{ runepicking [label="Runes picking as randomisers"]}    fateofthenorns -- runepicking ;
+{ ctrlsitdice [label="control die (d20) and situation dice (d4...)"]}    alternity -- ctrlsitdice ;
+{ abilitydice [label="Abilities determine dice size"]}    sovereignstone -- abilitydice -- serenity ;
+
+##### Rock Scissor Paper 
+{ rsp [label="Rock-Scissors-Paper"]}    mindeyetheatre -- rsp ;
+{ rspduel [label="Rock-Scissors-Paper for 'coward dueling'"]} ;    rspduel -- baronmunchausen ;
+{ rspstyle [label="Fighting styles have advantages on others\n like in Rock-Scissors-Paper"]} ;    rspstyle -- dyingearth ;
+
+
+##Dice pool (linear)
+{ firstdicepool [label = "First dice pool system"]}    ghostbusters -- {ghostdie ; firstdicepool} ;
+{ rollnkeep [label = "Roll-and-keep dice pool" ]}    legend5rings -- rollnkeep ;
+{ tndp [label = "Target number dice pool" ]}     shadowrun -- tndp ;  # --vampirethemasquerade 
+{ highestdiepool [label = "Highest-die dice pool"]}    primedirective -- highestdiepool ;
+{ additivedicepool [label = "Additive dice pool"]}     starwarsweg -- additivedicepool ;
+{ opposedrolldp [label = "Opposed rolls in dice pools"]}    sorcerer -- opposedrolldp ;
+
+
+
+##Dice pool (nonlinear)
+{ identicaldices  [label = "Sets of identical-dices values in dice pool"]}   godlike -- identicaldices ;
+{ onerollengine [label = "ORE: One Roll Engine"]}    identicaldices -- onerollengine -- reign  ;
+{ dpandpick [label = "Roll a dice pool and pick the best"]}    silhouette -- dpandpick ;
+
+
+{ d6md6  [label = "d6 minus d6 \n(+ skill bonus)"]}   fengshui -- d6md6 ;
+
+{ everyroll [label = "Every roll means something"]}   apocalypseworld  -- everyroll ;
+#everyroll -- systemdoesmatter [style=dotted] ;
+
+
+{ dicebid [label = "Add one detail for each bidden dice"]}    bloodnhonor  -- dicebid ;
+
+{ dominos [label = "Dominos"]}    auxmarchesdupouvoir  -- dominos ;
+{ chessb [label = "Chess board & pieces"]}    vademecum  -- chessb ;
+
+{ metadice [label = "+1 meta-dice of stress\n per 30min of game avg."]}    dstart  -- metadice ;
+
+{ dicekeypoint [label = "Dice rolled in various tables at key moments"]}    darkrealms -- dicekeypoint -- fiasco ;
+
+{ computerdice [label = "Computer dice: 1/6 chance of problems on each actions"]}    paranoiaredclearance -- computerdice ;
+
+{ jengatower [label = "Jenga tower"]}    dread -- jengatower ;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###################################################################
+###########                                              ##########
+###########      Part 5 : meta-links between elements    ##########
+###########                                              ##########
+###########  same author, direct citation, same rules,   ##########
+###########                                              ##########
+###################################################################
+
+
+
+
+##################################################
+# Authorship
+##################################################
+
+
+{
+node [];
+edge [color=lightgrey; fontcolor=lightgrey]
+
+blackmoor -- odnd_woodgrainbox -- odnd_blackmoor -- arnesonquits -- firstfantasycampaign -- lawsuitarneson -- riparneson [label = "Arneson D"] ; #Q1381
+odnd_woodgrainbox -- odnd_greyhawk -- boothill -- eldritchwizardry --  monstermanual -- addplayerhandbook -- tombofhorror -- adddungeonmasterguide  -- greyhawk -- gygaxquits -- dangerousjourney -- lejendaryadventures -- ripgygax --  GygaxMagazine [label = "Gygax G"] ; #Q25550430
+
+whitebearnredmoon -- basicroleplaying -- worldsofwonder -- pendragon -- ghostbusters -- princevaliant -- rqherowars -- rqheroquest -- pendragon5 -- greatpendragoncampaign [label = "Stafford G"] ;
+alltheworldsmonsters -- runequest -- thievesworld -- worldsofwonder -- superworld -- elfquest -- stormbringer -- steveperrinsquestrules [label = "Perrin S"] ;
+fchelrakstomb -- cavernsofthracia -- darktower [label = "Jaquays J"] ;
+arduin -- arduin2 -- arduin3 [label = "Hargrave D"] ;
+dndmoldvay -- castleamber [label = "Moldvay T"] ;
+engarde -- traveller -- twilight2000 -- space1889 [label = "Chadwick F"] ;
+tunnelsntrolls -- starfaring -- monstersmonsters -- stormbringer [label = "St. Andre K"] ;
+toon -- paranoia -- starwarsweg [label = "Costikyan G"] ;
+empireofthepetalthrone -- empireofthepetalthrone83 -- empireofthepetalthrone87 -- adventurestekumel -- swordsnglory -- empireofthepetalthrone2005  [headlabel = "M.A.R. Barker"] ;
+
+fantasytripmelee -- gurps -- arsmagica [label = "Jackson S"] ;  #Q547203
+#arsmagica -- talislanta -- overtheedge -- everway -- dnd3 -- thirteenage [label = "Tweet J"] ; #Q706412
+arsmagica -- vampirethemasquerade -- werewolfapocalypse -- mageascension -- wraithoblivion -- changelindreaming -- vampiredarkages [label = "Rein-Hagen M"] ; #Q2018494
+labyrinthofmadness -- deadgods -- paladininhell -- dnd3 -- returntempleelementalevil -- ptolus -- numenera -- thestrange  [label = "Cook M"] ; #Q1945820
+mekton -- teenagersfromouterspace -- cyberpunk2013 -- cyberpunk2020 -- castlefalkenstein -- cyberpunkv3 [label = "Pondsmith M"] ; #Q5296177
+starwarsweg -- torg -- alternity -- darksun2 -- dnd3 -- eberron [label = "Slavicsek B"] ; #Q3640000
+unknownarmies -- unknownarmies2 -- godlike -- reign -- unknownarmies3 [label = "Stolze G"] ;  #Q5606302
+legend5rings -- seventhsea -- orkworld -- housesoftheblooded -- bloodnhonor [label = "Wick J"] ; #Q3182744
+otherkind -- inawickedage -- dogsinthevineyard -- poisond -- apocalypseworld  [label = "Baker V"] ; #Q16146339
+fengshui -- dyingearth -- rloggm -- fearitself -- esoterrorists -- hillfolk -- gaeanreach [label = "Laws RD"] ; #Q3012102 
+wushu -- secretsnlies [label = "Bayn D"] ;
+breakingtheice -- shootingthemoon -- undermyskin -- bubblegumshoe [label = "Care Boss E"] ; #Q42211232
+maid -- goldensky [label = "Kamiya R"] ;
+startreknextgenrpg -- startrekds9 -- runequest4 -- trailcthulhu -- nightblackagents -- bubblegumshoe [label = "Hite K"] ; #Q3814592
+blissstage -- polaris [label = "Lehman B"] ; #Q64528551
+ladyblackbird -- bladesinthedark [label = "Harper J"] ; #Q67174653
+
+horrororientexpress -- beyondmountainsmadness [label = "Anderson P"] ; #Q67315739
+gatesfirestormpeak -- returntombofhorror -- sunlesscitadel  [label = "Cordell B"]  #Q4977305
+
+
+bitume -- zone -- animonde -- insmv -- heavymetal -- bloodlust -- stellainquisitorius -- scales -- nightprowler -- cops [label = "Croc"] ;
+ukiyo -- perdussouslapluie -- librete [label = "Féasson V"] ;
+surlesfrontieres -- summercamp -- auxmarchesdupouvoir -- monstres [label = "Bedouet M"] ;
+millevaux -- inflorenza -- odyssea -- dragonfly -- marchebranche [label = "Munier T"] ;  #Q64561959
+dksystem -- dksystem2 -- hellywood -- millesmarches -- bloodlustmetal -- dragondepoche -- oltree -- nanochrome -- laluneet12lotus -- mordiou -- soulfire [label = "Le Grümph"]  ;  #Q28493942
+sensrenaissance -- sensmort -- lacellule -- sensneant -- maelstrom -- senscosmo -- senschaos -- vademecum [label = "Briand R"]; #Q48929823
+dksystem -- macchiatomonsterszero -- macchiatomonsters [label = "Nieudan E"];  #Q56285070
+
+}
+
+
+
+#Q3027034	Didier Guiserix
+#Q3022697	Denis Gerfaud
+#Q62035702	Anne Vétillard
+#Q66006796	Patrick Durand-Peyroles
+#Q3088237	Froideval
+#Q2388292	Jeff Easley
+#Q5232538	David Cook
+#Q18378914	Jim Bambra
+#Q66831262	Luke Crane
+#Q66948470	Emmanuel Gharbi
+#Q66949758	Mathias Twardowski
+#Q66950082	Raphaël Andere
+#Q3167089	Jean-Luc Bizien
+#Q66092438	Valérie Bizien
+#Q67000797	Michel Gaudo
+#Q67000824	Guillaume Rohmer
+
+
+
+
+
+##########################################################
+##### citation practices / on the shoulder of dwarves!  ##
+##########################################################
+
+{
+node [];
+edge [color=lightgrey; fontcolor=lightgrey ; style=dotted]
+
+
+{ appendixn [label="Appendix N"]}  adddungeonmasterguide -- appendixn ;
+
+{ detailedludo [label = "Detailed ludodraphy"]}    threesixteen -- detailedludo ;
+{ precisegamemec [label = "Detailed ludodraphy \nwith precise game mechanic citations"]}    apocalypseworld -- precisegamemec ;
+{ intext [label = "Precise game mechanic citations in text"]}    vademecum -- intext ;
+
+
+#2#
+
+
+##### dedicace
+
+chainmail -- odnd_woodgrainbox ;  #wd
+mmsa -- odnd_woodgrainbox ;  #wd
+lgtsa -- odnd_woodgrainbox ;  #wd
+
+odnd_woodgrainbox -- runequest ; #wd
+tunnelsntrolls -- runequest ; #wd
+alarums -- runequest ; #wd 
+
+
+
+##### forewords, preface
+
+blackmoor -- odnd_woodgrainbox ; #wd
+castlencrusadesociety -- odnd_woodgrainbox ; #wd
+odnd_woodgrainbox -- tunnelsntrolls ; #wd 
+addplayerhandbook -- alternity ; #wd 
+
+
+
+##### mention of the gamme, the brand, the product line 
+
+
+legend5rings -- seventhsea ;  #wd 
+agone -- abyme ; #wd
+
+runesmagazine -- legendestableronde ;  #wd 
+legendes -- legendestableronde ;  #wd
+
+
+##### ludography
+
+traveller -- threesixteen ;  #wd
+traveller2300 -- threesixteen ;   #wd
+agon -- threesixteen ; #wd
+theforge -- threesixteen ; #wd
+solipsist -- threesixteen ; #wd
+spione -- threesixteen ;#wd
+itwasamutualdecision -- threesixteen ; #wd
+labyrinthsnlycanthropes -- threesixteen ; #wd
+carry -- threesixteen ; #wd 
+
+callofcthulhu6 -- achtungcthulhu ;  #wd
+savageworlds -- achtungcthulhu ;  #wd 
+
+threesixteen -- apocalypseworld ; #wd 
+arsmagica -- apocalypseworld ;  #wd 
+bacchanal -- apocalypseworld ;  #wd 
+burningwheel -- apocalypseworld ; #wd 
+themountainwitch -- apocalypseworld ; #wd 
+mouseguard -- apocalypseworld ; #wd 
+primetime -- apocalypseworld ; #wd 
+theshadowofyesterday  -- apocalypseworld ; #wd 
+sorcerer -- apocalypseworld ; #wd 
+talislanta -- apocalypseworld ; #wd 
+trollbabe -- apocalypseworld ; #wd 
+xxxxtremestreetluge -- apocalypseworld ; #wd 
+overtheedge -- apocalypseworld ; #wd 
+
+baronmunchausen -- apennyformythoughts ; #wd
+athousandandonenights -- apennyformythoughts ; #wd
+thecourtoftheempress -- apennyformythoughts ; #wd
+polaris -- apennyformythoughts ; #wd
+lacuna -- apennyformythoughts ; #wd
+primetime -- apennyformythoughts ; #wd
+dontrestyourhead -- apennyformythoughts ; #wd
+serialhomicideunit -- apennyformythoughts ; #wd
+
+sechapperdesfaubourgs -- inflorenza ; #wd
+dirtysecrets -- inflorenza ;  #wd
+innommable -- inflorenza ; #wd
+nobilis -- inflorenza ; #wd
+anima -- inflorenza ; #wd
+cthulhutech -- inflorenza ; #wd
+monostatos -- inflorenza ;  #wd
+polaris -- inflorenza ;  #wd
+callofcthulhu -- inflorenza ; #wd
+sombren1 -- inflorenza ; #wd
+prosopopee -- inflorenza ; #wd
+seventhsea -- inflorenza ; #wd
+
+chivalrynsorcery -- runequest ; #wd
+bunniesnburrows -- runequest ; 
+flashgordonntwom -- runequest ; #wd
+starshipsnspacemen  -- runequest ; #wd
+empireofthepetalthrone -- runequest ; #wd
+knightsoftheroundtable -- runequest ; #wd
+spacepatrol -- runequest ; #wd
+superhero2044 -- runequest ; #wd
+add -- runequest ; #wd
+dndholmes -- runequest ; #wd
+gammaworld -- runequest ; #wd
+metamorphosisalpha -- runequest ; #wd
+bushido -- runequest ; #wd
+spacequest -- runequest ; #wd
+fantasytripwizard  -- runequest ; #wd
+monstersmonsters -- runequest ; #wd
+starfaring -- runequest ; #wd
+traveller -- runequest ; #wd
+engarde  -- runequest ; #wd
+legacy -- runequest ; #wd
+arduin -- runequest ; #wd
+cultsofprax -- runequest ; #wd
+wyrmsfootnotes -- runequest ; #wd
+
+vampirethemasquerade -- activ8 ; #wd
+unknownarmies -- activ8 ; #wd
+rqheroquest -- activ8 ; #wd
+shadowrun -- activ8 ; #wd
+silhouette -- activ8 ; #wd
+   
+##### intext
+
+callofcthulhu -- aquelarre ; #wd
+runequest -- aquelarre ; #wd
+stormbringer -- aquelarre ; #wd
+legend5rings -- aquelarre ; #wd
+arsmagica -- aquelarre ; #wd
+capitanalatriste -- aquelarre ; #wd
+comandosdeguerra -- aquelarre ; #wd
+odnd_whitebox -- aquelarre ; #wd 
+
+fate3 -- housesoftheblooded ; #wd  
+octane -- housesoftheblooded ; #wd 
+inspectres -- housesoftheblooded ; #wd 
+
+
+##### indirect citation  
+
+
+
+
+
+
+###### Author acknowledgements in interviews 
+
+odnd_woodgrainbox -- traveller ;  #p63 p64 
+{ starfaring ; metamorphosis alpha } -- traveller ;  #p63 p64 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+node [];
+edge [color=lightgrey; fontcolor=lightgrey ; style=dotted]
+
+
+################################################################
+####    Same genre, universe, story, franchise     #############
+################################################################
+
+bunniesnburrows2 -- bunniesnburrowsgurps -- thewarren ;
+
+metamorphosisalpha -- gammaworld ;
+rifts -- torg ;
+{ orientaladventures ; legend5rings2 } -- orientaladventures2 ;
+gammaworld -- mutantcrawlclassic ;
+
+abyme -- chroniquesfeals ; 
+
+ghostbustersi -- inspectres ;
+
+shadowrun -- earthdawn [label = "setting"];
+
+pathfinder -- starfinder ; #[rule+setting]
+
+vampirerequiem -- undying ;
+vampirerequiem -- urbanshadows ;
+
+manualoftheplanes -- planescape ;
+tombofhorror -- returntombofhorror -- tombofannihilation ;
+expeditioncastleravenloft -- curseofstrahd ;
+merp -- lordoftheringsrpg -- theonering ;
+agameofthrones -- asongoficenfirerpg ;
+thedrwhorpg -- timelord -- drwhorpg  ;
+manualoftheplanes -- planescape ;
+bunniesnburrows2 -- bunniesnburrowsgurps -- thewarren  ;
+templeelementalevil -- returntempleelementalevil ;
+
+i10ravenloft2 -- ravenloft ;
+ravenloft -- kargatane ; 
+kargatane -- fraternityofshadows ; 
+
+hplpublicdomain -- trailcthulhu ;
+hplpublicdomain -- thelaundry ;
+hplpublicdomain -- tremulus ;
+hplpublicdomain -- worldwarcthulhu ;
+hplpublicdomain -- achtungcthulhu ;
+hplpublicdomain -- soth ;
+hplpublicdomain -- cthulhudark0 ;
+hplpublicdomain -- stalkerselderdark ;
+hplpublicdomain -- inflorenza ;
+
+runequest3 -- steveperrinsquestrules ; 
+
+callofcthulhu5 -- katzulhu ;
+
+berlin183e -- cops ; #[noir cop procedural]
+
+
+################################################################
+###########                  Rules                 #############
+################################################################
+
+###### Inspired by previous rules
+
+traveller -- starswithoutnumbers ;   # clone Traveller+DnD 
+ghostbusters -- overtheedge -- risus ;
+odnd_woodgrainbox -- tunnelsntrolls ;   #t48 
+
+
+###### Movement
+
+theforge -- burningwheel ;  #wd
+theforge -- apocalypseworld ; #wd 
+theforge -- sorcerer ; #wd 
+theforge -- themountainwitch ;  #wd 
+theforge -- dogsinthevineyard ;  #wd 
+theforge -- mylifewithmaster ; #wd  
+theforge -- octane ; #wd 
+theforge -- inspectres ; #wd 
+theforge -- lacuna ;  #wd 
+theforge -- primetime ; #wd 
+theforge -- spione ; #wd 
+theforge -- polaris ; #wd
+theforge -- threesixteen ; #wd
+
+d20srdogl -- osr ;
+d20srdogl -- kingdomkalamard20 ;
+d20srdogl -- scarredlands ; 
+d20srdogl -- midnight ;
+d20srdogl -- ironkingdoms ;
+d20srdogl -- etherscope ;
+d20srdogl -- ptolus ;
+d20srdogl -- thirteenage ;
+d20srdogl -- spycraft ; 
+d20srdogl -- dksystem ;
+d20srdogl -- mutantsnmasterminds ; 
+
+osr -- castlesncrusades ;
+osr -- osric ;
+osr -- mazesnminotaurs ;
+osr -- labyrinthlords ;
+osr -- basicfantasyrpg ; 
+osr -- swordsnwizardry ;
+osr -- darkdungeons ; 
+osr -- lamentationsflameprincess ; 
+osr -- mazesnperils ;
+osr -- forgoldnglory ; 
+osr -- dungeoncrawlclassic ;
+osr -- blueholme ;
+osr -- torchbearer ;
+burningwheel -- torchbearer ;
+osr -- beyondthewall ;
+osr -- intotheodd ;
+osr -- nightmaresunderneath ;
+osr -- neoclassicalgeekrevival ;
+osr -- whitehack ;
+osr -- blackhack ;
+
+
+###### unofficial supplements / hack / indirect link within the same publisher 
+
+odnd_woodgrainbox -- alarums ;
+
+odnd_whitebox -- fchelrakstomb ;
+odnd_whitebox -- palacevampirequeen ; #t29 
+
+odnd_whitebox -- judgesguild ;
+odnd_whitebox -- arduin ;
+
+alltheworldsmonsters -- monstermanual ;
+
+add -- bushido  ; #t53 
+add -- armslaw ;
+
+tunnelsntrolls5 -- grimtoothstrap ;
+tunnelsntrolls -- monstersmonsters ; 
+
+rolemaster2 -- aborea ; 
+
+apocalypseworld -- dungeonworld ; 
+apocalypseworld -- thewarren ;
+apocalypseworld -- sagaislanders ; 
+apocalypseworld -- cartel ;
+apocalypseworld -- wwwrestling ;
+apocalypseworld -- worldsinperil ;
+apocalypseworld -- headspace ;
+apocalypseworld -- soth ;
+apocalypseworld -- tremulus ; #wd
+apocalypseworld -- monsterhearts ;
+apocalypseworld -- monsteroftheweek ;
+apocalypseworld -- urbanshadows ;
+apocalypseworld -- nightwitches ;
+apocalypseworld -- bluebeardsbride ;
+apocalypseworld -- threadbare ;
+
+adnd2 -- hackmaster4 ;
+
+savageworlds -- deadlandsr ;
+savageworlds -- fiftyfathoms ;
+
+traveller -- traveller2300 ;
+
+gearkrieg -- silhouette ; 
+
+fate3 -- sotc ;
+fate3 -- starblazer ;
+fate3 -- diaspora ;
+fate3 -- dresdenfiles ;
+fate3 -- strandoffate ;
+fate4 -- mindjammer ;
+
+cortex -- smallville ;
+cortex -- leverage ;
+cortex -- supernatural ;
+cortex -- marvelhrp  ;
+
+dnd35 -- pathfinder;
+
+basicroleplaying -- nephilim ;
+
+ladyblackbird -- ladyrossa ;
+
+worldsofwonder -- drakar ;
+
+
+
+lamentationsflameprincess -- carcosa  ;
+
+gumshoesystem -- esoterrorists ;
+gumshoesystem -- trailcthulhu ; 
+
+}
+
+
+
+
+
+###################################################################
+############ game theories & rpg theories & zeitgeist & movements 
+############ essays, blogs, Con, forums, ...
+###################################################################
+
+
+{
+node [fontcolor=darkorange fontsize=8];
+edge [color=darkorange fontsize=8]
+
+
+
+##### Medias & conventions
+{ rank = same; 1997; recgamesfrp [label="rec.games.frp.advocacy"]}
+{ rank = same; 1996; rpgnet [label = "RPG.net"]}
+{ rank = same; 1997; knutepunkt [label = "1st Knutepunkt Conference"] }
+
+{ rank = same; 2015; criticalrole [label = "Critical Role" ]} #Q22079668
+{ rank = same; 2014; gamergate [label= "GamerGate controversy"] }  #Q18114445
+{ rank = same; 2001; ennies [label= "Gen Con RPG Awards (the 'ENnies')"]}   #Q5323772
+
+{ rank = same; 1975; alarums [label = "Alarums & Excursions" ]}  #Q4708400
+{ rank = same; 1998; ptgptb [label = "Place to Go, People to Be"]} #Q66126565
+{ rank = same; 2008; ptgptbend [label = ""]} ptgptb -- ptgptbend ;
+{ rank = same; 2000; ptgptbfr [label = "Place to Go, People to Be \n[fr]"]}  
+
+{ rank = same; 2005; thealexandrian [label="The Alexandrian"]}   #Q66024800
+{ rank = same; 2007; bankui [label="Deeper in the Game (Bankui)"]}  
+{ rank = same; 2011; tenfootpole [label="tenfootpole"]}  
+
+##### Databases
+{ rank = same; 1999; acaeum [label = "The Acaeum" ]} 
+{ rank = same; 2004; tvtrope [label = "TV Trope"]} #Q2537428
+{ rank = same; 2000; legrog [label = "le Grog"]}
+
+
+
+##### Movements & techniques
+{ rank = same; 1999; theforge [label = "The Forge" image="C:\gv\theforge.png"]}  #Q64528910
+{ rank = same; 2005; theforgeend [label = "x"; fillcolor=none]} theforge -- theforgeend ;
+{ rank = same; 2004; systemdoesmatter [label="System does matter"]}  theforge -- systemdoesmatter ; 
+{ rank = same; 2005; czege [label = "The Czege Principle"]}  theforge -- czege ;  #Q7030569
+
+
+
+{ rank = same; 2006; storygames [label = "Story Games forum" ]}
+{ rank = same; 2015; wordsrpgchallenge200 [label = "200 Word RPG Challenge" ]} #p43 
+{ rank = same; 2016; feminism  [label = "#Feminism"]}
+{ rank = same; 2012; xcard [label="X-card \n[John Stravopoulos]"]}  #date approx. 
+{ rank = same; 1999; knappnalshuvudet [label="Knappnålshuvudet (nordic larp): 1st first workshop pre-game"]} #p73 
+{ improvisation_theater [label="Improvisation theater techniques"]}  improvisation_theater -- apocalypseworld ; 
+
+
+#### Essays 
+{ rank = same; 2002; rloggm [label = "Robin's Laws of Good Game Mastering"]}
+{ rank = same; 2007; playunsafe [label = "Play Unsafe"]}  #Graham Walmsley
+{ rank = same; 2004; mdaframework [label="Mechanics/Dynamics/Aesthetics (MDA) Framework \n 8 kinds of fun"]} # p74
+{ rank = same; 2007; bleed [label= "Bleed (Care Boss E)"] } #s77
+{ rank = same; 2014; maelstrom [label="Maelstrom: contenu fictionnel malléable"]}
+{ rank = same; 2016; gaminglayer [label="Gaming layers \n[Misdirected Mark Podcast]"]}
+{ rank = same; 2006; pushvspull [label="Push vs. Pull \n[Mo]"]}  # p76
+
+
+
+### play(er) typologies  #s24 pp.201-203
+{ rank = same; 1970; warvsgame [label="WARriors vs GAMErs (Perren S)"] } 
+{ rank = same; 1980; fourstylesRP [label="4 styles of role-play (Blacow):\n power gaming, wargaming,\n role-playing & story-telling"] }  fourstylesRP ;
+{ rank = same; 1988; typechamp [label="types of Champions players (Allston)"] } champions -- typechamp ;
+{ rank = same; 1996; bartle [label="Player psychology (Bartle)"] }
+{ rank = same; 1997; threefold [label="Threefold Model (Kuhner)"] } recgamesfrp -- threefold ;
+{ rank = same; 1998; gnstheory [label="GNS Theory"] }  threefold -- gnstheory ;
+theforge -- gnstheory ;
+{ rank = same; 1999; bigmodel [label="The Big Model (The Forge Theory)"] }  theforge -- bigmodel ;
+{ rank = same; 2001; gentheory [label="GEN theory"] }  gnstheory -- gentheory ;
+{ playertypes [label="Player types (Laws R)"] }    rloggm -- playertypes ;
+{ rank = same; 2002; systemcolor [label="System Color (Ninoles F)"] }
+{ rank = same; 2010; playermotives [label="Player Motives (Bowman SL, McDiarmid R)"] }
+
+#warvsgame -- fourstylesRP -- typechamp -- bartle -- threefold -- gnstheory -- bigmodel -- gentheory -- playertypes -- systemcolor -- playermotives [label = "Play(er) typologies" ] ;
+
+
+
+
+##### D&D Events
+
+{ rank = same; 1976; arnesonquits [label= "Dave Arneson quits TSR"]}
+{ rank = same; 1979; lawsuitarneson [label= "Lawsuit Arneson vs. TSR & Gygax"]}
+{ rank = same; 1985; gygaxquits [label= "Gary Gygax quits TSR"]}
+{ rank = same; 2007; ripgygax [label= "Gygax passed away"]}
+{ rank = same; 2008; riparneson [label= "Arneson passed away"]}
+
+
+
+##### Clubs
+
+{ rank = same; 1963; mmsa [label = "Midwest Military Simulation Association"]} #Q17090294
+{ rank = same; 1970; castlencrusadesociety [label = "Castle & Crusade Society"]}  Q5049968
+{ rank = same; 1970; lgtsa [label = "Lake Geneva Tactical Studies Association"]}  #Q5049968
+
+
+
+#{ rank = same; 1973; tsr [label = "Tactical Studies Rules, Inc." image="C:\Users\martinop\OneDrive - Universite de Montreal\perso\en_cours\timeline\after_dnd\images\tsr.png"]} lgtsa -- tsr ;
+#{ rank = same; 1975; tsrh [label = "TSR Hobbies, Inc." image="C:\Users\martinop\OneDrive - Universite de Montreal\perso\en_cours\timeline\after_dnd\images\tsrh.png"]} tsr -- tsrh ;
+#{ rank = same; 1983; tsrinc [label = "TSR, Inc." image="C:\Users\martinop\OneDrive - Universite de Montreal\perso\en_cours\timeline\after_dnd\images\tsrinc.png"]} tsrh -- tsrinc ;
+#{ rank = same; 1997; wotcbuystsr [label= "WotC buys TSR" image="C:\Users\martinop\OneDrive - Universite de Montreal\perso\en_cours\timeline\after_dnd\images\wotcbuystsr.png"]} tsrinc -- wotcbuystsr ;
+#{ rank = same; 1999; hasbrobuyswotc [label= "Hasbro buys WotC" image="C:\Users\martinop\OneDrive - Universite de Montreal\perso\en_cours\timeline\after_dnd\images\hasbrobuyswotc.png"]}  wotcbuystsr -- hasbrobuyswotc ;
+
+
+
+
+
+################################################################
+############ Moral panics 
+################################################################
+
+
+
+########### in the US
+ 
+{ rank = same; 1979; egberta [label = "Egbert disappearance"]}
+egberta -- "Nationwide promotion of D&D" ;  # Applecline2011 Peterson2012
+egberta -- "Moral panic" ;
+{ rank = same; 1980; egbertb [label = "Egbert suicide"]} egberta -- egbertb [style=dotted];
+{ rank = same; 1984; badd [label = "BADD (P.Pulling)"]}  egbertb -- badd [style=invis] ; # no link, just to group them together
+{ rank = same; 1984; darkdungeonschick [label = "Dark Dungeons Chick tract"]} badd -- darkdungeonschick [style=invis];   # no link, just to group them together
+{ rank = same; 1988; carpga [label = "CAR-Pga"]} badd -- carpga [style=dotted];
+
+
+
+
+########### in France
+
+{ rank = same; 1990; carpentras [label = "Profanation du cimetière\n juif de Carpentras\n[fr]"]}
+{ rank = same; 1995; mdumas [label = "Bas les masques\n(Mireille Dumas)\n[fr]"]}
+{ rank = same; 1996; ffjdr [label = "FFJDR\n[fr]"]}
+carpga -- carpentras [style=invis]; # no link, just to group them together
+carpentras -- mdumas -- ffjdr [style=dotted];
+
+
+########### in Spain
+
+{ rank = same; 1994; crimendelrol [label = "Crimen del rol\n[sp]"]}  #t25 
+carpentras -- crimendelrol [style=invis];  # no link, just to group them together
+
+
+
+
+
+}
+
+
+
+}  # End of program
+
+

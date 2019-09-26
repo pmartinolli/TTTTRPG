@@ -242,3 +242,13 @@ s91  https://jdr.hypotheses.org/938
 s92  Mosher, Robert. « Nineteenth Century Military War Games: Charles Totten’s Strategos-The Advanced Game ». GrogHeads (blog), 25 janvier 2015. http://grogheads.com/featured-posts/7212.
 s93  http://odd74.proboards.com/thread/11952/interested-korns-connection-rpg-history
 t94  https://en.wikipedia.org/wiki/Dust_Devils_(game)
+s95  https://dmdavid.com/tag/red-hand-of-doom-2006-greatest-dd-adventures-since-1985-number-2/
+s96  https://dmdavid.com/tag/nights-dark-terror-1986-greatest-dd-adventures-since-1985-number-1/  https://www.drivethrurpg.com/product/17119/B10-Nights-Dark-Terror-Basic?affiliate_id=8278
+s97  https://dmdavid.com/tag/the-gates-of-firestorm-peak-1996-greatest-dd-adventures-since-1985-number-10/
+s98  https://dmdavid.com/tag/tomb-of-annihilation-2017-greatest-dd-adventures-since-1985-number-6/
+s99  https://dmdavid.com/tag/sunless-citadel-2000-greatest-dd-adventures-since-1985-number-9/  
+s100 https://dmdavid.com/tag/vault-of-the-dracolich-2013-greatest-dd-adventures-since-1985-number-7/   
+s101 https://dmdavid.com/tag/madness-at-gardmore-abbey-2011-greatest-dd-adventures-since-1985-number-6/   
+s102 https://dmdavid.com/tag/dead-gods-1997-greatest-dd-adventures-since-1985-number-5/    
+s103 http://dmdavid.com/tag/curse-of-strahd-2016-greatest-dd-adventures-since-1985-number-4/  
+s104 http://dmdavid.com/tag/lost-mine-of-phandelver-2014-greatest-dd-adventures-since-1985-number-3/  
