@@ -1,16 +1,16 @@
 # TTTTRPG
 **Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years game design innovations**
 
-Around 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 2019.
+Over 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 2019.
 
-* Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-20190910.pdf)**
+* Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-20190918.pdf)**
 
 
 ## How to... 
 
 ### ... Do it myself 
 
-* Download the latest [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-20190910.gv) 
+* Download the latest [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-20190918.gv) 
    * Some [explanations](https://jdr.hypotheses.org/919) of the structure of the source code in dot language. 
    * How to compile the code is explained in the header of the source code.
 * Download the [zip package of icon pictures](https://drive.google.com/open?id=1N30n0QYaGSWLJTzJwPzn3wuklmib3zI8)
