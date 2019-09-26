@@ -3208,6 +3208,11 @@ dksystem -- macchiatomonsterszero -- macchiatomonsters [label = "Nieudan E"];  #
 ##### citation practices / on the shoulder of dwarves!  ##
 ##########################################################
 
+###### Risk of linking overload. 
+###### So I am currently transferring the citation project on Wikidata (2019-09-26).
+###### This section is not populated anymore. 
+
+
 {
 node [];
 edge [color=lightgrey; fontcolor=lightgrey ; style=dotted]
@@ -3218,9 +3223,6 @@ edge [color=lightgrey; fontcolor=lightgrey ; style=dotted]
 { detailedludo [label = "Detailed ludodraphy"]}    threesixteen -- detailedludo ;
 { precisegamemec [label = "Detailed ludodraphy \nwith precise game mechanic citations"]}    apocalypseworld -- precisegamemec ;
 { intext [label = "Precise game mechanic citations in text"]}    vademecum -- intext ;
-
-
-#2#
 
 
 ##### dedicace
@@ -3245,7 +3247,6 @@ addplayerhandbook -- alternity ; #wd
 
 
 ##### mention of the gamme, the brand, the product line 
-
 
 legend5rings -- seventhsea ;  #wd 
 agone -- abyme ; #wd
