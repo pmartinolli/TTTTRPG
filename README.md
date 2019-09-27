@@ -62,6 +62,8 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Presented at / Présenté à : [Donjons & Données probantes 2018](http://hdl.handle.net/1866/21088), [Blogue Jeu de rôle sur table](https://jdr.hypotheses.org/category/graphe), [ZoTrpg blog](https://zotrpg.blogspot.com/search/label/timeline), [ResearchGate](https://www.researchgate.net/publication/333489073_Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_2019_partially_released), [Academia](https://www.academia.edu/39317882/Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_today_partially_released_).
 
+* Contributors (sor far) : Éric Nieudan, Steve Dempsey
+
 * Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
 
 
