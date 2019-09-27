@@ -1,3 +1,4 @@
+##### Version 20190827
 
 ###################################################################
 ###########                                              ##########
@@ -829,6 +830,7 @@ monstermanual -- dndholmes ;
 { rank = same; 2002; buffyrpg  [label = "Buffy RPG"]}
 { rank = same; 2003; angelrpg  [label = "Angel RPG"]}  buffyrpg -- angelrpg ;
 
+{ rank = same; 1994; nexusinfinitecity  [label = "Nexus: The Infinite City" ]}  #t105
 { rank = same; 1996; fengshui  [label = "Feng Shui" image="C:\gv\fengshui.png"]}  #t59
 { rank = same; 2015; fengshui2  [label = "Feng Shui 2nd"]}  fengshui -- fengshui2 ;
 
@@ -1971,11 +1973,11 @@ dmalwaysright -- dmalwaysright2 [style=dotted] ;
 { colourgameplay [label="Choose colour (style) of the gameplay"]}  neuroshima -- colourgameplay ;   
 { scenetone [label="Roll for Jovial or Glum scene tone"]} swordswomaster -- scenetone ;
 { monologueofvictory [label="Monologue of Victory"]} thepool -- monologueofvictory ; #s66 
-
+{ playtoloseplaytolift [label="Play to lose, play to lift"]} montsegur1244 -- playtoloseplaytolift ; #s106 
 
 ########## Misc 
 
-{ gmagenda [label="GM Agenda & Principles"]}  apocalypseworld -- gmagenda ;
+{ gmagenda [label="GM Agenda & Principles"]}  toon -- gmagenda -- apocalypseworld  ;
 { confessional [label="Confessional reality-TV-like"]}    inspectres -- confessional ;
 { ritualsentences [label="Ritual key-phrases structuring game conversation"]}  polaris -- ritualsentences ;
 { logicalvertigo [label="Logical vertigo with dynamic \nflashbacks & flashforwards "]}  odyssea -- logicalvertigo ;
@@ -3079,7 +3081,7 @@ edge [color=darkturquoise; weight=2; fontcolor=darkturquoise; fontsize=8]
 { dpandpick [label = "Roll a dice pool and pick the best"]}    silhouette -- dpandpick ;
 
 
-{ d6md6  [label = "d6 minus d6 \n(+ skill bonus)"]}   fengshui -- d6md6 ;
+{ d6md6  [label = "d6 minus d6 \n(+ skill bonus)"]}   nexusinfinitecity -- d6md6 -- fengshui ;
 
 { everyroll [label = "Every roll means something"]}   apocalypseworld  -- everyroll ;
 #everyroll -- systemdoesmatter [style=dotted] ;
