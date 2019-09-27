@@ -19,7 +19,7 @@ Over 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 20
 ### ... Contribute
 
 * Send me corrections or suggestions at pascal.umontreal [at] gmail.com 
-  * If you want I cite you, add "cite:myname" in your email
+  * If you don't want to be cited as contributor, add "no citation" in your email
   
 * Improve [Wikidata](https://www.wikidata.org) items related to tabletop RPG. 
   * I documented some guidelines here https://www.wikidata.org/wiki/Wikidata:WikiProject_Board_Games (contact me at [Pmartinolli](https://www.wikidata.org/wiki/User:Pmartinolli) if you need help). I already made 7000 edits on TTRPGs so I have a little understanding of what is what there.
