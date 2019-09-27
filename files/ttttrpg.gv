@@ -1,4 +1,4 @@
-##### Version 20190827
+##### Version 20190827b
 
 ###################################################################
 ###########                                              ##########
@@ -25,6 +25,8 @@
 #####                     in french:  https://jdr.hypotheses.org/category/sur-les-epaules-des-nains
 ##### Based on the source code developped by Todd Lehman for his TeX Family Tree: https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline
 
+##### Contributors : Éric Nieudan, Steve Dempsey
+
 
 ###################################################################
 ###########                Parameters                    ##########
@@ -32,11 +34,11 @@
 
 ##### Language: dot
 ##### Compile with: dot "$(FULL_CURRENT_PATH)"  -Tps -v -o "$(CURRENT_DIRECTORY)\$(NAME_PART).ps"
-##### Then generate PDF with Acrobat Distiller: double-click on the PS file with Parameters = Oversized Pages : 16 m x 8 m
+##### Then generate PDF with Acrobat Distiller: double-click on the PS file with Parameters = Oversized Pages : 18 m x 8 m
 
 graph TTRPG_timeline {     
 
-#graph [rankdir=LR]         # activate if you prefer to have a direction of the graph left to right (NB: PS file with Parameters = Oversized Pages : 15 m x 7 m)
+#graph [rankdir=LR]        # activate if you prefer to have a direction of the graph left to right (NB: PS file with Parameters = Oversized Pages : 15 m x 7 m)
 
 node [shape=none]          # no frame for each informations
 edge [color=lightgrey]     # standard color of the links between informations
@@ -764,6 +766,8 @@ monstermanual -- dndholmes ;
 { rank = same; 1999; nobilis  [label = "Nobilis" image="C:\gv\nobilis.png"]} #Q5493
 { rank = same; 1999; sovereignstone  [label = "Sovereign Stone"]}   #Q18392250
 { rank = same; 2000; orkworld  [label = "Orkworld"]}  #Q3356433
+{ rank = same; 2000; pantheonotherrpgs  [label = "Pantheon & Other RPG"]} #Q7131748
+{ rank = same; 2001; rune [label = "Rune"]}  #Q20711095
 { rank = same; 2001; dyingearth [label = "Dying Earth" image="C:\gv\dyingearth.png"]}  #Q3041920
 { rank = same; 2002; donjon  [label = "Donjon"]}  #Q5296210
 { rank = same; 2002; fatal  [label = "F.A.T.A.L."]}
@@ -1403,6 +1407,8 @@ monstermanual -- dndholmes ;
 { rank = same; 1998; polarisfr2  [label = "Polaris 2e \n[fr]"]}  polarisfr -- polarisfr2 ;
 { rank = same; 2008; polarisfr3  [label = "Polaris 3e \n[fr]"]}  polarisfr2 -- polarisfr3 ;
 
+{ rank = same; 1991; methodedrchestel [label = "La Méthode du docteur Chestel \n[fr]"]} #Q3211020 
+
 { rank = same; 1991; bloodlust  [label = "Bloodlust \n[fr]" image="C:\gv\bloodlust.png"]}   #Q2906987
 { rank = same; 1995; bloodlust2e  [label = "Bloodlust 2e \n[fr]"]}  bloodlust -- bloodlust2e ;
 { rank = same; 2012; bloodlustmetal  [label = "Bloodlust ed. Metal \n[fr]"]}  bloodlust2e -- bloodlustmetal ;
@@ -1737,7 +1743,7 @@ monstermanual -- dndholmes ;
 { rank = same; 2017; threadbare   [label = "Threadbare RPG"]}
 
 
-{ rank = same; 2007; gumshoesystem [label = "Gumshoe System" ]} 
+{ rank = same; 2007; gumshoesystem [label = "Gumshoe System" ]}  fearitself -- gumshoesystem ; 
 { rank = same; 2016; bubblegumshoe [label = "Bubblegumshoe" ]}  #Q66577681
 
 { rank = same; 2011; fufreeuniversal  [label = "FU: the Free, Universal Roleplaying"]}
@@ -1866,7 +1872,7 @@ edge [color=chocolate4; weight=2]
 
 
 { unfairinfavorofpc [label ="[(em) Game unfairness in favor of PC]" ]}  blackmoor -- unfairinfavorofpc ; # opposed to wargames: fair to all #s8 
-{ nowincond [label="No concrete win condition"]}   blackmoor -- nowincond;
+
 
 
 ###### Terms 
@@ -1888,6 +1894,8 @@ edge [color=chocolate4; weight=2]
 
 
 ###### Endgame
+{ nowincond [label="No concrete win condition"]}   blackmoor -- nowincond ; 
+{ winconditions [label="Win conditions for P and GM"]}   rune -- winconditions ; #t107
 { endgamelast [label="Endgame when 1 PC is left"]}  perdussouslapluie -- endgamelast ;
 { endgametragic [label="Inevitable tragic endgame"]}  polaris -- endgametragic ;
 { endgameid [label = "Endgame: when ID of PCs are all revealed"]}   psirun -- endgameid ;
@@ -3161,7 +3169,7 @@ starwarsweg -- torg -- alternity -- darksun2 -- dnd3 -- eberron [label = "Slavic
 unknownarmies -- unknownarmies2 -- godlike -- reign -- unknownarmies3 [label = "Stolze G"] ;  #Q5606302
 legend5rings -- seventhsea -- orkworld -- housesoftheblooded -- bloodnhonor [label = "Wick J"] ; #Q3182744
 otherkind -- inawickedage -- dogsinthevineyard -- poisond -- apocalypseworld  [label = "Baker V"] ; #Q16146339
-fengshui -- dyingearth -- rloggm -- fearitself -- esoterrorists -- hillfolk -- gaeanreach [label = "Laws RD"] ; #Q3012102 
+fengshui -- pantheonotherrpgs -- rune -- dyingearth -- rloggm -- fearitself -- esoterrorists -- hillfolk -- gaeanreach [label = "Laws RD"] ; #Q3012102 
 wushu -- secretsnlies [label = "Bayn D"] ;
 breakingtheice -- shootingthemoon -- undermyskin -- bubblegumshoe [label = "Care Boss E"] ; #Q42211232
 maid -- goldensky [label = "Kamiya R"] ;
@@ -3210,10 +3218,6 @@ dksystem -- macchiatomonsterszero -- macchiatomonsters [label = "Nieudan E"];  #
 ##### citation practices / on the shoulder of dwarves!  ##
 ##########################################################
 
-###### Risk of linking overload. 
-###### So I am currently transferring the citation project on Wikidata (2019-09-26).
-###### This section is not populated anymore. 
-
 
 {
 node [];
@@ -3227,148 +3231,150 @@ edge [color=lightgrey; fontcolor=lightgrey ; style=dotted]
 { intext [label = "Precise game mechanic citations in text"]}    vademecum -- intext ;
 
 
+
+###### Risk of linking overload. 
+###### So I am currently transferring the citation project on Wikidata (2019-09-26).
+###### This section is not populated anymore. 
+
+
 ##### dedicace
 
-chainmail -- odnd_woodgrainbox ;  #wd
-mmsa -- odnd_woodgrainbox ;  #wd
-lgtsa -- odnd_woodgrainbox ;  #wd
+# chainmail -- odnd_woodgrainbox ;  #wd
+# mmsa -- odnd_woodgrainbox ;  #wd
+# lgtsa -- odnd_woodgrainbox ;  #wd
 
-odnd_woodgrainbox -- runequest ; #wd
-tunnelsntrolls -- runequest ; #wd
-alarums -- runequest ; #wd 
+# odnd_woodgrainbox -- runequest ; #wd
+# tunnelsntrolls -- runequest ; #wd
+# alarums -- runequest ; #wd 
 
 
 
 ##### forewords, preface
 
-blackmoor -- odnd_woodgrainbox ; #wd
-castlencrusadesociety -- odnd_woodgrainbox ; #wd
-odnd_woodgrainbox -- tunnelsntrolls ; #wd 
-addplayerhandbook -- alternity ; #wd 
+# blackmoor -- odnd_woodgrainbox ; #wd
+# castlencrusadesociety -- odnd_woodgrainbox ; #wd
+# odnd_woodgrainbox -- tunnelsntrolls ; #wd 
+# addplayerhandbook -- alternity ; #wd 
 
 
 
 ##### mention of the gamme, the brand, the product line 
 
-legend5rings -- seventhsea ;  #wd 
-agone -- abyme ; #wd
+# legend5rings -- seventhsea ;  #wd 
+# agone -- abyme ; #wd
 
-runesmagazine -- legendestableronde ;  #wd 
-legendes -- legendestableronde ;  #wd
+# runesmagazine -- legendestableronde ;  #wd 
+# legendes -- legendestableronde ;  #wd
 
 
 ##### ludography
 
-traveller -- threesixteen ;  #wd
-traveller2300 -- threesixteen ;   #wd
-agon -- threesixteen ; #wd
-theforge -- threesixteen ; #wd
-solipsist -- threesixteen ; #wd
-spione -- threesixteen ;#wd
-itwasamutualdecision -- threesixteen ; #wd
-labyrinthsnlycanthropes -- threesixteen ; #wd
-carry -- threesixteen ; #wd 
+# traveller -- threesixteen ;  #wd
+# traveller2300 -- threesixteen ;   #wd
+# agon -- threesixteen ; #wd
+# theforge -- threesixteen ; #wd
+# solipsist -- threesixteen ; #wd
+# spione -- threesixteen ;#wd
+# itwasamutualdecision -- threesixteen ; #wd
+# labyrinthsnlycanthropes -- threesixteen ; #wd
+# carry -- threesixteen ; #wd 
 
-callofcthulhu6 -- achtungcthulhu ;  #wd
-savageworlds -- achtungcthulhu ;  #wd 
+# callofcthulhu6 -- achtungcthulhu ;  #wd
+# savageworlds -- achtungcthulhu ;  #wd 
 
-threesixteen -- apocalypseworld ; #wd 
-arsmagica -- apocalypseworld ;  #wd 
-bacchanal -- apocalypseworld ;  #wd 
-burningwheel -- apocalypseworld ; #wd 
-themountainwitch -- apocalypseworld ; #wd 
-mouseguard -- apocalypseworld ; #wd 
-primetime -- apocalypseworld ; #wd 
-theshadowofyesterday  -- apocalypseworld ; #wd 
-sorcerer -- apocalypseworld ; #wd 
-talislanta -- apocalypseworld ; #wd 
-trollbabe -- apocalypseworld ; #wd 
-xxxxtremestreetluge -- apocalypseworld ; #wd 
-overtheedge -- apocalypseworld ; #wd 
+# threesixteen -- apocalypseworld ; #wd 
+# arsmagica -- apocalypseworld ;  #wd 
+# bacchanal -- apocalypseworld ;  #wd 
+# burningwheel -- apocalypseworld ; #wd 
+# themountainwitch -- apocalypseworld ; #wd 
+# mouseguard -- apocalypseworld ; #wd 
+# primetime -- apocalypseworld ; #wd 
+# theshadowofyesterday  -- apocalypseworld ; #wd 
+# sorcerer -- apocalypseworld ; #wd 
+# talislanta -- apocalypseworld ; #wd 
+# trollbabe -- apocalypseworld ; #wd 
+# xxxxtremestreetluge -- apocalypseworld ; #wd 
+# overtheedge -- apocalypseworld ; #wd 
 
-baronmunchausen -- apennyformythoughts ; #wd
-athousandandonenights -- apennyformythoughts ; #wd
-thecourtoftheempress -- apennyformythoughts ; #wd
-polaris -- apennyformythoughts ; #wd
-lacuna -- apennyformythoughts ; #wd
-primetime -- apennyformythoughts ; #wd
-dontrestyourhead -- apennyformythoughts ; #wd
-serialhomicideunit -- apennyformythoughts ; #wd
+# baronmunchausen -- apennyformythoughts ; #wd
+# athousandandonenights -- apennyformythoughts ; #wd
+# thecourtoftheempress -- apennyformythoughts ; #wd
+# polaris -- apennyformythoughts ; #wd
+# lacuna -- apennyformythoughts ; #wd
+# primetime -- apennyformythoughts ; #wd
+# dontrestyourhead -- apennyformythoughts ; #wd
+# serialhomicideunit -- apennyformythoughts ; #wd
 
-sechapperdesfaubourgs -- inflorenza ; #wd
-dirtysecrets -- inflorenza ;  #wd
-innommable -- inflorenza ; #wd
-nobilis -- inflorenza ; #wd
-anima -- inflorenza ; #wd
-cthulhutech -- inflorenza ; #wd
-monostatos -- inflorenza ;  #wd
-polaris -- inflorenza ;  #wd
-callofcthulhu -- inflorenza ; #wd
-sombren1 -- inflorenza ; #wd
-prosopopee -- inflorenza ; #wd
-seventhsea -- inflorenza ; #wd
+# sechapperdesfaubourgs -- inflorenza ; #wd
+# dirtysecrets -- inflorenza ;  #wd
+# innommable -- inflorenza ; #wd
+# nobilis -- inflorenza ; #wd
+# anima -- inflorenza ; #wd
+# cthulhutech -- inflorenza ; #wd
+# monostatos -- inflorenza ;  #wd
+# polaris -- inflorenza ;  #wd
+# callofcthulhu -- inflorenza ; #wd
+# sombren1 -- inflorenza ; #wd
+# prosopopee -- inflorenza ; #wd
+# seventhsea -- inflorenza ; #wd
 
-chivalrynsorcery -- runequest ; #wd
-bunniesnburrows -- runequest ; 
-flashgordonntwom -- runequest ; #wd
-starshipsnspacemen  -- runequest ; #wd
-empireofthepetalthrone -- runequest ; #wd
-knightsoftheroundtable -- runequest ; #wd
-spacepatrol -- runequest ; #wd
-superhero2044 -- runequest ; #wd
-add -- runequest ; #wd
-dndholmes -- runequest ; #wd
-gammaworld -- runequest ; #wd
-metamorphosisalpha -- runequest ; #wd
-bushido -- runequest ; #wd
-spacequest -- runequest ; #wd
-fantasytripwizard  -- runequest ; #wd
-monstersmonsters -- runequest ; #wd
-starfaring -- runequest ; #wd
-traveller -- runequest ; #wd
-engarde  -- runequest ; #wd
-legacy -- runequest ; #wd
-arduin -- runequest ; #wd
-cultsofprax -- runequest ; #wd
-wyrmsfootnotes -- runequest ; #wd
+# chivalrynsorcery -- runequest ; #wd
+# bunniesnburrows -- runequest ; 
+# flashgordonntwom -- runequest ; #wd
+# starshipsnspacemen  -- runequest ; #wd
+# empireofthepetalthrone -- runequest ; #wd
+# knightsoftheroundtable -- runequest ; #wd
+# spacepatrol -- runequest ; #wd
+# superhero2044 -- runequest ; #wd
+# add -- runequest ; #wd
+# dndholmes -- runequest ; #wd
+# gammaworld -- runequest ; #wd
+# metamorphosisalpha -- runequest ; #wd
+# bushido -- runequest ; #wd
+# spacequest -- runequest ; #wd
+# fantasytripwizard  -- runequest ; #wd
+# monstersmonsters -- runequest ; #wd
+# starfaring -- runequest ; #wd
+# traveller -- runequest ; #wd
+# engarde  -- runequest ; #wd
+# legacy -- runequest ; #wd
+# arduin -- runequest ; #wd
+# cultsofprax -- runequest ; #wd
+# wyrmsfootnotes -- runequest ; #wd
 
-vampirethemasquerade -- activ8 ; #wd
-unknownarmies -- activ8 ; #wd
-rqheroquest -- activ8 ; #wd
-shadowrun -- activ8 ; #wd
-silhouette -- activ8 ; #wd
+# vampirethemasquerade -- activ8 ; #wd
+# unknownarmies -- activ8 ; #wd
+# rqheroquest -- activ8 ; #wd
+# shadowrun -- activ8 ; #wd
+# silhouette -- activ8 ; #wd
    
 ##### intext
 
-callofcthulhu -- aquelarre ; #wd
-runequest -- aquelarre ; #wd
-stormbringer -- aquelarre ; #wd
-legend5rings -- aquelarre ; #wd
-arsmagica -- aquelarre ; #wd
-capitanalatriste -- aquelarre ; #wd
-comandosdeguerra -- aquelarre ; #wd
-odnd_whitebox -- aquelarre ; #wd 
+# callofcthulhu -- aquelarre ; #wd
+# runequest -- aquelarre ; #wd
+# stormbringer -- aquelarre ; #wd
+# legend5rings -- aquelarre ; #wd
+# arsmagica -- aquelarre ; #wd
+# capitanalatriste -- aquelarre ; #wd
+# comandosdeguerra -- aquelarre ; #wd
+# odnd_whitebox -- aquelarre ; #wd 
 
-fate3 -- housesoftheblooded ; #wd  
-octane -- housesoftheblooded ; #wd 
-inspectres -- housesoftheblooded ; #wd 
+# fate3 -- housesoftheblooded ; #wd  
+# octane -- housesoftheblooded ; #wd 
+# inspectres -- housesoftheblooded ; #wd 
 
 
 ##### indirect citation  
 
 
 
-
-
-
 ###### Author acknowledgements in interviews 
 
-odnd_woodgrainbox -- traveller ;  #p63 p64 
-{ starfaring ; metamorphosis alpha } -- traveller ;  #p63 p64 
+# odnd_woodgrainbox -- traveller ;  #p63 p64 
+# { starfaring ; metamorphosis alpha } -- traveller ;  #p63 p64 
 
 
-
-}
+}  ##### End of the removed section 
 
 
 

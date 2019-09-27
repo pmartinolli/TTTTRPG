@@ -252,3 +252,6 @@ s101 https://dmdavid.com/tag/madness-at-gardmore-abbey-2011-greatest-dd-adventur
 s102 https://dmdavid.com/tag/dead-gods-1997-greatest-dd-adventures-since-1985-number-5/    
 s103 http://dmdavid.com/tag/curse-of-strahd-2016-greatest-dd-adventures-since-1985-number-4/  
 s104 http://dmdavid.com/tag/lost-mine-of-phandelver-2014-greatest-dd-adventures-since-1985-number-3/  
+t105 https://en.wikipedia.org/wiki/Nexus:_The_Infinite_City thanks to Steve Dempsey 
+s106 https://www.radio-roliste.net/?p=1701  (1h15m-1h45m)
+t107 https://rpggeek.com/rpgitem/46634/rune : "a winner is declared at the end of every session", thanks to Steve Dempsey
