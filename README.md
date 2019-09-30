@@ -10,16 +10,18 @@ Over 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 20
 
 ### ... Do it myself 
 
-* Download the latest [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.gv) 
-   * Some [explanations](https://jdr.hypotheses.org/919) of the structure of the source code in dot language. 
-   * How to compile the code is explained in the header of the source code.
-* Download the [zip package of icon pictures](https://drive.google.com/open?id=1N30n0QYaGSWLJTzJwPzn3wuklmib3zI8)
-   * Unpack the pictures in a folder C:/gv/ on your computer
+* Download the latest [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.gv). It should be easy to understand, but you can read more [explanations](https://jdr.hypotheses.org/919) of the structure of the source code. 
+* Download the [zip package of icon pictures](https://drive.google.com/open?id=1N30n0QYaGSWLJTzJwPzn3wuklmib3zI8). Unpack the pictures in a folder C:/gv/ on your computer.
+* Install and set up [Graphviz and Textpad++](http://zotrpg.blogspot.com/2016/05/creating-graph-for-od.html).
+* Compile the code. The details are in the header of the [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.gv) ("Parameters"). It will produce a ps file.
+* With Adobe Distiller, turn the ps file into a PDF file. If you successfully used a free and open-source software to do that job, please let me know. 
+
 
 ### ... Contribute
 
 * Send me corrections or suggestions at pascal.umontreal [at] gmail.com 
-  * If you don't want to be cited as contributor, add "no citation" in your email
+  * It can take time before I answer you.
+  * If you don't want to be cited as contributor, add "no citation" in your email.
   
 * Improve [Wikidata](https://www.wikidata.org) items related to tabletop RPG. 
   * I documented some guidelines here https://www.wikidata.org/wiki/Wikidata:WikiProject_Board_Games (contact me at [Pmartinolli](https://www.wikidata.org/wiki/User:Pmartinolli) if you need help). I already made 7000 edits on TTRPGs so I have a little understanding of what is what there.
@@ -29,8 +31,8 @@ Over 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 20
 
 ### ... Thank me
 
-- Tweet it [@pascaliensis](https://twitter.com/Pascaliensis)
-- Comment it on your social media 
+- Tweet it [@pascaliensis](https://twitter.com/Pascaliensis).
+- Comment it on your social media.
 - Cite me it your academic work : Martinolli, Pascal. 2019. « Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years game design innovations. » Dataset and dot language code. https://github.com/pmartinolli/TTTTRPG
 - Print it and display it in your school, library, exhibition, etc.
 - Send me an email : pascal.umontreal [at] gmail.com
@@ -62,7 +64,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Presented at, promoted through / Présenté à, diffusé via : [Donjons & Données probantes 2018](http://hdl.handle.net/1866/21088), [Blogue Jeu de rôle sur table](https://jdr.hypotheses.org/category/graphe), [ZoTrpg blog](https://zotrpg.blogspot.com/search/label/timeline), [ResearchGate](https://www.researchgate.net/publication/333489073_Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_2019_partially_released), [Academia](https://www.academia.edu/39317882/Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_today_partially_released_), [Twitter](https://twitter.com/Pascaliensis/status/1177314806442921985).
 
-* Contributors (sor far) : Éric Nieudan, Steve Dempsey
+* Contributors (sor far) : People and works cited in the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md), Éric Nieudan, Steve Dempsey.
 
 * Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
 
