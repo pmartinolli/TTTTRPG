@@ -2006,6 +2006,14 @@ carpentras -- crimendelrol [style=invis]; # no link, just to group them together
 
 
 
+##### Author's Easter Egg
+
+{ rank = same; 1996; argocampaign [label = "Argo's Campaign\n[GM: Zulaan]"]} #unforgettable D&D campaign played in 1996-1999, gamemastered by [Zulaan](http://zulaan.net/) co-played by me, Olivier, Denise, Yves, François, Patrice, Xavier, Oliviorc, Pascal, Christophe, et alli.
+{ rank = same; 2007; sagayragael [label = "Saga de Yragael le Narcomancien\nvol.1\n[Martinolli P]"]} #p109 #fanfiction of the previous item.
+argocampaign -- sagayragael ;
+
+
+
 } # end of part 3 
 
 
