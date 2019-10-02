@@ -1,4 +1,4 @@
-##### Version 20191001
+##### Version 20191002
 
 ###################################################################
 ###########                                              ##########
@@ -712,7 +712,10 @@ monstermanual -- dndholmes;
 { rank = same; 2017; zweihander [label = "Zweihänder"]} #Q56274005
 { rank = same; 2017; warhammerfrpg4 [label = "Warhammer 4th"]} warhammerfrpg3 -- warhammerfrpg4;
 
-
+{ rank = same; 1984; conanunchained [label = "Conan Unchained"]} #Q5158118
+{ rank = same; 1985; conanrpg [label = "Conan Role-Playing Game"]} #Q17986620
+{ rank = same; 1989; gurpsconan [label = "GURPS Conan"]} #Q16246947
+{ rank = same; 2017; conanadventuresageundreamedof [label = "Conan: Adventures in an Age Undreamed Of"]} #Q23582853
 
 { rank = same; 1983; harn0 [label = "Hârn\n[ca]"]} #Q1641831
 { rank = same; 1986; harn [label = "HârnMaster\n[ca]"]} harn0 -- harn; #Q5478
@@ -1346,6 +1349,8 @@ savageworlds -- deadlandsr;
 { rank = same; 2006; ourobouros [label = "Ourobouros"]}  oniros -- ourobouros;
 { rank = same; 2018; revededragon3 [label = "Rêve de dragon 3e\n[fr]"]}  revededragon2 -- revededragon3;
 
+{ rank = same; 1985; damenoire [label = "La dame noire\n[fr]"]}
+
 { rank = same; 1983; legendes [label = "Légendes\n[fr]"]} #Q3270166
 { rank = same; 1984; legendes1001 [label = "Légendes des 1001 nuits\n[fr]"]}  legendes -- legendes1001;
 { rank = same; 1986; legendestableronde [label = "Légendes de la Table ronde\n[fr]"]}  legendes1001 -- legendestableronde; #Q64561722
@@ -1377,6 +1382,8 @@ savageworlds -- deadlandsr;
 { rank = same; 1988; berlin18 [label = "Berlin XVIII 1st & 2e ed.\n[fr]"]} #Q2897261
 { rank = same; 1993; berlin183e [label = "Berlin XVIII 3e\n[fr]"]}  berlin18 -- berlin183e;
 { rank = same; 2018; berlin184e [label = "Berlin XVIII 4e\n[fr]"]}  berlin183e -- berlin184e;
+
+{ rank = same; 1988; multimondes [label = "Multimondes\n[fr]"]} #Q3327679
 
 { rank = same; 1988; hawkmoonfr [label = "Hawkmoon\n[fr]" image="C:\gv\hawkmoonfr.png"]}  hawkmoon -- hawkmoonfr;
 { rank = same; 1996; hawkmoonfr2 [label = "Hawkmoon 2e\n[fr]"]}  hawkmoonfr -- hawkmoonfr2;
@@ -1417,6 +1424,7 @@ savageworlds -- deadlandsr;
 { rank = same; 2008; polarisfr3 [label = "Polaris 3e\n[fr]"]}  polarisfr2 -- polarisfr3;
 
 { rank = same; 1991; methodedrchestel [label = "La Méthode du docteur Chestel\n[fr]"]} #Q3211020 
+{ rank = same; 1998; hystoiredefou [label = "Hystoire de fou\n[fr]"]} #Q3144450 
 
 { rank = same; 1991; bloodlust [label = "Bloodlust\n[fr]" image="C:\gv\bloodlust.png"]} #Q2906987
 { rank = same; 1995; bloodlust2e [label = "Bloodlust 2e\n[fr]"]}  bloodlust -- bloodlust2e;
@@ -1901,6 +1909,8 @@ ladyblackbird -- magisterlor;
 { rank = same; 2008; rpgstackexchange [label = "rpg.stackexchange"]} #Q3495447
 { rank = same; 2014; redditrpgdesign [label = "reddit/rpgdesign"]} #Q1136
 
+##### Fictions
+{ rank = same; 1989; chroniqueslunenoire [label = "Chroniques de la Lune noire"]}; #Q1033176
 
 ##### Movements & techniques
 { rank = same; 1999; theforge [label = "The Forge" image="C:\gv\theforge.png"]} #Q64528910
@@ -2006,11 +2016,18 @@ carpentras -- crimendelrol [style=invis]; # no link, just to group them together
 
 
 
-##### Author's Easter Egg
+##### Author's Easter Eggs
 
-{ rank = same; 1996; argocampaign [label = "Argo's Campaign\n[GM: Zulaan]"]} #unforgettable D&D campaign played in 1996-1999, gamemastered by [Zulaan](http://zulaan.net/) co-played by me, Olivier, Denise, Yves, François, Patrice, Xavier, Oliviorc, Pascal, Christophe, et alli.
-{ rank = same; 2007; sagayragael [label = "Saga de Yragael le Narcomancien\nvol.1\n[Martinolli P]"]} #p109 #fanfiction of the previous item.
-argocampaign -- sagayragael ;
+{ rank = same; 1986; campagneruegiacobi [label = "Rue Giacobi's campaigns"]}  #my middle-school campaigns
+{ rank = same; 1996; argocampaign [label = "Argo's Campaign\n[GM: Zulaan]"]} campagneruegiacobi -- argocampaign [style=dotted]; #unforgettable D&D campaign, 1996-1999 by Zulaan.net
+{ rank = same; 2007; sagayragael [label = "Saga de Yragael le Narcomancien\nvol.1\n[Martinolli P]"]} argocampaign -- sagayragael [style=dotted]; #p109 #fanfiction of the previous item.
+{ rank = same; 2007; katanasquad [label = "Katana Squad campaign\n[GM: Cyril]"]} sagayragael -- katanasquad [style=dotted]; #thrilling SLA Industries campaign
+{ rank = same; 2016; ttttrpgbeginning [label = "Beginning of the TTTTRPG project"]} katanasquad -- ttttrpgbeginning [style=dotted];
+{ rank = same; 2019; ttttrpgpublished [label = "TTTTRPG : published in open access"]} ttttrpgbeginning -- ttttrpgpublished;
+
+# You too can personalize this timeline by embedding your own personal gaming history
+
+
 
 
 
@@ -3371,6 +3388,8 @@ arsmagica -- vampirethemasquerade -- werewolfapocalypse -- mageascension -- wrai
 labyrinthofmadness -- deadgods -- paladininhell -- dnd3 -- returntempleelementalevil -- ptolus -- numenera -- thestrange [label = "Cook M"]; #Q1945820
 mekton -- teenagersfromouterspace -- cyberpunk2013 -- cyberpunk2020 -- castlefalkenstein -- cyberpunkv3 [label = "Pondsmith M"]; #Q5296177
 starwarsweg -- torg -- alternity -- darksun2 -- dnd3 -- eberron [label = "Slavicsek B"]; #Q3640000
+warhammerfrpg -- ennemywithin [label = "Bambra J"]; #Q18378914
+
 unknownarmies -- unknownarmies2 -- godlike -- reign -- unknownarmies3 [label = "Stolze G"]; #Q5606302
 legend5rings -- seventhsea -- orkworld -- housesoftheblooded -- bloodnhonor [label = "Wick J"]; #Q3182744
 otherkind -- inawickedage -- dogsinthevineyard -- poisond -- apocalypseworld [label = "Baker V"]; #Q16146339
@@ -3381,12 +3400,19 @@ maid -- goldensky [label = "Kamiya R"];
 startreknextgenrpg -- startrekds9 -- runequest4 -- trailcthulhu -- nightblackagents -- bubblegumshoe [label = "Hite K"]; #Q3814592
 blissstage -- polaris [label = "Lehman B"]; #Q64528551
 ladyblackbird -- bladesinthedark [label = "Harper J"]; #Q67174653
-
+burningwheel -- burningempires -- mouseguard -- torchbearer [label = "Crane L"]; #Q66831262
 horrororientexpress -- beyondmountainsmadness [label = "Anderson P"]; #Q67315739
 gatesfirestormpeak -- returntombofhorror -- sunlesscitadel [label = "Cordell B"] #Q4977305
 
-
-bitume -- zone -- animonde -- insmv -- heavymetal -- bloodlust -- stellainquisitorius -- scales -- nightprowler -- cops [label = "Croc"];
+jeuxetstrategie -- casusbelli -- orientaladventures -- chroniqueslunenoire [label = "Marcela-Froideval F"]; #Q3088237
+casusbelli -- mega -- role -- laelith -- mega2 -- mega3 -- mega4 [label = "Guiserix D"]; #Q3027034
+revededragon -- revededragon2 -- oniros -- hystoiredefou [label = "Gerfaud D"]; #Q3022697
+damenoire -- legendestableronde [label = "Vétillard A"]; #Q62035702
+laelith -- empiresetdynasties -- yurlh [label = "Durand-Peyroles P"]; #Q66006796
+bitume -- zone -- animonde -- insmv -- heavymetal -- bloodlust -- stellainquisitorius -- scales -- nightprowler -- cops [label = "Croc"]; #Q3003137
+insmv -- heavymetal [label = "Twardowski M"]; #Q66949758
+malefices -- multimondes [label = "Gaudo M"]; #Q67000797
+hurlements -- chimeres [label = "Bizien JL & V"]; #Q3167089 & Q66092438
 ukiyo -- perdussouslapluie -- librete [label = "Féasson V"];
 surlesfrontieres -- summercamp -- auxmarchesdupouvoir -- monstres [label = "Bedouet M"];
 millevaux -- inflorenza -- odyssea -- dragonfly -- marchebranche [label = "Munier T"]; #Q64561959
@@ -3394,30 +3420,13 @@ dksystem -- dksystem2 -- hellywood -- millesmarches -- bloodlustmetal -- dragond
 sensrenaissance -- sensmort -- lacellule -- sensneant -- maelstrom -- senscosmo -- senschaos -- vademecum [label = "Briand R"]; #Q48929823
 stardrakkar -- lanfeust -- dksystem -- macchiatomonsterszero -- macchiatomonsters [label = "Nieudan E"]; #Q56285070
 
+
 }
 
 ##### To do :
-#Q3027034	Didier Guiserix
-#Q3022697	Denis Gerfaud
-#Q62035702	Anne Vétillard
-#Q66006796	Patrick Durand-Peyroles
-#Q3088237	Froideval
-#Q2388292	Jeff Easley
-#Q5232538	David Cook
-#Q18378914	Jim Bambra
-#Q66831262	Luke Crane
-#Q66948470	Emmanuel Gharbi
-#Q66949758	Mathias Twardowski
-#Q66950082	Raphaël Andere
-#Q3167089	Jean-Luc Bizien
-#Q66092438	Valérie Bizien
-#Q67000797	Michel Gaudo
-#Q67000824	Guillaume Rohmer
 
-
-
-
-
+#Q5232538	David Cook https://en.wikipedia.org/wiki/David_Cook_(game_designer)
+#conanrpg -- 
 
 
 ###### Risk of linking overload. 
