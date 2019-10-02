@@ -3,7 +3,7 @@
 
 Over 1000 games and 800 game designs, webbed through 1500 links. From 1974 to 2019.
 
-* Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)**
+* Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)** (4 Mo)
 
 [![TTTTRPG snapshot](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-snapshot.png)](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)
 
