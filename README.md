@@ -17,7 +17,6 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
 * Compile the code. The details are in the header of the [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.gv) ("Parameters"). It will produce a ps file.
 * With Adobe Distiller, turn the ps file into a PDF file. If you successfully used a free and open-source software to do that job, please let me know. 
 
-
 ### ... Contribute
 
 * Send me corrections or suggestions at pascal.umontreal [at] gmail.com 
@@ -29,6 +28,14 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
   * Why Wikidata ? I try to mirror as much of the informations as I can on Wikidata to benefit from the database tools and from the community of contributors. [Click here](https://query.wikidata.org/#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Fcited_works%20%3Fcited_worksLabel%20%0AWHERE%0A%7B%0A%20%20%20%20%3Fitem%20%20wdt%3AP31%20wd%3AQ1643932%20.%20%20%20%23%20instance%20%3D%20ttrpg%0A%20%20%20%20%3Fitem%20%20wdt%3AP2860%20%20%20%20%3Fcited_works%20%20.%20%20%20%23%20which%20cites%20works%0A%20%20%20%20%3Fcited_works%20wdt%3AP31%20wd%3AQ1643932%20%20%20%20%20%20.%20%20%20%23%20that%20are%20TTRPG%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20%7D%0A%7D%0A) to have a graph of the citation practices in TTRPG. 
   
 * Export the data into [GEPHY](https://gephi.org/). Why ? 1) I want to try it ; 2) I think the database structure of GEPHY can help managing all the informations ; 3) It's open source.
+
+### ... Start my own projet
+
+* Have a look on this simple [template](https://github.com/pmartinolli/TTTTRPG/blob/master/files/template.gv) of the graph, and on the [rendering](https://github.com/pmartinolli/TTTTRPG/blob/master/files/template.png).
+* Gather your friends (or your students) and decide some teamwork methods. Each of you create an account on GitHub. 
+* Deposit your files on GitHub.
+* Go!
+* Don't forget to be a gentleman/gentlelady of the open access : cite me and Todd Lehman.
 
 ### ... Thank me
 
