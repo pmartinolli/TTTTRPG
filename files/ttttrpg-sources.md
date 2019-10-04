@@ -47,6 +47,23 @@ Tresca, Michael J. *The Evolution of Fantasy Role-Playing Games*. Jefferson, NC:
 
 Whitson, John Kirk III. *“Design Patterns of Successful Role-Playing Games.”* Edited by Michael R. Cantrell. Whitson John Kirk III, 2009 2006. https://archive.org/details/RPGDesignPatterns91309.
 
+## Serials
+
+*International Journal of Role-Playing*. http://ijrp.subcultures.nl/
+
+*Analog Game Studies*
+
+*Casus Belli*
+
+*Interactive Fantasy Journal*
+
+*PTGPTB*
+
+*Push*
+
+*Sciences du jeu*
+
+*PhD&D*
 
 ## Other books
 
@@ -257,3 +274,4 @@ s106 https://www.radio-roliste.net/?p=1701  (1h15m-1h45m)
 t107 https://rpggeek.com/rpgitem/46634/rune : "a winner is declared at the end of every session", thanks to Steve Dempsey
 t108 https://en.wikipedia.org/wiki/Rifts_(role-playing_game)#System
 p109 http://yragael.free.fr/ 
+p110 http://ijrp.subcultures.nl/ 

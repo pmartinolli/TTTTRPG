@@ -2005,7 +2005,7 @@ ladyblackbird -- magisterlor;
 { rank = same; 2012; playingattheworld [label="Playing at the World"]} 
 { rank = same; 2016; menerpartiesjdr [label="Mener des parties de jeu de rôle"]} 
 { rank = same; 2018; roleplayinggamestudies [label="Role-Playing Game Studies"]} 
-
+{ rank = same; 2009; ijrp [label="International Journal of Role-Playing"]} #p110 #Q69671730
 
 ### play(er) typologies #s24 pp.201-203
 { rank = same; 1970; warvsgame [label="WARriors vs GAMErs (Perren S)"]} 
