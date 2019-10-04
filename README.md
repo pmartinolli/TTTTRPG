@@ -29,7 +29,7 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
   
 * Export the data into [GEPHY](https://gephi.org/). Why ? 1) I want to try it ; 2) I think the database structure of GEPHY can help managing all the informations ; 3) It's open source.
 
-### ... Start my own projet
+### ... Start my own project
 
 * Have a look on this simple [template](https://github.com/pmartinolli/TTTTRPG/blob/master/files/template.gv) of the graph, and on the [rendering](https://github.com/pmartinolli/TTTTRPG/blob/master/files/template.png).
 * Gather your friends (or your students) and decide some teamwork methods. Each of you create an account on GitHub. 
