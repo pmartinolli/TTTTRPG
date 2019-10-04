@@ -204,7 +204,7 @@ t53  https://en.wikipedia.org/wiki/Bushido_(role-playing_game)
 t54  https://en.wikipedia.org/wiki/Powers_%26_Perils
 t55  https://en.wikipedia.org/wiki/Maelstrom_(role-playing_game)
 t56  https://en.wikipedia.org/wiki/Worlds_of_Wonder_(game)
-t57  https://en.wikipedia.org/wiki/Worlds_of_Wonder_(game)
+t57  https://en.wikipedia.org/wiki/Basic_Role-Playing
 t58  https://en.wikipedia.org/wiki/Palladium_Fantasy_Role-Playing_Game
 t59  https://en.wikipedia.org/wiki/Feng_Shui_(role-playing_game)
 t60  https://1d4chan.org/wiki/James_Bond_007
