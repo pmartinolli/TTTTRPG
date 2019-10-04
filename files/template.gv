@@ -1,0 +1,194 @@
+##### Version 20200101
+
+###################################################################
+###########                                              ##########
+###########           Part 1 : Preamble                  ##########
+###########                                              ##########
+###########           Header, parameters & label         ##########
+###########                                              ##########
+###################################################################
+
+
+###################################################################
+###########           Header : Metadata                  ##########
+###################################################################
+
+##### Title: 
+##### Subtitle: 
+##### Authors: 
+##### Licence: 
+##### Project date: 
+##### Join me at: 
+##### Code source and files at : 
+
+##### Contributors: 
+##### References: link to a markdown file listing the sources
+
+
+###################################################################
+###########                Parameters                    ##########
+###################################################################
+
+##### Language: dot
+
+##### Option 1 (to start with)
+##### Compile with: dot "$(FULL_CURRENT_PATH)" -Tpng -o "$(CURRENT_DIRECTORY)\$(NAME_PART).png"
+
+##### Option 2 (for huge files)
+##### Compile with: dot "$(FULL_CURRENT_PATH)"  -Tps -v -o "$(CURRENT_DIRECTORY)\$(NAME_PART).ps"
+##### Then generate PDF with Acrobat Distiller: double-click on the PS file with Parameters = Oversized Pages 
+
+
+
+
+graph template_timeline {     
+
+#graph [rankdir=LR]        # activate if you prefer to have a direction of the graph left to right 
+
+node [shape=none]          # no frame for each informations
+edge [color=lightgrey]     # standard color of the links between informations
+
+node [fontsize=20]         # standard size of the information fonts
+edge [fontsize=20]         # standard size of the links fonts
+
+
+###################################################################
+###########       Label displayed on the graph           ##########
+###################################################################
+
+{
+node [];
+edge [color=lightgrey; fontcolor=lightgrey; fontsize=20]
+{ rank = same; past; title [label="Title of the timeline,\nSubtitle\n\nAuthors (license) Date\n\nshort url" fontsize=20 shape=box]}
+{ rank = same; 1950; title_end [label=""]}
+title -- title_end [style=invis];
+}
+
+
+
+###################################################################
+###########                                              ##########
+###########           Part 2 : Timeline                  ##########
+###########                                              ##########
+###########    it is the basic rule of all the graph     ##########
+###########                                              ##########
+###################################################################
+
+
+
+{
+    node [];
+    past -- 1950 [style=invis]; #you can go by decade, century, millenium,...
+    1950 -- 1960 [style=invis];
+    1960 -- 1970 [style=invis];
+    1970 -- 1980 [style=invis];
+    1980 -- 1990 [style=invis];
+    1990 -- 2000 [style=invis];
+    2000 -- 2001 [style=invis]; #or year by year
+    2001 -- 2002 [style=invis];
+    2002 -- 2003 [style=invis];
+    2003 -- 2004 [style=invis];
+    2004 -- 2005 [style=invis];
+    2005 -- 2006 [style=invis];
+    2006 -- 2007 [style=invis];
+    2007 -- 2008 [style=invis];
+    2008 -- 2009 [style=invis];
+    2009 -- 2010 [style=invis];
+    2010 -- 2011 [style=invis];
+    2011 -- 2012 [style=invis];
+    2012 -- 2013 [style=invis];
+    2013 -- 2014 [style=invis];
+    2014 -- 2015 [style=invis];
+    2015 -- 2016 [style=invis];
+    2016 -- 2017 [style=invis]; 
+    2017 -- 2018 [style=invis]; 
+    2018 -- 2019 [style=invis]; 
+    2019 -- 2020 [style=invis]; 	
+    2020 -- future [style=invis]; 
+
+
+
+
+
+###################################################################
+###########                                              ##########
+###########  Part 3 : List of items                      ##########
+###########                                              ##########
+###########  Grouped by categories its better            ##########
+###########                                              ##########
+###################################################################
+
+
+
+######### Group 1 #######################
+
+{ rank = same; 1950; item1 [label = "Title of item1\nanother line if needed\n[some info here]"]} 
+{ rank = same; 1960; item2 [label = "Title of item2\n[some info here]"]} item1 -- item2; #create a direct link to an previous item
+{ rank = same; 2002; item3 [label = "Title of item3"]} item2 -- item3; 
+
+
+######### Group 2 #######################
+
+{ rank = same; 1980; item4 [label = "Title of item4" image="C:\path\item4.png"]} #you can insert pictures (please normalize the pixel size of your pictures)
+{ rank = same; 1990; item5 [label = "Title of item5"]} item4 -- item5; #s001 citation refererence to the source s001 listed in a markdown file
+{ rank = same; 2009; item6 [label = "Title of item6"]} {item5;item3} -- item6; #Q64596978 you can add a item ID of wikidata
+
+
+######### Group 3 #######################
+
+{ rank = same; 2010; item7 [label = "Title of item7"]}
+{ rank = same; 2014; item8 [label = "Title of item8"]}
+{ rank = same; 2019; item9 [label = "Title of item9"]}
+
+} # end of part 3 
+
+
+
+
+
+
+
+###################################################################
+###########                                              ##########
+########### Part 4 : List of comments and                ##########
+###########           relations between items            ##########
+###########                                              ##########
+###########                                              ##########
+###################################################################
+
+
+###### Each category of relations is colored differently
+
+{
+node [fontcolor=chocolate4];
+edge [color=chocolate4; weight=2]
+
+{ relation1 [label ="Name of relation 1"]}  item1 -- relation1; 
+{ relation2 [label ="Name of relation 2"]}  item2 -- relation2 -- item6; 
+
+}
+
+
+{
+node [fontcolor=aquamarine3];
+edge [color=aquamarine3; weight=2]
+
+{ relation3 [label ="Name of relation 3"]}  relation3 -- item3; 
+{ relation4 [label ="Name of relation 4"]}  item2 -- relation4 -- item6; 
+
+}
+
+###### another kind of link between items (with label on the link)
+
+{
+node [];
+edge [color=lightgrey; fontcolor=lightgrey; style=dotted]
+
+item1 -- item4 -- item9 [label = "Label text1"]; 
+item3 -- item7 -- item8 [label = "Label text2"]; 
+
+}
+
+} # End of program
+
+
