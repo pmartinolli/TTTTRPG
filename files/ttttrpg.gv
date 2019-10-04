@@ -1,4 +1,4 @@
-##### Version 20191003soir
+##### Version 20191004
 
 ###################################################################
 ###########                                              ##########
@@ -25,7 +25,7 @@
 #####                     in french:  https://jdr.hypotheses.org/category/sur-les-epaules-des-nains
 ##### Based on the source code developped by Todd Lehman for his TeX Family Tree: https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline
 
-##### Contributors : Éric Nieudan, Steve Dempsey
+##### Contributors : Éric Nieudan, Steve Dempsey, James Wallis
 ##### References : https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md
 
 
@@ -1859,6 +1859,9 @@ savageworlds -- deadlandsr;
 ############ Narrativist games & storygames 
 ################################################################
 
+{ rank = same; 1998; baronmunchausen [label = "The Extraordinary Adventures\nof Baron Munchausen"]} #Q25112595
+{ rank = same; 2008; baronmunchausen2 [label = "The Extraordinary Adventures\nof Baron Munchausen 2nd"]} baronmunchausen -- baronmunchausen2; 
+{ rank = same; 2016; baronmunchausen3 [label = "The Extraordinary Adventures\nof Baron Munchausen 3rd"]} baronmunchausen2 -- baronmunchausen3;
 
 { rank = same; 2000; pantheonotherrpg [label = "Pantheon & Other RPG"]} #Q7131748
 
@@ -1867,8 +1870,6 @@ savageworlds -- deadlandsr;
 { rank = same; 2013; undermyskin [label = "Under my Skin"]} 
 
 { rank = same; 2013; thequietyear [label = "The Quiet Year"]} #Q67892082
-
-{ rank = same; 2008; baronmunchausen [label = "The Extraordinary Adventures\nof Baron Munchausen"]} #Q25112595
 
 { rank = same; 2009; montsegur1244 [label = "Montségur 1244"]}
 
@@ -2191,7 +2192,7 @@ refereerpg -- blackmoor;
 
 { caller [label="Caller (one player telling plans\nand actions of the other\nplayers to the DM)"]}   dndmoldvay -- caller;
 { gmisauthority [label="GM needs to be a figure of authority (adult, dad or pastor)"]} dragonraid -- gmisauthority;
-
+{ storygame1st [label="1st 'storygame'\n(single-session GM-less\nrules-light game focusing\non character and narrative)"] } baronmunchausen -- storygame1st;
 
 ########## Final decision
 { dmalwaysright [label="GM has have every right to overrule the dice at any time"]}    adddungeonmasterguide -- dmalwaysright; #s7
