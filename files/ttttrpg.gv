@@ -1590,8 +1590,8 @@ savageworlds -- deadlandsr;
 
 ##### Thomas Munier
 { rank = same; 2013; millevauxsombre [label = "Millevaux Sombre\n[fr]"]} sombrelight -- millevauxsombre; #t120
-{ rank = same; 2013; sechapperdesfaubourgs [label = "S’échapper des Faubourgs\n[fr]"]} #Q64706323
-{ rank = same; 2014; inflorenza [label = "Inflorenza\n[fr]"]} millevauxsombre -- inflorenza; #Q64561870
+{ rank = same; 2013; sechapperdesfaubourgs [label = "S'échapper des Faubourgs\n[fr]"]} #Q64706323
+{ rank = same; 2014; inflorenza [label = "Inflorenza\n[fr]" image="C:\gv\inflorenza.png"]} millevauxsombre -- inflorenza; #Q64561870
 { rank = same; 2015; odyssea [label = "Odysséa\n[fr]"]} inflorenza -- odyssea;
 { rank = same; 2016; arbre [label = "Arbre\n[fr]"]} inflorenza -- arbre;
 { rank = same; 2016; dragonfly [label = "Dragonfly Motel\n[fr]"]}
@@ -1659,7 +1659,7 @@ savageworlds -- deadlandsr;
 { rank = same; 1998; cyberage [label = "Cyber Age\n[fr]"]} simulacres -- cyberage; #Q3008115
 { rank = same; 2000; casusbelli2 [label = "Casus Belli 2\n[fr]"]}   casusbelli -- casusbelli2;
 { rank = same; 2006; casusbelli2end [label = "x"]}   casusbelli2 -- casusbelli2end;
-{ rank = same; 2010; casusbelli3 [label = "Casus Belli 3\n[fr]"]}  casusbelli2end -- casusbelli3;
+{ rank = same; 2010; casusbelli3 [label = "Casus Belli 3\n[fr]"]}  casusbelli2end -- casusbelli3 [style=dotted];
 { rank = same; 2012; casusbelli4 [label = "Casus Belli 4\n[fr]"]}  casusbelli3 -- casusbelli4;
 
 { rank = same; 1983; runesmagazine [label = "Runes\n[fr]"]} #Q3453230
@@ -2015,7 +2015,7 @@ ladyblackbird -- magisterlor;
 
 { rank = same; 2013; ateliersimaginaires [label = "Les Ateliers Imaginaires"]} #p115
 { rank = same; 2017; courantsalternatifs [label = "Courants Alternatifs"]} #p116
-{ rank = same; 2003; casusno [label = "Casus No"]}  casusbelli2end -- casusno; #p117
+{ rank = same; 2003; casusno [label = "Casus No"]}  casusbelli2 -- casusno; #p117
 { rank = same; 2002; pandapirate [label = "Panda Pirate"]}  pandapirate -- casusno; #p118
 { rank = same; 2005; terresetranges [label = "Terres Etranges"]}  terresetranges -- sombrelight; #p119
 
