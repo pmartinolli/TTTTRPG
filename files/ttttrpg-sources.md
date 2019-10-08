@@ -199,7 +199,7 @@ s31  édité par Gamescience https://www.youtube.com/watch?v=eIc5KHokfrs
 p32  Different Worlds Publications
 p33  Theatre of the Mind Enterprises
 p34  Tita's House of Games
-s35  http://dndwithpornstars.blogspot.ca/2016/04/jeff-grubbs-genius-subplot-rule.html
+p35  http://www.trilemma.com/
 s36  https://www.cestpasdujdr.fr/never-tell-me-the-odds/
 s37  http://hu-mu.blogspot.com/2019/04/warhammer-rpg-4e-edition.html
 s38  http://www.jeepeeonline.be/2019/03/soulfire-john-grumph.html
@@ -275,3 +275,15 @@ t107 https://rpggeek.com/rpgitem/46634/rune : "a winner is declared at the end o
 t108 https://en.wikipedia.org/wiki/Rifts_(role-playing_game)#System
 p109 http://yragael.free.fr/ 
 p110 http://ijrp.subcultures.nl/ 
+p111 http://strolen.com/viewing/5_Room_Dungeon by Johnn Four 
+p112 A Character for Every Game mapping blog https://web.archive.org/web/*/http://rpgcharacters.wordpress.com/ 
+p113 https://dysonlogos.blog http://www.dysonlogos.com/ 
+p114 https://web.archive.org/web/20130818054607/http://outsider.rolepod.net/ https://outsiderart.blog/ 
+p115 http://lesateliersimaginaires.com/forum/viewforum.php?f=59&sid=bdf58738901812d0f96eb1de0fc3d988
+p116 https://courantsalternatifs.fr/
+p117 https://www.casusno.fr/index.php 
+p118 http://www.pandapirate.net/forum.php?paging=1 
+p119 https://terresetranges.net/
+t120 http://www.legrog.org/biographies/thomas-pikathulhu-munier
+t121 http://www.legrog.org/jeux/mantra
+

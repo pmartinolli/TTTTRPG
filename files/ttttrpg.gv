@@ -1,4 +1,4 @@
-##### Version 20191007
+##### Version 20191008
 
 ###################################################################
 ###########                                              ##########
@@ -25,7 +25,7 @@
 #####                     in french:  https://jdr.hypotheses.org/category/sur-les-epaules-des-nains
 ##### Based on the source code developped by Todd Lehman for his TeX Family Tree: https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline
 
-##### Contributors : Éric Nieudan, Steve Dempsey, James Wallis
+##### Contributors : Éric Nieudan, Steve Dempsey, James Wallis, Veso_M
 ##### References : https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md
 
 
@@ -470,7 +470,7 @@ monstermanual -- dndholmes;
 
 
 { rank = same; 2009; pathfinder [ label= "Pathfinder" image="C:\gv\pathfinder.png"]} #Q680176
-
+{ rank = same; 2019; pathfinder2 [ label= "Pathfinder 2nd"]} pathfinder -- pathfinder2;
 
 ##### Fan works, semi-official
 
@@ -1076,6 +1076,7 @@ monstermanual -- dndholmes;
 { rank = same; 2008; travellermongoose [label = "Mongoose Traveller"]}  travellerhero -- travellermongoose;
 { rank = same; 2013; traveller5 [label = "Traveller 5"]}  travellermongoose -- traveller5;
 { rank = same; 2014; cepheusengine [label = "Cepheus Engine"]}  travellermongoose -- cepheusengine;
+{ rank = same; 2016; travellermongoose2 [label = "Mongoose Traveller 2nd"]}  travellermongoose -- travellermongoose2;
 
 { rank = same; 1986; traveller2300 [label = "Traveller: 2300"]} #Q4631459
 { rank = same; 1988; traveller2300ad [label = "2300 AD"]} traveller2300 -- traveller2300ad;
@@ -1586,11 +1587,24 @@ savageworlds -- deadlandsr;
 { rank = same; 2005; tedeumpourunmassacre [label = "Te Deum pour un massacre\n[fr]"]} #Q3516664
 { rank = same; 2010; tedeumpourunmassacre2 [label = "Te Deum 2e\n[fr]"]}  tedeumpourunmassacre -- tedeumpourunmassacre2;
 
-{ rank = same; 2013; millevaux [label = "Millevaux\n[fr]"]}
-{ rank = same; 2014; inflorenza [label = "Inflorenza\n[fr]"]} #Q64561870
-{ rank = same; 2015; dragonfly [label = "Dragonfly Motel\n[fr]"]}
-{ rank = same; 2015; odyssea [label = "Odysséa\n[fr]"]}
-{ rank = same; 2016; marchebranche [label = "Marchebranche\n[fr]"]}
+
+##### Thomas Munier
+{ rank = same; 2013; millevauxsombre [label = "Millevaux Sombre\n[fr]"]} sombrelight -- millevauxsombre; #t120
+{ rank = same; 2013; sechapperdesfaubourgs [label = "S’échapper des Faubourgs\n[fr]"]} #Q64706323
+{ rank = same; 2014; inflorenza [label = "Inflorenza\n[fr]"]} millevauxsombre -- inflorenza; #Q64561870
+{ rank = same; 2015; odyssea [label = "Odysséa\n[fr]"]} inflorenza -- odyssea;
+{ rank = same; 2016; arbre [label = "Arbre\n[fr]"]} inflorenza -- arbre;
+{ rank = same; 2016; dragonfly [label = "Dragonfly Motel\n[fr]"]}
+{ rank = same; 2016; marchebranche [label = "Marchebranche\n[fr]"]} inflorenza -- marchebranche;
+{ rank = same; 2016; millevauxmantra [label = "Millevaux Mantra\n[fr]"]} millevauxsombre -- millevauxmantra;
+{ rank = same; 2017; inflorenzaminima [label = "Inflorenza Minima\n[fr]"]} inflorenza -- inflorenzaminima;
+{ rank = same; 2018; letemoignage [label = "Le Témoignage\n[fr]"]}
+{ rank = same; 2018; wonderland [label = "Wonderland [en cours]\n[fr]"]}
+
+
+{ rank = same; 2016; mantra [label = "Mantra\n[fr]"]} #t121
+{ rank = same; 2019; mantraoniropunk [label = "Mantra Oniropunk\n[fr]"]} mantra -- mantraoniropunk;
+
 
 { rank = same; 2011; millesmarches [label = "Milles marches\n[fr]" image="C:\gv\millesmarches.png"]}
 { rank = same; 2013; dragondepoche [label = "Dragon de poche\n[fr]"]} #Q67690059
@@ -1609,7 +1623,7 @@ savageworlds -- deadlandsr;
 { rank = same; 2004; vermine [label = "Vermine\n[fr]"]} #Q3555927
 { rank = same; 2016; naheulbeuk [label = "Naheulbeuk\n[fr]"]}   #t62p #Q67880218
 { rank = same; 2007; capharnaum [label = "Capharnaum\n[fr]"]} #Q2937274
-{ rank = same; 2013; sechapperdesfaubourgs [label = "S’échapper des Faubourgs\n[fr]"]} #Q64706323
+
 { rank = same; 2007; kuro [label = "Kuro\n[fr]"]} #Q3200554
 { rank = same; 2012; ukiyo [label = "Les Errants d'Ukiyo\n[fr]"]}
 { rank = same; 2014; perdussouslapluie [label = "Perdus sous la Pluie\n[fr]\nLost in the Rain" image="C:\gv\perdussouslapluie.png"]} #Q66170387
@@ -1999,19 +2013,25 @@ ladyblackbird -- magisterlor;
 { rank = same; 2005; theforgeend [label = "x"; fillcolor=none]} theforge -- theforgeend;
 { rank = same; 2006; storygames [label = "Story Games forum"]}
 
+{ rank = same; 2013; ateliersimaginaires [label = "Les Ateliers Imaginaires"]} #p115
+{ rank = same; 2017; courantsalternatifs [label = "Courants Alternatifs"]} #p116
+{ rank = same; 2003; casusno [label = "Casus No"]}  casusbelli2end -- casusno; #p117
+{ rank = same; 2002; pandapirate [label = "Panda Pirate"]}  pandapirate -- casusno; #p118
+{ rank = same; 2005; terresetranges [label = "Terres Etranges"]}  terresetranges -- sombrelight; #p119
 
-# Video - TV
+##### Video - TV
 { rank = same; 2015; criticalrole [label = "Critical Role"]} #Q22079668
 
-# Serials : magazine, fanzine, blog,...
+##### Zines
 { rank = same; 1975; alarums [label = "Alarums & Excursions"]} #Q4708400
 { rank = same; 1998; ptgptb [label = "Place to Go, People to Be"]} #Q66126565
 { rank = same; 2008; ptgptbend [label = ""]} ptgptb -- ptgptbend;
 { rank = same; 2000; ptgptbfr [label = "Place to Go, People to Be\n[fr]"]}  
 
+
+##### Bloggers
 { rank = same; 1999; roleplayingtips [label="Roleplaying Tips"]}
 { rank = same; 2007; fiveroomsdungeons [label="5 Rooms Dungeons"]} roleplayingtips -- fiveroomsdungeons; #p111
-
 { rank = same; 2004; jeffgameblog [label="Jeff Gameblog"]} 
 { rank = same; 2005; thealexandrian [label="The Alexandrian"]} #Q66024800
 { rank = same; 2007; bankui [label="Deeper in the Game"]} 
@@ -2027,6 +2047,13 @@ ladyblackbird -- magisterlor;
 { rank = same; 2012; mythcreants [label="Mythcreants"]} 
 { rank = same; 2012; goblinpunch [label="Goblin Punch"]} 
 { rank = same; 2012; dmdavid [label="DM David"]} 
+{ rank = same; 2013; blogoutsider [label="Outsider"]} #p114
+
+##### Mappers 
+{ rank = same; 2009; trilemmaadventures [label="Trilemma Adventures"]} #p35
+{ rank = same; 2009; dysonlogos1 [label="A Character for Every Game"]} #p112
+{ rank = same; 2016; dysonlogos2 [label="Dyson’s Dodecahedron"]} dysonlogos1 -- dysonlogos2; #p113 
+
 
 ##### Events
 { rank = same; 1997; knutepunkt [label = "1st Knutepunkt Conference"]} #Q3040457
@@ -2059,20 +2086,26 @@ ladyblackbird -- magisterlor;
 { rank = same; 2013; xcard [label="X-card\n[John Stravopoulos]"]} #Q68031112
 { improvisation_theater [label="Improvisation theater techniques"]}  improvisation_theater -- apocalypseworld; 
 
-#### Essays 
+#### Playing or designing essays 
 { rank = same; 2002; rloggm [label = "Robin's Laws of Good Game Mastering"]}
 { rank = same; 2007; playunsafe [label = "Play Unsafe"]} #Q68625987
+{ rank = same; 2011; stealingcthulhu [label="Stealing Cthulhu"]} #Q68031420
+{ rank = same; 2016; menerpartiesjdr [label="Mener des parties de jeu de rôle"]} 
+
+##### Academic essays
 { rank = same; 2007; forgesfiction [label = "Jeux de rôle: les forges de la fiction"]} 
 { rank = same; 2004; mdaframework [label="Mechanics/Dynamics/Aesthetics (MDA) Framework\n8 kinds of fun"]} # p74
 { rank = same; 2007; bleed [label= "Bleed (Care Boss E)"]} #s77
 { rank = same; 2014; maelstrom [label="Maelstrom: contenu fictionnel malléable"]}
 { rank = same; 2016; gaminglayer [label="Gaming layers\n[Misdirected Mark Podcast]"]}
 { rank = same; 2006; pushvspull [label="Push vs. Pull\n[Mo]"]} #p76
-{ rank = same; 2011; stealingcthulhu [label="Stealing Cthulhu"]} #Q68031420
 { rank = same; 2012; playingattheworld [label="Playing at the World"]} 
-{ rank = same; 2016; menerpartiesjdr [label="Mener des parties de jeu de rôle"]} 
 { rank = same; 2018; roleplayinggamestudies [label="Role-Playing Game Studies"]} 
+
+##### Academic journals 
 { rank = same; 2009; ijrp [label="International Journal of Role-Playing"]} #p110 #Q69671730
+{ rank = same; 2014; analoggamestudies [label="Analog Game Studies"]} 
+{ rank = same; 1970; simulationsngaming [label="Simulation & Gaming"]} #Q7521310
 
 ### play(er) typologies #s24 pp.201-203
 { rank = same; 1970; warvsgame [label="WARriors vs GAMErs (Perren S)"]} 
@@ -3547,7 +3580,7 @@ malefices -- multimondes [label = "Gaudo M"]; #Q67000797
 hurlements -- chimeres [label = "Bizien JL & V"]; #Q3167089 & Q66092438
 ukiyo -- perdussouslapluie -- librete [label = "Féasson V"];
 surlesfrontieres -- summercamp -- auxmarchesdupouvoir -- monstres [label = "Bedouet M"];
-millevaux -- inflorenza -- odyssea -- dragonfly -- marchebranche [label = "Munier T"]; #Q64561959
+millevauxsombre -- sechapperdesfaubourgs -- blogoutsider -- inflorenza -- odyssea -- arbre -- dragonfly -- marchebranche -- millevauxmantra -- inflorenzaminima -- letemoignage -- wonderland [label = "Munier T"]; #Q64561959
 dksystem -- dksystem2 -- hellywood -- millesmarches -- bloodlustmetal -- dragondepoche -- oltree -- nanochrome -- laluneet12lotus -- mordiou -- soulfire [label = "Le Grümph"]; #Q28493942
 sensrenaissance -- sensmort -- lacellule -- sensneant -- maelstrom -- senscosmo -- senschaos -- vademecum [label = "Briand R"]; #Q48929823
 stardrakkar -- lanfeust -- dksystem -- macchiatomonsterszero -- macchiatomonsters [label = "Nieudan E"]; #Q56285070
