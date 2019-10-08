@@ -64,7 +64,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Created / Créé le : 2016
 
-* Most recent version / Dernière version : 2019-10-01
+* Most recent version / Dernière version : 2019-10-08
 
 * Original format / format de fichier : Graphviz Dot (Open source)
 
