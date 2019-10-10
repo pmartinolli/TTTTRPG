@@ -227,10 +227,10 @@ braunstein -- strategosn;
 
 ##### D&D #Q331156
 
-{ rank = same; 1977; dndholmes [label="Basic D&D [Holmes]" image="C:\gv\dndholmes.png"]} odnd_whitebox -- dndholmes; #Q64596999
+{ rank = same; 1977; dndholmes [label="Basic D&D\n[Holmes ed]" image="C:\gv\dndholmes.png"]} odnd_whitebox -- dndholmes; #Q64596999
 monstermanual -- dndholmes; 
-{ rank = same; 1981; dndmoldvay [label="Basic D&D [Moldvay]" image="C:\gv\dndmoldvay.png"]} dndholmes -- dndmoldvay; #Q64597017
-{ rank = same; 1983; dndmentzer [label="Basic D&D [Mentzer]" image="C:\gv\dndmentzer.png"]} dndmoldvay -- dndmentzer; #Q64597025
+{ rank = same; 1981; dndmoldvay [label="Basic D&D\n[Moldvay, B/X ed]" image="C:\gv\dndmoldvay.png"]} dndholmes -- dndmoldvay; #Q64597017
+{ rank = same; 1983; dndmentzer [label="Basic D&D [Mentzer ed]" image="C:\gv\dndmentzer.png"]} dndmoldvay -- dndmentzer; #Q64597025
 { rank = same; 1991; dndblackbox [label="Basic D&D [Black box]"]} dndmoldvay -- dndblackbox; #Q64597375
 { rank = same; 1991; rulescyclopedia [label="Rules Cyclopedia" image="C:\gv\rulescyclopedia.png"]} dndblackbox -- rulescyclopedia; #Q64597381
 { rank = same; 1994; theclassicdndgame [label="The Classic Dungeons & Dragons Game"]} rulescyclopedia -- theclassicdndgame; #Q64597385
@@ -294,7 +294,7 @@ monstermanual -- dndholmes;
 { rank = same; 1991; theruinsofundermountain [label="The Ruins of Undermountain"]} adnd2 -- theruinsofundermountain; #Q7761803
 { rank = same; 1982; n1againstcultreptilegod [label="N1 Against the Cult of the Reptile God"]} addplayerhandbook -- n1againstcultreptilegod; #Q4691066
 { rank = same; 1978; tombofhorror [label= "Tomb of Horror" image="C:\gv\tombofhorror.png"]}  addplayerhandbook -- tombofhorror; # s5 #Q3208389
-{ rank = same; 1980; greyhawk [label= "The World of Greyhawk" image="C:\gv\greyhawk.png"]} #Q8036603  #+Q2447657
+{ rank = same; 1980; greyhawk [label= "The World of Greyhawk" image="C:\gv\greyhawk.png"]} addplayerhandbook -- greyhawk; #Q8036603  #+Q2447657
 { rank = same; 1982; dragonlance [label= "Dragonlance" image="C:\gv\dragonlance.png"]} addplayerhandbook -- dragonlance; #Q16246132 #+Q746244 
 { rank = same; 1985; lankhmar [label= "Lankhmar"]} addplayerhandbook -- lankhmar; #Q6487219
 { rank = same; 1985; unearthedarcana [label= "Unearthed Arcana"]} addplayerhandbook -- unearthedarcana; #Q7884140
@@ -845,11 +845,10 @@ monstermanual -- dndholmes;
 ############ Super Hero RPGs 
 ############################################################
 
-
-
-
 { rank = same; 1977; superhero44 [label = "Superhero '44"]}
 { rank = same; 1978; superhero2044 [label = "Superhero 2044"]}  superhero44 -- superhero2044; #Q3977919 
+
+{ rank = same; 1979; villainsnvigilantes [label = "Villains and Vigilantes"]} #Q4012863
 
 { rank = same; 1981; champions [label = "Champions" image="C:\gv\champions.png"]} #Q281056
 { rank = same; 1982; champions2 [label = "Champions 2nd"]}  champions -- champions2;
@@ -885,7 +884,7 @@ monstermanual -- dndholmes;
 { rank = same; 2005; mutantsnmasterminds2 [label = "Mutants & Masterminds 2nd"]}  mutantsnmasterminds -- mutantsnmasterminds2;
 { rank = same; 2011; mutantsnmasterminds3 [label = "Mutants & Masterminds 3rd"]}  mutantsnmasterminds2 -- mutantsnmasterminds3;
 
-{ rank = same; 1979; villainsnvigilantes [label = "Villains and Vigilantes"]} #Q4012863
+
 { rank = same; 1985; teenagemutantninjaturtles [label = "Teenage Mutant Ninja Turtles & Other Strangeness"]} #Q3085024 #Q18204518
 { rank = same; 1998; alternity [label = "Alternity"]} #Q764265
 { rank = same; 1998; sailormoon [label = "The Sailor Moon RPG"]}
@@ -1126,7 +1125,9 @@ monstermanual -- dndholmes;
 { rank = same; 2005; serenity [label = "Serenity RPG"]} cortex -- serenity; #Q7453225
 { rank = same; 2014; firefly [label = "Firefly RPG"]} serenity -- firefly; #Q22678768
 
-{ rank = same; 2005; starswithoutnumbers [label = "Stars without Number"]} #Q67963569
+{ rank = same; 2010; starswithoutnumbers [label = "Stars without Number"]} #Q67963569
+{ rank = same; 2018; starswithoutnumbers2 [label = "Stars without Number 2nd"]} starswithoutnumbers -- starswithoutnumbers2;
+
 { rank = same; 2008; threesixteen [label = "3:16 Carnage Amongst the Stars" image="C:\gv\threesixteen.png"]} #Q64461225
 { rank = same; 2013; rocketage [label = "Rocket Age"]}
 { rank = same; 2013; vastnstarlit [label = "Vast & Starlit"]}
@@ -3502,28 +3503,28 @@ edge [color=lightgrey; fontcolor=lightgrey; style=dotted]
 
 
 
+###################################################################
+###########                                              ##########
+###########      Part 5a : meta-links DOTTED LINES       ##########
+###########                = looser link                 ##########
+###################################################################
 
+#####################################################
+#####        same genre, gameplay, style,...   
+#####################################################
 
 {
 node [];
-edge [color=grey; fontcolor=grey; style=dotted]
+edge [color=grey; fontcolor=grey; style=dotted, label="=genre"]
 
-
-###################################################################
-###########                                              ##########
-###########      Part 5 : meta-links DOTTED LINES        ##########
-###########                                              ##########
-###########  same author, same rules, same universe,...  ##########
-###########                                              ##########
-###################################################################
-
-
-odnd_whitebox -- judgeguild;
+odnd_whitebox -- judgesguild;
 
 bunniesnburrows2 -- bunniesnburrowsgurps -- thewarren;
 
 metamorphosisalpha -- gammaworld;
 gammaworld -- mutantcrawlclassic;
+
+knightsoftheroundtable -- pendragon;
 
 rifts -- torg;
 
@@ -3576,7 +3577,70 @@ addplayerhandbook -- armslaw;
 
 alltheworldsmonsters -- monstermanual;
 
+dndmoldvay -- torchbearer; 
+
+} # End "=genre"
+
+
+
+
+
+
+{
+node [];
+edge [color=grey; fontcolor=grey; style=dotted, label="=movt"]
+
+##### Movements
+
+theforge -- burningwheel; #wd
+theforge -- apocalypseworld; #wd 
+theforge -- sorcerer; #wd 
+theforge -- themountainwitch; #wd 
+theforge -- dogsinthevineyard; #wd 
+theforge -- mylifewithmaster; #wd  
+theforge -- octane; #wd 
+theforge -- inspectres; #wd 
+theforge -- lacuna; #wd 
+theforge -- primetime; #wd 
+theforge -- spione; #wd 
+theforge -- polaris; #wd
+theforge -- threesixteen; #wd
+
+osr -- castlesncrusades;
+osr -- osric;
+osr -- mazesnminotaurs;
+osr -- labyrinthlords;
+osr -- basicfantasyrpg; 
+osr -- swordsnwizardry;
+osr -- darkdungeons; 
+osr -- lamentationsflameprincess; 
+osr -- mazesnperils;
+osr -- forgoldnglory; 
+osr -- dungeoncrawlclassic;
+osr -- blueholme;
+osr -- beyondthewall;
+osr -- intotheodd;
+osr -- nightmaresunderneath;
+osr -- neoclassicalgeekrevival;
+osr -- whitehack;
+osr -- blackhack;
+osr -- torchbearer;
+
+} # End "=movt"
+
+
+
+
+
+
+
+{
+node [];
+edge [color=grey; fontcolor=grey; style=dotted, label="=author"]
+
 ##### same author
+
+addplayerhandbook -- lawsuitarneson;
 
 engarde -- traveller; #"Chadwick F"
 traveller -- twilight2000; #"Chadwick F"
@@ -3678,33 +3742,33 @@ lacellule -- vademecum; #"Briand R" #Q48929823
 stardrakkar -- lanfeust; #"Nieudan E" #Q56285070
 
 
-} ##### End DOTTED 
+} #End "=author"
+
+
+
+##### End of part 5a DOTTED 
 
 
 
 
+
+
+
+###################################################################
+###########                                              ##########
+###########      Part 5b : meta-links STRAIGHT LINES     ##########
+###########                 = stronger link              ##########
+###################################################################
 
 
 {
 node [];
-edge [color=lightgrey; fontcolor=lightgrey]
+edge [color=lightgrey; fontcolor=lightgrey; label="=universe"]
 
 
-###################################################################
-###########                                              ##########
-###########      Part 5 : meta-links STRAIGHT LINES      ##########
-###########                                              ##########
-###########  same author, same rules, same universe,...  ##########
-###########                                              ##########
-###################################################################
-
-
-blackmoor -- odnd_woodgrainbox;
-
-
-##################################################
-####    Same genre, universe, story, franchise    
-##################################################
+#####################################################
+#####        same universe or franchise    
+#####################################################
 
 { orientaladventures; legend5rings2 } -- orientaladventures2;
 
@@ -3733,31 +3797,35 @@ vampirerequiem -- geistsineaters;
 
 horrororientexpress -- beyondmountainsmadness #"Anderson P" #Q67315739
 
+greyhawk -- greyhawkgrognard;
+
+}
 
 
+
+
+
+{
+node [];
+edge [color=lightgrey; fontcolor=lightgrey; label="=rules"]
 
 ###############################################
-###########           Rules              
+#####     Same rules / Inherited rules              
 ###############################################
+
+
+##### Same rules 
 
 legend5rings -- seventhsea; #"Wick J" #Q3182744
 
 
-##### Movements
+##### Strong influences 
 
-theforge -- burningwheel; #wd
-theforge -- apocalypseworld; #wd 
-theforge -- sorcerer; #wd 
-theforge -- themountainwitch; #wd 
-theforge -- dogsinthevineyard; #wd 
-theforge -- mylifewithmaster; #wd  
-theforge -- octane; #wd 
-theforge -- inspectres; #wd 
-theforge -- lacuna; #wd 
-theforge -- primetime; #wd 
-theforge -- spione; #wd 
-theforge -- polaris; #wd
-theforge -- threesixteen; #wd
+mouseguard -- torchbearer; #same author
+
+dogsinthevineyard -- burningwheel; #cited 
+
+
 
 ##### SRD
 
@@ -3774,47 +3842,13 @@ d20srdogl -- dksystem;
 d20srdogl -- mutantsnmasterminds; 
 d20srdogl -- chroniquesoubliees;
 
-osr -- castlesncrusades;
-osr -- osric;
-osr -- mazesnminotaurs;
-osr -- labyrinthlords;
-osr -- basicfantasyrpg; 
-osr -- swordsnwizardry;
-osr -- darkdungeons; 
-osr -- lamentationsflameprincess; 
-osr -- mazesnperils;
-osr -- forgoldnglory; 
-osr -- dungeoncrawlclassic;
-osr -- blueholme;
-osr -- beyondthewall;
-osr -- intotheodd;
-osr -- nightmaresunderneath;
-osr -- neoclassicalgeekrevival;
-osr -- whitehack;
-osr -- blackhack;
-
 dnd35 -- pathfinder;
-
-
-
-##### inspired by / same author
-
-osr -- torchbearer;
-dndmoldvay -- torchbearer; #Druuples
-burningwheel -- torchbearer; 
-
-apocalypseworld -- bladesinthedark; 
-burningwheel -- bladesinthedark; #Druuples
-
-dogsinthevineyard -- apocalypseworld; #same author 
-dogsinthevineyard -- burningwheel; #Druuples
-
 
 
 
 ##### Hacks
 
-dndmoldvay -- dnd_maraninchi; #is it Moldvay? need sources
+dndmoldvay -- dnd_maraninchi; 
 
 adnd2 -- hackmaster4;
 
@@ -3835,9 +3869,17 @@ apocalypseworld -- bluebeardsbride;
 apocalypseworld -- threadbare;
 apocalypseworld -- kultdivinitylost ;
 
-traveller -- starswithoutnumbers;
+apocalypseworld -- bladesinthedark; 
+burningwheel -- bladesinthedark; #Druuples
+
+traveller -- starswithoutnumbers; #t122 
+dndmoldvay -- starswithoutnumbers; #t122 
+
+traveller -- cepheusengine;
 
 warhammerfrpg3 -- zweihander;
+
+
 
 ##### Supplements 
 
@@ -3854,7 +3896,11 @@ rolemaster2 -- aborea;
 
 casusbelli -- mega2; 
 
-} ##### End of Part 5
+}
+
+
+
+} ##### End of Part 5b
 
 
 

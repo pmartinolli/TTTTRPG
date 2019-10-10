@@ -286,4 +286,8 @@ p118 http://www.pandapirate.net/forum.php?paging=1
 p119 https://terresetranges.net/
 t120 http://www.legrog.org/biographies/thomas-pikathulhu-munier
 t121 http://www.legrog.org/jeux/mantra
+t122 https://1d4chan.org/wiki/Stars_Without_Number 
+t123 https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Torchbearer 
+
+
 
