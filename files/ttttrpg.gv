@@ -1,4 +1,4 @@
-##### Version 20191010
+##### Version 20191011
 
 ###################################################################
 ###########                                              ##########
@@ -428,9 +428,10 @@ monstermanual -- dndholmes;
 { rank = same; 2004; castlesncrusades [label = "Castles & Crusades"]} #Q5050586
 { rank = same; 2006; osric [label = "OSRIC"]} #Q3347723 
 { rank = same; 2006; mazesnminotaurs [label = "Mazes & Minotaurs"]} #Q68857194
-{ rank = same; 2007; labyrinthlords [label = "Labyrinth Lords"]} 
+{ rank = same; 2007; labyrinthlords [label = "Labyrinth Lords"]} #Q3214557
 { rank = same; 2007; basicfantasyrpg [label = "Basic Fantasy RPG"]} #Q4866969
-{ rank = same; 2008; swordsnwizardry [label = "Swords & Wizardry"]} 
+{ rank = same; 2008; swordsnwizardry [label = "Swords & Wizardry"]} #Q70485112
+{ rank = same; 2012; delvingdeeper [label = "Delving Deeper"]} #Q70484820
 { rank = same; 2010; darkdungeons [label = "Dark Dungeons"]} 
 { rank = same; 2010; lamentationsflameprincess [label = "Lamentations of the Flame Princess"]} #Q27102827
 { rank = same; 2011; mazesnperils [label = "Mazes & Perils"]} 
@@ -467,6 +468,12 @@ monstermanual -- dndholmes;
 { rank = same; 2005; etherscope [label = "Etherscope"]} #Q5403370
 { rank = same; 2006; ptolus [label = "Ptolus" image="C:\gv\ptolus.png"]} #Q7257108
 { rank = same; 2013; thirteenage [label = "13th Age"]} #Q16000545
+{ rank = same; 2004; cloakofsteel [label = "Cloak of Steel"]} #Q70486236
+{ rank = same; 2002; slaine [label = "Sláine: The RPG of Celtic Heroes"]} #Q7542445
+
+{ rank = same; 2005; lanfeust [label = "Jeu d'aventure de Lanfeust\net du monde de Troy\n[fr]"]} #Q3177833
+{ rank = same; 2006; dksystem [label = "DK System\n[fr]"]} lanfeust -- dksystem; #Q16545737
+{ rank = same; 2008; dksystem2 [label = "DK 2\n[fr]"]}  dksystem -- dksystem2;
 
 
 { rank = same; 2009; pathfinder [ label= "Pathfinder" image="C:\gv\pathfinder.png"]} #Q680176
@@ -680,7 +687,7 @@ monstermanual -- dndholmes;
 
 
 
-{ rank = same; 1985; conanrpg [label = "Conan Role-Playing Game"]} marvelsh -- conanrpg; #Q17986620
+{ rank = same; 1985; conanrpg [label = "Conan Role-Playing Game"]} #Q17986620
 { rank = same; 1989; gurpsconan [label = "GURPS Conan"]} #Q16246947
 { rank = same; 1989; conantherpg [label = "Conan: The RPG"]} #Q17986621
 { rank = same; 2017; conanadventuresageundreamedof [label = "Conan: Adventures in an Age Undreamed Of"]} #Q23582853
@@ -781,6 +788,8 @@ monstermanual -- dndholmes;
 { rank = same; 2002; fatal [label = "F.A.T.A.L."]}
 { rank = same; 2002; universalis [label = "Universalis"]} #Q7894174
 
+{ rank = same; 2012; theregiment [label = "The Regiment"]} #Q70491646
+
 { rank = same; 2004; theshadowofyesterday [label = "The Shadow of Yesterday"]} #Q64528046
 { rank = same; 2005; thedrowwar [label = "The Drow War"]}
 
@@ -794,7 +803,7 @@ monstermanual -- dndholmes;
 
 { rank = same; 2012; onmightythews [label = "On Mighty Thews"]}
 { rank = same; 2013; hillfolk [label = "Hillfolk"]} #Q18160911
-{ rank = same; 2013; sagaislanders [label = "Saga of the Icelanders"]}  
+{ rank = same; 2013; sagasicelanders [label = "Sagas of the Icelanders"]} #Q70492409
 { rank = same; 2014; numenera [label = "Numenera" image="C:\gv\numenera.png"]} #Q17155477
 { rank = same; 2014; swordswomaster [label = "Swords without Master" image="C:\gv\swordswomaster.png"]}
 { rank = same; 2015; cartel [label = "Cartel"]}  
@@ -946,7 +955,7 @@ monstermanual -- dndholmes;
 
 { rank = same; 2004; exmachina [label = "Ex Machina"]} #Q385195
 
-
+{ rank = same; 2009; freemarket  [label = "Freemarket"]} #Q70491852
 
 
 
@@ -1577,9 +1586,7 @@ savageworlds -- deadlandsr;
 { rank = same; 2001; donjonclefsenmains [label = "Donjon : Clefs en mains\n[fr]"]} #Q3036692
 { rank = same; 2017; dstart [label = "D-Start\n[fr]"]}
 
-{ rank = same; 2005; lanfeust [label = "Jeu d'aventure de Lanfeust\net du monde de Troy\n[fr]"]} #Q3177833
-{ rank = same; 2006; dksystem [label = "DK System\n[fr]"]} lanfeust -- dksystem; #Q16545737
-{ rank = same; 2008; dksystem2 [label = "DK 2\n[fr]"]}  dksystem -- dksystem2;
+
 
 { rank = same; 2008; sombrelight [label = "Sombre light\n[fr]"]} #Q25396161
 { rank = same; 2011; sombren1 [label = "Sombre n.1\n[fr]" image="C:\gv\sombren1.png"]}  sombrelight -- sombren1;
@@ -2743,7 +2750,7 @@ edge [color=royalblue; weight=2]
 ### blackjack mechanic (don't excess your score)
 { rollunderbuthigh [label = "roll under but as high\nas possible for opposed rolls\nor exact score for critics"]}    pendragon -- rollunderbuthigh;
 { blackjackd100 [label = "blackjack d100 mechanic"]}    unknownarmies -- blackjackd100;
-{ rollhighunder [label = "roll high under\n(roll under attack score but above opposing defense)"]}   rifts -- rollhighunder -- whitehack; #t108
+{ rollhighunder [label = "roll high under\n(roll under attack score but above opposing defense)"]}   rifts -- rollhighunder; #t108
 { reussiteexcess [label = "Excessive success has bad consequences"]}   librete -- reussiteexcess;
 
 
@@ -3040,8 +3047,7 @@ starwarsweg -- archetypes;
 ##### play monsters 
 { nonhuman [label = "Non-humanoid roles"]}    bunniesnburrows -- nonhuman;
 { playmonsters [label="PCs are monsters prying on adventurers"]}  monstersmonsters -- playmonsters;
-{ pcmonsters [label = "PCs can be monsters"]}   pcmonsters -- runequest;
-playmonsters -- pcmonsters [style=dotted];
+{ pcmonsters [label = "PCs can be monsters"]}    runequest -- pcmonsters;
 { colonized [label = "Play colonized races characters"]}   shaan -- colonized;
 { familiar [label = "Play familiars"]}   mylifewithmaster -- familiar -- thewitchisdead [style=dotted];
 
@@ -3128,8 +3134,8 @@ nowincond -- levelupvictory;
 
 
 ##### skills improvement 
-{ skillsystem [label = "Skill system"]}  bunniesnburrows -- skillsystem -- runequest;
-{ xpskilltrain [label="XP for skill use and training"]}   traveller -- xpskilltrain -- runequest; 
+{ skillsystem [label = "Skill system"]}  bunniesnburrows -- skillsystem;
+{ xpskilltrain [label="XP for skill use and training"]}   traveller -- xpskilltrain; 
 { linearbonusprog [label = "Linear bonus progression"]}    dnd3 -- linearbonusprog;
 { skillspe [label="Skill specialization: broad, maxed out, then specialized"]}    cortex -- skillspe;
 
@@ -3147,7 +3153,7 @@ nowincond -- levelupvictory;
 
 ##### special 
 { nocharadv [label = "No character advancement rules"]}   dallas -- nocharadv;
-{ buykey [label="Buy (& buy back) keys of character"]} theshadowofyesterday -- buykey  ladyblackbird; #s66 "good way of encouraging acting in the way the character is built to, but also encouraging character growth"
+{ buykey [label="Buy (& buy back) keys of character"]} theshadowofyesterday -- buykey -- ladyblackbird; #s66 
 
 ##### social status 
 { msrewards [label="Material and social rewards"]}  traveller -- msrewards;
@@ -3579,6 +3585,8 @@ alltheworldsmonsters -- monstermanual;
 
 dndmoldvay -- torchbearer; 
 
+appendixn -- dungeoncrawlclassic; #cite 
+
 } # End "=genre"
 
 
@@ -3625,6 +3633,7 @@ osr -- neoclassicalgeekrevival;
 osr -- whitehack;
 osr -- blackhack;
 osr -- torchbearer;
+osr -- delvingdeeper;
 
 } # End "=movt"
 
@@ -3841,6 +3850,8 @@ d20srdogl -- spycraft;
 d20srdogl -- dksystem;
 d20srdogl -- mutantsnmasterminds; 
 d20srdogl -- chroniquesoubliees;
+d20srdogl -- cloakofsteel;
+d20srdogl -- slaine;
 
 dnd35 -- pathfinder;
 
@@ -3854,7 +3865,7 @@ adnd2 -- hackmaster4;
 
 apocalypseworld -- dungeonworld; 
 apocalypseworld -- thewarren;
-apocalypseworld -- sagaislanders; 
+apocalypseworld -- sagasicelanders; 
 apocalypseworld -- cartel;
 apocalypseworld -- wwwrestling;
 apocalypseworld -- worldsinperil;
