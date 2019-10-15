@@ -91,7 +91,7 @@ title -- title_end [style=invis];
     1950 -- 1966 [style=invis];
     1966 -- 1967 [style=invis];
     1967 -- 1968 [style=invis];
-	1968 -- 1969 [style=invis];
+    1968 -- 1969 [style=invis];
     1969 -- 1970 [style=invis];
     1970 -- 1971 [style=invis];
     1971 -- 1972 [style=invis];
@@ -139,12 +139,12 @@ title -- title_end [style=invis];
     2013 -- 2014 [style=invis];
     2014 -- 2015 [style=invis];
     2015 -- 2016 [style=invis];
-    2016 -- 2017 [style=invis]; 
-	2017 -- 2018 [style=invis]; 
-	2018 -- 2019 [style=invis]; 
-    2019 -- 2020 [style=invis]; 	
-    2020 -- future [style=invis]; 
-	
+    2016 -- 2017 [style=invis];
+    2017 -- 2018 [style=invis];
+    2018 -- 2019 [style=invis];
+    2019 -- 2020 [style=invis];
+    2020 -- future [style=invis];
+
 
 
 
@@ -3967,9 +3967,22 @@ casusbelli -- mega2;
 
 
 
-
-#2do
+####################
+##### Stuffs to do
+###################
 
 # Questers of the Middle Realms  PDQ  Q70944698
 # Beast Hunters Q70944886
 # redbox hack Q70950863 osr+indie
+
+#Q3061945	Exil
+#Q66579583	Epyllion: a Dragon Epic
+#Q66579332	Masks: a New Generation
+#Q64691673	City of Mist
+#Q66579336	Night's Black Agents: Solo Ops
+#Q66024935	Infinity RPG
+#Q66571875	Star Crossed
+#Q66603516	The Day After Ragnarok
+
+#display: add \n[date] at the end of each label name 
+
