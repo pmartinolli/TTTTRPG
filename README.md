@@ -67,7 +67,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Created / Créé le : 2016
 
-* Most recent version / Dernière version : 2019-10-10
+* Most recent version / Dernière version : 2019-10-15
 
 * Original format / format de fichier : DOT language for [Graphviz (Open source)](https://www.graphviz.org/)
 
@@ -75,7 +75,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Presented at, promoted through / Présenté à, diffusé via : [Donjons & Données probantes 2018](http://hdl.handle.net/1866/21088), [Blogue Jeu de rôle sur table](https://jdr.hypotheses.org/category/graphe), [ZoTrpg blog](https://zotrpg.blogspot.com/search/label/timeline), [ResearchGate](https://www.researchgate.net/publication/333489073_Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_2019_partially_released), [Academia](https://www.academia.edu/39317882/Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_today_partially_released_), [Twitter](https://twitter.com/Pascaliensis/status/1177314806442921985), [Facebook: groupe Initiatives](https://www.facebook.com/groups/316125545245807/), [Facebook: Role-play Theory Study Group](https://www.facebook.com/groups/roleplaytheorystudygroup/), [reddit/RPGdesign](https://www.reddit.com/r/RPGdesign/comments/det5ft/ttttrpg_timeline_tree_of_tabletop_roleplaying/), [Casus NO](https://www.casusno.fr/viewtopic.php?f=24&t=36293).
 
-* Contributors (sor far) : People and works cited in the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md), Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Veso_M.
+* Contributors (sor far) : People and works cited in the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md), Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Veso_M, catnipandfish.
 
 * Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
 
