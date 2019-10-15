@@ -14,7 +14,7 @@ Specific sources : at the bottom
 
 # Secondary sources / Sources secondaires
 
-## Books (main corpus)
+## Main corpus
 
 Appelcline, Shannon. *Designers & Dragons: The 00s*. 2nd ed. Silver Spring, MD: Evil Hat Productions, 2015.
 
@@ -36,6 +36,8 @@ Deterding, Sebastian, and José P. Zagal, eds. *Role-Playing Game Studies: Trans
 
 Engelstein, Geoffrey, and Isaac Shalev. *Building Blocks of Tabletop Game Design : An Encyclopedia of Mechanisms*. CRC Press, 2019. https://doi.org/10.1201/9780429430701.
 
+Graves, Chris, and Griffith Mon Morgan III. *Secrets of Blackmoor, The True History of Dungeons & Dragons.*, 2019. https://www.secretsofblackmoor.com
+
 Guiserix, Didier, and Rolland Barthélemy. *Le livre des jeux de rôle. L’univers du jeu*. Paris: Bornemann, 1997.
 Huot, Benoit, Esthane, and Rappar, eds. Une Brève Histoire Du Jeu de Rôle. Ebook 6. Paris: Place to Go, People to Be (vf), 2013. http://ptgptb.fr/.
 
@@ -46,6 +48,8 @@ Peterson, Jon. *Playing at the World: A History of Simulating Wars, People and F
 Tresca, Michael J. *The Evolution of Fantasy Role-Playing Games*. Jefferson, NC: McFarland, 2010. http://search.proquest.com/docview/885273825?accountid=12543.
 
 Whitson, John Kirk III. *“Design Patterns of Successful Role-Playing Games.”* Edited by Michael R. Cantrell. Whitson John Kirk III, 2009 2006. https://archive.org/details/RPGDesignPatterns91309.
+
+
 
 ## Serials
 
@@ -288,6 +292,6 @@ t120 http://www.legrog.org/biographies/thomas-pikathulhu-munier
 t121 http://www.legrog.org/jeux/mantra
 t122 https://1d4chan.org/wiki/Stars_Without_Number 
 t123 https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Torchbearer 
-
-
+s124 https://boggswood.blogspot.com/2019/08/the-dungeon-boardgame-as-foundation-of-d.html
+p125 Dave Arneson, *The First Fantasy Campaign*, 1977, Introduction, p. 3.
 
