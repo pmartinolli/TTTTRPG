@@ -47,7 +47,7 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
 - Tweet it [@pascaliensis](https://twitter.com/Pascaliensis).
 - Comment it on your social media.
 - Cite me it your academic work : 
-> Martinolli, Pascal. 2019. « TTTTRPG: Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years of game design innovations. » *GitHub*. Dataset and dot language code. https://github.com/pmartinolli/TTTTRPG
+> Martinolli, Pascal. 2019. « TTTTRPG: Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years of game design innovations. » *Zenodo*. Dataset and dot language code. http://doi.org/10.5281/zenodo.3492119
 - Print it and display it in your school, library, exhibition, etc.
 - Send me an email : pascal.umontreal [at] gmail.com
 
