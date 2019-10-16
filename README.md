@@ -1,6 +1,9 @@
 # TTTTRPG
 **Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years of game design innovations**
 
+
+[![DOI](https://zenodo.org/badge/207627479.svg)](https://zenodo.org/badge/latestdoi/207627479)
+
 Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 2019.
 
 * Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)** (4 Mo)
