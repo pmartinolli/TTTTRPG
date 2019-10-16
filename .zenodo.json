@@ -1,0 +1,26 @@
+{
+    "description": "First release.", 
+    "license": "CC-BY-NC-SA 4.0", 
+    "title": "TTTTRPG: Timeline Tree of Tabletop Role-Playing Games", 
+    "version": "v1.1", 
+    "upload_type": "graph", 
+    "publication_date": "2019-10-16", 
+    "creators": [
+        {
+            "name": "Pascal Martinolli"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/pmartinolli/TTTTRPG/tree/v1.1", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.3492118", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
