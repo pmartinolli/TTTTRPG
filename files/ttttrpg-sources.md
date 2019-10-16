@@ -294,4 +294,4 @@ t122 https://1d4chan.org/wiki/Stars_Without_Number
 t123 https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Torchbearer 
 s124 https://boggswood.blogspot.com/2019/08/the-dungeon-boardgame-as-foundation-of-d.html
 p125 Dave Arneson, *The First Fantasy Campaign*, 1977, Introduction, p. 3.
-
+t126 http://www.legrog.org/jeux/planete-hurlante/planete-hurlante-fr

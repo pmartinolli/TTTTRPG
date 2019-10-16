@@ -1635,6 +1635,7 @@ savageworlds -- deadlandsr;
 { rank = same; 2018; wonderland [label = "Wonderland [en cours]\n[fr]"]}
 
 
+{ rank = same; 2015; planetehurlante [label = "Planète Hurlante\n[fr]"]} #t126 
 { rank = same; 2016; mantra [label = "Mantra\n[fr]"]} #t121
 { rank = same; 2019; mantraoniropunk [label = "Mantra Oniropunk\n[fr]"]} mantra -- mantraoniropunk;
 
@@ -2389,6 +2390,7 @@ dmalwaysright -- dmalwaysright2 [style=dotted];
 { confessional [label="Confessional reality-TV-like"]}    inspectres -- confessional;
 { ritualsentences [label="Ritual key-phrases structuring game conversation"]}  polaris -- ritualsentences;
 { logicalvertigo [label="Logical vertigo with dynamic\nflashbacks & flashforwards "]}  odyssea -- logicalvertigo;
+{ reminiscence [label="Remembrance mechanic:\ncyclical plot inserts & cut-up for action resolution"]}  mantra -- reminiscence;
 { moralnmysteries [label="Moral or Mysteries story elements on a roll of 3"]} swordswomaster -- moralnmysteries;
 { playertellitstrue [label="Everything happen exactly how players describe it"]} wushu -- playertellitstrue;
 
@@ -3798,6 +3800,7 @@ lacellule -- vademecum; #"Briand R" #Q48929823
 
 stardrakkar -- lanfeust; #"Nieudan E" #Q56285070
 
+planetehurlante -- mantra; #"Batronoban" 
 
 } #End "=author"
 
@@ -3974,6 +3977,7 @@ casusbelli -- mega2;
 # Questers of the Middle Realms  PDQ  Q70944698
 # Beast Hunters Q70944886
 # redbox hack Q70950863 osr+indie
+# 2015; planete hurlante http://www.legrog.org/jeux/planete-hurlante/planete-hurlante-fr
 
 #Q3061945	Exil
 #Q66579583	Epyllion: a Dragon Epic
