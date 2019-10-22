@@ -1,4 +1,4 @@
-##### Version 20191016
+##### Version 20191022
 
 ###################################################################
 ###########                                              ##########
@@ -25,7 +25,7 @@
 #####                     in french:  https://jdr.hypotheses.org/category/sur-les-epaules-des-nains
 ##### Based on the source code developped by Todd Lehman for his TeX Family Tree: https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline
 
-##### Contributors : Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Veso_M, catnipandfish.
+##### Contributors : Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Veso_M, catnipandfish, PhasmaFelis, VonAether, DMMJaco.
 ##### References : https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md
 
 
@@ -919,18 +919,20 @@ monstermanual -- dndholmes;
 { rank = same; 2016; worldsinperil [label = "Worlds in Peril"]} 
 { rank = same; 1977; professionalwrestling [label = "Professional Wrestling"]} #Q48998040
 
-{ rank = same; 1997; trinity [label = "Trinity"]} #Q7842556
-{ rank = same; 2004; trinityd20 [label = "Trinity  d20"]}
+{ rank = same; 1997; trinity [label = "ÆON/Trinity"]} #Q7842556
+{ rank = same; 2004; trinityd20 [label = "Trinity d20"]} trinity -- trinityd20;
 { rank = same; 2001; exalted [label = "Exalted" image="C:\gv\exalted.png"]} #Q5467
 { rank = same; 2006; exalted2 [label = "Exalted 2dn ed."]}  exalted -- exalted2;
 { rank = same; 2016; exalted3 [label = "Exalted 3rd ed."]}  exalted2 -- exalted3;
-
+{ rank = same; 1999; aberrant [label = "Aberrant"]} #Q1173528
+{ rank = same; 2004; aberrantd20 [label = "Aberrant d20"]} aberrant -- aberrantd20;
+{ rank = same; 2001; adventurerpg [label = "Adventure!"]} #Q2825388 
 
 { rank = same; 2005; capes [label = "Capes"]} #Q5035301
 { rank = same; 2006; bigbangcomics [label = "Big Bang Comics"]} #Q4905018
 { rank = same; 2005; truthnjustice [label = "Truth & Justice"]} pdq -- truthnjustice; #Q7848259
  
- 
+
  
 ################################################
 ############ Cyberpunk & Transhumanist RPGs 
@@ -1369,7 +1371,10 @@ savageworlds -- deadlandsr;
 { rank = same; 2011; wildernessofmirrors2 [label = "Wilderness of Mirrors 2nd"]}  wildernessofmirrors -- wildernessofmirrors2;
 
 { rank = same; 1984; indianajones [label = "The Adventures of Indiana Jones RPG"]} #Q2132161
-{ rank = same; 2001; adventurerpg [label = "Adventure!"]} #Q2825388
+
+
+
+
 
 
 { rank = same; 2007; spione [label = "Spione: Story Now in Cold War Berlin"]} #Q64524503
@@ -1423,7 +1428,7 @@ savageworlds -- deadlandsr;
 { rank = same; 2004; gehenna [label = "Gehenna"]} vampirethemasquerade2 -- gehenna; #Q5530066
 { rank = same; 2005; vampirerequiem [label = "Vampire: The Requiem"]}  gehenna -- vampirerequiem; #Q338023
 { rank = same; 2011; vampire20 [label = "Vampire 20th Anniversary"]}  vampirerequiem -- vampire20;
-{ rank = same; 2011; vampire5 [label = "Vampire 5th ed"]}  vampire20 -- vampire5;
+{ rank = same; 2018; vampire5 [label = "Vampire 5th ed"]}  vampire20 -- vampire5;
 
 
 { rank = same; 1992; werewolfapocalypse [label = "Werewolf: The Apocalypse" image="C:\gv\werewolfapocalypse.png"]} #Q2142180
@@ -3858,6 +3863,9 @@ vampirerequiem -- geistsineaters;
 horrororientexpress -- beyondmountainsmadness #"Anderson P" #Q67315739
 
 greyhawk -- greyhawkgrognard;
+
+aberrant -- adventurerpg;
+trinity -- aberrant;
 
 }
 
