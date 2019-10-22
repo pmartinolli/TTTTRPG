@@ -10,6 +10,10 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
 
 [![TTTTRPG snapshot](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-snapshot.png)](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)
 
+## Long term goal
+
+This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) » [(en français)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) set of projects. I would kike to work on the taxonomy of relations between cultural published games and this project is a first draft and essay. My ambition is to design a whole phylomemetic system to track evolution of ideas. I will use the TTRPG published products as subject because it is offering a clear, defined and accessible set of items.
+
 ## How to... 
 
 ### ... Do it myself 
@@ -58,10 +62,6 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
 - Draw different kind of lines for better understanding of links.
 - Use sans-serif font for better readability.
 - Change the font/color/background of the name of items with a cover picture for better readability.
-
-## Long term goal
-
-This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) »[(fr)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) set of projects. I would kike to work on the taxonomy of relations between cultural published games and this project is a first draft and essay. My ambition is to design a whole phylomemetic system to track evolution of ideas. I will use the TTRPG published products as subject because it is offering a clear, defined and accessible set of items.
 
 ## Acknowledgements 
 
