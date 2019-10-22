@@ -51,13 +51,25 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
 - Print it and display it in your school, library, exhibition, etc.
 - Send me an email : pascal.umontreal [at] gmail.com
 
+## Short term improvements
+
+- Produce a more dense graph.
+- Insert a key legend to explicit the colors and links displayed.
+- Draw different kind of lines for better understanding of links.
+- Use sans-serif font for better readability.
+- Change the font/color/background of the name of items with a cover picture for better readability.
+
+## Long term goal
+
+This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) »[(fr)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) set of projects. I would kike to work on the taxonomy of relations between cultural published games and this project is a first draft and essay of it. My ambition is to design a whole phylomemetic system to track evolution of ideas. I will use the TTRPG published products as subject because it is offering a clear, defined and accessible set of items.
+
 ## Acknowledgements 
 
 The source code is an adaptation of the code created by [Todd Lehman](https://tex.stackexchange.com/users/8499/todd-lehman) for his [“TeX Family Tree”](https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline). 
 
 The data sources of this work are numerous. You can have a look of the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md) used to select, check and analyze the TTRPGs.
 
-This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) »[(fr)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) set of projects .
+
 
 ### This content is CC-BY-NC-SA 4.0 
 
@@ -76,9 +88,9 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * License / Licence : [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-* Presented at, promoted through / Présenté à, diffusé via : [Donjons & Données probantes 2018](http://hdl.handle.net/1866/21088), [Blogue Jeu de rôle sur table](https://jdr.hypotheses.org/category/graphe), [ZoTrpg blog](https://zotrpg.blogspot.com/search/label/timeline), [ResearchGate](https://www.researchgate.net/publication/333489073_Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_2019_partially_released), [Academia](https://www.academia.edu/39317882/Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_today_partially_released_), [Twitter](https://twitter.com/Pascaliensis/status/1177314806442921985), [Facebook: groupe Initiatives](https://www.facebook.com/groups/316125545245807/), [Facebook: Role-play Theory Study Group](https://www.facebook.com/groups/roleplaytheorystudygroup/), [reddit/RPGdesign](https://www.reddit.com/r/RPGdesign/comments/det5ft/ttttrpg_timeline_tree_of_tabletop_roleplaying/), [Casus NO](https://www.casusno.fr/viewtopic.php?f=24&t=36293), [Zenodo](http://doi.org/10.5281/zenodo.3492119).
+* Presented at, promoted through / Présenté à, diffusé via : [Donjons & Données probantes 2018](http://hdl.handle.net/1866/21088), [Blogue Jeu de rôle sur table](https://jdr.hypotheses.org/category/graphe), [ZoTrpg blog](https://zotrpg.blogspot.com/search/label/timeline), [ResearchGate](https://www.researchgate.net/publication/333489073_Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_2019_partially_released), [Academia](https://www.academia.edu/39317882/Timeline_genealogic_and_phylomemetic_tree_of_role-playing_game_designs_Celebrating_40_years_of_game_innovations_from_1974_to_today_partially_released_), [Twitter](https://twitter.com/Pascaliensis/status/1177314806442921985), [Facebook: groupe Initiatives](https://www.facebook.com/groups/316125545245807/), [Facebook: Role-play Theory Study Group](https://www.facebook.com/groups/roleplaytheorystudygroup/), [reddit/RPGdesign](https://www.reddit.com/r/RPGdesign/comments/det5ft/ttttrpg_timeline_tree_of_tabletop_roleplaying/), [Casus NO](https://www.casusno.fr/viewtopic.php?f=24&t=36293), [Zenodo](http://doi.org/10.5281/zenodo.3492119), [reddit/rpg](https://www.reddit.com/r/rpg/comments/dl69y7/ttttrpg_timeline_tree_of_tabletop_roleplaying/).
 
-* Contributors (sor far) : People and works cited in the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md), Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Veso_M, catnipandfish.
+* Contributors (sor far) : People and works cited in the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md), Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Veso_M, catnipandfish, PhasmaFelis, VonAether, DMMJaco.
 
 * Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
 
