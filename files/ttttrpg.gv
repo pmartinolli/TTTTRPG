@@ -1,4 +1,4 @@
-##### Version 20191022
+##### Version 20191023
 
 ###################################################################
 ###########                                              ##########
@@ -25,7 +25,7 @@
 #####                     in french:  https://jdr.hypotheses.org/category/sur-les-epaules-des-nains
 ##### Based on the source code developped by Todd Lehman for his TeX Family Tree: https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline
 
-##### Contributors : Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Veso_M, catnipandfish, PhasmaFelis, VonAether, DMMJaco.
+##### Contributors : Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Veso_M, catnipandfish, PhasmaFelis, VonAether, DMMJaco, elijahbear8.
 ##### References : https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md
 
 
@@ -44,9 +44,8 @@ graph TTRPG_timeline {
 node [shape=none]          # no frame for each informations
 edge [color=lightgrey]     # standard color of the links between informations
 
-node [fontsize=20]         # standard size of the information fonts
-edge [fontsize=20]         # standard size of the links fonts
-
+node [fontsize=20; fontname="Helvetica"]      # standard size of the information fonts
+edge [fontsize=20; fontname="Helvetica"]         # standard size of the links fonts
 
 ###################################################################
 ###########       Label displayed on the graph           ##########
@@ -55,7 +54,7 @@ edge [fontsize=20]         # standard size of the links fonts
 {
 node [];
 edge [color=lightgrey; fontcolor=lightgrey; fontsize=50]
-{ rank = same; past; title [label="TTTTRPG - Timeline Tree of Tabletop Role-Playing Games,\nCelebrating more than 40 years of innovations in game designs\n\nPascal Martinolli (CC-BY-NC-SA) 2016-2019\n\ngithub.com/pmartinolli/TTTTRPG" fontsize=100 shape=box]}
+{ rank = same; past; title [label="TTTTRPG - Timeline Tree of Tabletop Role-Playing Games,\nCelebrating more than 40 years of innovations in game designs\n\nPascal Martinolli (CC-BY-NC-SA) 2016-2019\n\ngithub.com/pmartinolli/TTTTRPG" fontsize=100 fontname="Helvetica" shape=box]}
 { rank = same; 1973; title_end [label=""]}
 title -- title_end [style=invis];
 }
@@ -2512,7 +2511,7 @@ dungeoncrawl -- dungeon;
 ###### Genre campaign-gameplay style
 { focusonfight [label = "Focus on combat"]}    dnd4 -- focusonfight;
 { dontfollow [label = "Doing the suggested thing always kills you"]} lamentationsflameprincess -- dontfollow;
-{ tpkbaseline [label = "TPK is a baseline"]} dndghb -- tpkbaseline -- lamentationsflameprincess;
+{ tpkbaseline [label = "TPK is a baseline"]} lamentationsflameprincess -- tpkbaseline;
 { failureistheend [label = "The violence will\nlead to failure eventually"]} ladyrossa -- failureistheend;
 
 
@@ -3891,7 +3890,11 @@ legend5rings -- seventhsea; #"Wick J" #Q3182744
 
 mouseguard -- torchbearer; #same author
 
-dogsinthevineyard -- burningwheel; #cited 
+sorcerer -- dogsinthevineyard; #cited
+trollbabe -- dogsinthevineyard; #cited
+
+sorcerer -- apocalypseworld; #cited
+trollbabe -- apocalypseworld; #cited
 
 ghostbusters -- risus; #cited 
 
@@ -3967,7 +3970,7 @@ casusbelli -- mega2;
 
 
 
-} ##### End of Part 5b
+##### End of Part 5b
 
 
 
