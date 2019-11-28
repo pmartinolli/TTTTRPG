@@ -277,21 +277,26 @@ t105 https://en.wikipedia.org/wiki/Nexus:_The_Infinite_City thanks to Steve Demp
 s106 https://www.radio-roliste.net/?p=1701  (1h15m-1h45m)
 t107 https://rpggeek.com/rpgitem/46634/rune : "a winner is declared at the end of every session", thanks to Steve Dempsey
 t108 https://en.wikipedia.org/wiki/Rifts_(role-playing_game)#System
-p109 http://yragael.free.fr/ 
-p110 http://ijrp.subcultures.nl/ 
-p111 http://strolen.com/viewing/5_Room_Dungeon by Johnn Four 
-p112 A Character for Every Game mapping blog https://web.archive.org/web/*/http://rpgcharacters.wordpress.com/ 
-p113 https://dysonlogos.blog http://www.dysonlogos.com/ 
-p114 https://web.archive.org/web/20130818054607/http://outsider.rolepod.net/ https://outsiderart.blog/ 
+p109 http://yragael.free.fr/
+p110 http://ijrp.subcultures.nl/
+p111 http://strolen.com/viewing/5_Room_Dungeon by Johnn Four
+p112 A Character for Every Game mapping blog https://web.archive.org/web/*/http://rpgcharacters.wordpress.com/
+p113 https://dysonlogos.blog http://www.dysonlogos.com/
+p114 https://web.archive.org/web/20130818054607/http://outsider.rolepod.net/ https://outsiderart.blog/
 p115 http://lesateliersimaginaires.com/forum/viewforum.php?f=59&sid=bdf58738901812d0f96eb1de0fc3d988
 p116 https://courantsalternatifs.fr/
-p117 https://www.casusno.fr/index.php 
-p118 http://www.pandapirate.net/forum.php?paging=1 
+p117 https://www.casusno.fr/index.php
+p118 http://www.pandapirate.net/forum.php?paging=1
 p119 https://terresetranges.net/
 t120 http://www.legrog.org/biographies/thomas-pikathulhu-munier
 t121 http://www.legrog.org/jeux/mantra
-t122 https://1d4chan.org/wiki/Stars_Without_Number 
-t123 https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Torchbearer 
+t122 https://1d4chan.org/wiki/Stars_Without_Number
+t123 https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Torchbearer
 s124 https://boggswood.blogspot.com/2019/08/the-dungeon-boardgame-as-foundation-of-d.html
 p125 Dave Arneson, *The First Fantasy Campaign*, 1977, Introduction, p. 3.
 t126 http://www.legrog.org/jeux/planete-hurlante/planete-hurlante-fr
+s127 https://player.fm/series/radio-rliste-1296684/radio-roliste-94-gramophone-roliste 
+t128 https://rpggeek.com/rpg/3011/beasts-men-gods
+t129 https://rpggeek.com/rpg/17701/honor-intrigue
+t130 https://en.wikipedia.org/wiki/D6_System#The_D6_System_Standalone_Games
+

@@ -1,4 +1,4 @@
-##### Version 20191023
+##### Version 20191127
 
 ###################################################################
 ###########                                              ##########
@@ -25,7 +25,7 @@
 #####                     in french:  https://jdr.hypotheses.org/category/sur-les-epaules-des-nains
 ##### Based on the source code developped by Todd Lehman for his TeX Family Tree: https://tex.stackexchange.com/questions/42594/tex-family-tree-with-timeline
 
-##### Contributors : Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Veso_M, catnipandfish, PhasmaFelis, VonAether, DMMJaco, elijahbear8.
+##### Contributors : Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Mark Sullivan, Veso_M, catnipandfish, PhasmaFelis, VonAether, DMMJaco, elijahbear8.
 ##### References : https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md
 
 
@@ -428,20 +428,20 @@ monstermanual -- dndholmes;
 ##### OSR Base RPG
 
 { rank = same; 2001; osr [label = "OSR movement\nand retro-clones" image="C:\gv\osr.png"]} #Q15991289 #wd
-{ rank = same; 2004; castlesncrusades [label = "Castles & Crusades"]} #Q5050586
-{ rank = same; 2006; osric [label = "OSRIC"]} #Q3347723 
+{ rank = same; 2004; castlesncrusades [label = "Castles & Crusades"]} dnd3 -- castlesncrusades; #Q5050586
+{ rank = same; 2006; osric [label = "OSRIC"]} addplayerhandbook -- osric; #Q3347723 
 { rank = same; 2006; mazesnminotaurs [label = "Mazes & Minotaurs"]} #Q68857194
-{ rank = same; 2007; labyrinthlords [label = "Labyrinth Lords"]} #Q3214557
-{ rank = same; 2007; basicfantasyrpg [label = "Basic Fantasy RPG"]} #Q4866969
-{ rank = same; 2008; swordsnwizardry [label = "Swords & Wizardry"]} #Q70485112
-{ rank = same; 2012; delvingdeeper [label = "Delving Deeper"]} #Q70484820
-{ rank = same; 2010; darkdungeons [label = "Dark Dungeons"]} 
+{ rank = same; 2007; labyrinthlords [label = "Labyrinth Lords"]} dndmoldvay -- labyrinthlords; #Q3214557
+{ rank = same; 2007; basicfantasyrpg [label = "Basic Fantasy RPG"]} dndmentzer -- basicfantasyrpg; #Q4866969
+{ rank = same; 2008; swordsnwizardry [label = "Swords & Wizardry"]} odnd_woodgrainbox -- swordsnwizardry; #Q70485112
+{ rank = same; 2012; delvingdeeper [label = "Delving Deeper"]} odnd_woodgrainbox -- delvingdeeper; #Q70484820
+{ rank = same; 2010; darkdungeons [label = "Dark Dungeons"]} rulescyclopedia -- darkdungeons; 
 { rank = same; 2010; lamentationsflameprincess [label = "Lamentations of the Flame Princess"]} #Q27102827
-{ rank = same; 2011; mazesnperils [label = "Mazes & Perils"]} 
-{ rank = same; 2012; forgoldnglory [label = "For Gold & Glory"]} 
+{ rank = same; 2011; mazesnperils [label = "Mazes & Perils"]} dndholmes -- mazesnperils; 
+{ rank = same; 2012; forgoldnglory [label = "For Gold & Glory"]} adnd2 -- forgoldnglory;
 { rank = same; 2012; dungeoncrawlclassic [label = "Dungeon Crawl Classic" image="C:\gv\dungeoncrawlclassic.png"]} #Q16992123
 { rank = same; 2017; mutantcrawlclassic [label = "Mutant Crawl Classics"]}  dungeoncrawlclassic -- mutantcrawlclassic; 
-{ rank = same; 2013; blueholme [label = "Blueholme"]} 
+{ rank = same; 2013; blueholme [label = "Blueholme"]} dndholmes -- blueholme;
 { rank = same; 2013; torchbearer [label = "Torchbearer"]} #Q66830849
 { rank = same; 2013; beyondthewall [label = "Beyond the Wall" image="C:\gv\beyondthewall.png"]} #Q67881355
 { rank = same; 2014; intotheodd [label = "Into the Odd"]} 
@@ -494,9 +494,10 @@ monstermanual -- dndholmes;
 { rank = same; 2003; fraternityofshadows [label= "Fraternity of Shadows"]} 
 
 
-##### Hacks
+##### Hacks or variants
 
 { rank = same; 1982; dnd_maraninchi [label = "Donjons et Dragons\n[aka 'Maraninchi ed']\n[fr]" image="C:\gv\dnd_maraninchi.png"]}  #t13
+{ rank = same; 1980; beastsmenngods [label = "Beasts, Men & Gods"]}  #t128 
 
 
 
@@ -796,7 +797,10 @@ monstermanual -- dndholmes;
 { rank = same; 2000; orkworld [label = "Orkworld"]} #Q3356433
 { rank = same; 2000; pantheonotherrpgs [label = "Pantheon & Other RPG"]} #Q7131748
 { rank = same; 2001; rune [label = "Rune"]} #Q20711095
+
 { rank = same; 2001; dyingearth [label = "Dying Earth" image="C:\gv\dyingearth.png"]} #Q3041920
+{ rank = same; 2002; cugelscompendium [label = "Cugel's Compendium of\n Indispensable Advantages"]} dyingearth -- cugelscompendium;
+
 { rank = same; 2002; donjon [label = "Donjon"]} #Q5296210
 { rank = same; 2002; fatal [label = "F.A.T.A.L."]}
 { rank = same; 2002; universalis [label = "Universalis"]} #Q7894174
@@ -810,9 +814,11 @@ monstermanual -- dndholmes;
 
 { rank = same; 2007; inawickedage [label = "In a Wicked Age"]}
 { rank = same; 2007; reign [label = "Reign"]} #Q66603524
-{ rank = same; 2008; barbariansoflemuria [label = "Barbarians of Lemuria"]} #Q67799891
 { rank = same; 2008; housesoftheblooded [label = "Houses of the Blooded" image="C:\gv\housesoftheblooded.png"]} #Q5915977
 { rank = same; 2009; dragonage [label = "Dragon Age"]} #Q21233462
+
+{ rank = same; 2008; barbariansoflemuria [label = "Barbarians of Lemuria"]} #Q67799891
+{ rank = same; 2008; honornintrigue [label = "Honor & Intrigue"]} #t129
 
 { rank = same; 2012; onmightythews [label = "On Mighty Thews"]}
 { rank = same; 2013; hillfolk [label = "Hillfolk"]} #Q18160911
@@ -836,7 +842,8 @@ monstermanual -- dndholmes;
 
 { rank = same; 1979; bushido [label = "Bushido" image="C:\gv\bushido.png"]} #link_in_part5 #Q1017492
 
-{ rank = same; 2005; usagiyojimbo [label = "Usagi Yojimbo RPG"]} #Q3552531
+{ rank = same; 1997; usagiyojimbo1997 [label = "Usagi Yojimbo RPG (1997)"]} #Q73439323
+{ rank = same; 2005; usagiyojimbo2005 [label = "Usagi Yojimbo RPG (2005)"]} #Q3552531
 
 { rank = same; 1997; legend5rings [label = "Legend of the Five Rings RPG" image="C:\gv\legend5rings.png"]} #Q3224019    
 { rank = same; 1998; cityoflies [label = "City of Lies"]}  legend5rings -- cityoflies;
@@ -1086,7 +1093,9 @@ monstermanual -- dndholmes;
 { rank = same; 2012; blueplanet2rev [label = "Blue Planet rev"]}  blueplanet2 -- blueplanet2rev;
 
 { rank = same; 1987; starwarsweg [label = "Star Wars WEG" image="C:\gv\starwarsweg.png"]} #Q1989178
-{ rank = same; 1995; darkstryder [label = "The DarkStryder campaign"]}  starwarsweg -- darkstryder;
+{ rank = same; 1992; starwarsweg2 [label = "Star Wars WEG 2nd"]} starwarsweg -- starwarsweg2;
+{ rank = same; 1996; starwarsweg2rev [label = "Star Wars WEG 2nd\nrevised & expanded"]} starwarsweg -- starwarsweg2;
+{ rank = same; 1995; darkstryder [label = "The DarkStryder campaign"]}  starwarsweg2 -- darkstryder;
 { rank = same; 2000; starwarswotc [label = "Star Wars d20"]}  starwarsweg -- starwarswotc; #Q1989178
 { rank = same; 2012; starwarsffg [label = "Star Wars: Edge of the Empire"]}  starwarswotc -- starwarsffg; #Q7601158
 
@@ -1153,7 +1162,7 @@ monstermanual -- dndholmes;
 { rank = same; 1984; ringworld [label = "Ringworld"]} basicroleplaying -- ringworld; #Q7335034
 { rank = same; 1988; space1889 [label = "Space: 1889" image="C:\gv\space1889.png"]} #Q1306691
 { rank = same; 1999; continuum [label = "Continuum" image="C:\gv\continuum.png"]} #Q5165546
-{ rank = same; 2001; metabarons [label = "Métabarons"]} #Q7751161
+{ rank = same; 2001; metabarons [label = "Métabarons"]} d6system -- metabarons; #Q7751161
 
 { rank = same; 2005; serenity [label = "Serenity RPG"]} cortex -- serenity; #Q7453225
 { rank = same; 2014; firefly [label = "Firefly RPG"]} serenity -- firefly; #Q22678768
@@ -1619,7 +1628,9 @@ savageworlds -- deadlandsr;
 
 
 { rank = same; 2008; sombrelight [label = "Sombre light\n[fr]"]} #Q25396161
-{ rank = same; 2011; sombren1 [label = "Sombre n.1\n[fr]" image="C:\gv\sombren1.png"]}  sombrelight -- sombren1;
+{ rank = same; 2011; sombren1 [label = "Sombre Classic\n[fr]" image="C:\gv\sombren1.png"]}  sombrelight -- sombren1; #no1
+{ rank = same; 2012; sombrezero [label = "Sombre Zero\n[fr]"]}  sombren1 -- sombrezero; #no2
+{ rank = same; 2019; sombremax [label = "Sombre Max\n[fr]"]}  sombrezero -- sombremax; #no9 
 
 { rank = same; 2005; tedeumpourunmassacre [label = "Te Deum pour un massacre\n[fr]"]} #Q3516664
 { rank = same; 2010; tedeumpourunmassacre2 [label = "Te Deum 2e\n[fr]"]}  tedeumpourunmassacre -- tedeumpourunmassacre2;
@@ -1664,7 +1675,7 @@ savageworlds -- deadlandsr;
 { rank = same; 2007; capharnaum [label = "Capharnaum\n[fr]"]} #Q2937274
 
 { rank = same; 2007; kuro [label = "Kuro\n[fr]"]} #Q3200554
-{ rank = same; 2012; ukiyo [label = "Les Errants d'Ukiyo\n[fr]"]}
+{ rank = same; 2012; ukiyo [label = "Les Errants d'Ukiyo\n[fr]"]} #Q72128241
 { rank = same; 2014; perdussouslapluie [label = "Perdus sous la Pluie\n[fr]\nLost in the Rain" image="C:\gv\perdussouslapluie.png"]} #Q66170387
 { rank = same; 2016; librete [label = "Libreté\n[fr]"]} perdussouslapluie -- librete;
 { rank = same; 2017; macadabre [label = "Macadabre\n[fr]"]}
@@ -1836,10 +1847,11 @@ savageworlds -- deadlandsr;
 { rank = same; 1990; aquelarre [label = "Aquelarre\n[es]" image="C:\gv\aquelarre.png"]} #Q2859257
 { rank = same; 1999; aquelarre2 [label = "Aquelarre 2nd\n[es]"]} aquelarre -- aquelarre2;
 { rank = same; 2001; aquelarre3 [label = "Aquelarre 3rd\n[es]"]}  aquelarre2 -- aquelarre3;
+{ rank = same; 2010; nahuiollin [label = "Nahui Ollin\n[es]"]}  #Q73453232
 
 { rank = same; 1992; fanhunter [label = "Fanhunter\n[es]"]} #Q2905432
 { rank = same; 1993; uniserso [label = "Universo\n[es]"]}
-{ rank = same; 2002; capitanalatriste [label = "Capitan Alatriste\n[es]"]} #Q64532744
+{ rank = same; 2002; capitanalatriste [label = "Capitan Alatriste\n[es]"]}  #Q64532744 
 { rank = same; 1994; comandosdeguerra [label = "Comandos de Guerra\n[es]"]} #Q5778481
 { rank = same; 2005; anima [label = "Anima : Beyond Fantasy\n[es]"]} #Q2849980
 { rank = same; 2008; arcanamvndi [label = "Arcana Mvndi\n[es]"]} #Q64532728
@@ -1904,6 +1916,19 @@ savageworlds -- deadlandsr;
 { rank = same; 1988; gurps3 [label="GURPS 3rd"]} gurps -- gurps3;
 { rank = same; 2004; gurps4 [label="GURPS 4th"]} gurps3 -- gurps4;
 
+
+{ rank = same; 1996; d6system [label="The D6 System"]} starwarsweg2rev -- d6system; #Q1138697
+{ rank = same; 1994; indianajonesd6 [label="The World of Indiana Jones"]}   indianajonesd6 -- d6system; #Q17572787
+{ rank = same; 1997; meninblack [label="Men in Black RPG"]} d6system -- meninblack; #Q20649658
+{ rank = same; 1998; herculesnxena [label="Hercules & Xena RPG"]} d6system -- herculesnxena; #Q25112589
+{ rank = same; 1999; legendsystem [label="Legend system"]} herculesnxena -- legendsystem; 
+{ rank = same; 1999; dcuniverserpg [label="DC Universe RPG"]} legendsystem -- dcuniverserpg; #Q3366162
+{ rank = same; 2004; d6adventure [label="D6 Adventure"]} d6system -- d6adventure; #Q5204166
+{ rank = same; 2004; d6space [label="D6 Space"]} d6system -- d6space; #Q5204169
+{ rank = same; 2004; d6fantasy [label="D6 Fantasy"]} d6system -- d6fantasy; #Q5204167
+{ rank = same; 2005; godsendagenda [label="Godsend Agenda"]} d6system -- godsendagenda; 
+{ rank = same; 2009; opend6 [label="OpenD6"]} d6system -- opend6; #t130
+{ rank = same; 2009; septimus [label="Septimus"]} opend6 -- septimus; 
 
 { rank = same; 1992; fudge [label="Fudge"]} #Q940304
 { rank = same; 2002; fate [label="FATE"]}   fudge -- fate; #Q1350935
@@ -2369,6 +2394,7 @@ dmalwaysright -- dmalwaysright2 [style=dotted];
 { intrusionmechanic [label="GM intrusion mechanic"]} numenera -- intrusionmechanic; #s15 
 { colonornative [label="PC: colon or native,\nso player has different authority on fiction"]} dogeatdog -- colonornative;  
 { randomizednarrator [ label = "randomized narrator: whoever win a card game\ndecide the content and the end of a scene"]} dustdevils -- randomizednarrator; #t94
+{ heistvsgm [ label = "How to heist your gamemaster in game"]} cugelscompendium -- heistvsgm; #s127 
 
 ######### Clues added to fiction by players
 { huntedflaw [label="'Hunted' flaw: PC tell the nature/frequency of a villain\n, GM choose appearance and play him"]}  champions -- huntedflaw;
@@ -3703,6 +3729,10 @@ edge [color=grey; fontcolor=grey; style=dotted, label="=author"]
 
 ##### same author
 
+
+aquelarre3 -- capitanalatriste; #"Ricard Ibanez"
+aquelarre3 -- nahuiollin; #"Ricard Ibanez"
+
 addplayerhandbook -- lawsuitarneson;
 
 engarde -- traveller; #"Chadwick F"
@@ -3836,6 +3866,8 @@ edge [color=lightgrey; fontcolor=lightgrey; label="=universe"]
 
 { orientaladventures; legend5rings2 } -- orientaladventures2;
 
+usagiyojimbo1997 -- usagiyojimbo2005;
+
 abyme -- chroniquesfeals; 
 
 pathfinder -- starfinder; 
@@ -3881,10 +3913,13 @@ edge [color=lightgrey; fontcolor=lightgrey; label="=rules"]
 ###############################################
 
 
-##### Same rules 
+##### Same rules, same game system
 
 legend5rings -- seventhsea; #"Wick J" #Q3182744
 
+barbariansoflemuria -- honornintrigue;
+
+fufreeuniversal -- wastburg;
 
 ##### Strong influences 
 
@@ -3899,6 +3934,12 @@ trollbabe -- apocalypseworld; #cited
 ghostbusters -- risus; #cited 
 
 champions -- gurps; #cited
+
+blackmoor -- empireofthepetalthrone; #cited 
+
+ghostbusters -- starwarsweg; #precursor of d6 system & same authors 
+
+
 
 ##### SRD
 
