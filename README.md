@@ -12,7 +12,11 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
 
 ## Long term goal
 
-This timeline is a part of the « [On the Shoulders of Dwarves](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) » [(en français)](https://jdr.hypotheses.org/category/sur-les-epaules-des-nains) set of projects. I would kike to work on the taxonomy of relations between cultural published games and this project is a first draft and essay. My ambition is to design a whole phylomemetic system to track evolution of ideas. I will use the TTRPG published products as subject because it is offering a clear, defined and accessible set of items.
+This timeline is a part of the « [On the Shoulders of Cloud Giants](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) » [(en français)](https://jdr.hypotheses.org/category/sur-epaules-geants-nuages) set of projects. 
+
+Another quantitative project of this set is « [On the Shoulders of Cloud Giants: citation practices in the tabletop role-playing game publishing industry](https://github.com/pmartinolli/OtSoCG) ».
+
+I would kike to work on the taxonomy of relations between cultural published games and this project is a first draft and essay. My ambition is to design a whole phylomemetic system to track evolution of ideas. I will use the TTRPG published products as subject because it is offering a clear, defined and accessible set of items.
 
 ## How to... 
 
