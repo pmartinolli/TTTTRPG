@@ -77,7 +77,7 @@ The data sources of this work are numerous. You can have a look of the [referenc
 
 ### This content is CC-BY-NC-SA 4.0 
 
-Informations in the source code are pure facts, therefore they cannot be copyrighted. The curation of these informations, the links between them and the structure of their display are a work of edition. For this reason, I will be glad you aknowledge my name if you want to reuse them.
+Informations in the source code are pure facts, therefore they cannot be copyrighted. The curation of these informations, the links between them and the structure of their display are a work of edition. I will be glad you acknowledge my name if you want to reuse them.
 
 
 ## Metadata / Métadonnées
@@ -96,7 +96,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Contributors (so far) : People and works cited in the [references](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-sources.md), Éric Nieudan, Druuples, Steve Dempsey, James Wallis, Batronoban, Mark Sullivan, Veso_M, catnipandfish, PhasmaFelis, VonAether, DMMJaco, elijahbear8.
 
-* Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
+* Comments and collaborations are welcomed at / Commentaires et collaborations : pascal.umontreal [at] gmail.com
 
 
 
