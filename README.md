@@ -86,7 +86,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Created / Créé le : 2016
 
-* Most recent version / Dernière version : 2019-11-27
+* Most recent version / Dernière version : 2020-01-18
 
 * Original format / format de fichier : DOT language for [Graphviz (Open source)](https://www.graphviz.org/)
 
