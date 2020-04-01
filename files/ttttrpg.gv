@@ -1,4 +1,4 @@
-##### Version 20191127
+##### Version 20200118
 
 ###################################################################
 ###########                                              ##########
@@ -54,7 +54,7 @@ edge [fontsize=20; fontname="Helvetica"]         # standard size of the links fo
 {
 node [];
 edge [color=lightgrey; fontcolor=lightgrey; fontsize=50]
-{ rank = same; past; title [label="TTTTRPG - Timeline Tree of Tabletop Role-Playing Games,\nCelebrating more than 40 years of innovations in game designs\n\nPascal Martinolli (CC-BY-NC-SA) 2016-2019\n\ngithub.com/pmartinolli/TTTTRPG" fontsize=100 fontname="Helvetica" shape=box]}
+{ rank = same; past; title [label="TTTTRPG - Timeline Tree of Tabletop Role-Playing Games,\nCelebrating more than 40 years of innovations in game designs\n\nPascal Martinolli (CC-BY-NC-SA) 2016-2019\n\ngithub.com/pmartinolli/TTTTRPG\nv.20200118" fontsize=100 fontname="Helvetica" shape=box]}
 { rank = same; 1973; title_end [label=""]}
 title -- title_end [style=invis];
 }
@@ -919,7 +919,7 @@ monstermanual -- dndholmes;
 { rank = same; 1998; sailormoon [label = "The Sailor Moon RPG"]}
 { rank = same; 1999; bravenewworld [label = "Brave New World"]} #Q2924126
 { rank = same; 2002; godlike [label = "Godlike"]} #Q5576735
-{ rank = same; 2006; pantyexplosion [label = "Panty Explosion"]}
+{ rank = same; 2006; pantyexplosion [label = "Panty Explosion"]} #Q77247234
 { rank = same; 2012; psirun [label = "Psi Run"]}
 { rank = same; 2014; wwwrestling [label = "World Wide Wrestling, The Roleplaying Game"]}
 { rank = same; 2016; worldsinperil [label = "Worlds in Peril"]} 
@@ -1655,7 +1655,7 @@ savageworlds -- deadlandsr;
 { rank = same; 2019; mantraoniropunk [label = "Mantra Oniropunk\n[fr]"]} mantra -- mantraoniropunk;
 
 
-{ rank = same; 2011; millesmarches [label = "Milles marches\n[fr]" image="C:\gv\millesmarches.png"]}
+{ rank = same; 2011; millemarches [label = "Mille-marches\n[fr]" image="C:\gv\millesmarches.png"]} #Q77248517
 { rank = same; 2013; dragondepoche [label = "Dragon de poche\n[fr]"]} #Q67690059
 { rank = same; 2013; oltree [label = "Oltrée!\n[fr]" image="C:\gv\oltree.png"]}
 { rank = same; 2014; nanochrome [label = "nanoChrome\n[fr]"]} #Q67690640
@@ -1873,7 +1873,8 @@ savageworlds -- deadlandsr;
 { rank = same; 1997; tenrabansho [label = "Tenra Bansho\n[jp]"]}
 { rank = same; 2000; tenrabanshoz [label = "Tenra Bansho Zero"]}  tenrabansho -- tenrabanshoz;
 { rank = same; 2001; doublecross [label = "Double Cross\n[jp]"]}
-{ rank = same; 2004; maid [label = "Maid RPG\n[jp]"]}
+{ rank = same; 2004; maid [label = "Maid RPG\n[jp]"]} #Q77246621
+{ rank = same; 2008; maideng [label = "Maid RPG\n[en]"]} maid -- maideng;
 { rank = same; 2006; goldensky [label = "Yuuyake Koyake\n'Golden Sky Stories'\n[jp]"]}  #t40
 { rank = same; 2007; ryuutama [label = "Ryuutama\n[jp]" image="C:\gv\ryuutama.png"]} #Q11281471
 { rank = same; 2007; touhou [label = "Touhou RPG\n[jp]"]}
@@ -2059,9 +2060,10 @@ ladyblackbird -- magisterlor;
 { rank = same; 2002; paladin [label = "Paladin"]} #Q7126354
 
 
-
-
-
+{ rank = same; 1988; articlematrixgames [label = "(article on) wargaming matrix game [Engle,US,1988]"]} # matrixgames -- articlematrixgames; #note: attach later #Q83067183
+{ rank = same; 1992; englematrixgames [label = "Classic Matrix Games [Engle,US,1992]"]} articlematrixgames -- englematrixgames;
+{ rank = same; 2014; matrixgames4mw [label = "Matrix Games for Modern Wargaming"]} englematrixgames -- matrixgames4mw ;
+{ rank = same; 2017; magck [label = "MaGCK - Matrix Game Construction Kit\n[Brynen,Fisher,Moat,CA,2017]"]} englematrixgames -- magck;
 
 
 
@@ -2714,7 +2716,7 @@ gmtinker -- tinkering [style=dotted];
 { twrathoftheimmortalsmes [label = "Balance two sides of an extended context,\nthen decide the authority"]}  twrathoftheimmortalsmes -- freaksqueele; #resolution en "2 temps"
 extendedchallenges -- twrathoftheimmortalsmes [style=dotted]; #selon radio roliste 72
 
-{ musards [label = "'Musards': mini-games"]}  millesmarches -- musards; 
+{ musards [label = "'Musards': mini-games"]}  millemarches -- musards; 
 
 { singlescale [label = "Single sliding scale for all resolutions"]}  torg -- singlescale; 
 
@@ -3820,8 +3822,8 @@ letemoignage -- dragonfly; #"Munier T" #Q64561959
 blogoutsider -- wonderland; #"Munier T" #Q64561959
 
 dksystem2 -- hellywood; #"Le Grümph" #Q28493942
-hellywood -- millesmarches; #"Le Grümph" #Q28493942
-millesmarches -- bloodlustmetal; #"Le Grümph" #Q28493942
+hellywood -- millemarches; #"Le Grümph" #Q28493942
+millemarches -- bloodlustmetal; #"Le Grümph" #Q28493942
 dksystem2 -- dragondepoche; #"Le Grümph" #Q28493942
 dragondepoche -- oltree; #"Le Grümph" #Q28493942
 oltree -- nanochrome; #"Le Grümph" #Q28493942
@@ -3921,6 +3923,10 @@ barbariansoflemuria -- honornintrigue;
 
 fufreeuniversal -- wastburg;
 
+barbariansoflemuria -- millemarches;
+
+
+
 ##### Strong influences 
 
 mouseguard -- torchbearer; #same author
@@ -3938,6 +3944,9 @@ champions -- gurps; #cited
 blackmoor -- empireofthepetalthrone; #cited 
 
 ghostbusters -- starwarsweg; #precursor of d6 system & same authors 
+
+pantyexplosion -- maideng;
+
 
 
 
