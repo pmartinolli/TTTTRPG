@@ -299,4 +299,11 @@ s127 https://player.fm/series/radio-rliste-1296684/radio-roliste-94-gramophone-r
 t128 https://rpggeek.com/rpg/3011/beasts-men-gods
 t129 https://rpggeek.com/rpg/17701/honor-intrigue
 t130 https://en.wikipedia.org/wiki/D6_System#The_D6_System_Standalone_Games
-
+t131 https://www.cestpasdujdr.fr/un-guide-pour-jouer-aux-jeux-belonging-outside-belonging/ 
+p132 http://arsludi.lamemage.com/index.php/78/grand-experiments-west-marches/  https://www.reddit.com/r/DMAcademy/comments/adn178/lessons_from_west_marches_a_guide_to_improving/ 
+s133 https://thealexandrian.net/wordpress/tag/caravan-crawl 
+p134 https://www.terresetranges.net/forums/viewtopic.php?pid=14660 
+t135 https://rpggeek.com/rpg/3319/mighty-thews
+t136 https://rpggeek.com/rpg/2547/space-patrol
+t137 https://rpggeek.com/rpg/6309/lexoccultum 
+t138 https://rpggeek.com/rpgperiodical/8965/interactive-fantasy-journal-role-playing-and-story
