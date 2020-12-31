@@ -6,7 +6,7 @@
 
 Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 2019.
 
-* Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)** (4 Mo)
+* Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)** (4 Mo) (or the [condensed version](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-condensed.pdf) without the innovations)
 
 [![TTTTRPG snapshot](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-snapshot.png)](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)
 
@@ -86,7 +86,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Created / Créé le : 2016
 
-* Most recent version / Dernière version : 2020-01-18
+* Most recent version / Dernière version : 2020-12-31
 
 * Original format / format de fichier : DOT language for [Graphviz (Open source)](https://www.graphviz.org/)
 
