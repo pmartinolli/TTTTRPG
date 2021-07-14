@@ -12,7 +12,7 @@ Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 20
 
 ## Long term goal
 
-This timeline is a part of the « [On the Shoulders of Cloud Giants](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20dwarves) » [(en français)](https://jdr.hypotheses.org/category/sur-epaules-geants-nuages) set of projects. See also a [Timeline Tree of Games and Board Games](https://github.com/pmartinolli/TTGBG).
+This timeline is a part of the « [On the Shoulders of Cloud Giants](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20cloud%20giants) » [(en français)](https://jdr.hypotheses.org/category/sur-epaules-geants-nuages) set of projects. See also a [Timeline Tree of Games and Board Games](https://github.com/pmartinolli/TTGBG).
 
 Another quantitative project of this set is « [On the Shoulders of Cloud Giants: citation practices in the tabletop role-playing game publishing industry](https://github.com/pmartinolli/OtSoCG) ».
 
