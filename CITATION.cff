@@ -1,0 +1,23 @@
+# YAML 1.2
+---
+abstract: "A timeline linking over 1000 tabletop role-playing games with over 800 game design innovations from 1974 to 2020. Coded in dot language and compiled with GraphViz, it is curated manually and it is part of a « On the Shoulders of Cloud Giants » set of projects aiming to record, analyze and understand the cultural transmission and citation practices in the TTRPG publishing industry."
+authors: 
+  -
+    family-names: Martinolli
+    given-names: Pascal
+    orcid: "https://orcid.org/0000-0003-0122-5300"
+cff-version: "1.1.0"
+date-released: 2016
+doi: "10.5281/zenodo.3492118"
+keywords: 
+  - "tabletop role-playing game"
+  - "game design"
+  - "cultural transmission"
+  - phylomemetics
+  - phylogenetics
+license: "CC-BY-NC-SA-4.0"
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/pmartinolli/TTTTRPG"
+title: "Timeline Tree of Tabletop Role-Playing Games"
+version: 2020
+...
