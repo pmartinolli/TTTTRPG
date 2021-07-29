@@ -1,10 +1,9 @@
-# TTTTRPG
-**Timeline Tree of Tabletop Role-Playing Games, celebrating more than 40 years of game design innovations**
+# TTTTRPG - Timeline Tree of Tabletop Role-Playing Games
 
 
 [![DOI](https://zenodo.org/badge/207627479.svg)](https://zenodo.org/badge/latestdoi/207627479)
 
-Over 1000 ttrpg and 800 game designs, webbed through 1500 links. From 1974 to 2020.
+A timeline linking over 1000 tabletop role-playing games with over 800 game design innovations from 1974 to 2020. Coded in dot language and compiled with GraphViz, it is curated manually and it is part of a « On the Shoulders of Cloud Giants » set of projects aiming to record, analyze and understand the cultural transmission and citation practices in the TTRPG publishing industry.
 
 * Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)** (4 Mo) (or the [condensed version](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-condensed.pdf) without the innovations)
 
