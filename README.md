@@ -22,10 +22,13 @@ I would like to work on the taxonomy of relations between published TTRPGs and t
 ### ... Do it myself 
 
 * Download the latest [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.gv). It should be easy to understand, but you can read more [explanations](https://jdr.hypotheses.org/919) of the structure of the source code. 
-* Download the [zip package of icon pictures](https://drive.google.com/open?id=1N30n0QYaGSWLJTzJwPzn3wuklmib3zI8). Unpack the pictures in a folder C:/gv/ on your computer.
-* Install and set up [Graphviz and Textpad++](http://zotrpg.blogspot.com/2016/05/creating-graph-for-od.html).
-* Compile the code. The details are in the header of the [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.gv) ("Parameters"). It will produce a ps file.
-* With Adobe Distiller, turn the ps file into a PDF file. If you successfully used a free and open-source software to do that job, please let me know. 
+* Option 1 (easy) : 
+  * Copy-paste the source code in the [Graph Generator](https://wiki.obormot.net/Main/GraphGenerator) (by Obormot). It generates a SVG file without the icons (right-clic on the picture on the right panel to save it). 
+* Option 2 (hard) : 
+  * Download the [zip package of icon pictures](https://drive.google.com/open?id=1N30n0QYaGSWLJTzJwPzn3wuklmib3zI8). Unpack the pictures in a folder C:/gv/ on your computer.
+  * Install and set up [Graphviz and Textpad++](http://zotrpg.blogspot.com/2016/05/creating-graph-for-od.html).
+  * Compile the code. The details are in the header of the [source code](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.gv) ("Parameters"). It will produce a ps file.
+  * With Adobe Distiller, turn the ps file into a PDF file. If you successfully used a free and open-source software to do that job, please let me know. 
 
 ### ... Contribute
 
@@ -65,6 +68,7 @@ I would like to work on the taxonomy of relations between published TTRPGs and t
 - Draw different kind of lines for better understanding of links.
 - Use sans-serif font for better readability.
 - Change the font/color/background of the name of items with a cover picture for better readability.
+- Currently (may 2022) : updating the information on Wikidata, then generating different graphs through queries and stuff (work in progress).
 
 ## Acknowledgements 
 
