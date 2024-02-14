@@ -5,6 +5,8 @@
 
 A timeline linking over 1000 tabletop role-playing games with over 800 game design innovations from 1974 to 2020. Coded in dot language and compiled with GraphViz, it is curated manually and it is part of a « On the Shoulders of Cloud Giants » set of projects aiming to record, analyze and understand the cultural transmission and citation practices in the TTRPG publishing industry.
 
+* UPDATE 2024 : The project is now on ObservableHQ (in javascript). The data is extracted from Wikidata, processed, filtered, coded in dot and rendered online in svg. https://observablehq.com/@pascaliensis/ttttrpg
+
 * Download the **[PDF poster](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)** (4 Mo) (or the [condensed version](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-condensed.pdf) without the innovations)
 
 [![TTTTRPG snapshot](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg-snapshot.png)](https://github.com/pmartinolli/TTTTRPG/blob/master/files/ttttrpg.pdf)
